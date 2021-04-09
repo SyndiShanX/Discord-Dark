@@ -35,7 +35,7 @@
 	--bgDarkerImage: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGBAMAAACDAP+3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAMUExURQoKCgkJCQsLCwwMDGooQ4kAAAQpSURBVEjHXZaBdewqDEQFNCC8DWDcALH77+3dEbD++3NOlI3BMLoaxJqlWju/1Zq5Pc3NLjOr1+ChNway5ngiHAyk3HhQUk+WrTF+utWqd6tpfrM8GCHcqTQf1Xo6khvvM8NZlH/NOouY5ZasHyd7MFjdTq3R2dNvjT6E4+HFz+DZcUtmiTn634vmMNHL4NM7x1tiTpOu8zPYVal1gvWpNfJhS9RYOpQwWT9Wmt2e0VoR3JxRFwnm8ko+uzl5kXa6pZUBsmA7Qza6Bo/KILWrscT1x5xLYq5bukwkG8MOWE9PEmzlozmzAIf0HJJ5JO3VupFtaCUhJasqBGIbUCqjQhrNKKiNTPxGluZUCkDGWULiB2g1Kk3hVFDx8dBwI9geTZPM4Bqf8qk5x3Xy8o0wOCfS05wWWhWCM6V2RCOAUiTvKrHYu7l2zb0amV0AtCt9Gnb4yA4uzjmEJJVfiMmYWkl7auHIzXkFlVm1TpJFEL5zc85ReaBSAcSmZ2zEQbd958iesQ0JsHEJZytkPFFd/pPRbwsrN+3YKrmQoegjvUlz00YkZTlzBAgbcV7BYx80KD7h5434eEH+RX1EF+8mzzp2i26cvXky+QkD32SINRnSgfM2Q+wVALEyVb9U5hyIUyAmJJW9TztYBmvrovs/zizCKRj7TMnFOnGTc734rWGWhzmpXlrvapuuRRuZZQiA6haCICkT8Sp5l5qunLQlO43UxSOyOWUdIfaTJEXYSibJHHR913Fz9rBYaPL6utjvFzYvfZSO57tZKvLDS9cDdtZWkhONIg1tY1Vg40hJzwkZb/Q0IeraPvKyN/CHdGkyzJlWjuax0KwgNn3INmTNWl/EJe0gs6Rn5nSz6iWJ7YfzPNhdRUdKq58zEPtCnAVbIlKZwVyI627SZKOUzKNDtGjr8sWPgXcAQScdj7OFpi/dH8QWiIs+yYOzDde5os1rpIocRz1sOOrbKNoOWBEhOnjh53OCjYOZuTf4N2OEWuSGS3pZ5j9060KMaDnmuLh+OFu/iMPKBR02EbMqn4KuhXeXdD91q03Easpj3gW+6IaezFmjt/VocLQktVQRkU2/ViarCHTtIxrlbMOW69auK7bwsjVMHDeG+vMPYv8eSt00av5ax17Ec53kRXQxV0qyt81Cx9FaLYOshu7oRpWyesm8B4v8E5xzXHQEktO1mOpYPSKuB/u6j/OZL52o5y+enb9WBrHv5pfWbWebblhZHRU1sl5T63mWszdi1ZPHahTcqoXAMrfUmv9YR3fDWL2EvOo8jatRlL1qtKSicD2Lmf24mE3zvmTmbXcE50Cc1RMElnZE6DPUdZ9uPULMrXoMdZP4QjGmRvQc+2AmfYUCcQ0Xk96UW0udHUmQum4GLjr3R2qe3ak/0bWWleNrxCkDt2nl+YWi3v8AS2CCuum8rAsAAAAASUVORK5CYII=')
 }
 
-/*==  WINDOWS  ==*/
+/*==  WINDOWS (MAY BE LEGACY NOW)  ==*/
 .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(2)::before{background:url("https://i.imgur.com/MG0SlS6.png") center}  /* Account       */
 .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(3)::before{background:url("https://i.imgur.com/Hxr6XE6.png") center}  /* Privacy       */
 .platform-win #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(4)::before{background:url("https://i.imgur.com/v8XNeCE.png") center}  /* Apps          */
@@ -72,36 +72,38 @@
 
 /*==  WINDOWS BD BETA  ==*/
 
-.side-8zPYf6 .item-PXvHYJ:nth-child(2)::before{background:url("https://i.imgur.com/MG0SlS6.png") center}  /* Account       */
-.side-8zPYf6 .item-PXvHYJ:nth-child(3)::before{background:url("https://i.imgur.com/Hxr6XE6.png") center}  /* Privacy       */
-.side-8zPYf6 .item-PXvHYJ:nth-child(4)::before{background:url("https://i.imgur.com/v8XNeCE.png") center}  /* Apps          */
-.side-8zPYf6 .item-PXvHYJ:nth-child(5)::before{background:url("https://i.imgur.com/QcEw49t.png") center}  /* Connections   */
-																																																												  
-.side-8zPYf6 .item-PXvHYJ:nth-child(8)::before{background:url("https://i.imgur.com/GUM6KPG.png") center}  /* Nitro         */
-.side-8zPYf6 .item-PXvHYJ:nth-child(9)::before{background:url("https://i.imgur.com/L3IaYx0.png") center}  /* Boost         */
-.side-8zPYf6 .item-PXvHYJ:nth-child(10)::before{background:url("https://i.imgur.com/jUKQQBL.png") center} /* Gift          */
-.side-8zPYf6 .item-PXvHYJ:nth-child(11)::before{background:url("https://i.imgur.com/9rKkZBO.png") center} /* Billing       */
-																																																												  
-.side-8zPYf6 .item-PXvHYJ:nth-child(14)::before{background:url("https://i.imgur.com/9DG8oPZ.png") center} /* Voice         */
-.side-8zPYf6 .item-PXvHYJ:nth-child(15)::before{background:url("https://i.imgur.com/cg4bgyb.png") center} /* Text          */
-.side-8zPYf6 .item-PXvHYJ:nth-child(16)::before{background:url("https://i.imgur.com/jxzraCc.png") center} /* Appearance    */
-.side-8zPYf6 .item-PXvHYJ:nth-child(17)::before{background:url("https://i.imgur.com/FoSUr1I.png") center} /* Notifications */
-.side-8zPYf6 .item-PXvHYJ:nth-child(18)::before{background:url("https://i.imgur.com/351ppjR.png") center} /* Keybinds      */
-.side-8zPYf6 .item-PXvHYJ:nth-child(19)::before{background:url("https://i.imgur.com/Yyx3xbv.png") center} /* Language      */
-.side-8zPYf6 .item-PXvHYJ:nth-child(20)::before{background:url("https://i.imgur.com/8CCah5s.png") center} /* Windows       */
-.side-8zPYf6 .item-PXvHYJ:nth-child(26)::before{background:url("https://i.imgur.com/sT2drKP.png") center} /* Streamer      */
-																																																												  
-.side-8zPYf6 .item-PXvHYJ:nth-child(29)::before{background:url("https://i.imgur.com/pdfXYSO.png") center} /* Game Activity */
-.side-8zPYf6 .item-PXvHYJ:nth-child(30)::before{background:url("https://i.imgur.com/Ll8CCqv.png") center} /* Game Overlay  */
-																																																												  
-.side-8zPYf6 .item-PXvHYJ:nth-child(32)::before{background:url("https://i.imgur.com/J9FePqr.png") center} /* Changelog     */
-.side-8zPYf6 .item-PXvHYJ:nth-child(33)::before{background:url("https://i.imgur.com/TcHEd0d.png") center} /* Hype Squad    */
+.side-8zPYf6 .item-PXvHYJ:nth-child(2)::before{background:url("https://i.imgur.com/MG0SlS6.png") center}  /* Account          */
+.side-8zPYf6 .item-PXvHYJ:nth-child(3)::before{background:url("https://i.imgur.com/Hxr6XE6.png") center}  /* Privacy          */
+.side-8zPYf6 .item-PXvHYJ:nth-child(4)::before{background:url("https://i.imgur.com/v8XNeCE.png") center}  /* Apps             */
+.side-8zPYf6 .item-PXvHYJ:nth-child(5)::before{background:url("https://i.imgur.com/QcEw49t.png") center}  /* Connections      */
+																																																													    
+.side-8zPYf6 .item-PXvHYJ:nth-child(8)::before{background:url("https://i.imgur.com/GUM6KPG.png") center}  /* Nitro            */
+.side-8zPYf6 .item-PXvHYJ:nth-child(9)::before{background:url("https://i.imgur.com/L3IaYx0.png") center}  /* Boost            */
+.side-8zPYf6 .item-PXvHYJ:nth-child(10)::before{background:url("https://i.imgur.com/jUKQQBL.png") center} /* Gift             */
+.side-8zPYf6 .item-PXvHYJ:nth-child(11)::before{background:url("https://i.imgur.com/9rKkZBO.png") center} /* Billing          */
+																																																													    
+.side-8zPYf6 .item-PXvHYJ:nth-child(14)::before{background:url("https://i.imgur.com/jxzraCc.png") center} /* Appearance       */
+.side-8zPYf6 .item-PXvHYJ:nth-child(15)::before{background:url("https://i.imgur.com/nqloskx.png") center} /* Accessibility    */
+.side-8zPYf6 .item-PXvHYJ:nth-child(16)::before{background:url("https://i.imgur.com/9DG8oPZ.png") center} /* Voice & Video    */
+.side-8zPYf6 .item-PXvHYJ:nth-child(17)::before{background:url("https://i.imgur.com/cg4bgyb.png") center} /* Text & Images    */
+.side-8zPYf6 .item-PXvHYJ:nth-child(18)::before{background:url("https://i.imgur.com/FoSUr1I.png") center} /* Notifications    */
+.side-8zPYf6 .item-PXvHYJ:nth-child(19)::before{background:url("https://i.imgur.com/351ppjR.png") center} /* Keybinds         */
+.side-8zPYf6 .item-PXvHYJ:nth-child(20)::before{background:url("https://i.imgur.com/Yyx3xbv.png") center} /* Language         */
+.side-8zPYf6 .item-PXvHYJ:nth-child(21)::before{background:url("https://i.imgur.com/8CCah5s.png") center} /* Windows Settings */
+.side-8zPYf6 .item-PXvHYJ:nth-child(22)::before{background:url("https://i.imgur.com/sT2drKP.png") center} /* Streamer Mode    */
+.side-8zPYf6 .item-PXvHYJ:nth-child(23)::before{background:url("https://i.imgur.com/ze6S6yF.png") center} /* Advanced         */
+																																																													    
+.side-8zPYf6 .item-PXvHYJ:nth-child(26)::before{background:url("https://i.imgur.com/pdfXYSO.png") center} /* Game Activity    */
+.side-8zPYf6 .item-PXvHYJ:nth-child(27)::before{background:url("https://i.imgur.com/Ll8CCqv.png") center} /* Overlay          */
+																																																													    
+.side-8zPYf6 .item-PXvHYJ:nth-child(34)::before{background:url("https://i.imgur.com/J9FePqr.png") center} /* Changelog        */
+.side-8zPYf6 .item-PXvHYJ:nth-child(35)::before{background:url("https://i.imgur.com/TcHEd0d.png") center} /* Hype Squad       */
+																																																														   													  
+.side-8zPYf6 .item-PXvHYJ:nth-child(29)::before{background:url("https://i.imgur.com/30cqxll.png") center} /* BandagedBD       */
+.side-8zPYf6 .item-PXvHYJ:nth-child(30)::before{background:url("https://i.imgur.com/cdn4BUy.png") center} /* Settings         */
+.side-8zPYf6 .item-PXvHYJ:nth-child()::before{background:url("https://i.imgur.com/hyd9oGX.png") center}   /* Emotes           */
+.side-8zPYf6 .item-PXvHYJ:nth-child(31)::before{background:url("https://i.imgur.com/F5hOuYW.png") center} /* Plugins          */
+.side-8zPYf6 .item-PXvHYJ:nth-child(32)::before{background:url("https://i.imgur.com/DFYxY1Z.png") center} /* Themes           */
+.side-8zPYf6 .item-PXvHYJ:nth-child()::before{background:url("https://i.imgur.com/zdD427V.png") center}   /* CSS              */
 																																																																											  
-.side-8zPYf6 .item-PXvHYJ:nth-child(22)::before{background:url("https://i.imgur.com/30cqxll.png") center} /* BandagedBD    */
-.side-8zPYf6 .item-PXvHYJ:nth-child(23)::before{background:url("https://i.imgur.com/cdn4BUy.png") center} /* Settings      */
-.side-8zPYf6 .item-PXvHYJ:nth-child()::before{background:url("https://i.imgur.com/hyd9oGX.png") center}   /* Emotes        */
-.side-8zPYf6 .item-PXvHYJ:nth-child(24)::before{background:url("https://i.imgur.com/F5hOuYW.png") center} /* Plugins       */
-.side-8zPYf6 .item-PXvHYJ:nth-child(25)::before{background:url("https://i.imgur.com/DFYxY1Z.png") center} /* Themes        */
-.side-8zPYf6 .item-PXvHYJ:nth-child()::before{background:url("https://i.imgur.com/zdD427V.png") center}   /* CSS           */
-																																																																											  
-.side-8zPYf6 .item-PXvHYJ:nth-child(35)::before{background:url("https://i.imgur.com/jXLQ5P4.png") center} /* Log Out       */
+.side-8zPYf6 .item-PXvHYJ:nth-child(37)::before{background:url("https://i.imgur.com/jXLQ5P4.png") center} /* Log Out       */
