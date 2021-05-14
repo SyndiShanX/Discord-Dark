@@ -1,8 +1,8 @@
-![Chat](https://github.com/SyndiShanX/Discord-Dark/blob/main/Images/Discord-Dark-Icon.png)
+![Icon](https://github.com/SyndiShanX/Discord-Dark/blob/main/Images/Discord-Dark-Icon.png)
 
 	A Github Dark Theme for Discord
 	
-	Maintained by: SyndiShanX
+	Maintained by: SyndiShanX#4620
 	Inspired by: Github Dark
 	Orginally by: Spectra#4577
 	This Theme is meant to be used with Discord Dark Mode
