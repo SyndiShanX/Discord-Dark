@@ -8,6 +8,12 @@
 	
 	Installation:
 	Copy discorddark.theme.css into your Better Discord Themes Folder
+	
+	Note:
+	You may have to mess with the Icons in the css file depending on which plugins you have and which settings you have changed
+	Open discorddark.theme.css and edit the numbers in parentheses on lines 42-78
+	You can add More Icons for extra menus by copying a line, uploading an image to an image hosting site (Imgur)
+	(There are some extra ones in the file and in the Imgur Album), then change the link to the image source and edit the number
 
 Preview:
 ![Chat](https://github.com/SyndiShanX/Discord-Dark/blob/main/Images/Discord-Dark-Chat.png)
