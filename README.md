@@ -1,4 +1,4 @@
-# Discord-Dark
+![Chat](https://github.com/SyndiShanX/Discord-Dark/blob/main/Images/Discord-Dark-Icon.png)
 
 	A Github Dark Theme for Discord
 	
