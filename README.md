@@ -4,6 +4,7 @@
 	
 	Maintained by: SyndiShanX
 	Inspired by: Github Dark
+	Orginally by: Spectra#4577
 	This Theme is meant to be used with Discord Dark Mode
 	
 	Installation:
