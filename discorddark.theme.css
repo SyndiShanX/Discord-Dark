@@ -37,6 +37,8 @@
 
 /*==  WINDOWS BD  ==*/
 
+/*==  IMGUR ALBUM LINK  https://imgur.com/a/9FVz7gu  ==*/
+
 .side-8zPYf6 .item-PXvHYJ:nth-child(2)::before{background:url("https://i.imgur.com/MG0SlS6.png") center}  /* Account          */
 .side-8zPYf6 .item-PXvHYJ:nth-child(3)::before{background:url("https://i.imgur.com/Hxr6XE6.png") center}  /* Privacy          */
 .side-8zPYf6 .item-PXvHYJ:nth-child(4)::before{background:url("https://i.imgur.com/v8XNeCE.png") center}  /* Apps             */
@@ -48,7 +50,7 @@
 .side-8zPYf6 .item-PXvHYJ:nth-child(11)::before{background:url("https://i.imgur.com/9rKkZBO.png") center} /* Billing          */
 																																																													    
 .side-8zPYf6 .item-PXvHYJ:nth-child(14)::before{background:url("https://i.imgur.com/jxzraCc.png") center} /* Appearance       */
-.side-8zPYf6 .item-PXvHYJ:nth-child(15)::before{background:url("https://i.imgur.com/nqloskx.png") center} /* Accessibility    */
+.side-8zPYf6 .item-PXvHYJ:nth-child(15)::before{background:url("https://i.imgur.com/OOYHJQQ.png") center} /* Accessibility    */
 .side-8zPYf6 .item-PXvHYJ:nth-child(16)::before{background:url("https://i.imgur.com/9DG8oPZ.png") center} /* Voice & Video    */
 .side-8zPYf6 .item-PXvHYJ:nth-child(17)::before{background:url("https://i.imgur.com/cg4bgyb.png") center} /* Text & Images    */
 .side-8zPYf6 .item-PXvHYJ:nth-child(18)::before{background:url("https://i.imgur.com/FoSUr1I.png") center} /* Notifications    */
@@ -56,19 +58,21 @@
 .side-8zPYf6 .item-PXvHYJ:nth-child(20)::before{background:url("https://i.imgur.com/Yyx3xbv.png") center} /* Language         */
 .side-8zPYf6 .item-PXvHYJ:nth-child(21)::before{background:url("https://i.imgur.com/8CCah5s.png") center} /* Windows Settings */
 .side-8zPYf6 .item-PXvHYJ:nth-child(22)::before{background:url("https://i.imgur.com/sT2drKP.png") center} /* Streamer Mode    */
-.side-8zPYf6 .item-PXvHYJ:nth-child(23)::before{background:url("https://i.imgur.com/ze6S6yF.png") center} /* Advanced         */
+.side-8zPYf6 .item-PXvHYJ:nth-child(23)::before{background:url("https://i.imgur.com/A30MFl8.png") center} /* Advanced         */
 																																																													    
 .side-8zPYf6 .item-PXvHYJ:nth-child(26)::before{background:url("https://i.imgur.com/pdfXYSO.png") center} /* Game Activity    */
 .side-8zPYf6 .item-PXvHYJ:nth-child(27)::before{background:url("https://i.imgur.com/Ll8CCqv.png") center} /* Overlay          */
-																																																													    
-.side-8zPYf6 .item-PXvHYJ:nth-child(34)::before{background:url("https://i.imgur.com/J9FePqr.png") center} /* Changelog        */
-.side-8zPYf6 .item-PXvHYJ:nth-child(35)::before{background:url("https://i.imgur.com/TcHEd0d.png") center} /* Hype Squad       */
 																																																														   													  
 .side-8zPYf6 .item-PXvHYJ:nth-child(29)::before{background:url("https://i.imgur.com/30cqxll.png") center} /* BandagedBD       */
 .side-8zPYf6 .item-PXvHYJ:nth-child(30)::before{background:url("https://i.imgur.com/cdn4BUy.png") center} /* Settings         */
-.side-8zPYf6 .item-PXvHYJ:nth-child()::before{background:url("https://i.imgur.com/hyd9oGX.png") center}   /* Emotes           */
-.side-8zPYf6 .item-PXvHYJ:nth-child(31)::before{background:url("https://i.imgur.com/F5hOuYW.png") center} /* Plugins          */
-.side-8zPYf6 .item-PXvHYJ:nth-child(32)::before{background:url("https://i.imgur.com/DFYxY1Z.png") center} /* Themes           */
-.side-8zPYf6 .item-PXvHYJ:nth-child()::before{background:url("https://i.imgur.com/zdD427V.png") center}   /* CSS              */
+.side-8zPYf6 .item-PXvHYJ:nth-child(31)::before{background:url("https://i.imgur.com/hyd9oGX.png") center} /* Emotes           */
+.side-8zPYf6 .item-PXvHYJ:nth-child(32)::before{background:url("https://i.imgur.com/zdD427V.png") center} /* CSS              */
+.side-8zPYf6 .item-PXvHYJ:nth-child(33)::before{background:url("https://i.imgur.com/F5hOuYW.png") center} /* Plugins          */
+.side-8zPYf6 .item-PXvHYJ:nth-child(34)::before{background:url("https://i.imgur.com/DFYxY1Z.png") center} /* Themes           */
+.side-8zPYf6 .item-PXvHYJ:nth-child()::before{background:url("https://i.imgur.com/6HWIubG.png") center} /* Plugin Repo      */
+.side-8zPYf6 .item-PXvHYJ:nth-child()::before{background:url("https://i.imgur.com/4pGGoof.png") center} /* Theme Repo       */
+
+.side-8zPYf6 .item-PXvHYJ:nth-child(36)::before{background:url("https://i.imgur.com/J9FePqr.png") center} /* Changelog        */
+.side-8zPYf6 .item-PXvHYJ:nth-child(37)::before{background:url("https://i.imgur.com/TcHEd0d.png") center} /* Hype Squad       */
 																																																																											  
-.side-8zPYf6 .item-PXvHYJ:nth-child(37)::before{background:url("https://i.imgur.com/jXLQ5P4.png") center} /* Log Out       */
+.side-8zPYf6 .item-PXvHYJ:nth-child(39)::before{background:url("https://i.imgur.com/jXLQ5P4.png") center} /* Log Out       */
