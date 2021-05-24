@@ -13,5 +13,5 @@
 	You can Customize the Colors/Images in the Theme CSS
 
 Preview:
-![Chat](https://github.com/SyndiShanX/Discord-Darkblob/main/Images/Discord-Dark-Chat.png)
+![Chat](https://github.com/SyndiShanX/Discord-Dark/blob/main/Images/Discord-Dark-Chat.png)
 ![Settings](https://github.com/SyndiShanX/Discord-Dark/blob/main/Images/Discord-Dark-Settings.png)
