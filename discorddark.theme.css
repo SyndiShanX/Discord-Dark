@@ -362,3 +362,14 @@ h2.name-3l27Hl, h2.membersGroup-v9BXpm {
   color: var(--selection-text)!important;
   background: var(--selection-background)!important;
 }
+/* Align Settings Sidebar to the Left */
+.sidebar-CFHs9e {
+	margin-right: auto;
+	margin-left: 0
+}
+.sidebarRegion-VFTUkN {
+	flex: 1 0 0px;
+}
+.contentColumn-2hrIYH {
+	max-width: 1000px;
+}
