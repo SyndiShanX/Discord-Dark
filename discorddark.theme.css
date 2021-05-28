@@ -34,8 +34,8 @@
 	--gray-button: #4f545c;                                         /* Gray Button Colors              */
 	--gray-button-hover: #646970;                                   /*                                 */
 	--gray-button-border: #919599;                                  /*                                 */
-	--settingsiconssize: 18px;
-	--settingsiconsgap: 14px;
+	--settingsiconssize: 18px;                                      /* Icons Size                      */
+	--settingsiconsgap: 14px;                                       /* Icons Gap                       */
 	/*
 		Images are Stored here to improve Loading times, to get the Image Code:
 	  Open an Image in Chrome > Right Click > Inspect Element, go to Sources,
