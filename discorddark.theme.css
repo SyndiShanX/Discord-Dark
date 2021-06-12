@@ -132,7 +132,8 @@
 .footer-2yA7Ep, .textContainer-C0szpm, .container-UC8Ug1, .queryContainer-RKFJW-, .scroller-1d5FgU, .peopleList-3c4jOR, .scroller-2ZPeAD, .button-14-BFJ:hover,
 .videoGrid-1khsrF, .resultsGroup-r_nuzN, .previewCard-DOrO3c, .card-3_CqkU, .scroller-1J_F7B, .css-1ba14n5-option, .circleButton-3RB01i, .perksModal-fSYqOq,
 .input-3Xdcic, div.theme-dark .messageContainer-1DiFnQ, .scrollerInner-2YIMLh, .expandedFolderBackground-1cujaW, .expandedFolderIconWrapper-Huv7rA,
-.folderIconWrapper-1_bOZe, .contentRegionScroller-26nc1e.auto-Ge5KZx.scrollerBase-289Jih, .form-2fGMdU, .unreadBar-3t3sYc, .peopleColumn-29fq28 {
+.folderIconWrapper-1_bOZe, .contentRegionScroller-26nc1e.auto-Ge5KZx.scrollerBase-289Jih, .form-2fGMdU, .unreadBar-3t3sYc, .peopleColumn-29fq28,
+.nowPlayingColumn-2sl4cE {
 	background-image: var(--bgDarkness1)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -312,6 +313,12 @@ h2.name-3l27Hl, h2.membersGroup-v9BXpm {
 ::selection {
   color: var(--selection-text)!important;
   background: var(--selection-background)!important;
+}
+.nowPlayingColumn-2sl4cE .container-lRFx4q .scroller-2ZPeAD {
+	border-left: hidden!important;
+}
+.ring-13rgEW {
+	display: none!important;
 }
 /* Align Settings Sidebar to the Left */
 .sidebar-CFHs9e {
