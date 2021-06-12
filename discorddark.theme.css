@@ -11,31 +11,32 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 
 :root {
-	--background-primary: rgba(0, 0, 0, 0);                         /* Replaces Default Discord Colors */
-	--background-tertiary: rgba(0, 0, 0, 0.5);                      /*                                 */
-	--border-primary: #5c5c5c;                                      /*                                 */
-	--border-secondary: #c0c0c0;                                    /*                                 */
-	--control-brand-foreground: #3a496b!important;                  /*                                 */
-	--brand-experiment: #3a496b!important;                          /*                                 */
-	--selection-background: #265d96;                                /* Selection Colors                */
-	--selection-text: #ffffff;                                      /*                                 */
-	--red-button: #712828;                                          /* Red Button Colors               */
-	--red-button-hover: #973535;                                    /*                                 */
-	--red-button-border: #ba1212;                                   /*                                 */
-	--green-button: #508055;                                        /* Green Button Colors             */
-	--green-button-hover: #629d68;                                  /*                                 */
-	--green-button-border: #00b344;                                 /*                                 */
-	--blue-button: #2e3952;                                         /* Blue Button Colors              */
-	--blue-button-hover: #3a496b;                                   /*                                 */
-	--blue-button-border: #265d96;                                  /*                                 */
-	--white-button: #ffffff;                                        /* White Button Colors             */
-	--white-button-hover: #dedede;                                  /*                                 */
-	--white-button-border: #808080;                                 /*                                 */
-	--gray-button: #4f545c;                                         /* Gray Button Colors              */
-	--gray-button-hover: #646970;                                   /*                                 */
-	--gray-button-border: #919599;                                  /*                                 */
-	--settingsiconssize: 18px;                                      /* Icons Size                      */
-	--settingsiconsgap: 14px;                                       /* Icons Gap                       */
+	--background-primary: rgba(0, 0, 0, 0);                         /* Replaces Default Discord Colors                    */
+	--background-tertiary: rgba(0, 0, 0, 0.5);                      /*                                                    */
+	--border-primary: #5c5c5c;                                      /*                                                    */
+	--border-secondary: #c0c0c0;                                    /*                                                    */
+	--control-brand-foreground: #3a496b!important;                  /*                                                    */
+	--brand-experiment: #3a496b!important;                          /*                                                    */
+	--selection-background: #265d96;                                /* Selection Colors                                   */
+	--selection-text: #ffffff;                                      /*                                                    */
+	--red-button: #712828;                                          /* Red Button Colors                                  */
+	--red-button-hover: #973535;                                    /*                                                    */
+	--red-button-border: #ba1212;                                   /*                                                    */
+	--green-button: #508055;                                        /* Green Button Colors                                */
+	--green-button-hover: #629d68;                                  /*                                                    */
+	--green-button-border: #00b344;                                 /*                                                    */
+	--blue-button: #2e3952;                                         /* Blue Button Colors                                 */
+	--blue-button-hover: #3a496b;                                   /*                                                    */
+	--blue-button-border: #265d96;                                  /*                                                    */
+	--white-button: #ffffff;                                        /* White Button Colors                                */
+	--white-button-hover: #dedede;                                  /*                                                    */
+	--white-button-border: #808080;                                 /*                                                    */
+	--gray-button: #4f545c;                                         /* Gray Button Colors                                 */
+	--gray-button-hover: #646970;                                   /*                                                    */
+	--gray-button-border: #919599;                                  /*                                                    */
+	--settingsiconssize: 18px;                                      /* Icons Size                                         */
+	--settingsiconsgap: 14px;                                       /* Icons Gap                                          */
+	--discord-opacity: 1.0;                                         /* Discord Opacity | Transparency Needs to be Enabled */       
 	/*
 		Images are Stored here to improve Loading times, to get the Image Code:
 	  Open an Image in Chrome > Right Click > Inspect Element, go to Sources,
@@ -320,6 +321,9 @@ h2.name-3l27Hl, h2.membersGroup-v9BXpm {
 }
 .ring-13rgEW {
 	display: none!important;
+}
+body {
+	opacity: var(--discord-opacity)!important;
 }
 /* Align Settings Sidebar to the Left */
 .sidebar-CFHs9e {
