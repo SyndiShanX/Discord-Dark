@@ -171,7 +171,7 @@
 .card-3AyPWq, .previewOverlayInner-1WXURq, .bar-2Qqk5Z, .input-cIJ7To, .connectionHeader-2MDqhu, .header-1TKi98, .background-1QDuV2, .item-26Dhrx,
 .accountList-33MS45, .card-3Qj_Yx, .root-1gCeng, .bd-addon-header, .scrollableContainer-2NUZem, .attachment-33OFj0, .hljs, .inline, .header-2V-4Sw,
 .container-3baos1, .body-Ogsp8i, .headerTop-2y3V6H, .aboutMeSection-3bipSD, .activityUserPopout-2yItg2, .tooltip-2QfLtc, .headerTop-2cWpdB, .footer-1N3bR3,
-.replyBar-1YLQ2F, .topSection-y3p-_D:not(.profileBanner-33-uE1) {
+.replyBar-1YLQ2F, .topSection-y3p-_D:not(.profileBanner-33-uE1), .aboutMeSection---MkQa, .inlineContent-3ZjPuv {
 	background-image: var(--bgDarkness3)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -218,7 +218,7 @@
 .message-2qnXI6:not(.mentioned-xhSam7):hover, .emptyChannelIcon-cc932w, .button-2CgfFz:hover {
 	background-color: rgba(0, 0, 0, 0.25)!important
 }
-.inner-2Y6JuD, .wrapper-1-Fsb8.header-ywPcAE::after, .before_inlineCode-1G9rTK, .reaction-1hd86g, .button-1-5Aqk.secondary-dIudih, .closeButton-1152MI,
+.inner-2Y6JuD, .wrapper-1-Fsb8.header-ywPcAE::after, .before_inlineCode-1G9rTK, .inlineContent-3ZjPuv, .reaction-1hd86g, .button-1-5Aqk.secondary-dIudih, .closeButton-1152MI,
 .channelHeader-3Gd2xq, .wrapper-3Z-vWm, .stickerImageSection-7EUs8E, .gemIndicatorContainer-2jdECl, .button-2CgfFz, .inlineCode-2ngu6Y,
 .after_inlineCode-1KfVgj, .wrapper-1-Fsb8.packHeader-NLJ7S5::after, .tierMarkerBackground-3q29am, .bar-_YsHvC, .message-2qRu38, .optionContainer-1FtykV,
 .guildSidebar-339BqP, .formFieldWrapper-malor5 {
@@ -318,9 +318,6 @@ h2.name-3l27Hl, h2.membersGroup-v9BXpm {
 }
 .nowPlayingColumn-2sl4cE .container-lRFx4q .scroller-2ZPeAD {
 	border-left: hidden!important;
-}
-.ring-13rgEW {
-	display: none!important;
 }
 body {
 	opacity: var(--discord-opacity)!important;
