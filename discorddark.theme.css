@@ -134,7 +134,7 @@
 .videoGrid-1khsrF, .resultsGroup-r_nuzN, .previewCard-DOrO3c, .card-3_CqkU, .scroller-1J_F7B, .css-1ba14n5-option, .circleButton-3RB01i, .perksModal-fSYqOq,
 .input-3Xdcic, div.theme-dark .messageContainer-1DiFnQ, .scrollerInner-2YIMLh, .expandedFolderBackground-1cujaW, .expandedFolderIconWrapper-Huv7rA,
 .folderIconWrapper-1_bOZe, .contentRegionScroller-26nc1e.auto-Ge5KZx.scrollerBase-289Jih, .form-2fGMdU, .unreadBar-3t3sYc, .peopleColumn-29fq28,
-.nowPlayingColumn-2sl4cE {
+.nowPlayingColumn-2sl4cE, .content-1o0f9g {
 	background-image: var(--bgDarkness1)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -305,7 +305,7 @@
 	background-color: var(--gray-button-hover)!important;
 	border-color: var(--gray-button-border)!important;
 }
-/* Other */
+/* Other Tweaks */
 .decorator-3MaMCZ .botText-1526X_ {
 	bottom: 4px;
 }
