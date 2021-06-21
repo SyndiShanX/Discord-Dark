@@ -209,6 +209,19 @@
 }
 
 /* Main Tweaks */
+body {
+	opacity: var(--discord-opacity)!important;
+}
+::selection {
+  color: var(--selection-text)!important;
+  background: var(--selection-background)!important;
+}
+h2.name-3l27Hl, h2.membersGroup-v9BXpm, .name-3l27Hl .overflow-WK9Ogt {
+	color: #3973AC!important
+}
+.name-3l27Hl .overflow-WK9Ogt:hover {
+	color: var(--interactive-hover)!important
+}
 .form-2fGMdU::before, .mask-WB_llw, .option-96V44q::after, .iconWrapper-eK7GO6 {
 	background: transparent!important
 }
@@ -218,14 +231,20 @@
 .message-2qnXI6:not(.mentioned-xhSam7):hover, .emptyChannelIcon-cc932w, .button-2CgfFz:hover {
 	background-color: rgba(0, 0, 0, 0.25)!important
 }
+.reactionMe-wv5HKu {
+	background-color: rgba(58, 73, 107, 0.25)!important
+}
+.decorator-3MaMCZ .botText-1526X_ {
+	bottom: 4px;
+}
+.nowPlayingColumn-2sl4cE .container-lRFx4q .scroller-2ZPeAD {
+	border-left: hidden!important;
+}
 .inner-2Y6JuD, .wrapper-1-Fsb8.header-ywPcAE::after, .before_inlineCode-1G9rTK, .inlineContent-3ZjPuv, .reaction-1hd86g, .button-1-5Aqk.secondary-dIudih, .closeButton-1152MI,
 .channelHeader-3Gd2xq, .wrapper-3Z-vWm, .stickerImageSection-7EUs8E, .gemIndicatorContainer-2jdECl, .button-2CgfFz, .inlineCode-2ngu6Y,
 .after_inlineCode-1KfVgj, .wrapper-1-Fsb8.packHeader-NLJ7S5::after, .tierMarkerBackground-3q29am, .bar-_YsHvC, .message-2qRu38, .optionContainer-1FtykV,
 .guildSidebar-339BqP, .formFieldWrapper-malor5 {
 	background-color: rgba(0, 0, 0, 0.5)!important
-}
-.reactionMe-wv5HKu {
-	background-color: rgba(58, 73, 107, 0.25)!important
 }
 .selected-3LIHYU .content-1x5b-n, .item-PXvHYJ.selected-3s45Ha:not(.tabBarItem-1b8RUP):not(.tabBarItem-2QyJ0U), .input-cIJ7To, .css-gvi9bl-control,
 .css-1ba14n5-option, .option-96V44q.selected-rZcOL-, .selected-aXhQR6, .input-3Xdcic, .searchBar-3dMhjb, .searchBarComponent-32dTOx, .unreadBar-3t3sYc,
@@ -307,23 +326,6 @@
 .primaryDark-3mSFDl:hover, .selected-2LAck8:hover, .watchButton-2SbJEo:hover {
 	background-color: var(--gray-button-hover)!important;
 	border-color: var(--gray-button-border)!important;
-}
-/* Other Tweaks */
-.decorator-3MaMCZ .botText-1526X_ {
-	bottom: 4px;
-}
-h2.name-3l27Hl, h2.membersGroup-v9BXpm {
-	color: #3973ac;
-}
-::selection {
-  color: var(--selection-text)!important;
-  background: var(--selection-background)!important;
-}
-.nowPlayingColumn-2sl4cE .container-lRFx4q .scroller-2ZPeAD {
-	border-left: hidden!important;
-}
-body {
-	opacity: var(--discord-opacity)!important;
 }
 /* Align Settings Sidebar to the Left */
 .sidebar-CFHs9e {
