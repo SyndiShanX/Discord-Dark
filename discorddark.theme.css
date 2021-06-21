@@ -11,32 +11,33 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 
 :root {
-	--background-primary: rgba(0, 0, 0, 0);                         /* Replaces Default Discord Colors                    */
-	--background-tertiary: rgba(0, 0, 0, 0.5);                      /*                                                    */
-	--border-primary: #5c5c5c;                                      /*                                                    */
-	--border-secondary: #c0c0c0;                                    /*                                                    */
-	--control-brand-foreground: #3a496b!important;                  /*                                                    */
-	--brand-experiment: #3a496b!important;                          /*                                                    */
-	--selection-background: #265d96;                                /* Selection Colors                                   */
-	--selection-text: #ffffff;                                      /*                                                    */
-	--red-button: #712828;                                          /* Red Button Colors                                  */
-	--red-button-hover: #973535;                                    /*                                                    */
-	--red-button-border: #ba1212;                                   /*                                                    */
-	--green-button: #508055;                                        /* Green Button Colors                                */
-	--green-button-hover: #629d68;                                  /*                                                    */
-	--green-button-border: #00b344;                                 /*                                                    */
-	--blue-button: #2e3952;                                         /* Blue Button Colors                                 */
-	--blue-button-hover: #3a496b;                                   /*                                                    */
-	--blue-button-border: #265d96;                                  /*                                                    */
-	--white-button: #ffffff;                                        /* White Button Colors                                */
-	--white-button-hover: #dedede;                                  /*                                                    */
-	--white-button-border: #808080;                                 /*                                                    */
-	--gray-button: #4f545c;                                         /* Gray Button Colors                                 */
-	--gray-button-hover: #646970;                                   /*                                                    */
-	--gray-button-border: #919599;                                  /*                                                    */
-	--settingsiconssize: 18px;                                      /* Icons Size                                         */
-	--settingsiconsgap: 14px;                                       /* Icons Gap                                          */
-	--discord-opacity: 1.0;                                         /* Discord Opacity | Transparency Needs to be Enabled */       
+	--theme: Discord Dark by SyndiShanX;														/* Replaces Default Discord Colors                                        */
+	--background-primary: rgba(0, 0, 0, 0);                         /*                                                                        */
+	--background-tertiary: rgba(0, 0, 0, 0.5);                      /*                                                                        */
+	--border-primary: #5c5c5c;                                      /*                                                                        */
+	--border-secondary: #c0c0c0;                                    /*                                                                        */
+	--control-brand-foreground: #3a496b!important;                  /*                                                                        */
+	--brand-experiment: #3a496b!important;                          /* Selection Colors                                                       */
+	--selection-background: #265d96;                                /*                                                                        */
+	--selection-text: #ffffff;                                      /* Red Button Colors                                                      */
+	--red-button: #712828;                                          /*                                                                        */
+	--red-button-hover: #973535;                                    /*                                                                        */
+	--red-button-border: #ba1212;                                   /* Green Button Colors                                                    */
+	--green-button: #508055;                                        /*                                                                        */
+	--green-button-hover: #629d68;                                  /*                                                                        */
+	--green-button-border: #00b344;                                 /* Blue Button Colors                                                     */
+	--blue-button: #2e3952;                                         /*                                                                        */
+	--blue-button-hover: #3a496b;                                   /*                                                                        */
+	--blue-button-border: #265d96;                                  /* White Button Colors                                                    */
+	--white-button: #ffffff;                                        /*                                                                        */
+	--white-button-hover: #dedede;                                  /*                                                                        */
+	--white-button-border: #808080;                                 /* Gray Button Colors                                                     */
+	--gray-button: #4f545c;                                         /*                                                                        */
+	--gray-button-hover: #646970;                                   /*                                                                        */
+	--gray-button-border: #919599;                                  /* Icons Size                                                             */
+	--settingsiconssize: 18px;                                      /* Icons Gap                                                              */
+	--settingsiconsgap: 14px;                                       /* Discord Opacity | Transparency Needs to be Enabled                     */
+	--discord-opacity: 1.0;                                         /* Images are Stored here to improve Loading times, more info in css file */       
 	/*
 		Images are Stored here to improve Loading times, to get the Image Code:
 	  Open an Image in Chrome > Right Click > Inspect Element, go to Sources,
