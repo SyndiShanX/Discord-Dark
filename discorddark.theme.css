@@ -152,7 +152,8 @@
 .item-26Dhrx:hover, .item-PXvHYJ:hover:not(.item-3HknzM):not(.tabBarItem-1b8RUP):not(.tabBarItem-2QyJ0U), .item-2J2GlB:hover, .layout-2DM8Md:hover,
 .clickable-1JJAn8 .layout-2DM8Md:hover, .content-1x5b-n:hover, .peopleListItem-2nzedh:hover, .css-rzbxvl-option:hover, .css-1yz4bi9-option:hover,
 .css-1ba14n5-option:hover, .container-_phMUq:hover, .memberRow-1wwtfV.emptyRowContainer-1OKxeI:hover, .memberRow-1wwtfV, .inviteRow-2L02ae:hover,
-.sticker-2cpdZp:hover, .emojiItem-14v6tW:hover, .selected-3LIHYU .content-1x5b-n:hover, .card-3AyPWq:hover, .radioBar-bMNUI-:hover, .unreadBar-3t3sYc:hover {
+.sticker-2cpdZp:hover, .emojiItem-14v6tW:hover, .selected-3LIHYU .content-1x5b-n:hover, .card-3AyPWq:hover, .radioBar-bMNUI-:hover, .unreadBar-3t3sYc:hover,
+.base-1pYU8j:hover {
 	background-image: var(--bgDarkness2)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -176,7 +177,8 @@
 .card-3AyPWq, .previewOverlayInner-1WXURq, .bar-2Qqk5Z, .input-cIJ7To, .connectionHeader-2MDqhu, .header-1TKi98, .background-1QDuV2, .item-26Dhrx,
 .accountList-33MS45, .card-3Qj_Yx, .root-1gCeng, .bd-addon-header, .scrollableContainer-2NUZem, .attachment-33OFj0, .hljs, .inline, .header-2V-4Sw,
 .container-3baos1, .body-Ogsp8i, .headerTop-2y3V6H, .aboutMeSection-3bipSD, .activityUserPopout-2yItg2, .tooltip-2QfLtc, .headerTop-2cWpdB, .footer-1N3bR3,
-.replyBar-1YLQ2F, .topSection-y3p-_D:not(.profileBanner-33-uE1), .aboutMeSection---MkQa, .inlineContent-3ZjPuv, .container-1eFT6O, .contentWrapper-SvZHNd {
+.replyBar-1YLQ2F, .topSection-y3p-_D:not(.profileBanner-33-uE1), .aboutMeSection---MkQa, .inlineContent-3ZjPuv, .container-1eFT6O, .contentWrapper-SvZHNd,
+.base-1pYU8j, .categoryHeader-O1zU94, .categoryHeader-O1zU94::after {
 	background-image: var(--bgDarkness3)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
