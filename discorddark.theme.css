@@ -36,7 +36,9 @@
 	--gray-button-hover: #646970;                                   /*                                                                        */
 	--gray-button-border: #919599;                                  /* Icons Size                                                             */
 	--settingsiconssize: 18px;                                      /* Icons Gap                                                              */
-	--settingsiconsgap: 14px;                                       /* Discord Opacity | Transparency Needs to be Enabled                     */
+	--settingsiconsgap: 14px;                                       /* Settings Sidebar Width                                                 */
+	--sidebar-width: 245px;                                       	/* Scrollbar Width                                                        */
+	--scrollbar-width:  8px;																				/* Discord Opacity | Transparency Needs to be Enabled                     */
 	--discord-opacity: 1.0;                                         /* Images are Stored here to improve Loading times, more info in css file */       
 	/*
 		Images are Stored here to improve Loading times, to get the Image Code:
@@ -178,7 +180,7 @@
 .accountList-33MS45, .card-3Qj_Yx, .root-1gCeng, .bd-addon-header, .scrollableContainer-2NUZem, .attachment-33OFj0, .hljs, .inline, .header-2V-4Sw,
 .container-3baos1, .body-Ogsp8i, .headerTop-2y3V6H, .aboutMeSection-3bipSD, .activityUserPopout-2yItg2, .tooltip-2QfLtc, .replyBar-1YLQ2F,
 .topSection-y3p-_D:not(.profileBanner-33-uE1), .aboutMeSection---MkQa, .inlineContent-3ZjPuv, .container-1eFT6O, .contentWrapper-SvZHNd, .base-1pYU8j,
-.categoryHeader-O1zU94, .categoryHeader-O1zU94::after, .headerTop-3vNv-a, .bodyInnerWrapper-26fQXj, .footer-3UKYOU {
+.categoryHeader-O1zU94, .categoryHeader-O1zU94::after, .headerTop-3vNv-a, .bodyInnerWrapper-26fQXj, .footer-3UKYOU, .background-2hs1sP {
 	background-image: var(--bgDarkness3)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -196,7 +198,7 @@
 /* Scrollbar */
 ::-webkit-scrollbar {
 	border: none!important;
-	width: 6px!important;
+	width: var(--scrollbar-width)!important;
 }
 ::-webkit-scrollbar-track {
 	background: 0 0!important;
@@ -348,7 +350,7 @@ h2.name-3l27Hl, h2.membersGroup-v9BXpm, .name-3l27Hl .overflow-WK9Ogt {
 }
 .sidebarRegion-VFTUkN {
 	flex: 1 0 0;
-	max-width: 210px;
+	max-width: var(--sidebar-width)!important;
 }
 .contentRegion-3nDuYy {
 	flex: 1 1 100%;
