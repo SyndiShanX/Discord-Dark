@@ -38,7 +38,7 @@
 	--settingsiconssize: 18px;                                      /* Icons Gap                                                              */
 	--settingsiconsgap: 14px;                                       /* Settings Sidebar Width                                                 */
 	--sidebar-width: 245px;                                       	/* Scrollbar Width                                                        */
-	--scrollbar-width:  8px;																				/* Discord Opacity | Transparency Needs to be Enabled                     */
+	--scrollbar-width: 8px;																					/* Discord Opacity | Transparency Needs to be Enabled                     */
 	--discord-opacity: 1.0;                                         /* Images are Stored here to improve Loading times, more info in css file */       
 	/*
 		Images are Stored here to improve Loading times, to get the Image Code:
@@ -180,7 +180,8 @@
 .accountList-33MS45, .card-3Qj_Yx, .root-1gCeng, .bd-addon-header, .scrollableContainer-2NUZem, .attachment-33OFj0, .hljs, .inline, .header-2V-4Sw,
 .container-3baos1, .body-Ogsp8i, .headerTop-2y3V6H, .aboutMeSection-3bipSD, .activityUserPopout-2yItg2, .tooltip-2QfLtc, .replyBar-1YLQ2F,
 .topSection-y3p-_D:not(.profileBanner-33-uE1), .aboutMeSection---MkQa, .inlineContent-3ZjPuv, .container-1eFT6O, .contentWrapper-SvZHNd, .base-1pYU8j,
-.categoryHeader-O1zU94, .categoryHeader-O1zU94::after, .headerTop-3vNv-a, .bodyInnerWrapper-26fQXj, .footer-3UKYOU, .background-2hs1sP {
+.categoryHeader-O1zU94, .categoryHeader-O1zU94::after, .headerTop-3vNv-a, .bodyInnerWrapper-26fQXj, .footer-3UKYOU, .background-2hs1sP, .fieldList-21DyL8,
+.accountProfileCard-1XCH88, .profileBannerPreview-3_l0Wd {
 	background-image: var(--bgDarkness3)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -221,18 +222,18 @@
 .inner-2Y6JuD, .wrapper-1-Fsb8.header-ywPcAE::after, .before_inlineCode-1G9rTK, .inlineContent-3ZjPuv, .reaction-1hd86g, .button-1-5Aqk.secondary-dIudih, .closeButton-1152MI,
 .channelHeader-3Gd2xq, .wrapper-3Z-vWm, .stickerImageSection-7EUs8E, .gemIndicatorContainer-2jdECl, .button-2CgfFz, .inlineCode-2ngu6Y,
 .after_inlineCode-1KfVgj, .wrapper-1-Fsb8.packHeader-NLJ7S5::after, .tierMarkerBackground-3q29am, .bar-_YsHvC, .message-2qRu38, .optionContainer-1FtykV,
-.guildSidebar-339BqP, .formFieldWrapper-malor5 {
+.guildSidebar-339BqP, .formFieldWrapper-malor5, .gameNameInput-385LoS {
 	background-color: rgba(0, 0, 0, 0.5)!important;
 }
 .selected-3LIHYU .content-1x5b-n, .item-PXvHYJ.selected-3s45Ha:not(.tabBarItem-1b8RUP):not(.tabBarItem-2QyJ0U), .input-cIJ7To, .css-gvi9bl-control,
 .css-1ba14n5-option, .option-96V44q.selected-rZcOL-, .selected-aXhQR6, .input-3Xdcic, .searchBar-3dMhjb, .searchBarComponent-32dTOx, .unreadBar-3t3sYc,
-.bd-search-wrapper, .bd-select-option.selected {
+.bd-search-wrapper, .bd-select-option.selected, .gameNameInput-385LoS {
 	border: 1px solid var(--border-primary)!important;
 }
 .selected-3LIHYU .content-1x5b-n:hover, .item-PXvHYJ:hover.selected-3s45Ha:not(.tabBarItem-1b8RUP):not(.tabBarItem-2QyJ0U), .input-cIJ7To:hover,
 .css-1ba14n5-option:hover, .css-gvi9bl-control:hover, .option-96V44q.selected-rZcOL-:hover, .css-1yz4bi9-option:hover, .input-3Xdcic:hover,
 .selected-aXhQR6:hover, .searchBar-3dMhjb:hover, .searchBarComponent-32dTOx:hover, .unreadBar-3t3sYc:hover, .bd-search-wrapper:hover,
-.bd-select-option.selected:hover {
+.bd-select-option.selected:hover, .gameNameInput-385LoS:hover {
 	border: 1px solid var(--border-secondary)!important;
 }
 body {
