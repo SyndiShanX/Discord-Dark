@@ -2,7 +2,7 @@
  * @name Discord Dark
  * @description A Github Dark Theme for Discord, meant to be used with Discord Dark Mode
  * @author SyndiShanX#4620
- * @version 1.15
+ * @version 1.15.1
  * @website https://syndishanx.github.io/Website/index.html
  * @source https://github.com/SyndiShanX/Discord-Dark
 */
@@ -124,7 +124,7 @@
 .containerDefault--pIXnN.selected-3LIHYU .content-1x5b-n:hover, .item-PXvHYJ:hover.selected-3s45Ha:not(.tabBarItem-1b8RUP):not(.tabBarItem-2QyJ0U),
 .option-96V44q.selected-rZcOL-, .stickerInspected-2EM4w-, .item-PXvHYJ.selected-3s45Ha:not(.tabBarItem-1b8RUP):not(.tabBarItem-2QyJ0U), .bd-select-options,
 .connection-1fbD7X, .selected-3LIHYU .content-1x5b-n, .selected-3LIHYU .content-1x5b-n, .searchBar-3dMhjb, .searchBarComponent-32dTOx, .card-x5zW6z,
-.notice-3bPHh- {
+.notice-3bPHh-, .tierBody-3aUxuc {
 	background-image: var(--bgImage)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -155,7 +155,7 @@
 .clickable-1JJAn8 .layout-2DM8Md:hover, .content-1x5b-n:hover, .peopleListItem-2nzedh:hover, .css-rzbxvl-option:hover, .css-1yz4bi9-option:hover,
 .css-1ba14n5-option:hover, .container-_phMUq:hover, .memberRow-1wwtfV.emptyRowContainer-1OKxeI:hover, .memberRow-1wwtfV, .inviteRow-2L02ae:hover,
 .sticker-2cpdZp:hover, .emojiItem-14v6tW:hover, .selected-3LIHYU .content-1x5b-n:hover, .card-3AyPWq:hover, .radioBar-bMNUI-:hover, .unreadBar-3t3sYc:hover,
-.base-1pYU8j:hover {
+.base-1pYU8j:hover, .card-2Mz_4z:hover, .qualitySettingsContainer-1gOtRJ .select-2fjwPw:hover {
 	background-image: var(--bgDarkness2)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -181,7 +181,8 @@
 .container-3baos1, .body-Ogsp8i, .headerTop-2y3V6H, .aboutMeSection-3bipSD, .activityUserPopout-2yItg2, .tooltip-2QfLtc, .replyBar-1YLQ2F,
 .topSection-y3p-_D:not(.profileBanner-33-uE1), .aboutMeSection---MkQa, .inlineContent-3ZjPuv, .container-1eFT6O, .contentWrapper-SvZHNd, .base-1pYU8j,
 .categoryHeader-O1zU94, .categoryHeader-O1zU94::after, .headerTop-3vNv-a, .bodyInnerWrapper-26fQXj, .footer-3UKYOU, .background-2hs1sP, .fieldList-21DyL8,
-.accountProfileCard-1XCH88, .profileBannerPreview-3_l0Wd, .container-2Pjhx-.clickable-1JJAn8, .clipContainer-eeROt0 {
+.accountProfileCard-1XCH88, .profileBannerPreview-3_l0Wd, .container-2Pjhx-.clickable-1JJAn8, .clipContainer-eeROt0, .card-2Mz_4z, .qualitySettingsContainer-1gOtRJ .select-2fjwPw,
+.tierHeaderContent-3t3DoO {
 	background-image: var(--bgDarkness3)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -227,13 +228,13 @@
 }
 .selected-3LIHYU .content-1x5b-n, .item-PXvHYJ.selected-3s45Ha:not(.tabBarItem-1b8RUP):not(.tabBarItem-2QyJ0U), .input-cIJ7To, .css-gvi9bl-control,
 .css-1ba14n5-option, .option-96V44q.selected-rZcOL-, .selected-aXhQR6, .input-3Xdcic, .searchBar-3dMhjb, .searchBarComponent-32dTOx, .unreadBar-3t3sYc,
-.bd-search-wrapper, .bd-select-option.selected, .gameNameInput-385LoS {
+.bd-search-wrapper, .bd-select-option.selected, .gameNameInput-385LoS, .card-2Mz_4z, .qualitySettingsContainer-1gOtRJ .select-2fjwPw {
 	border: 1px solid var(--border-primary)!important;
 }
 .selected-3LIHYU .content-1x5b-n:hover, .item-PXvHYJ:hover.selected-3s45Ha:not(.tabBarItem-1b8RUP):not(.tabBarItem-2QyJ0U), .input-cIJ7To:hover,
 .css-1ba14n5-option:hover, .css-gvi9bl-control:hover, .option-96V44q.selected-rZcOL-:hover, .css-1yz4bi9-option:hover, .input-3Xdcic:hover,
 .selected-aXhQR6:hover, .searchBar-3dMhjb:hover, .searchBarComponent-32dTOx:hover, .unreadBar-3t3sYc:hover, .bd-search-wrapper:hover,
-.bd-select-option.selected:hover, .gameNameInput-385LoS:hover {
+.bd-select-option.selected:hover, .gameNameInput-385LoS:hover, .card-2Mz_4z:hover, .qualitySettingsContainer-1gOtRJ .select-2fjwPw:hover {
 	border: 1px solid var(--border-secondary)!important;
 }
 body {
