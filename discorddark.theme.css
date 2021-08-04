@@ -35,7 +35,8 @@
 	--gray-button: #4f545c;                                         /*                                                                        */
 	--gray-button-hover: #646970;                                   /*                                                                        */
 	--gray-button-border: #919599;                                  /* Icons Size                                                             */
-	--settingsiconssize: 18px;                                      /* Icons Gap                                                              */
+	--settingsiconssize: 18px;                                      /* Gift and GIF Buttons (none | block)                                    */
+	--GIFtButtons: none;                                            /* Icons Gap                                                              */
 	--settingsiconsgap: 14px;                                       /* Settings Sidebar Width                                                 */
 	--sidebar-width: 245px;                                       	/* Scrollbar Width                                                        */
 	--scrollbar-width: 8px;																					/* Discord Opacity | Transparency Needs to be Enabled                     */
@@ -194,7 +195,7 @@
 
 /* Hide GIF, and Gift Buttons */
 .buttonContainer-28fw2U:not(.send-button) .button-3AYNKb:not(.stickerButton-3OEgwj), .buttons-3JBrkn > .button-38aScr > :not(.translateButton-DhP9x8) {
-	display: none!important;
+	display: var(--GIFtButtons)!important;
 }
 
 /* Scrollbar */
