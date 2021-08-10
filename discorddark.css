@@ -69,7 +69,7 @@
 .containerDefault--pIXnN.selected-3LIHYU .content-1x5b-n:hover, .item-PXvHYJ:hover.selected-3s45Ha:not(.tabBarItem-1b8RUP):not(.tabBarItem-2QyJ0U),
 .option-96V44q.selected-rZcOL-, .stickerInspected-2EM4w-, .item-PXvHYJ.selected-3s45Ha:not(.tabBarItem-1b8RUP):not(.tabBarItem-2QyJ0U), .bd-select-options,
 .connection-1fbD7X, .selected-3LIHYU .content-1x5b-n, .selected-3LIHYU .content-1x5b-n, .searchBar-3dMhjb, .searchBarComponent-32dTOx, .card-x5zW6z,
-.notice-3bPHh-, .tierHeaderContent-3t3DoO, .header-1VS4tm, .chatHeaderBar-4vZS1x {
+.notice-3bPHh-, .tierHeaderContent-3t3DoO, .header-1VS4tm, .chatHeaderBar-4vZS1x, .barBase-1c2Rfb {
 	background-image: var(--bgImage)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -181,6 +181,9 @@
 .selected-aXhQR6:hover, .searchBar-3dMhjb:hover, .searchBarComponent-32dTOx:hover, .unreadBar-3t3sYc:hover, .bd-search-wrapper:hover,
 .bd-select-option.selected:hover, .gameNameInput-385LoS:hover, .select-2fjwPw:hover {
 	border: 1px solid var(--border-secondary)!important;
+}
+.jumpToPresentBar-G1R9s6 {
+	opacity: 100;
 }
 body {
 	opacity: var(--discord-opacity)!important;
