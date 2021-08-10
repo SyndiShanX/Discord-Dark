@@ -1,0 +1,27 @@
+---
+---
+
+@import "";
+
+html {
+  zoom: 90%;
+  -moz-transform: scale(0.9);
+}
+
+body {
+  background-color: #1a1a1a;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+::-webkit-scrollbar-track-piece  {
+  background-color: #2f2f2f;
+}
+::-webkit-scrollbar-thumb:vertical {
+  height: 30px;
+  background-color: #666;
+}
