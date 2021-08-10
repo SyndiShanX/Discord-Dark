@@ -13,5 +13,6 @@ Note:
 You can Customize Settings Using the ThemeSettings Plugin by DevilBro (https://betterdiscord.app/plugin/ThemeSettings)
 
 Preview:
+
 ![Chat](https://syndishanx.github.io/Discord-Dark/Images/Discord-Dark-Chat.png)
 ![Settings](https://syndishanx.github.io/Discord-Dark/Images/Discord-Dark-Thumbnail.png)
