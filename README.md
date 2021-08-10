@@ -1,4 +1,4 @@
-![Icon](https://github.com/SyndiShanX/Discord-Dark/blob/main/Images/Discord-Dark-Icon.png)
+![Icon](https://syndishanx.github.io/Discord-Dark/Images/Discord-Dark-Icon.png)
 
 A Github Dark Theme for Discord
 
@@ -10,8 +10,8 @@ Installation:
 Copy discorddark.theme.css into your Better Discord Themes Folder
 
 Note:
-You can Customize the Colors/Images in the Theme CSS
+You can Customize Settings Using the ThemeSettings Plugin by DevilBro (https://betterdiscord.app/plugin/ThemeSettings)
 
 Preview:
-![Chat](https://github.com/SyndiShanX/Discord-Dark/blob/main/Images/Discord-Dark-Chat.png)
-![Settings](https://github.com/SyndiShanX/Discord-Dark/blob/main/Images/Discord-Dark-Settings.png)
+![Chat](https://syndishanx.github.io/Discord-Dark/Images/Discord-Dark-Chat.png)
+![Settings](https://syndishanx.github.io/Discord-Dark/Images/Discord-Dark-Thumbnail.png)
