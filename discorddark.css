@@ -1,3 +1,16 @@
+/* Update Warning */
+#app-mount .app-2rEoOp::before {
+    content: "Your version of Discord Dark is outdated. Please download the newest version from: https://betterdiscord.app/theme/Discord Dark";
+    display: var(--version-1-15, block);
+    background-color: #4a90e2;
+    color: #fff;
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 500;
+    text-align: center;
+    z-index: 99;
+}
+
 /* Syntax Naming  */
 .hljs.css::before {content: "CSS\00000a\00000a";}
 .hljs.js::before {content: "Javascript\00000a\00000a";}
