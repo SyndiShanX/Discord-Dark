@@ -15,7 +15,7 @@
 
 :root {
 	--theme: Discord Dark by SyndiShanX;														/* Update Warning                                                         */
-	--version-1-15: none;																							/* Replaces Default Discord Colors                                        */
+	--version-1-15: none;																						/* Replaces Default Discord Colors                                        */
 	--background-primary: rgba(0, 0, 0, 0);                         /*                                                                        */
 	--background-tertiary: rgba(0, 0, 0, 0.5);                      /*                                                                        */
 	--border-primary: #5c5c5c;                                      /*                                                                        */
