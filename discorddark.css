@@ -82,7 +82,7 @@
 .containerDefault--pIXnN.selected-3LIHYU .content-1x5b-n:hover, .item-PXvHYJ:hover.selected-3s45Ha:not(.tabBarItem-1b8RUP):not(.tabBarItem-2QyJ0U), .option-96V44q.selected-rZcOL-,
 .stickerInspected-2EM4w-, .item-PXvHYJ.selected-3s45Ha:not(.tabBarItem-1b8RUP):not(.tabBarItem-2QyJ0U), .bd-select-options, .connection-1fbD7X, .selected-3LIHYU .content-1x5b-n,
 .selected-3LIHYU .content-1x5b-n, .searchBar-3dMhjb, .searchBarComponent-32dTOx, .card-x5zW6z, .notice-3bPHh-, .tierHeaderContent-3t3DoO, .header-1VS4tm, .chatHeaderBar-4vZS1x,
-.barBase-1c2Rfb, .role-2irmRk {
+.barBase-1c2Rfb {
 	background-image: var(--bgImage)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -111,7 +111,7 @@ div.theme-dark .messageContainer-1DiFnQ, .scrollerInner-2YIMLh, .expandedFolderB
 .item-PXvHYJ:hover:not(.item-3HknzM):not(.tabBarItem-1b8RUP):not(.tabBarItem-2QyJ0U), .item-2J2GlB:hover, .layout-2DM8Md:hover, .clickable-1JJAn8 .layout-2DM8Md:hover,
 .content-1x5b-n:hover, .peopleListItem-2nzedh:hover, .css-rzbxvl-option:hover, .css-1yz4bi9-option:hover, .css-1ba14n5-option:hover, .container-_phMUq:hover,
 .memberRow-1wwtfV.emptyRowContainer-1OKxeI:hover, .memberRow-1wwtfV, .inviteRow-2L02ae:hover, .sticker-2cpdZp:hover, .emojiItem-14v6tW:hover, .selected-3LIHYU .content-1x5b-n:hover,
-.card-3AyPWq:hover, .radioBar-bMNUI-:hover, .unreadBar-3t3sYc:hover, .base-1pYU8j:hover, .select-2fjwPw:hover, .option-3KoAJB {
+.card-3AyPWq:hover, .radioBar-bMNUI-:hover, .unreadBar-3t3sYc:hover, .base-1pYU8j:hover, .select-2fjwPw:hover, .option-3KoAJB, .role-2irmRk {
 	background-image: var(--bgDarkness2)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -305,6 +305,19 @@ h2.name-3l27Hl, h2.membersGroup-v9BXpm, .name-3l27Hl .overflow-WK9Ogt {
 	border-color: var(--gray-button-border)!important;
 }
 
+/* Pin Home Button - DoggyBootsy */
+.guilds-1SWlCJ .tree-2wKJdG:focus {
+  outline-color: transparent;
+}
+.guilds-1SWlCJ .scroller-1Bvpku {
+  contain: unset;
+  margin-top: 56px;
+}
+.guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 {
+  position: fixed;
+  transform: translatey(-100%);
+}
+
 /* Revert Role Design - Ashtrath */
 .role-2irmRk{
 	background: transparent;
@@ -322,19 +335,6 @@ h2.name-3l27Hl, h2.membersGroup-v9BXpm, .name-3l27Hl .overflow-WK9Ogt {
 	height: 10px;
 }
 
-/* Pin Home Button - DoggyBootsy */
-.guilds-1SWlCJ .tree-2wKJdG:focus {
-  outline-color: transparent;
-}
-.guilds-1SWlCJ .scroller-1Bvpku {
-  contain: unset;
-  margin-top: 56px;
-}
-.guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 {
-  position: fixed;
-  transform: translatey(-100%);
-}
-
 /* Channel Hover Animation - Xyhlo */
 .mainContent-u_9PKf:hover {
 	animation: UserModalButtons 0.5s normal ease;
@@ -343,11 +343,8 @@ h2.name-3l27Hl, h2.membersGroup-v9BXpm, .name-3l27Hl .overflow-WK9Ogt {
 	width: 100px;
 	opacity: 1;
 }
-.mainContent-u_9PKf {
+.mainContent-u_9PKf, .mainContent-u_9PKf:hover {
 	transition: 0.2s;
-}
-.mainContent-u_9PKf:hover {
-	transition: 0.2;
 }
 @keyframes UserModalButtons {
 	0% {
