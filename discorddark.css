@@ -305,6 +305,23 @@ h2.name-3l27Hl, h2.membersGroup-v9BXpm, .name-3l27Hl .overflow-WK9Ogt {
 	border-color: var(--gray-button-border)!important;
 }
 
+/* Revert Role Design - Ashtrath */
+.role-2irmRk{
+	background: transparent;
+	border: 1px solid;
+	border-radius: 11px;
+}
+.roleCircle-3xAZ1j {
+	margin-left: 0;
+}
+.addButton-pcyyf6.role-2irmRk {
+	border-color: #4f545c;
+}
+.addButtonIcon-1NMJ8u {
+	width: 10px;
+	height: 10px;
+}
+
 /* Pin Home Button - DoggyBootsy */
 .guilds-1SWlCJ .tree-2wKJdG:focus {
   outline-color: transparent;
@@ -315,7 +332,33 @@ h2.name-3l27Hl, h2.membersGroup-v9BXpm, .name-3l27Hl .overflow-WK9Ogt {
 }
 .guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 {
   position: fixed;
-  transform: translatey( -100% );
+  transform: translatey(-100%);
+}
+
+/* Channel Hover Animation - Xyhlo */
+.mainContent-u_9PKf:hover {
+	animation: UserModalButtons 0.5s normal ease;
+}
+.mainContent-u_9PKf .noWrap-3jynv6 {
+	width: 100px;
+	opacity: 1;
+}
+.mainContent-u_9PKf {
+	transition: 0.2s;
+}
+.mainContent-u_9PKf:hover {
+	transition: 0.2;
+}
+@keyframes UserModalButtons {
+	0% {
+		transform: translateY(0px);
+	}
+	45% {
+		transform: translateY(-2px);
+	}
+	90% {
+		transform: translateY(0px);
+	}
 }
 
 /* Align Settings Sidebar to the Left */
