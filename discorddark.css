@@ -239,10 +239,15 @@ h2.name-3l27Hl, h2.membersGroup-v9BXpm, .name-3l27Hl .overflow-WK9Ogt {
 .text-1FOLJS, .title-LqAd9K, .title-Z_XiOC, .contents-18-Yxp, .footerTitle-2CYZch, .nameInput-2LpnKg .inputWrapper-31_8H8 .input-cIJ7To, .lookOutlined-3sRXeN .contents-18-Yxp {
 	color: #fff!important;
 }
-.message-2qnXI6, .message-2qnXI6:hover {
+.message-2qnXI6.groupStart-23k01U, .message-2qnXI6.groupStart-23k01U:hover {
 	margin-top: .125rem!important;
 	padding-top: .5rem!important;
 	padding-bottom: .5rem!important;
+}
+.message-2qnXI6:not(.groupStart-23k01U), .message-2qnXI6:hover:not(.groupStart-23k01U) {
+	padding-top: 0px!important;
+	padding-bottom: .5rem!important;
+	transform: translateY(-.5rem);
 }
 .tabBarItem-3dfX8P, .tabBarItem-3dfX8P:hover {
 	border-radius: 5px!important;
