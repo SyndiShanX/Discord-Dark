@@ -244,6 +244,12 @@ h2.name-3l27Hl, h2.membersGroup-v9BXpm, .name-3l27Hl .overflow-WK9Ogt {
 	padding-top: .5rem!important;
 	padding-bottom: .5rem!important;
 }
+.backgroundFlash-24qWLN {
+	transform: translateY(-.5rem)!important;
+}
+.backgroundFlash-24qWLN .message-2qnXI6 {
+	transform: translateY(.5rem)!important;
+}
 .message-2qnXI6:not(.groupStart-23k01U), .message-2qnXI6:hover:not(.groupStart-23k01U) {
 	padding-top: 0px!important;
 	transform: translateY(-.5rem);
