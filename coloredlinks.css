@@ -1,0 +1,91 @@
+/* Colored Links - リュック ー */
+/* YouTube */
+[href*="youtu.be"],
+[href*="youtube.com"] {
+	color:#c4302b !important;
+	font-weight: 700;
+}
+/* Twitch */
+[href*="twitch.tv"] {
+	color:#b700ff !important;
+	font-weight: 700;
+}
+/* Discord */
+[href*="discord.com/channels/"] {
+	color:#7289da !important;
+}
+[href*="discord.com/channels/"]::before {
+	content:'Jump to Message : ';
+	font-size:16px;
+	font-weight:700;
+	color: #603cff;
+}
+[href*="betterdiscord.app/"],
+[href*="discord.gg/"],
+[href*="discord.com/"],
+[href*="media.discordapp.net/"],
+[href*="cdn.discordapp.com/"] {
+	color:#7289da !important;
+	font-weight: 700;
+}
+/* Reddit */
+[href*="reddit.com"],
+[href*="redd.it"] {
+	color:#e05a0c !important; 
+	font-weight: 700;
+}
+/* Instagram */
+[href*="instagram.com/"]{
+	background: -webkit-linear-gradient(80deg, rgb(255, 238, 0), rgb(255, 157, 11), #b700ff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 700;
+} 
+/* Twitter */
+[href*="twitter.com/"]{
+	color:#00acee !important;
+	font-weight: 700;
+}
+/* GitHub */
+[href*="github.com"]{
+	color:#00f0a8 !important;
+	font-weight: 700;
+}
+/* Facebook */
+[href*="facebook.com"]{
+	color:#3b5998 !important;
+	font-weight: 700;
+}
+/* Imgur */
+[href*="i.imgur.com"]{
+	color:#89C623 !important;
+	font-weight: 700;
+}
+/* Medal.tv */
+[href*="medal.tv"] {
+	color:#977547 !important; 
+	font-weight: 700;
+}
+/* Steam */
+[href*="store.steampowered.com"],
+[href*="https://s.team"],
+[href*="steamcommunity.com/"] {
+	color:#1b2838 !important; 
+	font-weight: 700;
+}
+/* Soundcloud */
+[href*="soundcloud.com"] {
+	color:#ff7700 !important; 
+	font-weight: 700;
+}
+/* osu! */
+[href*="osu.ppy.sh/"] {
+	color:#ff66aa !important; 
+	font-weight: 700;
+}
+/* Spotify */
+[href*="spotify.com"],
+[href*="open.spotify.com"]{
+	color:#13B94A !important; 
+	font-weight: 700;
+}
