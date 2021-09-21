@@ -1,4 +1,4 @@
-/* Update Warning */
+/* Update Warning - _david_ */
 #app-mount .app-2rEoOp::before {
 	content: "Your version of Discord Dark is outdated. Please download the newest version from: https://betterdiscord.app/theme/Discord Dark";
 	display: var(--version-1-15, block);
@@ -11,7 +11,7 @@
 	z-index: 99;
 }
 
-/* Syntax Naming  */
+/* Syntax Naming - CodeDotSpectra */
 .hljs.css::before {content: "CSS\00000a\00000a";}
 .hljs.js::before {content: "Javascript\00000a\00000a";}
 .hljs.php::before {content: "PHP\00000a\00000a";}
