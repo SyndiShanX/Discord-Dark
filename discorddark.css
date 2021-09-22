@@ -1,7 +1,7 @@
 /* Update Warning - _david_ */
 #app-mount .app-2rEoOp::before {
 	content: "Your version of Discord Dark is outdated. Please download the newest version from: https://betterdiscord.app/theme/Discord Dark";
-	display: var(--version-1-15, block);
+	display: var(--version-1-16, block);
 	background-color: #4a90e2;
 	color: #fff;
 	font-size: 14px;
