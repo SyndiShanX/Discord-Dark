@@ -82,7 +82,7 @@
 .containerDefault--pIXnN.selected-3LIHYU .content-1x5b-n:hover, .item-PXvHYJ:hover.selected-3s45Ha:not(.tabBarItem-1b8RUP):not(.tabBarItem-2QyJ0U):not(.tabBarItem-3dfX8P),
 .option-96V44q.selected-rZcOL-, .stickerInspected-2EM4w-, .item-PXvHYJ.selected-3s45Ha:not(.tabBarItem-1b8RUP):not(.tabBarItem-2QyJ0U):not(.tabBarItem-3dfX8P), .bd-select-options,
 .connection-1fbD7X, .selected-3LIHYU .content-1x5b-n, .selected-3LIHYU .content-1x5b-n, .searchBar-3dMhjb, .searchBarComponent-32dTOx, .card-x5zW6z, .notice-3bPHh-,
-.tierHeaderContent-3t3DoO, .header-1VS4tm, .chatHeaderBar-4vZS1x, .barBase-1c2Rfb, .bar-m8LgSC {
+.tierHeaderContent-3t3DoO, .header-1VS4tm, .chatHeaderBar-4vZS1x, .barBase-1c2Rfb, .bar-m8LgSC, .threadSuggestionBar-2ufK2Z {
 	background-image: var(--bgImage)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -96,7 +96,7 @@
 .footer-2yA7Ep, .textContainer-C0szpm, .container-UC8Ug1, .queryContainer-RKFJW-, .scroller-1d5FgU, .peopleList-3c4jOR, .scroller-2ZPeAD, .button-14-BFJ:hover, .videoGrid-1khsrF,
 .resultsGroup-r_nuzN, .previewCard-DOrO3c, .card-3_CqkU, .scroller-1J_F7B, .css-1ba14n5-option, .circleButton-3RB01i, .perksModal-fSYqOq, .input-3Xdcic,
 div.theme-dark .messageContainer-1DiFnQ, .scrollerInner-2YIMLh, .expandedFolderBackground-3ZDF05, .folderIconWrapper-1Ml_1q, .contentRegionScroller-26nc1e.auto-Ge5KZx.scrollerBase-289Jih,
-.form-2fGMdU, .unreadBar-3t3sYc, .peopleColumn-29fq28, .nowPlayingColumn-2sl4cE, .content-1o0f9g {
+.form-2fGMdU, .unreadBar-3t3sYc, .peopleColumn-29fq28, .nowPlayingColumn-2sl4cE, .content-1o0f9g, .folderIconWrapper-1_bOZe, .expandedFolderBackground-1cujaW {
 	background-image: var(--bgDarkness1)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
