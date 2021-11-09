@@ -44,7 +44,7 @@
 	--settingsiconsgap: 14px;                                       /* Settings Sidebar Width                                                 */
 	--sidebar-width: 245px;                                       	/* Scrollbar Width                                                        */
 	--scrollbar-width: 8px;																					/* Discord Opacity | Transparency Needs to be Enabled                     */
-	--discord-opacity: 1.0;                                         /* Images are Stored here to improve Loading times, more info in css file */       
+	--discord-opacity: 1.0;                                         /* Images are Stored here to improve Loading times, more info in css file */
 	/*
 		Images are Stored here to improve Loading times, to get the Image Code:
 	  Open https://codebeautify.org/image-to-base64-converter in a Browser, Upload the Image,
