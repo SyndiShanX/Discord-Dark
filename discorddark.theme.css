@@ -2,7 +2,7 @@
  * @name Discord Dark
  * @description A Github Dark Theme for Discord, meant to be used with Discord Dark Mode
  * @author SyndiShanX#4620
- * @version 1.16
+ * @version 1.17
  * @website https://syndishanx.github.io/Discord-Dark
  * @source https://github.com/SyndiShanX/Discord-Dark
 */
@@ -13,9 +13,12 @@
 /* Icons by mwittrien/Mirco Wittrien */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 
+/* Invites Redesign - Disease */
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
+
 :root {
 	--theme: Discord Dark by SyndiShanX;                           /* Update Warning                                                         */
-	--version-1-16: none;                                          /* Replaces Default Discord Colors                                        */
+	--version-1-17: none;                                          /* Replaces Default Discord Colors                                        */
 	--background-primary: rgba(0, 0, 0, 0);                        /*                                                                        */
 	--background-tertiary: rgba(0, 0, 0, 0.5);                     /*                                                                        */
 	--border-primary: #5c5c5c;                                     /*                                                                        */
