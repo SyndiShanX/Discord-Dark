@@ -2,7 +2,7 @@
  * @name Discord Dark
  * @description A Github Dark Theme for Discord, meant to be used with Discord Dark Mode
  * @author SyndiShanX#4620
- * @version 1.17
+ * @version 1.18
  * @website https://syndishanx.github.io/Discord-Dark
  * @source https://github.com/SyndiShanX/Discord-Dark
 */
@@ -18,7 +18,7 @@
 
 :root {
 	--theme: Discord Dark by SyndiShanX;                           /* Update Warning                                                         */
-	--version-1-17: none;                                          /* Replaces Default Discord Colors                                        */
+	--version-1-18: none;                                          /* Replaces Default Discord Colors                                        */
 	--background-primary: rgba(0, 0, 0, 0);                        /*                                                                        */
 	--background-tertiary: rgba(0, 0, 0, 0.5);                     /*                                                                        */
 	--border-primary: #5c5c5c;                                     /*                                                                        */
