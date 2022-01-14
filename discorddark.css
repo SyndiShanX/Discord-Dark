@@ -432,6 +432,41 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 	line-height: 20px !important;
 }
 
+/* Discord Message Box v2 - Xyhlo */
+:root {
+	--color-brand-lighter: #4373c5;
+}
+.input-2z42oC,
+.scrollableContainer-15eg7h {
+	background-color: #292929;
+	transition: background-color 0.2s ease, border-color 0.2s ease;
+	border: 1px solid transparent;
+	outline: none;
+}
+.input-2z42oC:hover,
+.scrollableContainer-15eg7h:hover {
+	border-color: #4373c5;
+	background-color: #2e2c2c;
+	box-shadow: 0px 0px 3px 1px #4373c5; /*remove this to remove the glow*/
+}
+.input-cIJ7To:focus-within,
+.scrollableContainer-15eg7h:focus-within {
+	background-color: #2e2c2c;
+	border-color: var(--color-brand-lighter);
+	box-shadow: 0px 0px 3px 1px #4373c5; /*remove this to remove the glow*/
+}
+.scrollableContainer-15eg7h {
+	border: 1px solid transparent;
+	border-radius: 3px; /* Edit this in order to change the shape of the text box */
+}
+.jumpToPresentBar-1cEnH0{
+	border: 1px solid transparent;
+	border-radius: 5px;
+	width: 370px;
+	margin-left: 1px;
+	margin-bottom: -3px!important;
+}
+
 /* Align Settings Sidebar to the Left */
 .sidebar-nqHbhN {
 	margin-right: auto;
