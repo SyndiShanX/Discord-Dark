@@ -382,6 +382,22 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 	height: 10px;
 }
 
+/* Profile Buttons Animation - Xyhlo */
+.button-12Fmur:hover .contents-3ca1mk {
+	animation: UserModalButtons 0.5s normal ease;
+}
+.container-YkUktl .noWrap-hBpHBz {
+	width: 100px;
+	opacity: 1;
+}
+.button-12Fmur {
+	transition: 0.2s;
+}
+.button-12Fmur:hover {
+	padding-bottom: 0px;
+	transition: 0.2;
+}
+
 /* Channel Hover Animation - Xyhlo */
 .mainContent-20q_Hp:hover {
 	animation: UserModalButtons 0.5s normal ease;
@@ -404,24 +420,6 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 		transform: translateY(0px);
 	}
 }
-
-/* Profile Buttons Animation - Xyhlo */
-.button-12Fmur:hover .contents-3ca1mk {animation: UserModalButtons 0.5s normal ease;}
-.container-YkUktl .noWrap-hBpHBz {width: 100px;opacity: 1;}
-.button-12Fmur {transition: 0.2s;}
-.button-12Fmur:hover {padding-bottom: 0px;transition: 0.2;}
-@keyframes UserModalButtons {
-	0% {
-		transform: translateY(0px);
-	}
-	50% {
-		transform: translateY(-5px);
-	}
-	100% {
-		transform: translateY(0px);
-	}
-}
-
 
 /* Redesign Discord Toasts to look like BD's - The Commie Axolotl */
 .toast-q3Y4wI {
