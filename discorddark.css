@@ -286,6 +286,9 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 .content-2Lxwdo {
 	margin-bottom: 10px;
 }
+#channels {
+	background-image: none!important;
+}
 
 /* Buttons */
 /* Hover Color Change: -23, -50, -31 */
@@ -380,6 +383,11 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 .addButtonIcon-3HZ_2f {
 	width: 10px;
 	height: 10px;
+}
+
+/* Hide Help Icon - Xyhlo */
+.toolbar-3_r2xA a {
+	display: none;
 }
 
 /* Profile Buttons Animation - Xyhlo */
@@ -500,11 +508,4 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 }
 .layer-86YKbF[aria-label="GUILD_SETTINGS"] .sidebarRegion-1VBisG {
 	max-width: 90%;
-}
-
-/* Temp Fix for Send Button - SyndiShanX */
-.buttonWrapper-1ZmCpA[aria-label="Send Message"] {
-	background-color: transparent;
-	top: 10px;
-	position: sticky;
 }
