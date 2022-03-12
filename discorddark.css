@@ -84,7 +84,8 @@
 .connection-107AGH, .selected-2TbFuo .content-1gYQeQ, .selected-2TbFuo .content-1gYQeQ, .searchBar-zdmu7v, .searchBarComponent-3N7dCG, .card-x5zW6z, .notice-2HEN-u powercord-announcement,
 .tierHeaderContent-2SPBAA, .header-3_zmOb, .chatHeaderBar-2fUORh, .barBase-3xxDXu, .bar-2MWHzg, .threadSuggestionBar-3ExSyc, .body-2VgEvc, .footer-3YL3ds, .select-1Ia3hD,
 .avatarUploaderInnerSquareDisabled-e_U2MZ, .previewContainer-1GxmBJ, .connectionOptionsWrapper-1ipqUo, .featureCard-3XHbjy, .analyticsCard-2fnrVG, .developerPortalCtaWrapper-2PniQs,
-.tag-ijGVSm, .subcategory-1zDTD3, .enableContainer-1J91Aq, .settingsFormItem-25zW3t, .formFieldWrapper-2LV3S6, .previewContainer-29oeA6, .spoilerText-27bIiA, .upload-vLbqu- {
+.tag-ijGVSm, .subcategory-1zDTD3, .enableContainer-1J91Aq, .settingsFormItem-25zW3t, .formFieldWrapper-2LV3S6, .previewContainer-29oeA6, .spoilerText-27bIiA, .upload-vLbqu-,
+.ChannelDms-channelpopout-collapseButton:hover, .optionContainer-yOpaLq:hover, .container-1wv6C6 {
 	background-image: var(--bgImage)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -99,7 +100,7 @@
 .resultsGroup-1BPR25, .previewCard-DOrO3c, .card-3_CqkU, .scroller-1J_F7B, .css-1ba14n5-option, .circleButton-33AIyY, .perksModal-fSYqOq, .input-2m5SfJ,
 div.theme-dark .messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1kSAf6, .folderIconWrapper-1oRIZr, .contentRegionScroller-2_GT_N.auto-2K3UW5.scrollerBase-_bVAAt,
 .form-3gdLxP, .unreadBar-elBRZx, .peopleColumn-1wMU14, .nowPlayingColumn-1eCBCN, .content-3spvdd, .folderIconWrapper-1_bOZe, .expandedFolderBackground-1cujaW, .loadingPopout-1feYe_,
-.wrapper-2h7HDT, .upload-3GTSF9, .popout-TdhJ6Z, .checklistItem-1gWPPD {
+.wrapper-2h7HDT, .upload-3GTSF9, .popout-TdhJ6Z, .checklistItem-1gWPPD, .optionContainer-yOpaLq {
 	background-image: var(--bgDarkness1)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -141,7 +142,8 @@ div.theme-dark .messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderB
 .fieldList-in8WkP, .accountProfileCard-lbN7n-, .profileBannerPreview-3_l0Wd, .container-1oeRFJ.clickable-28SzVr, .clipContainer-31nYlH, .tierBody-1d3UiS, .wrapper-24fR1R, .box-J4N4jE,
 .container-3i3IzO, .iconWrapper-3plkqh, .list-1uSVgu, .tutorialContainer-2sGCg9, .tree-3agP2X, .container-2c4_8A, .header-3_zmOb, .browser-mnQ1T7, .container-3O_wAf,
 .scrollerBase-_bVAAt[aria-label="Channels"] .content-2a4AW9 > div:not(:nth-child(1)):not(:nth-child(2)), .container-1NXEtd, .container-1-ERn5:not(.bannerVisible-Vkyg1I) .header-3OsQeK,
-.container-2o3qEW, .wrapperAudio-1Bzv_Z, .bd-error-modal-footer, .modal-3Hrb0S, .checklistHeader-3liG7E, .footer-3naVBw, .topPill-3DJJNV {
+.container-2o3qEW, .wrapperAudio-1Bzv_Z, .bd-error-modal-footer, .modal-3Hrb0S, .checklistHeader-3liG7E, .footer-3naVBw, .topPill-3DJJNV, .ChannelDms-channelpopout-header,
+.ChannelDms-channelpopout-collapseButton, .quickswitcher-pKcM9U {
 	background-image: var(--bgDarkness3)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -252,7 +254,7 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 	color: var(--blue-button-hover)!important;
 }
 .text-PdAsFQ, .title-OdeD-o, .title-2Giw-4, .contents-18-Yxp, .footerTitle-3Bslxi, .nameInput-ph8KMi .inputWrapper-1YNMmM .input-2g-os5, .lookOutlined-3sRXeN .contents-18-Yxp, .bd-settings-title,
-.bd-error-modal {
+.bd-error-modal, .title-1_TkpU, .size16-rrJ6ag, .size24-17l95E, .size14-3fJ-ot {
 	color: #fff!important;
 }
 .message-2CShn3.groupStart-3Mlgv1, .message-2CShn3.groupStart-3Mlgv1:hover {
@@ -344,13 +346,13 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 
 /* Gray */
 .button-f2h6uQ.colorPrimary-2AuQVo, .colorGrey-2iAG-B, .passthrough--fbdFR.selected-3jieYB, .leftTrayIcon-3kMl25, .primaryDark-2UJt1G, .selected-2LAck8, .watchButton-2v6cPT,
-.lookOutlined-3sRXeN, .dismiss-3oneud {
+.lookOutlined-3sRXeN, .dismiss-3oneud, .sizeMin-DfpWCE {
 	background-color: var(--gray-button)!important;
 	border-color: var(--gray-button-border)!important;
 	color: #fff!important;
 }
 .button-f2h6uQ.colorPrimary-2AuQVo:hover, .colorGrey-2iAG-B:hover, .passthrough--fbdFR.selected-3jieYB:hover, .leftTrayIcon-3kMl25:hover, .primaryDark-2UJt1G:hover,
-.selected-2LAck8:hover, .watchButton-2v6cPT:hover, .lookOutlined-3sRXeN:hover, .dismiss-3oneud:hover {
+.selected-2LAck8:hover, .watchButton-2v6cPT:hover, .lookOutlined-3sRXeN:hover, .dismiss-3oneud:hover, .sizeMin-DfpWCE:hover {
 	background-color: var(--gray-button-hover)!important;
 	border-color: var(--gray-button-border)!important;
 }
