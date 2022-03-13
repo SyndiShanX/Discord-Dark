@@ -11,71 +11,7 @@
 	z-index: 99;
 }
 
-/* Syntax Naming - CodeDotSpectra */
-.hljs.css::before {content: "CSS\00000a\00000a";}
-.hljs.js::before {content: "Javascript\00000a\00000a";}
-.hljs.php::before {content: "PHP\00000a\00000a";}
-.hljs.java::before {content: "Java\00000a\00000a";}
-.hljs.csharp::before {content: "C#\00000a\00000a";}
-.hljs.c::before {content: "C\00000a\00000a";}
-.hljs.cpp::before {content: "C++\00000a\00000a";}
-.hljs.coffeescript::before {content: "Coffeescript\00000a\00000a";}
-.hljs.bash::before {content: "Bash\00000a\00000a";}
-.hljs.bat::before {content: "Batch\00000a\00000a";}
-.hljs.html::before {content: "HTML\00000a\00000a";}
-.hljs.apache::before {content: "Apache\00000a\00000a";}
-.hljs.diff::before {content: "Diff\00000a\00000a";}
-.hljs.http::before {content: "HTTP\00000a\00000a";}
-.hljs.json::before {content: "JSON\00000a\00000a";}
-.hljs.markdown::before {content: "Markdown\00000a\00000a";}
-.hljs.makfile::before {content: "Makefile\00000a\00000a";}
-.hljs.nginx::before {content: "Nginx\00000a\00000a";}
-.hljs.perl::before {content: "Perl\00000a\00000a";}
-.hljs.properties::before {content: "Properties\00000a\00000a";}
-.hljs.ruby::before {content: "Ruby\00000a\00000a";}
-.hljs.python::before {content: "Python\00000a\00000a";}
-.hljs.shell::before {content: "Shell\00000a\00000a";}
-.hljs.sql::before {content: "SQL\00000a\00000a";}
-.hljs.powershell::before {content: "PowerShell\00000a\00000a";}
-.hljs.xml::before {content: "XML\00000a\00000a";}
-.hljs.objectivec::before {content: "Objective-C\00000a\00000a";}
-.hljs.CSS::before {content: "CSS\00000a\00000a";}
-.hljs.py::before {content: "PY\00000a\00000a";}
-.hljs.ts::before {content: "TypeScript\00000a\00000a";}
-.hljs.typescript::before {content: "TypeScript\00000a\00000a";}
-.hljs.scss::before {content: "SCSS\00000a\00000a";}
-.hljs.sass::before {content: "SASS\00000a\00000a";}
-.hljs.less::before {content: "Less CSS\00000a\00000a";}
-.hljs.swift::before {content: "Swift\00000a\00000a";}
-.hljs.autoit::before {content: "AutoIt\00000a\00000a";}
-.hljs.basic::before {content: "BASIC\00000a\00000a";}
-.hljs.lisp::before {content: "Lisp\00000a\00000a";}
-.hljs.lua::before {content: "Lua\00000a\00000a";}
-.hljs.m::before {content: "M\00000a\00000a";}
-.hljs.javascript::before {content: "Javascript\00000a\00000a";}
-.hljs.pascal::before {content: "Pascal\00000a\00000a";}
-.hljs.clean::before {content: "Clean\00000a\00000a";}
-.hljs.erlang::before {content: "Erlang\00000a\00000a";}
-.hljs.fsharp::before {content: "F#\00000a\00000a";}
-.hljs.kotlin::before {content: "Kotlin\00000a\00000a";}
-.hljs.rs::before {content: "Rust\00000a\00000a";}
-.hljs.rust::before {content: "Rust\00000a\00000a";}
-.hljs.hs::before {content: "Haskell\00000a\00000a";}
-.hljs.haskell::before {content: "Haskell\00000a\00000a";}
-.hljs.go::before {content: "GO\00000a\00000a";}
-.hljs.asciidoc::before {content: "AsciiDoc\00000a\00000a";}
-.hljs.yaml::before {content: "YAML\00000a\00000a";}
-.hljs.x86asm::before {content: "x86asm\00000a\00000a";}
-.hljs.C::before {content: "C\00000a\00000a";}
-.hljs.cs::before {content: "C#\00000a\00000a";}
-.hljs.toml::before {content: "TOML\00000a\00000a";}
-.hljs.scheme::before {content: "Scheme\00000a\00000a";}
-.hljs.mips::before {content: "MIPS\00000a\00000a";}
-.hljs.MIPS::before {content: "MIPS\00000a\00000a";}
-.hljs.vb::before {content: "Visual Basic\00000a\00000a";}
-.hljs.VB::before {content: "Visual Basic\00000a\00000a";}
-.hljs.r::before {content: "R\00000a\00000a";}
-.hljs.R::before {content: "R\00000a\00000a";}
+/* ---------- Background Images ---------- */
 
 /* Main Background Image */
 .contentRegion-3HkfJJ, .bd-description-wrap, .bd-footer, .selected-1-Z6gm .layout-1qmrhw, .selected-1-Z6gm .layout-1qmrhw:hover,
@@ -143,7 +79,7 @@ div.theme-dark .messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderB
 .container-3i3IzO, .iconWrapper-3plkqh, .list-1uSVgu, .tutorialContainer-2sGCg9, .tree-3agP2X, .container-2c4_8A, .header-3_zmOb, .browser-mnQ1T7, .container-3O_wAf,
 .scrollerBase-_bVAAt[aria-label="Channels"] .content-2a4AW9 > div:not(:nth-child(1)):not(:nth-child(2)), .container-1NXEtd, .container-1-ERn5:not(.bannerVisible-Vkyg1I) .header-3OsQeK,
 .container-2o3qEW, .wrapperAudio-1Bzv_Z, .bd-error-modal-footer, .modal-3Hrb0S, .checklistHeader-3liG7E, .footer-3naVBw, .topPill-3DJJNV, .ChannelDms-channelpopout-header,
-.ChannelDms-channelpopout-collapseButton, .quickswitcher-pKcM9U {
+.ChannelDms-channelpopout-collapseButton, .quickswitcher-pKcM9U, .body-2WIpo7 {
 	background-image: var(--bgDarkness3)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -152,6 +88,8 @@ div.theme-dark .messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderB
 	background-size: auto!important;
 	background-position: left top!important;
 }
+
+/* ---------- Main Tweaks ---------- */
 
 /* Hide GIF, and Gift Buttons */
 .buttonContainer-2lnNiN .button-f2h6uQ:not(.emojiButton-3FRTuj) .contents-3ca1mk:not(.translateButton-DhP9x8):not(.stickerButton-1-nFh2), .buttons-uaqb-5 > .button-f2h6uQ {
@@ -185,7 +123,7 @@ div.theme-dark .messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderB
 	background: rgba(75, 75, 75, 1)!important;
 }
 
-/* Main Tweaks */
+/* Misc */
 .inner-NQg18Y, .wrapper-1NNaWG.header-1ULbqO::after, .before_inlineCode-xn8Llh, .inlineContent-2YnoDy, .reaction-2A2y9y, .button-1_oXub.secondary-2bzKEX, .closeButton-3CiW2j,
 .channelHeader-DFRX8q, .wrapper-UvA17F, .stickerImageSection-7EUs8E, .gemIndicatorContainer-PqApbX, .button-1yVL_7, .inlineCode-2auMQi, .after_inlineCode-WydEur,
 .wrapper-1NNaWG.packHeader-w9jpYl::after, .tierMarkerBackground-G8FoN4, .bar-1g-wqp, .message-G6O-Wv, .optionContainer-1FtykV, .guildSidebar-pjuGkm, .formFieldWrapper-2LV3S6,
@@ -218,6 +156,9 @@ div.theme-dark .messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderB
 .bar-2MWHzg {
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
+}
+.menu-1QACrS, .menu-1QACrS .scroller-1bVxF5 { 
+	border-radius: 8px; 
 }
 body {
 	opacity: var(--discord-opacity)!important;
@@ -292,7 +233,8 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 	background-image: none!important;
 }
 
-/* Buttons */
+/* ---------- Buttons ---------- */
+
 /* Hover Color Change: -23, -50, -31 */
 .button-f2h6uQ, .bd-button, .item-4m-12I.selected-3jieYB, .leftTrayIcon-3kMl25, .staticButton-1oD4l7, .button-3Vyz67, .item-3XjbnG[aria-controls="ADD_FRIEND-tab"], .selected-2LAck8 {
 	border: 1px solid;
@@ -355,6 +297,27 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 .selected-2LAck8:hover, .watchButton-2v6cPT:hover, .lookOutlined-3sRXeN:hover, .dismiss-3oneud:hover, .sizeMin-DfpWCE:hover {
 	background-color: var(--gray-button-hover)!important;
 	border-color: var(--gray-button-border)!important;
+}
+
+/* ---------- CSS Snippets ---------- */
+
+/* Align Settings Sidebar to the Left - SyndiShanX */
+.sidebar-nqHbhN {
+	margin-right: auto;
+	margin-left: 0;
+}
+.sidebarRegion-1VBisG {
+	flex: 1 0 0;
+	max-width: var(--sidebar-width)!important;
+}
+.contentRegion-3HkfJJ {
+	flex: 1 1 100%;
+}
+.contentColumn-1C7as6, .customColumn-2n-oKU, .customScroller-m1-jZn>div, .exampleModal-2X2Vf8, .contentWidth-xLB44s, .stickersHero-rhTlUd, .notificationSettings-1U0JsJ {
+	max-width: 100%;
+}
+.layer-86YKbF[aria-label="GUILD_SETTINGS"] .sidebarRegion-1VBisG {
+	max-width: 90%;
 }
 
 /* Pin Home Button - DoggyBootsy */
@@ -431,6 +394,98 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 	}
 }
 
+/* Home Icon Animation on Click - The Commie Axolotl */
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	20% {
+		transform: rotate(-20deg);
+	}
+	70% {
+		transform: rotate(380deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.pill-L_aLMQ.bd-selected + .listItemWrapper-3d87LP .homeIcon-r0w4ny {
+	animation: spin 0.8s ease;
+}
+
+/* Context Menu Animation - Lonk */ 
+.menu-1QACrS, .emojiPicker-6YCk8a, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2o3qEW, .container-2ebMPP, .userPopout-2j1gM4 {
+	animation: custom-menu-animation 250ms ease;
+	transform-origin: top;
+}
+@keyframes custom-menu-animation {
+	0% {
+		transform: scaleY(0);
+	}
+	100% {
+		transform: scaleY(1);
+	}
+}
+
+/* Messages Slide In Chat - Lonk */
+@keyframes slide-up {
+	0% {
+		opacity: 0;
+		transform: translateX(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+.message-2CShn3 {
+  animation: slide-up 0.4s ease;
+}
+
+/* Better Jump To Present Button - Lonk */
+[class*="jumpToPresentBar"] {
+	display: contents;
+}
+[class*="jumpToPresentBar"] > button:first-child {
+	display: none;
+}
+[class*="jumpToPresentBar"] > button:last-child {
+	position: absolute;
+	z-index: 1;
+	bottom: 24px;
+	right: 22px;
+	padding: 8px !important;
+	height: auto;
+	background-color: #5865F2;
+	box-shadow: var(--elevation-high);
+	border-radius: 100px;
+	display: flex;
+	font-size: 0px;
+	color: transparent;
+	transition: font-size .2s .1s, color .2s, padding .4s .1s;
+}
+[class*="jumpToPresentBar"] > button svg {
+	order: -1;
+	margin: 0px;
+	height: 24px;
+	width: 24px;
+	top: auto;
+	margin-right: 0px;
+	margin-left: 0px;
+	color: #FFFFFF;
+	transition: margin .6s;
+}
+[class*="jumpToPresentBar"]:hover > button {
+	padding: 8px 18px !important;
+	font-size: 14px;
+	color: #FFFFFF;
+	transition: font-size .2s, color .2s .1s, padding .4s;
+}
+[class*="jumpToPresentBar"]:hover > button svg {
+	margin-right: 2px;
+	margin-left: -6px;
+}
+
 /* Redesign Discord Toasts to look like BD's - The Commie Axolotl */
 .toast-q3Y4wI {
 	background: #43b581 !important;
@@ -493,21 +548,85 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 	margin-bottom: -3px!important;
 }
 
-/* Align Settings Sidebar to the Left */
-.sidebar-nqHbhN {
-	margin-right: auto;
-	margin-left: 0;
+/* BD Settings on Top - Obscure */
+.bd-sidebar-header, [aria-controls="settings-tab"], [aria-controls="emotes-tab"], [aria-controls="customcss-tab"], [aria-controls="plugins-tab"],[aria-controls="themes-tab"], [aria-controls="themes-tab"]  + .separator-2wx7h6, [aria-controls="pluginrepo-tab"], [aria-controls="pluginrepo-tab"] + .separator-2wx7h6{
+  order: -1;
 }
-.sidebarRegion-1VBisG {
-	flex: 1 0 0;
-	max-width: var(--sidebar-width)!important;
+
+/* Edited Timestamps - Obscure */
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
+	content: " (" attr(aria-label) ")";
+	color: var(--text-muted);
+	font-size: 0.625rem;
+	font-weight: 400;
+	line-height: 1;
 }
-.contentRegion-3HkfJJ {
-	flex: 1 1 100%;
+.edited-1v5nT8:not(.message-translate-indicator) {
+	display: none;
 }
-.contentColumn-1C7as6, .customColumn-2n-oKU, .customScroller-m1-jZn>div, .exampleModal-2X2Vf8, .contentWidth-xLB44s, .stickersHero-rhTlUd, .notificationSettings-1U0JsJ {
-	max-width: 100%;
-}
-.layer-86YKbF[aria-label="GUILD_SETTINGS"] .sidebarRegion-1VBisG {
-	max-width: 90%;
-}
+
+/* Syntax Naming - CodeDotSpectra */
+.hljs.css::before {content: "CSS\00000a\00000a";}
+.hljs.js::before {content: "Javascript\00000a\00000a";}
+.hljs.php::before {content: "PHP\00000a\00000a";}
+.hljs.java::before {content: "Java\00000a\00000a";}
+.hljs.csharp::before {content: "C#\00000a\00000a";}
+.hljs.c::before {content: "C\00000a\00000a";}
+.hljs.cpp::before {content: "C++\00000a\00000a";}
+.hljs.coffeescript::before {content: "Coffeescript\00000a\00000a";}
+.hljs.bash::before {content: "Bash\00000a\00000a";}
+.hljs.bat::before {content: "Batch\00000a\00000a";}
+.hljs.html::before {content: "HTML\00000a\00000a";}
+.hljs.apache::before {content: "Apache\00000a\00000a";}
+.hljs.diff::before {content: "Diff\00000a\00000a";}
+.hljs.http::before {content: "HTTP\00000a\00000a";}
+.hljs.json::before {content: "JSON\00000a\00000a";}
+.hljs.markdown::before {content: "Markdown\00000a\00000a";}
+.hljs.makfile::before {content: "Makefile\00000a\00000a";}
+.hljs.nginx::before {content: "Nginx\00000a\00000a";}
+.hljs.perl::before {content: "Perl\00000a\00000a";}
+.hljs.properties::before {content: "Properties\00000a\00000a";}
+.hljs.ruby::before {content: "Ruby\00000a\00000a";}
+.hljs.python::before {content: "Python\00000a\00000a";}
+.hljs.shell::before {content: "Shell\00000a\00000a";}
+.hljs.sql::before {content: "SQL\00000a\00000a";}
+.hljs.powershell::before {content: "PowerShell\00000a\00000a";}
+.hljs.xml::before {content: "XML\00000a\00000a";}
+.hljs.objectivec::before {content: "Objective-C\00000a\00000a";}
+.hljs.CSS::before {content: "CSS\00000a\00000a";}
+.hljs.py::before {content: "PY\00000a\00000a";}
+.hljs.ts::before {content: "TypeScript\00000a\00000a";}
+.hljs.typescript::before {content: "TypeScript\00000a\00000a";}
+.hljs.scss::before {content: "SCSS\00000a\00000a";}
+.hljs.sass::before {content: "SASS\00000a\00000a";}
+.hljs.less::before {content: "Less CSS\00000a\00000a";}
+.hljs.swift::before {content: "Swift\00000a\00000a";}
+.hljs.autoit::before {content: "AutoIt\00000a\00000a";}
+.hljs.basic::before {content: "BASIC\00000a\00000a";}
+.hljs.lisp::before {content: "Lisp\00000a\00000a";}
+.hljs.lua::before {content: "Lua\00000a\00000a";}
+.hljs.m::before {content: "M\00000a\00000a";}
+.hljs.javascript::before {content: "Javascript\00000a\00000a";}
+.hljs.pascal::before {content: "Pascal\00000a\00000a";}
+.hljs.clean::before {content: "Clean\00000a\00000a";}
+.hljs.erlang::before {content: "Erlang\00000a\00000a";}
+.hljs.fsharp::before {content: "F#\00000a\00000a";}
+.hljs.kotlin::before {content: "Kotlin\00000a\00000a";}
+.hljs.rs::before {content: "Rust\00000a\00000a";}
+.hljs.rust::before {content: "Rust\00000a\00000a";}
+.hljs.hs::before {content: "Haskell\00000a\00000a";}
+.hljs.haskell::before {content: "Haskell\00000a\00000a";}
+.hljs.go::before {content: "GO\00000a\00000a";}
+.hljs.asciidoc::before {content: "AsciiDoc\00000a\00000a";}
+.hljs.yaml::before {content: "YAML\00000a\00000a";}
+.hljs.x86asm::before {content: "x86asm\00000a\00000a";}
+.hljs.C::before {content: "C\00000a\00000a";}
+.hljs.cs::before {content: "C#\00000a\00000a";}
+.hljs.toml::before {content: "TOML\00000a\00000a";}
+.hljs.scheme::before {content: "Scheme\00000a\00000a";}
+.hljs.mips::before {content: "MIPS\00000a\00000a";}
+.hljs.MIPS::before {content: "MIPS\00000a\00000a";}
+.hljs.vb::before {content: "Visual Basic\00000a\00000a";}
+.hljs.VB::before {content: "Visual Basic\00000a\00000a";}
+.hljs.r::before {content: "R\00000a\00000a";}
+.hljs.R::before {content: "R\00000a\00000a";}
