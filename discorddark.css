@@ -456,13 +456,19 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 	right: 22px;
 	padding: 8px !important;
 	height: auto;
-	background-color: #5865F2;
 	box-shadow: var(--elevation-high);
 	border-radius: 100px;
 	display: flex;
 	font-size: 0px;
 	color: transparent;
 	transition: font-size .2s .1s, color .2s, padding .4s .1s;
+	background-image: var(--bgImage)!important;
+	background-clip: border-box!important;
+	background-origin: padding-box!important;
+	background-attachment: scroll!important;
+	background-repeat: repeat!important;
+	background-size: auto!important;
+	background-position: left top!important;
 }
 [class*="jumpToPresentBar"] > button svg {
 	order: -1;
