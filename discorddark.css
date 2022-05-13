@@ -1,7 +1,7 @@
 /* Update Warning - _david_ */
 #app-mount .app-2CXKsg::before {
 	content: "Your version of Discord Dark is outdated. Please download the newest version from: https://betterdiscord.app/theme/Discord Dark";
-	display: var(--version-1-18, block);
+	display: var(--version-1-19, block);
 	background-color: #4a90e2;
 	color: #fff;
 	font-size: 14px;
@@ -19,9 +19,10 @@
 .option-2KkUJO.selected-rZcOL-, .stickerInspected-mwnU6w, .item-3XjbnG.selected-g-kMVV:not(.tabBarItem-1b8RUP):not(.tabBarItem-3nPo4Z):not(.tabBarItem-30Te4-), .bd-select-options,
 .connection-107AGH, .selected-2TbFuo .content-1gYQeQ, .selected-2TbFuo .content-1gYQeQ, .searchBar-zdmu7v, .searchBarComponent-3N7dCG, .card-x5zW6z, .notice-2HEN-u powercord-announcement,
 .tierHeaderContent-2SPBAA, .header-3_zmOb, .chatHeaderBar-2fUORh, .barBase-3xxDXu, .bar-2MWHzg, .threadSuggestionBar-3ExSyc, .body-2VgEvc, .footer-3YL3ds, .select-1Ia3hD,
-.avatarUploaderInnerSquareDisabled-e_U2MZ, .previewContainer-1GxmBJ, .connectionOptionsWrapper-1ipqUo, .featureCard-3XHbjy, .analyticsCard-2fnrVG, .developerPortalCtaWrapper-2PniQs,
+.avatarUploaderInnerSquareDisabled-e_U2MZ, .previewContainer-1GxmBJ, .connectionOptionsWrapper-3aVWcp, .featureCard-3XHbjy, .analyticsCard-2fnrVG, .developerPortalCtaWrapper-2PniQs,
 .tag-ijGVSm, .subcategory-1zDTD3, .enableContainer-1J91Aq, .settingsFormItem-25zW3t, .formFieldWrapper-2LV3S6, .previewContainer-29oeA6, .spoilerText-27bIiA, .upload-vLbqu-,
-.ChannelDms-channelpopout-collapseButton:hover, .optionContainer-yOpaLq:hover, .container-1wv6C6, .selected-3veCBZ, .communityInfoPill-2Mll66 {
+.ChannelDms-channelpopout-collapseButton:hover, .optionContainer-yOpaLq:hover, .container-1wv6C6, .selected-3veCBZ, .communityInfoPill-2Mll66, .achievementContainer-2jBIZt,
+.container-3wgZ8J, .mainContainer-yxgti4, .descriptionBox-SKGNgB, .memberInsightsContainer-3TdlTJ, .inputWrapper-3a4ywb, .notice-5OG6bf, .upsellContainer-3qKRln {
 	background-image: var(--bgImage)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -36,7 +37,7 @@
 .resultsGroup-1BPR25, .previewCard-DOrO3c, .card-3_CqkU, .scroller-1J_F7B, .css-1ba14n5-option, .circleButton-33AIyY, .perksModal-fSYqOq, .input-2m5SfJ,
 div.theme-dark .messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1kSAf6, .folderIconWrapper-1oRIZr, .contentRegionScroller-2_GT_N.auto-2K3UW5.scrollerBase-_bVAAt,
 .form-3gdLxP, .unreadBar-elBRZx, .peopleColumn-1wMU14, .nowPlayingColumn-1eCBCN, .content-3spvdd, .folderIconWrapper-1_bOZe, .expandedFolderBackground-1cujaW, .loadingPopout-1feYe_,
-.wrapper-2h7HDT, .upload-3GTSF9, .popout-TdhJ6Z, .checklistItem-1gWPPD, .optionContainer-yOpaLq, .card-8UsK4b {
+.wrapper-2h7HDT, .upload-3GTSF9, .popout-TdhJ6Z, .checklistItem-1gWPPD, .optionContainer-yOpaLq, .card-8UsK4b, .insightsActions-3cTXpa {
 	background-image: var(--bgDarkness1)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -71,7 +72,7 @@ div.theme-dark .messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderB
 .tierHeaderContent-2-YfvN, .tierBody-x9kBBp, .checklistHeader-1KWcEY, .checklistItem-37OOck, .notEnoughMembersError-1KwJkE, .featureCard-1RR4Tl, .container-3EtAkD,
 .activityPanel-9icbyU, .cardContent-1-5hym, .inspector-2A2Chb, .inspector-DFKXwB, .packHeader-w9jpYl, .header-11eigE, .header-1ULbqO, .footer-1fjuF6, .headerTop-3C2Zn0,
 .feature-2IUcBI, .embedWrapper-1MtIDg, .actionButton-3-B2x-, .container-ZMc96U, .searchBar-3TnChZ, .footer-31IekZ, .bd-search-wrapper, .activeGame-3ncS55, .card-2gdrYL,
-.previewOverlayInner-1WXURq, .bar-1Bhnl9, .input-2g-os5, .connectionHeader-2rV1ze, .header-1zd7se, .background-3d_SjE, .item-2idW98, .accountList-305sx3, .card-16VQ8C, .root-g14mjS,
+.previewOverlayInner-1WXURq, .bar-1Bhnl9, .input-2g-os5, .connectionHeader-Ixbb1s, .header-1zd7se, .background-3d_SjE, .item-2idW98, .accountList-Wii_T5, .card-16VQ8C, .root-g14mjS,
 .bd-addon-header, .scrollableContainer-15eg7h, .attachment-1PZZB2, .hljs, .inline, .container-YkUktl, .body-2khErn, .headerTop-2y3V6H, .aboutMeSection-3bipSD,
 .activityUserPopout-2MzGCj, .tooltip-14MtrL, .replyBar-1oi75v, .topSection-13QKHs:not(.profileBanner-1owKI5), .aboutMeSection---MkQa, .inlineContent-2YnoDy, .container-3ssFyj,
 .contentWrapper-3vHNP2, .base-2v-uc0, .categoryHeader-OpJ1Ly, .categoryHeader-OpJ1Ly::after, .headerTop-3GPUSF, .bodyInnerWrapper-2bQs1k, .footer-1Dc_h6, .background-2hs1sP,
@@ -79,7 +80,7 @@ div.theme-dark .messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderB
 .container-3i3IzO, .iconWrapper-3plkqh, .list-1uSVgu, .tutorialContainer-2sGCg9, .tree-3agP2X, .container-2c4_8A, .header-3_zmOb, .browser-mnQ1T7, .container-3O_wAf,
 .scrollerBase-_bVAAt[aria-label="Channels"] .content-2a4AW9 > div:not(:nth-child(1)):not(:nth-child(2)), .container-1NXEtd, .container-1-ERn5:not(.bannerVisible-Vkyg1I) .header-3OsQeK,
 .container-2o3qEW, .wrapperAudio-1Bzv_Z, .bd-error-modal-footer, .modal-3Hrb0S, .checklistHeader-3liG7E, .footer-3naVBw, .topPill-3DJJNV, .ChannelDms-channelpopout-header,
-.ChannelDms-channelpopout-collapseButton, .quickswitcher-pKcM9U, .body-2WIpo7, #app-mount .repliedMessage-3Z6XBG, #app-mount .repliedMessage-3Z6XBG::after {
+.ChannelDms-channelpopout-collapseButton, .quickswitcher-pKcM9U, .body-2WIpo7, #app-mount .repliedMessage-3Z6XBG, #app-mount .repliedMessage-3Z6XBG::after, .popoutInfo-16MuYF {
 	background-image: var(--bgDarkness3)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -149,7 +150,7 @@ div.theme-dark .messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderB
 .icon-3FU6Ir {
 	margin-left: 10px!important;
 }
-.connectionOptionsWrapper-1ipqUo {
+.connectionOptionsWrapper-3aVWcp {
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
 }
