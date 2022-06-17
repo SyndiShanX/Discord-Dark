@@ -1,7 +1,7 @@
 /* Update Warning - _david_ */
 #app-mount .app-2CXKsg::before {
 	content: "Your version of Discord Dark is outdated. Please download the newest version from: https://betterdiscord.app/theme/Discord Dark";
-	display: var(--version-1-19, block);
+	display: var(--version-1-20, block);
 	background-color: #4a90e2;
 	color: #fff;
 	font-size: 14px;
@@ -327,11 +327,13 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 }
 .guilds-2JjMmN .scroller-3X7KbA {
   contain: unset;
-  margin-top: 56px;
+  margin-top: 68px;
 }
 .guilds-2JjMmN .scroller-3X7KbA .tutorialContainer-1pL9QS {
   position: fixed;
-  transform: translatey(-100%);
+  transform: translatey(-112%);
+	margin-top: 12px;
+	margin-left: 12px;
 }
 
 /* Revert Role Design - Ashtrath */
@@ -617,6 +619,36 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 }
 .edited-1v5nT8:not(.message-translate-indicator) {
 	display: none;
+}
+
+/* Limited Size Code Blocks - ItMeSarah —  */
+.markup-eYLPri blockquote, .markup-eYLPri pre > code{
+	max-height: 500px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.markup-eYLPri blockquote::-webkit-scrollbar, .markup-eYLPri pre > code::-webkit-scrollbar {
+	width: 15px;
+	height: 15px;
+}
+.markup-eYLPri blockquote::-webkit-scrollbar-track , .markup-eYLPri pre > code::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: rgba(255 255 255 / 8%);
+}
+.markup-eYLPri blockquote::-webkit-scrollbar-thumb, .markup-eYLPri pre > code::-webkit-scrollbar-thumb {
+	background-color: rgb(13 81 239 / 70%);
+	border-radius: 10px;
+}
+.markup-eYLPri blockquote, .markup-eYLPri pre > code {
+	max-width: 629px;
+}
+
+/* Server Rings Edit - Sidebar Fix and Click Animation Reducer */
+.wrapper-1_HaEi .guilds-2JjMmN {
+	width: 90px;
+}
+#app-mount .blobContainer-ikKyFs:active, #app-mount .listItemWrapper-3d87LP:active {
+  transform: scale(0.95);
 }
 
 /* Syntax Naming - CodeDotSpectra */

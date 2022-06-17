@@ -2,7 +2,7 @@
  * @name Discord Dark
  * @description A Github Dark Theme for Discord, meant to be used with Discord Dark Mode
  * @author SyndiShanX#4620
- * @version 1.19
+ * @version 1.20
  * @website https://syndishanx.github.io/Discord-Dark
  * @source https://github.com/SyndiShanX/Discord-Dark
 */
@@ -16,9 +16,15 @@
 /* Invites Redesign - Disease */
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
 
+/* Better Inbox - Disease */
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
+
+/* Server Rings - Gibbu */
+@import url("https://discordstyles.github.io/SoftX/ServerRings.css");
+
 :root {
 	--theme: Discord Dark by SyndiShanX;                           /* Update Warning                                                         */
-	--version-1-19: none;                                          /* Replaces Default Discord Colors                                        */
+	--version-1-20: none;                                          /* Replaces Default Discord Colors                                        */
 	--background-primary: rgba(0, 0, 0, 0);                        /*                                                                        */
 	--background-secondary: #1a1a1a;                               /*                                                                        */
 	--background-tertiary: rgba(0, 0, 0, 0.5);                     /*                                                                        */
@@ -47,7 +53,12 @@
 	--GIFtButtons: none;                                           /* Icons Gap                                                              */
 	--settingsiconsgap: 14px;                                      /* Settings Sidebar Width                                                 */
 	--sidebar-width: 245px;                                        /* Scrollbar Width                                                        */
-	--scrollbar-width: 8px;                                        /* Discord Opacity | Transparency Needs to be Enabled                     */
+	--scrollbar-width: 8px;                                        /* Server Rings - Unread Color                                            */
+	--server-unread-colour: 194, 178, 60;                          /* Server Rings - Hover Color                                             */
+  --server-hover-colour: 186, 186, 186;                          /* Server Rings - Selected Color                                          */
+  --server-selected-colour: var(--accent, 53, 175, 234);         /* Server Rings - Spacing                                                 */
+  --server-spacing: 16px;                                        /* Server Rings - Glow Intensity                                          */
+  --server-glow-intensity: 1;                                    /* Discord Opacity | Transparency Needs to be Enabled                     */
 	--discord-opacity: 1.0;                                        /* Images are Stored here to improve Loading times, more info in css file */	
 	/*
 		Images are Stored here to improve Loading times, to get the Image Code:
