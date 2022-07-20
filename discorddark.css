@@ -199,34 +199,6 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 .bd-error-modal, .title-1_TkpU, .size16-rrJ6ag, .size24-17l95E, .size14-3fJ-ot {
 	color: #fff!important;
 }
-.message-2CShn3.groupStart-3Mlgv1, .message-2CShn3.groupStart-3Mlgv1:hover {
-	margin-top: .125rem!important;
-	padding-top: .5rem!important;
-	padding-bottom: .5rem!important;
-}
-.backgroundFlash-1X5jVs, .isUnread-3Lojb- {
-	transform: translateY(-.5rem)!important;
-}
-.backgroundFlash-1X5jVs .message-2CShn3 {
-	transform: translateY(.5rem)!important;
-}
-.message-2CShn3:not(.groupStart-3Mlgv1), .message-2CShn3:hover:not(.groupStart-3Mlgv1) {
-	padding-top: 0px!important;
-	transform: translateY(-.5rem);
-}
-.tabBarItem-30Te4-, .tabBarItem-30Te4-:hover {
-	border-radius: 5px!important;
-	padding-left: .5rem!important;
-	padding-right: .5rem!important;
-	margin-right: 1.5rem!important;
-}
-.isUnread-3Lojb- {
-	margin-top: .75rem!important;
-	margin-bottom: 1.75rem!important;
-}
-.mentioned-Tre-dv {
-	margin-bottom: 0.75rem!important;
-}
 .content-2Lxwdo {
 	margin-bottom: 10px;
 }
@@ -448,7 +420,7 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 /* Fancy Reply Styling - Gibbu */
 #app-mount .repliedMessage-3Z6XBG {
   position: absolute;
-  top: 32px;
+  top: 25px;
   left: 86px;
   border: 1px solid var(--border-primary);
   width: fit-content;
