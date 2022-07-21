@@ -1,7 +1,7 @@
 {
 	"name": "Discord_Dark",
 	"description": "A Github Dark Theme for Discord Mobile",
-	"version": "1.0.0",
+	"version": "1.1.5",
 	"authors": [
 		{
 			"name": "SyndiShanX#4620",
@@ -47,19 +47,19 @@
 			"#FFFFFF"
 		],
 		"INTERACTIVE_MUTED": [
-			"#4f545c",
+			"#4F545C",
 			"#FFFFFF"
 		],
 		"BACKGROUND_PRIMARY": [
-			"#1a1a1a",
+			"#1A1A1A",
 			"#FFFFFF"
 		],
 		"BACKGROUND_SECONDARY": [
-			"#1a1a1a",
+			"#1A1A1A",
 			"#FFFFFF"
 		],
 		"BACKGROUND_SECONDARY_ALT": [
-			"#1a1a1a",
+			"#1A1A1A",
 			"#FFFFFF"
 		],
 		"BACKGROUND_TERTIARY": [
@@ -67,31 +67,31 @@
 			"#FFFFFF"
 		],
 		"BACKGROUND_ACCENT": [
-			"#4f545c",
+			"#4F545C",
 			"#FFFFFF"
 		],
 		"BACKGROUND_FLOATING": [
-			"#1a1a1a",
+			"#1A1A1A",
 			"#FFFFFF"
 		],
 		"BACKGROUND_MOBILE_PRIMARY": [
-			"#1a1a1a",
+			"#1A1A1A",
 			"#FFFFFF"
 		],
 		"BACKGROUND_MOBILE_SECONDARY": [
-			"#1a1a1a",
+			"#1A1A1A",
 			"#FFFFFF"
 		],
 		"BACKGROUND_NESTED_FLOATING": [
-			"#1a1a1a",
+			"#1A1A1A",
 			"#FFFFFF"
 		],
 		"BACKGROUND_MESSAGE_HOVER": [
-			"#ff0000",
+			"#FF0000",
 			"#FFFFFF"
 		],
 		"BACKGROUND_MODIFIER_HOVER": [
-			"#00ff00",
+			"#00FF00",
 			"#FFFFFF"
 		],
 		"BACKGROUND_MODIFIER_ACTIVE": [
@@ -127,31 +127,31 @@
 			"#FFFFFF"
 		],
 		"CHANNEL_ICON": [
-			"#8e9297",
+			"#8E9297",
 			"#FFFFFF"
 		],
 		"CHANNELS_DEFAULT": [
-			"#3973ac",
+			"#3973AC",
 			"#FFFFFF"
 		]
 	},
 	"colours": {
-		"PRIMARY_DARK": "#1a1a1a",
+		"PRIMARY_DARK": "#1A1A1A",
 		"PRIMARY_DARK_100": "#FFFFFF",
 		"PRIMARY_DARK_200": "#FFFFFF",
 		"PRIMARY_DARK_300": "#B6B6B6",
-		"PRIMARY_DARK_360": "#4f545c",
+		"PRIMARY_DARK_360": "#4F545C",
 		"PRIMARY_DARK_400": "#585858",
-		"PRIMARY_DARK_500": "#4f545c",
-		"PRIMARY_DARK_600": "#3973ac",
-		"PRIMARY_DARK_630": "#ff0000",
-		"PRIMARY_DARK_700": "#4f545c",
+		"PRIMARY_DARK_500": "#4F545C",
+		"PRIMARY_DARK_600": "#1A1A1A",
+		"PRIMARY_DARK_630": "#FF0000",
+		"PRIMARY_DARK_700": "#4F545C",
 		"PRIMARY_DARK_800": "#090909",
-		"BRAND_NEW": "#1a1a1a",
-		"WHITE": "#ffff00",
-		"STATUS_YELLOW": "#c2b23c"
+		"BRAND_NEW": "#1A1A1A",
+		"WHITE": "#FFFFFF",
+		"STATUS_YELLOW": "#C2B23C"
 	},
 	"unsafe_colors": {
-		"CHAT_GREY": "#1a1a1a"
+		"CHAT_GREY": "#1A1A1A"
 	}
 }
