@@ -1,6 +1,6 @@
 {
-	"name": "Discord_Dark",
-	"description": "A Github Dark Theme for Discord Mobile",
+	"name": "Discord_Light",
+	"description": "A Light Theme base on Github Dark for Discord Mobile",
 	"version": "1.1.5",
 	"authors": [
 		{
@@ -10,7 +10,7 @@
 	],
 	 "background": {
 	 "blur": 0,
-	 "url": "https://syndishanx.github.io/Discord-Dark/Enmity/Background.png",
+	 "url": "https://syndishanx.github.io/Discord-Dark/Enmity/Background_Light.png",
 	 "alpha": 1.0
   },
 	"theme_color_map": {
@@ -132,9 +132,9 @@
 		]
 	},
 	"colours": {
-		"PRIMARY_DARK": "#1A1A1A",
-		"PRIMARY_DARK_100": "#FFFFFF",
-		"PRIMARY_DARK_200": "#FFFFFF",
+		"PRIMARY_DARK": "#E6E5E5",
+		"PRIMARY_DARK_100": "#000000",
+		"PRIMARY_DARK_200": "#000000",
 		"PRIMARY_DARK_300": "#B6B6B6",
 		"PRIMARY_DARK_360": "#4F545C",
 		"PRIMARY_DARK_400": "#585858",
@@ -144,7 +144,7 @@
 		"PRIMARY_DARK_700": "#4F545C",
 		"PRIMARY_DARK_800": "#090909",
 		"STATUS_YELLOW": "#C2B23C",
-		"WHITE": "#FFFFFF"
+		"WHITE": "#000000"
 	},
 	"unsafe_colors": {
 		"CHAT_GREY": "#1A1A1A"
