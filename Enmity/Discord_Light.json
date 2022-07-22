@@ -43,12 +43,12 @@
 			"#DCDDDE"
 		],
 		"INTERACTIVE_ACTIVE": [
-			"#000000",
-			"#000000"
+			"#7F7F7F",
+			"#7F7F7F"
 		],
 		"INTERACTIVE_MUTED": [
-			"#DEDEDE",
-			"#DEDEDE"
+			"#717378",
+			"#717378"
 		],
 		"BACKGROUND_PRIMARY": [
 			"#E6E5E5",
@@ -123,8 +123,8 @@
 			"transparent"
 		],
 		"CHANNEL_ICON": [
-			"#8E9297",
-			"#8E9297"
+			"#7F7F7F",
+			"#7F7F7F"
 		],
 		"CHANNELS_DEFAULT": [
 			"#3973AC",
@@ -136,12 +136,12 @@
 		"PRIMARY_DARK_100": "#000000",
 		"PRIMARY_DARK_200": "#000000",
 		"PRIMARY_DARK_300": "#7F7F7F",
-		"PRIMARY_DARK_360": "#DEDEDE",
+		"PRIMARY_DARK_360": "#000000",
 		"PRIMARY_DARK_400": "#919191",
-		"PRIMARY_DARK_500": "#DEDEDE",
+		"PRIMARY_DARK_500": "#000000",
 		"PRIMARY_DARK_600": "rgba(0, 0, 0, 0.5)",
 		"PRIMARY_DARK_630": "rgba(0, 0, 0, 0.5)",
-		"PRIMARY_DARK_700": "#DEDEDE",
+		"PRIMARY_DARK_700": "#000000",
 		"PRIMARY_DARK_800": "#C1C1C1",
 		"STATUS_YELLOW": "#C2B23C",
 		"WHITE": "#000000"
