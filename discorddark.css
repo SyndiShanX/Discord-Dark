@@ -1,3 +1,16 @@
+/* Custom Name Animation */
+.zalgo-26OfGz[data-author-id="178394162381455360"] .username-h_Y3Us, .userPopout-2j1gM4[data-user-id="178394162381455360"] .headerTag-3GXZkV, .usernameContainer-3PPkWq,
+.member-2gU6Ar[data-user-id="178394162381455360"] .username-u-ebrn {
+	-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.8) 30%, #000 50%, rgba(0,0,0,.8) 70%);
+	-webkit-mask-size: 200%;
+	animation: shine 2s linear infinite;
+	font-weight: bold;
+}
+@keyframes shine {
+	from { -webkit-mask-position: 150%; }
+	to { -webkit-mask-position: -50%; }
+}
+
 /* Update Warning - _david_ */
 #app-mount .app-2CXKsg::before {
 	content: "Your version of Discord Dark is outdated. Please download the newest version from: https://betterdiscord.app/theme/Discord Dark or https://github.com/SyndiShanX/Discord-Dark";
