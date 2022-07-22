@@ -2,134 +2,41 @@
 	"name": "Discord_Light",
 	"description": "A Light Theme base on Github Dark for Discord Mobile",
 	"version": "1.1.5",
-	"authors": [
-		{
-			"name": "SyndiShanX#4620",
-			"id": "178394162381455360"
-		}
-	],
-	 "background": {
-	 "blur": 0,
-	 "url": "https://syndishanx.github.io/Discord-Dark/Enmity/Background_Light.png",
-	 "alpha": 1.0
-  },
+	"authors": [{ "name": "SyndiShanX#4620", "id": "178394162381455360" }],
+	"background": {
+		"blur": 0,
+		"url": "https://syndishanx.github.io/Discord-Dark/Enmity/Background_Light.png",
+		"alpha": 1.0
+	},
 	"theme_color_map": {
-		"KEYBOARD": [
-			"rgba(0, 0, 0, 0.5)",
-			"rgba(0, 0, 0, 0.5)"
-		],
-		"HEADER_PRIMARY": [
-			"#000000",
-			"#000000"
-		],
-		"HEADER_SECONDARY": [
-			"#000000",
-			"#000000"
-		],
-		"TEXT_NORMAL": [
-			"#000000",
-			"#000000"
-		],
-		"TEXT_MUTED": [
-			"#000000",
-			"#000000"
-		],
-		"INTERACTIVE_NORMAL": [
-			"#7F7F7F",
-			"#7F7F7F"
-		],
-		"INTERACTIVE_HOVER": [
-			"#DCDDDE",
-			"#DCDDDE"
-		],
-		"INTERACTIVE_ACTIVE": [
-			"#7F7F7F",
-			"#7F7F7F"
-		],
-		"INTERACTIVE_MUTED": [
-			"#717378",
-			"#717378"
-		],
-		"BACKGROUND_PRIMARY": [
-			"#E6E5E5",
-			"#E6E5E5"
-		],
-		"BACKGROUND_SECONDARY": [
-			"#E6E5E5",
-			"#E6E5E5"
-		],
-		"BACKGROUND_SECONDARY_ALT": [
-			"#E6E5E5",
-			"#E6E5E5"
-		],
-		"BACKGROUND_TERTIARY": [
-			"#E6E5E5",
-			"#E6E5E5"
-		],
-		"BACKGROUND_ACCENT": [
-			"#DEDEDE",
-			"#DEDEDE"
-		],
-		"BACKGROUND_FLOATING": [
-			"#E6E5E5",
-			"#E6E5E5"
-		],
-		"BACKGROUND_MOBILE_PRIMARY": [
-			"#E6E5E5",
-			"#E6E5E5"
-		],
-		"BACKGROUND_MOBILE_SECONDARY": [
-			"#E6E5E5",
-			"#E6E5E5"
-		],
-		"BACKGROUND_NESTED_FLOATING": [
-			"#E6E5E5",
-			"#E6E5E5"
-		],
-		"BACKGROUND_MESSAGE_HOVER": [
-			"rgba(0, 0, 0, 0.5)",
-			"rgba(0, 0, 0, 0.5)"
-		],
-		"BACKGROUND_MODIFIER_ACTIVE": [
-			"rgba(255, 255, 255, 0.4)",
-			"rgba(255, 255, 255, 0.4)"
-		],
-		"BACKGROUND_MODIFIER_SELECTED": [
-			"rgba(255, 255, 255, 0.2)",
-			"rgba(255, 255, 255, 0.2)"
-		],
-		"BACKGROUND_MODIFIER_ACCENT": [
-			"rgba(79, 84, 92, 0.48)",
-			"rgba(79, 84, 92, 0.48)"
-		],
-		"SCROLLBAR_THIN_THUMB": [
-			"rgba(55, 55, 55, 0.5)",
-			"rgba(55, 55, 55, 0.5)"
-		],
-		"SCROLLBAR_THIN_TRACK": [
-			"transparent",
-			"transparent"
-		],
-		"SCROLLBAR_AUTO_THUMB": [
-			"rgba(55, 55, 55, 0.5)",
-			"rgba(55, 55, 55, 0.5)"
-		],
-		"SCROLLBAR_AUTO_TRACK": [
-			"transparent",
-			"transparent"
-		],
-		"CHANNELTEXTAREA_BACKGROUND": [
-			"transparent",
-			"transparent"
-		],
-		"CHANNEL_ICON": [
-			"#7F7F7F",
-			"#7F7F7F"
-		],
-		"CHANNELS_DEFAULT": [
-			"#3973AC",
-			"#3973AC"
-		]
+		"KEYBOARD": [ "rgba(0, 0, 0, 0.5)", "rgba(0, 0, 0, 0.5)" ],
+		"HEADER_PRIMARY": [ "#000000", "#000000" ],
+		"HEADER_SECONDARY": [ "#000000", "#000000" ],
+		"TEXT_NORMAL": [ "#000000", "#000000" ],
+		"TEXT_MUTED": [ "#000000", "#000000" ],
+		"INTERACTIVE_NORMAL": [ "#7F7F7F", "#7F7F7F" ],
+		"INTERACTIVE_HOVER": [ "#DCDDDE", "#DCDDDE" ],
+		"INTERACTIVE_ACTIVE": [ "#7F7F7F", "#7F7F7F" ],
+		"INTERACTIVE_MUTED": [ "#717378", "#717378" ],
+		"BACKGROUND_PRIMARY": [ "#E6E5E5", "#E6E5E5" ],
+		"BACKGROUND_SECONDARY": [ "#E6E5E5", "#E6E5E5" ],
+		"BACKGROUND_SECONDARY_ALT": [ "#E6E5E5", "#E6E5E5" ],
+		"BACKGROUND_TERTIARY": [ "#E6E5E5", "#E6E5E5" ],
+		"BACKGROUND_ACCENT": [ "#DEDEDE", "#DEDEDE" ],
+		"BACKGROUND_FLOATING": [ "#E6E5E5", "#E6E5E5" ],
+		"BACKGROUND_MOBILE_PRIMARY": [ "#E6E5E5", "#E6E5E5" ],
+		"BACKGROUND_MOBILE_SECONDARY": [ "#E6E5E5", "#E6E5E5" ],
+		"BACKGROUND_NESTED_FLOATING": [ "#E6E5E5", "#E6E5E5" ],
+		"BACKGROUND_MODIFIER_ACTIVE": [ "rgba(0, 0, 0, 0.4)", "rgba(0, 0, 0, 0.4)" ],
+		"BACKGROUND_MODIFIER_SELECTED": [ "rgba(0, 0, 0, 0.2)", "rgba(0, 0, 0, 0.2)" ],
+		"BACKGROUND_MODIFIER_ACCENT": [ "rgba(79, 84, 92, 0.48)", "rgba(79, 84, 92, 0.48)" ],
+		"SCROLLBAR_THIN_THUMB": [ "rgba(0, 0, 0, 0.5)", "rgba(0, 0, 0, 0.5)" ],
+		"SCROLLBAR_THIN_TRACK": [ "transparent", "transparent" ],
+		"SCROLLBAR_AUTO_THUMB": [ "rgba(0, 0, 0, 0.5)", "rgba(0, 0, 0, 0.5)" ],
+		"SCROLLBAR_AUTO_TRACK": [ "transparent", "transparent" ],
+		"CHANNELTEXTAREA_BACKGROUND": [ "transparent", "transparent" ],
+		"CHANNEL_ICON": [ "#7F7F7F", "#7F7F7F" ],
+		"CHANNELS_DEFAULT": [ "#3973AC", "#3973AC" ]
 	},
 	"colours": {
 		"PRIMARY_DARK": "#E6E5E5",
@@ -139,12 +46,12 @@
 		"PRIMARY_DARK_360": "#000000",
 		"PRIMARY_DARK_400": "#919191",
 		"PRIMARY_DARK_500": "#000000",
-		"PRIMARY_DARK_600": "rgba(0, 0, 0, 0.5)",
+		"PRIMARY_DARK_600": "#dbdbdb",
 		"PRIMARY_DARK_630": "rgba(0, 0, 0, 0.5)",
 		"PRIMARY_DARK_700": "#000000",
-		"PRIMARY_DARK_800": "#C1C1C1",
+		"PRIMARY_DARK_800": "#dbdbdb",
 		"STATUS_YELLOW": "#C2B23C",
-		"WHITE": "#000000"
+		"WHITE": "#ffffff"
 	},
 	"unsafe_colors": {
 		"CHAT_GREY": "#E6E5E5"
