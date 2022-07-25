@@ -1,7 +1,7 @@
 {
 	"name": "Discord_Dark",
 	"description": "A Github Dark Theme for Discord Mobile",
-	"version": "1.1.5",
+	"version": "1.16",
 	"authors": [{ "name": "SyndiShanX#4620", "id": "178394162381455360" }],
 	"background": {
 		"blur": 0,
@@ -21,7 +21,7 @@
 		"BACKGROUND_PRIMARY": [ "#1A1A1A", "#1A1A1A" ],
 		"BACKGROUND_SECONDARY": [ "#1A1A1A", "#1A1A1A" ],
 		"BACKGROUND_SECONDARY_ALT": [ "#1A1A1A", "#1A1A1A" ],
-		"BACKGROUND_TERTIARY": [ "#1A1A1A", "#1A1A1A" ],
+		"BACKGROUND_TERTIARY": [ "#464637", "#464637" ],
 		"BACKGROUND_ACCENT": [ "#4F545C", "#4F545C" ],
 		"BACKGROUND_FLOATING": [ "#1A1A1A", "#1A1A1A" ],
 		"BACKGROUND_MOBILE_PRIMARY": [ "#1A1A1A", "#1A1A1A" ],
