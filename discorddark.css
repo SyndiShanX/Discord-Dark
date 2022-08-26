@@ -590,8 +590,8 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 	margin-bottom: -3px!important;
 }
 
-/* BD Settings on Top - Obscure */
-.bd-sidebar-header, [aria-controls="settings-tab"], [aria-controls="emotes-tab"], [aria-controls="customcss-tab"], [aria-controls="plugins-tab"],[aria-controls="themes-tab"], [aria-controls="themes-tab"]  + .separator-2wx7h6, [aria-controls="pluginrepo-tab"], [aria-controls="pluginrepo-tab"] + .separator-2wx7h6{
+/* BD Settings on Top - Fresh Carrot */
+.side-2ur1Qk>:where(.bd-sidebar-header,.bd-settings-tab,.bd-customcss-tab,.bd-plugins-tab,.bd-themes-tab,.pluginrepo-tab,.themerepo-tab,:where(.bd-themes-tab,.pluginrepo-tab,.themerepo-tab)+.separator-2wx7h6){
   order: -1;
 }
 
