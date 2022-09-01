@@ -206,6 +206,12 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 #channels {
 	background-image: none!important;
 }
+.tutorialContainer-1pL9QS {
+	transform: translateY(-75px)!important;
+}
+.tutorialContainer-1pL9QS > *:not(:first-child) {
+	display: none !important;
+}
 
 /* ---------- Buttons ---------- */
 
