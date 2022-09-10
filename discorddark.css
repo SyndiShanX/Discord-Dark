@@ -22,7 +22,7 @@
 .avatarUploaderInnerSquareDisabled-e_U2MZ, .previewContainer-1GxmBJ, .connectionOptionsWrapper-3aVWcp, .featureCard-3XHbjy, .analyticsCard-2fnrVG, .developerPortalCtaWrapper-2PniQs,
 .tag-ijGVSm, .subcategory-1zDTD3, .enableContainer-1J91Aq, .settingsFormItem-25zW3t, .formFieldWrapper-2LV3S6, .previewContainer-29oeA6, .spoilerText-27bIiA, .upload-vLbqu-,
 .ChannelDms-channelpopout-collapseButton:hover, .optionContainer-yOpaLq:hover, .container-1wv6C6, .selected-3veCBZ, .communityInfoPill-2Mll66, .achievementContainer-2jBIZt,
-.container-3wgZ8J, .mainContainer-yxgti4, .descriptionBox-SKGNgB, .memberInsightsContainer-3TdlTJ, .inputWrapper-3a4ywb, .notice-5OG6bf, .upsellContainer-3qKRln {
+.container-3wgZ8J, .mainContainer-yxgti4, .descriptionBox-SKGNgB, .memberInsightsContainer-3TdlTJ, .inputWrapper-3a4ywb, .notice-5OG6bf, .upsellContainer-3qKRln, .messageGroupWrapper-1jf_7C {
 	background-image: var(--bgImage)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -437,6 +437,9 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
   padding: 3px 5px;
   border-radius: 0 4px 4px 4px;
   box-sizing: border-box;
+}
+#app-mount .messageGroupWrapper-1jf_7C .repliedMessage-3Z6XBG {
+  top: 35px!important;
 }
 #app-mount .repliedMessage-3Z6XBG > div {
   position: relative;
