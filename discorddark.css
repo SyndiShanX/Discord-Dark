@@ -307,7 +307,7 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
   position: fixed;
   transform: translateY(-112%);
 	margin-top: 12px;
-	margin-left: 12px;
+	margin-left: 9px;
 }
 .tutorialContainer-1pL9QS {
 	transform: translateY(-75px)!important;
@@ -635,6 +635,9 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 }
 #app-mount .blobContainer-ikKyFs:active, #app-mount .listItemWrapper-3d87LP:active {
   transform: scale(0.95);
+}
+.scroller-3X7KbA > div:not(.tutorialContainer-1pL9QS) > .listItem-3SmSlK:nth-child(1) {
+	margin-top: 10px;
 }
 
 /* Syntax Naming - CodeDotSpectra */
