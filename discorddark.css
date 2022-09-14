@@ -22,7 +22,8 @@
 .avatarUploaderInnerSquareDisabled-e_U2MZ, .previewContainer-1GxmBJ, .connectionOptionsWrapper-3aVWcp, .featureCard-3XHbjy, .analyticsCard-2fnrVG, .developerPortalCtaWrapper-2PniQs,
 .tag-ijGVSm, .subcategory-1zDTD3, .enableContainer-1J91Aq, .settingsFormItem-25zW3t, .formFieldWrapper-2LV3S6, .previewContainer-29oeA6, .spoilerText-27bIiA, .upload-vLbqu-,
 .ChannelDms-channelpopout-collapseButton:hover, .optionContainer-yOpaLq:hover, .container-1wv6C6, .selected-3veCBZ, .communityInfoPill-2Mll66, .achievementContainer-2jBIZt,
-.container-3wgZ8J, .mainContainer-yxgti4, .descriptionBox-SKGNgB, .memberInsightsContainer-3TdlTJ, .inputWrapper-3a4ywb, .notice-5OG6bf, .upsellContainer-3qKRln {
+.container-3wgZ8J, .mainContainer-yxgti4, .descriptionBox-SKGNgB, .memberInsightsContainer-3TdlTJ, .inputWrapper-3a4ywb, .notice-5OG6bf, .upsellContainer-3qKRln, .container-2qVG6q,
+.box-2iMsQm {
 	background-image: var(--bgImage)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -37,7 +38,8 @@
 .resultsGroup-1BPR25, .previewCard-DOrO3c, .card-3_CqkU, .scroller-1J_F7B, .css-1ba14n5-option, .circleButton-33AIyY, .perksModal-fSYqOq, .input-2m5SfJ,
 div.theme-dark .messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1kSAf6, .folderIconWrapper-1oRIZr, .contentRegionScroller-2_GT_N.auto-2K3UW5.scrollerBase-_bVAAt,
 .form-3gdLxP, .unreadBar-elBRZx, .peopleColumn-1wMU14, .nowPlayingColumn-1eCBCN, .content-3spvdd, .folderIconWrapper-1_bOZe, .expandedFolderBackground-1cujaW, .loadingPopout-1feYe_,
-.wrapper-2h7HDT, .upload-3GTSF9, .popout-TdhJ6Z, .checklistItem-1gWPPD, .optionContainer-yOpaLq, .card-8UsK4b, .insightsActions-3cTXpa, .rowContainer-3t7486, .messageGroupWrapper-1jf_7C {
+.wrapper-2h7HDT, .upload-3GTSF9, .popout-TdhJ6Z, .checklistItem-1gWPPD, .optionContainer-yOpaLq, .card-8UsK4b, .insightsActions-3cTXpa, .rowContainer-3t7486, .messageGroupWrapper-1jf_7C,
+.container-2qVG6q:hover {
 	background-image: var(--bgDarkness1)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -198,7 +200,7 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 }
 .text-PdAsFQ, .title-OdeD-o, .title-2Giw-4, .contents-18-Yxp, .footerTitle-3Bslxi, .nameInput-ph8KMi .inputWrapper-1YNMmM .input-2g-os5, .lookOutlined-3sRXeN .contents-18-Yxp, .bd-settings-title,
 .bd-error-modal, .title-1_TkpU, .size16-rrJ6ag, .size24-17l95E, .size14-3fJ-ot, .defaultColor-24IHKz, .text-sm-normal-3Zj3Iv, .sampleLink-5BWNy9, .text-md-normal-304U3g, .text-xs-bold-1NF1lz,
-.card-jdf7Rs {
+.card-jdf7Rs, .button-f2h6uQ.colorBrand-I6CyqQ:not(.lookBlank-21BCro):not(.lookInverted-2D7oAl) div {
 	color: #fff!important;
 }
 .content-2Lxwdo {
