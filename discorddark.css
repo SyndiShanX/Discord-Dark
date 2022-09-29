@@ -83,7 +83,7 @@ div.theme-dark .messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderB
 .scrollerBase-_bVAAt[aria-label="Channels"] .content-2a4AW9 > div:not(:nth-child(1)):not(:nth-child(2)), .container-1NXEtd, .container-1-ERn5:not(.bannerVisible-Vkyg1I) .header-3OsQeK,
 .container-2o3qEW, .wrapperAudio-1Bzv_Z, .bd-error-modal-footer, .modal-3Hrb0S, .checklistHeader-3liG7E, .footer-3naVBw, .topPill-3DJJNV, .ChannelDms-channelpopout-header,
 .ChannelDms-channelpopout-collapseButton, .quickswitcher-pKcM9U, .body-2WIpo7, #app-mount .repliedMessage-3Z6XBG, #app-mount .repliedMessage-3Z6XBG::after, .popoutInfo-16MuYF,
-.titleBar-1it3bQ, .gridContainer-1cF_Ic, .userPopoutInner-1v4xcM, .overlayBackground-arbZMT, .accountList-Wii_T5, .card-16VQ8C, .overlayBackground-2Zjm9f {
+.titleBar-1it3bQ, .gridContainer-1cF_Ic, .userPopoutInner-1hXSeY, .overlayBackground-1KgwVi, .accountList-Wii_T5, .card-16VQ8C {
 	background-image: var(--bgDarkness3)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
