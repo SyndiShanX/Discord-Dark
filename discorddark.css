@@ -593,7 +593,7 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 }
 
 /* BD Settings on Top - Fresh Carrot */
-.side-2ur1Qk>:where(.bd-sidebar-header,.bd-settings-tab,.bd-customcss-tab,.bd-plugins-tab,.bd-themes-tab,.pluginrepo-tab,.themerepo-tab,:where(.bd-themes-tab,.pluginrepo-tab,.themerepo-tab)+.separator-2wx7h6){
+.side-2ur1Qk>:where(.bd-sidebar-header,.bd-settings-tab,.bd-customcss-tab,.bd-plugins-tab,.bd-themes-tab,.bd-updates-tab,.pluginrepo-tab,.themerepo-tab,:where(.bd-themes-tab,.pluginrepo-tab,.themerepo-tab)+.separator-2wx7h6){
   order: -1;
 }
 
