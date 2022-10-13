@@ -136,13 +136,13 @@ div.theme-dark .messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderB
 }
 .selected-2TbFuo .content-1gYQeQ, .item-3XjbnG.selected-g-kMVV:not(.tabBarItem-1b8RUP):not(.tabBarItem-3nPo4Z):not(.tabBarItem-30Te4-), .input-2g-os5, .css-gvi9bl-control, .css-1ba14n5-option,
 .option-2KkUJO.selected-rZcOL-, .selected-1-Z6gm, .input-2m5SfJ, .searchBar-zdmu7v, .container-x8Y1ix, .searchBarComponent-3N7dCG, .unreadBar-elBRZx, .bd-search-wrapper, .bd-select-option.selected,
-.gameNameInput-3TuPuA, .select-1Ia3hD, .rowContainer-3t7486, .scrollableContainer-15eg7h {
+.gameNameInput-3TuPuA, .select-1Ia3hD, .rowContainer-3t7486, .list-3FIpnh .scrollableContainer-15eg7h {
 	border: 1px solid var(--border-primary)!important;
 }
 .selected-2TbFuo .content-1gYQeQ:hover, .item-3XjbnG:hover.selected-g-kMVV:not(.tabBarItem-1b8RUP):not(.tabBarItem-3nPo4Z):not(.tabBarItem-30Te4-), .input-2g-os5:hover, .css-1ba14n5-option:hover,
 .css-gvi9bl-control:hover, .option-2KkUJO.selected-rZcOL-:hover, .css-1yz4bi9-option:hover, .input-2m5SfJ:hover, .selected-1-Z6gm:hover, .searchBar-zdmu7v:hover, .container-x8Y1ix:hover,
 .searchBarComponent-3N7dCG:hover, .unreadBar-elBRZx:hover, .bd-search-wrapper:hover, .bd-select-option.selected:hover, .gameNameInput-3TuPuA:hover, .select-1Ia3hD:hover, .rowContainer-3t7486:hover,
-.scrollableContainer-15eg7h:hover {
+.list-3FIpnh .scrollableContainer-15eg7h:hover {
 	border: 1px solid var(--border-secondary)!important;
 }
 .jumpToPresentBar-1cEnH0 {
@@ -157,7 +157,7 @@ div.theme-dark .messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderB
 .menu-1QACrS, .menu-1QACrS .scroller-1bVxF5, .container-JhuCwn { 
 	border-radius: 8px;
 }
-.scrollableContainer-15eg7h {
+.list-3FIpnh .scrollableContainer-15eg7h {
 	border-radius: 0px!important;
 	border-top: 0px solid transparent!important;
 	border-bottom-left-radius: 4px!important;
@@ -226,7 +226,7 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 .channelTextAreaInner-2_mflx {
 	margin-right: 12px!important;
 }
-.inner-NQg18Y .textArea-2CLwUE div {
+.inner-NQg18Y .textArea-2CLwUE div div[data-slate-node="element"] {
 	width: 100%!important;
 	height: 100%!important;
 }
