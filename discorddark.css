@@ -15,16 +15,15 @@
 
 /* Main Background Image */
 .contentRegion-3HkfJJ, .bd-description-wrap, .bd-footer, .selected-1-Z6gm .layout-1qmrhw, .selected-1-Z6gm .layout-1qmrhw:hover,
-.containerDefault-YUSmu3.selected-2TbFuo .content-1gYQeQ:hover, .item-3XjbnG:hover.selected-g-kMVV:not(.tabBarItem-1b8RUP):not(.tabBarItem-3nPo4Z):not(.tabBarItem-30Te4-),
-.option-2KkUJO.selected-rZcOL-, .stickerInspected-mwnU6w, .item-3XjbnG.selected-g-kMVV:not(.tabBarItem-1b8RUP):not(.tabBarItem-3nPo4Z):not(.tabBarItem-30Te4-), .bd-select-options,
-.selected-2TbFuo .content-1gYQeQ, .selected-2TbFuo .content-1gYQeQ, .searchBar-zdmu7v, .searchBarComponent-3N7dCG, .card-x5zW6z, .notice-2HEN-u powercord-announcement,
-.tierHeaderContent-2SPBAA, .header-3_zmOb, .chatHeaderBar-2fUORh, .barBase-3xxDXu, .bar-2MWHzg, .threadSuggestionBar-3ExSyc, .body-2VgEvc, .footer-3YL3ds, .select-1Ia3hD,
-.avatarUploaderInnerSquareDisabled-e_U2MZ, .previewContainer-1GxmBJ, .connectionOptionsWrapper-3aVWcp, .featureCard-3XHbjy, .analyticsCard-2fnrVG, .developerPortalCtaWrapper-2PniQs,
-.tag-ijGVSm, .subcategory-1zDTD3, .enableContainer-1J91Aq, .settingsFormItem-25zW3t, .formFieldWrapper-2LV3S6, .previewContainer-29oeA6, .spoilerText-27bIiA, .upload-vLbqu-,
-.ChannelDms-channelpopout-collapseButton:hover, .optionContainer-yOpaLq:hover, .container-1wv6C6, .selected-3veCBZ, .communityInfoPill-2Mll66, .achievementContainer-2jBIZt,
-.container-3wgZ8J, .mainContainer-yxgti4, .descriptionBox-SKGNgB, .memberInsightsContainer-3TdlTJ, .inputWrapper-3a4ywb, .notice-5OG6bf, .upsellContainer-3qKRln, .container-2qVG6q,
-.box-2iMsQm, .uploadInput-3fblkw, .connectContainer-1hylYM, .emojiItem-277VFM.emojiItemSelected-2Lg50V, .categoryItemDefaultCategorySelected-2YeRUu, .categoryItemDefaultCategory-3haEDq:hover,
-.navButtonActive-1EqC5l {
+.item-3XjbnG:hover.selected-g-kMVV:not(.tabBarItem-1b8RUP):not(.tabBarItem-3nPo4Z):not(.tabBarItem-30Te4-), .option-2KkUJO.selected-rZcOL-, .stickerInspected-mwnU6w,
+.item-3XjbnG.selected-g-kMVV:not(.tabBarItem-1b8RUP):not(.tabBarItem-3nPo4Z):not(.tabBarItem-30Te4-), .bd-select-options, .selected-2TbFuo .content-1gYQeQ, .searchBar-zdmu7v,
+.searchBarComponent-3N7dCG, .card-x5zW6z, .notice-2HEN-u powercord-announcement, .tierHeaderContent-2SPBAA, .header-3_zmOb, .chatHeaderBar-2fUORh, .barBase-3xxDXu, .bar-2MWHzg,
+.threadSuggestionBar-3ExSyc, .body-2VgEvc, .footer-3YL3ds, .select-1Ia3hD, .avatarUploaderInnerSquareDisabled-e_U2MZ, .previewContainer-1GxmBJ, .connectionOptionsWrapper-3aVWcp,
+.featureCard-3XHbjy, .analyticsCard-2fnrVG, .developerPortalCtaWrapper-2PniQs, .tag-ijGVSm, .subcategory-1zDTD3, .enableContainer-1J91Aq, .settingsFormItem-25zW3t, .formFieldWrapper-2LV3S6,
+.previewContainer-29oeA6, .spoilerText-27bIiA, .upload-vLbqu-, .ChannelDms-channelpopout-collapseButton:hover, .optionContainer-yOpaLq:hover, .container-1wv6C6, .selected-3veCBZ,
+.communityInfoPill-2Mll66, .achievementContainer-2jBIZt, .container-3wgZ8J, .mainContainer-yxgti4, .descriptionBox-SKGNgB, .memberInsightsContainer-3TdlTJ, .inputWrapper-3a4ywb,
+.notice-5OG6bf, .upsellContainer-3qKRln, .container-2qVG6q, .box-2iMsQm, .uploadInput-3fblkw, .connectContainer-1hylYM, .emojiItem-277VFM.emojiItemSelected-2Lg50V,
+.categoryItemDefaultCategorySelected-2YeRUu, .categoryItemDefaultCategory-3haEDq:hover, .navButtonActive-1EqC5l {
 	background-image: var(--bgImage)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -625,7 +624,8 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 }
 
 /* BD Settings on Top - Fresh Carrot */
-.side-2ur1Qk>:where(.bd-sidebar-header,.bd-settings-tab,.bd-customcss-tab,.bd-plugins-tab,.bd-themes-tab,.bd-updates-tab,.pluginrepo-tab,.themerepo-tab,:where(.bd-themes-tab,.pluginrepo-tab,.themerepo-tab)+.separator-2wx7h6){
+.side-2ur1Qk>:where(.bd-sidebar-header, .bd-settings-tab, .bd-customcss-tab, .bd-plugins-tab, .bd-themes-tab, .bd-updates-tab, .pluginrepo-tab,
+.themerepo-tab,:where(.bd-themes-tab, .pluginrepo-tab, .themerepo-tab)+.separator-2wx7h6) {
   order: -1;
 }
 
