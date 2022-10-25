@@ -23,7 +23,7 @@
 .previewContainer-29oeA6, .spoilerText-27bIiA, .upload-vLbqu-, .ChannelDms-channelpopout-collapseButton:hover, .optionContainer-yOpaLq:hover, .container-1wv6C6, .selected-3veCBZ,
 .communityInfoPill-2Mll66, .achievementContainer-2jBIZt, .container-3wgZ8J, .mainContainer-yxgti4, .descriptionBox-SKGNgB, .memberInsightsContainer-3TdlTJ, .inputWrapper-3a4ywb,
 .notice-5OG6bf, .upsellContainer-3qKRln, .container-2qVG6q, .box-2iMsQm, .uploadInput-3fblkw, .connectContainer-1hylYM, .emojiItem-277VFM.emojiItemSelected-2Lg50V,
-.categoryItemDefaultCategorySelected-2YeRUu, .categoryItemDefaultCategory-3haEDq:hover, .navButtonActive-1EqC5l {
+.categoryItemDefaultCategorySelected-2YeRUu, .categoryItemDefaultCategory-3haEDq:hover, .navButtonActive-1EqC5l, .tag-3T_qsl {
 	background-image: var(--bgImage)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -39,7 +39,7 @@
 div.theme-dark .messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderBackground-1kSAf6, .folderIconWrapper-1oRIZr, .contentRegionScroller-2_GT_N.auto-2K3UW5.scrollerBase-_bVAAt,
 .form-3gdLxP, .unreadBar-elBRZx, .peopleColumn-1wMU14, .nowPlayingColumn-1eCBCN, .content-3spvdd, .folderIconWrapper-1_bOZe, .expandedFolderBackground-1cujaW, .loadingPopout-1feYe_,
 .wrapper-2h7HDT, .upload-3GTSF9, .popout-TdhJ6Z, .checklistItem-1gWPPD, .optionContainer-yOpaLq, .card-8UsK4b, .insightsActions-3cTXpa, .rowContainer-3t7486, .messageGroupWrapper-1jf_7C,
-.container-2qVG6q:hover, .container-JhuCwn, .channelTextAreaInner-2_mflx {
+.container-2qVG6q:hover, .container-JhuCwn, .channelTextAreaInner-2_mflx, .container-3kfp0r {
 	background-image: var(--bgDarkness1)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -55,7 +55,7 @@ div.theme-dark .messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderB
 .content-1gYQeQ:hover, .peopleListItem-u6dGxF:hover, .css-rzbxvl-option:hover, .css-1yz4bi9-option:hover, .css-1ba14n5-option:hover, .container-3EtAkD:hover,
 .memberRow-1FhJgR.emptyRowContainer-1phf3W:hover, .memberRow-1FhJgR, .inviteRow-3vmB7i:hover, .sticker-H2HhJD:hover, .emojiItem-277VFM:hover, .selected-2TbFuo .content-1gYQeQ:hover,
 .card-2gdrYL:hover, .radioBar-3w9XY-:hover, .unreadBar-elBRZx:hover, .base-2v-uc0:hover, .select-1Ia3hD:hover, .option-2eIyOn, .role-2TIOKu, .rowContainer-3t7486:hover,
-.accountButton-234qAZ:hover, .avatarWrapper-1B9FTW:hover, .categoryItemDefaultCategorySelected-2YeRUu:hover, .navButtonActive-1EqC5l:hover {
+.accountButton-234qAZ:hover, .avatarWrapper-1B9FTW:hover, .categoryItemDefaultCategorySelected-2YeRUu:hover, .navButtonActive-1EqC5l:hover, .tag-3T_qsl:hover {
 	background-image: var(--bgDarkness2)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -136,13 +136,13 @@ div.theme-dark .messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderB
 }
 .selected-2TbFuo .content-1gYQeQ, .item-3XjbnG.selected-g-kMVV:not(.tabBarItem-1b8RUP):not(.tabBarItem-3nPo4Z):not(.tabBarItem-30Te4-), .input-2g-os5, .css-gvi9bl-control, .css-1ba14n5-option,
 .option-2KkUJO.selected-rZcOL-, .selected-1-Z6gm, .input-2m5SfJ, .searchBar-zdmu7v, .container-x8Y1ix, .searchBarComponent-3N7dCG, .unreadBar-elBRZx, .bd-search-wrapper, .bd-select-option.selected,
-.gameNameInput-3TuPuA, .select-1Ia3hD, .rowContainer-3t7486, .list-3FIpnh .scrollableContainer-15eg7h, .categoryItemDefaultCategorySelected-2YeRUu, .navButtonActive-1EqC5l {
+.gameNameInput-3TuPuA, .select-1Ia3hD, .rowContainer-3t7486, .list-3FIpnh .scrollableContainer-15eg7h, .categoryItemDefaultCategorySelected-2YeRUu, .navButtonActive-1EqC5l, .tag-3T_qsl {
 	border: 1px solid var(--border-primary)!important;
 }
 .selected-2TbFuo .content-1gYQeQ:hover, .item-3XjbnG:hover.selected-g-kMVV:not(.tabBarItem-1b8RUP):not(.tabBarItem-3nPo4Z):not(.tabBarItem-30Te4-), .input-2g-os5:hover, .css-1ba14n5-option:hover,
 .css-gvi9bl-control:hover, .option-2KkUJO.selected-rZcOL-:hover, .css-1yz4bi9-option:hover, .input-2m5SfJ:hover, .selected-1-Z6gm:hover, .searchBar-zdmu7v:hover, .container-x8Y1ix:hover,
 .searchBarComponent-3N7dCG:hover, .unreadBar-elBRZx:hover, .bd-search-wrapper:hover, .bd-select-option.selected:hover, .gameNameInput-3TuPuA:hover, .select-1Ia3hD:hover, .rowContainer-3t7486:hover,
-.list-3FIpnh .scrollableContainer-15eg7h:hover, .categoryItemDefaultCategorySelected-2YeRUu:hover, .navButtonActive-1EqC5l:hover {
+.list-3FIpnh .scrollableContainer-15eg7h:hover, .categoryItemDefaultCategorySelected-2YeRUu:hover, .navButtonActive-1EqC5l:hover, .tag-3T_qsl:hover {
 	border: 1px solid var(--border-secondary)!important;
 }
 .jumpToPresentBar-1cEnH0 {

@@ -36,7 +36,7 @@
 		"SCROLLBAR_AUTO_TRACK": [ "transparent", "transparent" ],
 		"CHANNELTEXTAREA_BACKGROUND": [ "transparent", "transparent" ],
 		"CHANNEL_ICON": [ "#8E9297", "#8E9297" ],
-		"CHANNELS_DEFAULT": [ "#c0c0c0", "#3973AC" ]
+		"CHANNELS_DEFAULT": [ "#c0c0c0", "#c0c0c0" ]
 	},
 	"colours": {
 		"PRIMARY_DARK": "#1A1A1A",
