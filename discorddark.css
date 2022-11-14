@@ -55,7 +55,8 @@ div.theme-dark .messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderB
 .content-1gYQeQ:hover, .peopleListItem-u6dGxF:hover, .css-rzbxvl-option:hover, .css-1yz4bi9-option:hover, .css-1ba14n5-option:hover, .container-3EtAkD:hover,
 .memberRow-1FhJgR.emptyRowContainer-1phf3W:hover, .memberRow-1FhJgR, .inviteRow-3vmB7i:hover, .sticker-H2HhJD:hover, .emojiItem-277VFM:hover, .selected-2TbFuo .content-1gYQeQ:hover,
 .card-2gdrYL:hover, .radioBar-3w9XY-:hover, .unreadBar-elBRZx:hover, .base-2v-uc0:hover, .select-1Ia3hD:hover, .option-2eIyOn, .role-2TIOKu, .rowContainer-3t7486:hover,
-.accountButton-234qAZ:hover, .avatarWrapper-1B9FTW:hover, .categoryItemDefaultCategorySelected-2YeRUu:hover, .navButtonActive-1EqC5l:hover, .tag-3T_qsl:hover, .interactive-1vLZ_I:hover {
+.accountButton-234qAZ:hover, .avatarWrapper-1B9FTW:hover, .categoryItemDefaultCategorySelected-2YeRUu:hover, .navButtonActive-1EqC5l:hover, .tag-3T_qsl:hover, .interactive-1vLZ_I:hover,
+.option-ayUoaq:hover {
 	background-image: var(--bgDarkness2)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -84,7 +85,7 @@ div.theme-dark .messageContainer-3a6gLR, .scrollerInner-2PPAp2, .expandedFolderB
 .scrollerBase-_bVAAt[aria-label="Channels"] .content-2a4AW9 > div:not(:nth-child(1)):not(:nth-child(2)), .container-1NXEtd, .container-1-ERn5:not(.bannerVisible-Vkyg1I) .header-3OsQeK,
 .container-2o3qEW, .wrapperAudio-1Bzv_Z, .bd-error-modal-footer, .modal-3Hrb0S, .checklistHeader-3liG7E, .topPill-3DJJNV, .ChannelDms-channelpopout-header,
 .ChannelDms-channelpopout-collapseButton, .quickswitcher-pKcM9U, .body-2WIpo7, #app-mount .repliedMessage-3Z6XBG, #app-mount .repliedMessage-3Z6XBG::after, .popoutInfo-16MuYF,
-.titleBar-1it3bQ, .gridContainer-1cF_Ic, .userPopoutInner-1hXSeY, .overlayBackground-1KgwVi, .accountList-Wii_T5, .card-16VQ8C, .inner-NQg18Y {
+.titleBar-1it3bQ, .gridContainer-1cF_Ic, .userPopoutInner-1hXSeY, .overlayBackground-1KgwVi, .accountList-Wii_T5, .card-16VQ8C, .inner-NQg18Y, .container-2McqkF {
 	background-image: var(--bgDarkness3)!important;
 	background-clip: border-box!important;
 	background-origin: padding-box!important;
@@ -238,6 +239,9 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 }
 .categoryList-2qRrlj {
 	padding-right: 10px!important;
+}
+.container-2McqkF .option-ayUoaq::after {
+	display: none;
 }
 
 /* ---------- Buttons ---------- */
