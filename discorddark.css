@@ -827,6 +827,10 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
   width: 82px !important;
 }
 
+.expandedFolderBackground-1kSAf6 {
+  width: 58px;
+}
+
 #app-mount .blobContainer-ikKyFs:active, #app-mount .listItemWrapper-3d87LP:active {
   transform: scale(0.95);
 }
