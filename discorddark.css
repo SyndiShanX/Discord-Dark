@@ -395,17 +395,21 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
 
 .guilds-2JjMmN .scroller-3X7KbA .tutorialContainer-1pL9QS {
   position: fixed;
-  transform: translateY(-112%);
   margin-top: 12px;
   margin-left: 9px;
 }
 
 .tutorialContainer-1pL9QS {
   transform: translateY(-75px) !important;
+  left: 8px !important;
 }
 
 .tutorialContainer-1pL9QS > *:not(:first-child) {
   display: none !important;
+}
+
+.scroller-3X7KbA > div:nth-child(2) {
+  margin-top: 18px !important;
 }
 
 /* Revert Role Design - Ashtrath */
@@ -805,10 +809,6 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
 .wrapper-38slSD {
   position: relative !important;
   width: 82px !important;
-}
-
-.tutorialContainer-1pL9QS {
-  left: 8px !important;
 }
 
 #app-mount .blobContainer-ikKyFs:active, #app-mount .listItemWrapper-3d87LP:active {
