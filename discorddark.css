@@ -814,3 +814,69 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
 #app-mount .blobContainer-ikKyFs:active, #app-mount .listItemWrapper-3d87LP:active {
   transform: scale(0.95);
 }
+
+/* Syntax Naming - CodeDotSpectra */
+.hljs.css::before {content: "CSS\00000a\00000a";}
+.hljs.js::before {content: "Javascript\00000a\00000a";}
+.hljs.php::before {content: "PHP\00000a\00000a";}
+.hljs.java::before {content: "Java\00000a\00000a";}
+.hljs.csharp::before {content: "C#\00000a\00000a";}
+.hljs.c::before {content: "C\00000a\00000a";}
+.hljs.cpp::before {content: "C++\00000a\00000a";}
+.hljs.coffeescript::before {content: "Coffeescript\00000a\00000a";}
+.hljs.bash::before {content: "Bash\00000a\00000a";}
+.hljs.bat::before {content: "Batch\00000a\00000a";}
+.hljs.html::before {content: "HTML\00000a\00000a";}
+.hljs.apache::before {content: "Apache\00000a\00000a";}
+.hljs.diff::before {content: "Diff\00000a\00000a";}
+.hljs.http::before {content: "HTTP\00000a\00000a";}
+.hljs.json::before {content: "JSON\00000a\00000a";}
+.hljs.markdown::before {content: "Markdown\00000a\00000a";}
+.hljs.makfile::before {content: "Makefile\00000a\00000a";}
+.hljs.nginx::before {content: "Nginx\00000a\00000a";}
+.hljs.perl::before {content: "Perl\00000a\00000a";}
+.hljs.properties::before {content: "Properties\00000a\00000a";}
+.hljs.ruby::before {content: "Ruby\00000a\00000a";}
+.hljs.python::before {content: "Python\00000a\00000a";}
+.hljs.shell::before {content: "Shell\00000a\00000a";}
+.hljs.sql::before {content: "SQL\00000a\00000a";}
+.hljs.powershell::before {content: "PowerShell\00000a\00000a";}
+.hljs.xml::before {content: "XML\00000a\00000a";}
+.hljs.objectivec::before {content: "Objective-C\00000a\00000a";}
+.hljs.CSS::before {content: "CSS\00000a\00000a";}
+.hljs.py::before {content: "PY\00000a\00000a";}
+.hljs.ts::before {content: "TypeScript\00000a\00000a";}
+.hljs.typescript::before {content: "TypeScript\00000a\00000a";}
+.hljs.scss::before {content: "SCSS\00000a\00000a";}
+.hljs.sass::before {content: "SASS\00000a\00000a";}
+.hljs.less::before {content: "Less CSS\00000a\00000a";}
+.hljs.swift::before {content: "Swift\00000a\00000a";}
+.hljs.autoit::before {content: "AutoIt\00000a\00000a";}
+.hljs.basic::before {content: "BASIC\00000a\00000a";}
+.hljs.lisp::before {content: "Lisp\00000a\00000a";}
+.hljs.lua::before {content: "Lua\00000a\00000a";}
+.hljs.m::before {content: "M\00000a\00000a";}
+.hljs.javascript::before {content: "Javascript\00000a\00000a";}
+.hljs.pascal::before {content: "Pascal\00000a\00000a";}
+.hljs.clean::before {content: "Clean\00000a\00000a";}
+.hljs.erlang::before {content: "Erlang\00000a\00000a";}
+.hljs.fsharp::before {content: "F#\00000a\00000a";}
+.hljs.kotlin::before {content: "Kotlin\00000a\00000a";}
+.hljs.rs::before {content: "Rust\00000a\00000a";}
+.hljs.rust::before {content: "Rust\00000a\00000a";}
+.hljs.hs::before {content: "Haskell\00000a\00000a";}
+.hljs.haskell::before {content: "Haskell\00000a\00000a";}
+.hljs.go::before {content: "GO\00000a\00000a";}
+.hljs.asciidoc::before {content: "AsciiDoc\00000a\00000a";}
+.hljs.yaml::before {content: "YAML\00000a\00000a";}
+.hljs.x86asm::before {content: "x86asm\00000a\00000a";}
+.hljs.C::before {content: "C\00000a\00000a";}
+.hljs.cs::before {content: "C#\00000a\00000a";}
+.hljs.toml::before {content: "TOML\00000a\00000a";}
+.hljs.scheme::before {content: "Scheme\00000a\00000a";}
+.hljs.mips::before {content: "MIPS\00000a\00000a";}
+.hljs.MIPS::before {content: "MIPS\00000a\00000a";}
+.hljs.vb::before {content: "Visual Basic\00000a\00000a";}
+.hljs.VB::before {content: "Visual Basic\00000a\00000a";}
+.hljs.r::before {content: "R\00000a\00000a";}
+.hljs.R::before {content: "R\00000a\00000a";}
