@@ -802,9 +802,13 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
   width: 90px;
 }
 
-.scroller-3X7KbA > div > .listItem-3SmSlK {
+.scroller-3X7KbA > div:not(.tutorialContainer-1pL9QS) > .listItem-3SmSlK {
   position: relative !important;
   left: -4px !important;
+}
+
+.tutorialContainer-1pL9QS {
+  left: 3px !important;
 }
 
 #app-mount .blobContainer-ikKyFs:active, #app-mount .listItemWrapper-3d87LP:active {
