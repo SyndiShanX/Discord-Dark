@@ -406,7 +406,7 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
 
 .guilds-2JjMmN .scroller-3X7KbA {
   contain: unset;
-  margin-top: 68px;
+  margin-top: 88px;
 }
 
 .guilds-2JjMmN .scroller-3X7KbA .tutorialContainer-1pL9QS {
@@ -416,7 +416,7 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
 }
 
 .tutorialContainer-1pL9QS {
-  transform: translateY(-55px) !important;
+  transform: translateY(-75px) !important;
   left: 8px !important;
 }
 
@@ -424,8 +424,8 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
   display: none !important;
 }
 
-.scroller-3X7KbA > div:nth-child(2) {
-  margin-top: 33px !important;
+.scroller-3X7KbA > div:nth-child(2) > .listItem-3SmSlK {
+  margin-top: 15px !important;
 }
 
 /* Revert Role Design - Ashtrath */
