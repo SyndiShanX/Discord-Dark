@@ -593,7 +593,7 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
 }
 
 /* Fancy Reply Styling - Gibbu */
-#app-mount .repliedMessage-3Z6XBG {
+#app-mount .repliedMessage-3Z6XBG:not(.latin24CompactTimeStamp-2pXUBq) {
   position: absolute;
   top: 25px;
   left: 86px;
@@ -608,32 +608,32 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
   box-sizing: border-box;
 }
 
-#app-mount .repliedMessage-3Z6XBG .messageGroupWrapper-1jf_7C {
+#app-mount .repliedMessage-3Z6XBG:not(.latin24CompactTimeStamp-2pXUBq) .messageGroupWrapper-1jf_7C {
   top: 35px !important;
 }
 
-#app-mount .repliedMessage-3Z6XBG > div {
+#app-mount .repliedMessage-3Z6XBG:not(.latin24CompactTimeStamp-2pXUBq) > div {
   position: relative;
   z-index: 1;
 }
 
-#app-mount .repliedMessage-3Z6XBG img.replyAvatar-sHd2sU {
+#app-mount .repliedMessage-3Z6XBG:not(.latin24CompactTimeStamp-2pXUBq) img.replyAvatar-sHd2sU {
   display: none;
 }
 
-#app-mount .repliedMessage-3Z6XBG img.emoji {
+#app-mount .repliedMessage-3Z6XBG:not(.latin24CompactTimeStamp-2pXUBq) img.emoji {
   display: inline;
 }
 
-#app-mount .repliedMessage-3Z6XBG .username-h_Y3Us {
+#app-mount .repliedMessage-3Z6XBG:not(.latin24CompactTimeStamp-2pXUBq) .username-h_Y3Us {
   margin-right: 5px;
 }
 
-#app-mount .repliedMessage-3Z6XBG::before {
+#app-mount .repliedMessage-3Z6XBG:not(.latin24CompactTimeStamp-2pXUBq)::before {
   content: none;
 }
 
-#app-mount .repliedMessage-3Z6XBG::after {
+#app-mount .repliedMessage-3Z6XBG:not(.latin24CompactTimeStamp-2pXUBq)::after {
   content: "";
   position: absolute;
   top: -1px;
@@ -648,7 +648,7 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
   border-right: none;
 }
 
-#app-mount .repliedMessage-3Z6XBG + .contents-2MsGLg .header-2jRmjb {
+#app-mount .repliedMessage-3Z6XBG:not(.latin24CompactTimeStamp-2pXUBq) + .contents-2MsGLg .header-2jRmjb {
   margin-bottom: 32px;
 }
 
@@ -782,7 +782,7 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
 }
 
 /* Edited Timestamps - Obscure */
-.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS):not(.latin24CompactTimeStamp-2pXUBq) time::after {
   content: " (" attr(aria-label) ")";
   color: var(--text-muted);
   font-size: 0.625rem;
