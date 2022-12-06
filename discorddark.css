@@ -1,7 +1,7 @@
 /* Update Warning - _david_ */
 #app-mount .app-2CXKsg:before {
   content: "Your version of Discord Dark is outdated. Please Download the Newest Version from the Updates Tab in the Settings or from https://github.com/SyndiShanX/Discord-Dark";
-  display: var(--version-1-27, block);
+  display: var(--version-1-26, block);
   background-color: #4a90e2;
   color: #fff;
   font-size: 14px;
