@@ -112,7 +112,7 @@
 
 /* ---------- Main Tweaks ---------- */
 /* Hide GIF, and Gift Buttons */
-.buttonContainer-2lnNiN .button-f2h6uQ:not(.emojiButton-3FRTuj) .contents-3ca1mk:not(.translateButton-DhP9x8):not(.stickerButton-1-nFh2), .buttons-uaqb-5 > .button-f2h6uQ {
+.buttonContainer-2lnNiN .button-f2h6uQ:not(.emojiButton-3FRTuj) .contents-3ca1mk:not(.translateButton-DhP9x8):not(.stickerButton-1-nFh2), .buttons-uaqb-5 > .button-f2h6uQ, .container-3Csys8 {
   display: var(--GIFtButtons) !important;
 }
 
