@@ -399,6 +399,12 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
   max-width: 90%;
 }
 
+/* Better Inbox Header Fix - SyndiShanX */
+.recentMentionsPopout-2bI1ZN .container-iA3Qrz, .recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
+  height: 90%;
+  overflow: visible !important;
+}
+
 /* Pin Home Button - DoggyBootsy */
 .guilds-2JjMmN .tree-3agP2X:focus {
   outline-color: transparent;
