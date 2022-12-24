@@ -23,7 +23,8 @@
 .previewContainer-29oeA6, .spoilerText-27bIiA, .ChannelDms-channelpopout-collapseButton:hover, .optionContainer-yOpaLq:hover, .container-1wv6C6, .communityInfoPill-2Mll66,
 .achievementContainer-2jBIZt, .container-3wgZ8J, .mainContainer-yxgti4, .descriptionBox-SKGNgB, .memberInsightsContainer-3TdlTJ, .notice-5OG6bf, .smallPerkCard-2sX_--,
 .upsellContainer-3qKRln, .box-2iMsQm, .uploadInput-3fblkw, .connectContainer-1hylYM, .emojiItem-277VFM.emojiItemSelected-2Lg50V, .categoryItemDefaultCategorySelected-2YeRUu,
-.categoryItemDefaultCategory-3haEDq:hover, .navButtonActive-1EqC5l, .card-2xymMp, .container-2NdZr9, .container-SidGiM, .messageContainer-3VTXBC, .messages-23can0 {
+.categoryItemDefaultCategory-3haEDq:hover, .navButtonActive-1EqC5l, .card-2xymMp, .container-2NdZr9, .container-SidGiM, .messageContainer-3VTXBC, .messages-23can0,
+.dropCriteria-UN2xbq, .gameNameInput-2wbDJ9:hover {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -167,7 +168,7 @@
 .input-2g-os5:hover, .list-3FIpnh .scrollableContainer-15eg7h:hover, .selected-1-Z6gm:hover, .css-gvi9bl-control:hover, .css-1ba14n5-option:hover, .option-2KkUJO.selected-rZcOL-:hover,
 .css-1yz4bi9-option:hover, .input-2m5SfJ:hover, .searchBar-zdmu7v:hover, .container-x8Y1ix:hover, .searchBarComponent-3N7dCG:hover, .unreadBar-elBRZx:hover, .bd-search-wrapper:hover, .bd-select-option.selected:hover,
 .gameNameInput-3TuPuA:hover, .select-1Ia3hD:hover, .rowContainer-3t7486:hover, .categoryItemDefaultCategorySelected-2YeRUu:hover, .navButtonActive-1EqC5l:hover, .tag-3T_qsl:hover, .copyInput-3AbKWB:hover,
-.fieldBackground-2TpuOY:hover, .fieldFooterContainer-2QTUnl:hover, .card-16VQ8C:hover, .mainContainer-yxgti4:hover, .css-19vtg9u-control:hover, .inputWrapper-3a4ywb:hover {
+.fieldBackground-2TpuOY:hover, .fieldFooterContainer-2QTUnl:hover, .card-16VQ8C:hover, .mainContainer-yxgti4:hover, .css-19vtg9u-control:hover, .inputWrapper-3a4ywb:hover, .gameNameInput-2wbDJ9:hover {
   border: 1px solid var(--border-secondary) !important;
 }
 
@@ -403,6 +404,10 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
 .recentMentionsPopout-2bI1ZN .container-iA3Qrz, .recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
   height: 90%;
   overflow: visible !important;
+}
+
+.recentMentionsPopout-2bI1ZN .channelHeader-DFRX8q {
+  padding-top: 0px !important;
 }
 
 /* Pin Home Button - DoggyBootsy */
