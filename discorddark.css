@@ -577,32 +577,20 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
           animation: spin 0.8s ease;
 }
 
-/* Messages Slide In Chat - Lonk */
-@-webkit-keyframes slide-up {
-  0% {
-    opacity: 0;
-    transform: translateX(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
+/* Messages Slide In Chat - Lonk 
 @keyframes slide-up {
-  0% {
-    opacity: 0;
-    transform: translateX(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0px);
-  }
+	0% {
+		opacity: 0;
+		transform: translateX(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
 }
 .message-2CShn3 {
-  -webkit-animation: slide-up 0.4s ease;
-          animation: slide-up 0.4s ease;
-}
-
+  animation: slide-up 0.4s ease;
+}*/
 /* Fancy Reply Styling - Gibbu */
 #app-mount .repliedMessage-3Z6XBG:not(.latin24CompactTimeStamp-2pXUBq) {
   position: absolute;
