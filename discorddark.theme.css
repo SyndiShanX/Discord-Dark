@@ -2,7 +2,7 @@
  * @name Discord Dark
  * @description A Github Dark Theme for Discord, meant to be used with Discord Dark Mode
  * @author SyndiShanX#4620
- * @version 1.27
+ * @version 1.28
  * @website https://syndishanx.github.io/Discord-Dark
  * @source https://github.com/SyndiShanX/Discord-Dark
 */
@@ -39,7 +39,7 @@
 
 :root {
 	--theme: Discord Dark by SyndiShanX;                           /* Update Warning                                                         */
-	--version-1-27: none;                                          /* Replaces Default Discord Colors                                        */
+	--version-1-28: none;                                          /* Replaces Default Discord Colors                                        */
 	--background-primary: rgba(0, 0, 0, 0);                        /*                                                                        */
 	--background-secondary: #1a1a1a;                               /*                                                                        */
 	--background-tertiary: rgba(0, 0, 0, 0.5);                     /*                                                                        */
@@ -63,7 +63,10 @@
 	--white-button-border: #808080;                                /* Gray Button Colors                                                     */
 	--gray-button: #4f545c;                                        /*                                                                        */
 	--gray-button-hover: #646970;                                  /*                                                                        */
-	--gray-button-border: #919599;                                 /* Icons Size                                                             */
+	--gray-button-border: #919599;                                 /* Orange Button Colors                                                   */
+	--orange-button: #A54829;                                      /*                                                                        */
+	--orange-button-hover: #C65731;                                /*                                                                        */
+	--orange-button-border: #CC4300;                               /* Icons Size                                                             */
 	--settingsiconssize: 18px;                                     /* Gift and GIF Buttons (none | block)                                    */
 	--GIFtButtons: none;                                           /* Icons Gap                                                              */
 	--settingsiconsgap: 14px;                                      /* Settings Sidebar Width                                                 */
