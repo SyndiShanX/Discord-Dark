@@ -322,9 +322,7 @@ h2.name-3BUDLf, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 .avatar-3mTjvZ svg {
   width: 184px;
   height: 184px;
-  -ms-interpolation-mode: nearest-neighbor !important;
-      image-rendering: -moz-crisp-edges !important;
-      image-rendering: pixelated !important;
+  image-rendering: pixelated !important;
 }
 
 .avatar-3mTjvZ {
@@ -544,8 +542,7 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
 
 /* Profile Buttons Animation - Xyhlo */
 .button-12Fmur:hover .contents-3ca1mk {
-  -webkit-animation: UserModalButtons 0.5s normal ease;
-          animation: UserModalButtons 0.5s normal ease;
+  animation: UserModalButtons 0.5s normal ease;
 }
 
 .container-YkUktl .noWrap-hBpHBz {
@@ -564,8 +561,7 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
 
 /* Channel Hover Animation - Xyhlo */
 .mainContent-20q_Hp:hover {
-  -webkit-animation: UserModalButtons 0.5s normal ease;
-          animation: UserModalButtons 0.5s normal ease;
+  animation: UserModalButtons 0.5s normal ease;
 }
 
 .mainContent-20q_Hp, .noWrap-hBpHBz:not(.flex-2S1XBF) {
@@ -576,19 +572,6 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
 .mainContent-20q_Hp, .mainContent-20q_Hp:hover {
   transition: 0.2s;
 }
-
-@-webkit-keyframes UserModalButtons {
-  0% {
-    transform: translateY(0px);
-  }
-  45% {
-    transform: translateY(-2px);
-  }
-  90% {
-    transform: translateY(0px);
-  }
-}
-
 @keyframes UserModalButtons {
   0% {
     transform: translateY(0px);
@@ -601,20 +584,6 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
   }
 }
 /* Home Icon Animation on Click - The Commie Axolotl */
-@-webkit-keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  20% {
-    transform: rotate(-20deg);
-  }
-  70% {
-    transform: rotate(380deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -630,31 +599,15 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
   }
 }
 .pill-L_aLMQ.bd-selected + .listItemWrapper-3d87LP .homeIcon-r0w4ny {
-  -webkit-animation: spin 0.8s ease;
-          animation: spin 0.8s ease;
+  animation: spin 0.8s ease;
 }
 
-/* Messages Slide In Chat - Lonk 
-@keyframes slide-up {
-	0% {
-		opacity: 0;
-		transform: translateX(20px);
-	}
-	100% {
-		opacity: 1;
-		transform: translateX(0px);
-	}
-}
-.message-2CShn3 {
-  animation: slide-up 0.4s ease;
-}*/
 /* Fancy Reply Styling - Gibbu */
 #app-mount .repliedMessage-3Z6XBG:not(.latin24CompactTimeStamp-2pXUBq) {
   position: absolute;
   top: 25px;
   left: 86px;
   border: 1px solid var(--border-primary);
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   max-width: calc(60vw - 240px);
@@ -871,6 +824,25 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
   max-height: 500px;
   overflow-x: hidden;
   overflow-y: scroll;
+}
+
+/* Old Title Bar Edit - Spacing and Cutoff Fixes*/
+.platform-win .typeWindows-2-g3UY {
+  top: -3px;
+  height: 0px;
+}
+
+.notice-2HEN-u {
+  top: 8px;
+  border-radius: 0px;
+}
+
+.base-2jDfDU {
+  top: -8px;
+}
+
+.platform-win .closeButton-30b1gR {
+  left: 8px;
 }
 
 /* Server Rings Edit - Sidebar Fixes and Click Animation Reducer */
