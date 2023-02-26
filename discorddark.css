@@ -26,7 +26,7 @@
 .upsellContainer-3qKRln, .box-2iMsQm, .uploadInput-3fblkw, .connectContainer-1hylYM, .emojiItem-277VFM.emojiItemSelected-2Lg50V, .categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq:hover, .navButtonActive-1EqC5l, .card-2xymMp, .container-2NdZr9, .container-SidGiM, .messageContainer-3VTXBC, .messages-23can0,
 .dropCriteria-UN2xbq, .gameNameInput-2wbDJ9:hover, .upsellContainer-TwfTaF, .input-3O04eu, .select-Zz0IcO, .option-Uc12mm.focused-10mbp-, .radioBar-1XgZqD,
-.backgroundModifierContainer-WjXgb2, .settingsRowSubsection-3vOCnI, .upsellPreview-zfsyzm, .card-ErWTld {
+.backgroundModifierContainer-WjXgb2, .settingsRowSubsection-3vOCnI, .upsellPreview-zfsyzm, .card-ErWTld, .container-_dQaft {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -460,16 +460,6 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
   max-width: 90%;
 }
 
-/* Better Inbox Header Fix - SyndiShanX */
-.recentMentionsPopout-2bI1ZN .container-iA3Qrz, .recentMentionsPopout-2bI1ZN .channel-3NJZ1V {
-  height: 90%;
-  overflow: visible !important;
-}
-
-.recentMentionsPopout-2bI1ZN .channelHeader-DFRX8q {
-  padding-top: 0px !important;
-}
-
 /* Pin Home Button - DoggyBootsy */
 .guilds-2JjMmN .tree-3agP2X:focus {
   outline-color: transparent;
@@ -524,7 +514,7 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
   display: none;
 }
 
-/* Normal Status Picker - Zuzumi */
+/* Normal Status Picker (Removes User Popup) - Zuzumi */
 .accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-qc0szY, .accountProfilePopoutWrapper-3GskID .avatarWrapper-3y0KZ1, .accountProfilePopoutWrapper-3GskID .profileBadges-31rDHI,
 .accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX:before, .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda div:not(.menu-1QACrS, .menu-1QACrS *),
 .accountProfilePopoutWrapper-3GskID[id=account-divider-1] {
@@ -577,6 +567,7 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
 .mainContent-20q_Hp, .mainContent-20q_Hp:hover {
   transition: 0.2s;
 }
+
 @keyframes UserModalButtons {
   0% {
     transform: translateY(0px);
@@ -588,7 +579,11 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
     transform: translateY(0px);
   }
 }
-/* Home Icon Animation on Click - The Commie Axolotl */
+/* Home Icon Animation on Hover - The Commie Axolotl */
+.listItemWrapper-3d87LP:hover {
+  animation: spin 1s ease;
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -603,10 +598,6 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
     transform: rotate(360deg);
   }
 }
-.pill-L_aLMQ.bd-selected + .listItemWrapper-3d87LP .homeIcon-r0w4ny {
-  animation: spin 0.8s ease;
-}
-
 /* Fancy Reply Styling - Gibbu */
 #app-mount .repliedMessage-3Z6XBG:not(.latin24CompactTimeStamp-2pXUBq) {
   position: absolute;
@@ -767,18 +758,18 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
 .scrollableContainer-15eg7h:hover, .input-2z42oC:hover {
   border-color: #4373c5;
   background-color: #2e2c2c;
-  box-shadow: 0px 0px 3px 1px #4373c5; /*remove this to remove the glow*/
+  box-shadow: 0px 0px 3px 1px #4373c5;
 }
 
 .scrollableContainer-15eg7h:focus-within, .input-cIJ7To:focus-within {
   background-color: #2e2c2c;
   border-color: var(--color-brand-lighter);
-  box-shadow: 0px 0px 3px 1px #4373c5; /*remove this to remove the glow*/
+  box-shadow: 0px 0px 3px 1px #4373c5;
 }
 
 .scrollableContainer-15eg7h {
   border: 1px solid transparent;
-  border-radius: 3px; /* Edit this in order to change the shape of the text box */
+  border-radius: 3px;
 }
 
 .jumpToPresentBar-1cEnH0 {
@@ -808,7 +799,7 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
   display: none;
 }
 
-/* Limited Size Code Blocks - ItMeSarah —  */
+/* Limited Size Code Blocks - ItMeSarah */
 .markup-eYLPri blockquote::-webkit-scrollbar, .markup-eYLPri pre > code::-webkit-scrollbar {
   width: 15px;
   height: 15px;
@@ -831,24 +822,29 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
   overflow-y: scroll;
 }
 
-/* Old Title Bar Edit - Spacing and Cutoff Fixes*/
-.platform-win .typeWindows-2-g3UY {
-  top: -3px;
-  height: 0px;
-}
-
-.notice-2HEN-u {
-  top: 8px;
-  border-radius: 0px;
-}
-
+/* Old Title Bar Edit - Spacing and Cutoff Fixes */
 .base-2jDfDU {
   top: 0px;
   height: 100vh;
 }
 
+.platform-win .typeWindows-2-g3UY {
+  top: -3px;
+  height: 0px;
+}
+
+.platform-win .winButton-3UMjdg {
+  top: 4px !important;
+  height: 40px !important;
+}
+
 .platform-win .closeButton-30b1gR {
   left: 8px;
+}
+
+.notice-2HEN-u {
+  top: 8px;
+  border-radius: 0px;
 }
 
 /* Server Rings Edit - Sidebar Fixes and Click Animation Reducer */
