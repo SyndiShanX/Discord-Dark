@@ -117,7 +117,7 @@
 
 /* ---------- Main Tweaks ---------- */
 /* Hide GIF, and Gift Buttons */
-.buttonContainer-2lnNiN .button-f2h6uQ:not(.emojiButton-3FRTuj) .contents-3ca1mk:not(.translateButton-DhP9x8):not(.stickerButton-1-nFh2), .buttons-uaqb-5 > .button-f2h6uQ, .container-3Csys8 {
+.buttons-uaqb-5 > .buttonContainer-2lnNiN:nth-child(2), .buttons-uaqb-5 > .buttonContainer-2lnNiN:nth-child(3), .buttons-uaqb-5 > .button-ejjZWC {
   display: var(--GIFtButtons) !important;
 }
 
@@ -546,7 +546,7 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
 }
 
 /* Profile Buttons Animation - Xyhlo */
-.button-12Fmur:hover .contents-3ca1mk {
+.button-12Fmur:hover .contents-3NembX {
   animation: UserModalButtons 0.5s normal ease;
 }
 
