@@ -70,7 +70,7 @@
   background-position: left top !important;
 }
 
-.item-3XjbnG:hover:not(.item-3mHhwr):not(.tabBarItem-1b8RUP):not(.tabBarItem-3nPo4Z), .item-1OdjEX.focused-3qFvc8,
+.item-3XjbnG:hover:not(.item-3mHhwr):not(.tabBarItem-1b8RUP):not(.tabBarItem-3nPo4Z), .item-5ApiZ.focused-3LIdPu,
 .role-2TIOKu, .searchFilter-2UfsDk, .searchAnswer-23w-CH, .memberRow-1FhJgR, .option-2eIyOn, .header-JUTO-g {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
@@ -82,11 +82,11 @@
 }
 
 /* Darkness 3 Background Image */
-.wrapper-2vIMkT, .container-1zzFcN, .members-3WRCEx .content-2a4AW9, .container-ZMc96U, .searchBar-3TnChZ,
+.wrapper-2vIMkT, .container-1zzFcN, .members-3WRCEx .content-yjf30S, .container-ZMc96U, .searchBar-3TnChZ,
 .input-2g-os5, .scrollableContainer-15eg7h, .container-YkUktl, .tooltip-14MtrL, .replyBar-1oi75v,
 .clipContainer-31nYlH, .iconWrapper-3plkqh, .container-1NXEtd, .container-1-ERn5:not(.bannerVisible-Vkyg1I) .header-3OsQeK,
 .container-2o3qEW, #app-mount .repliedMessage-3Z6XBG:not(.latin24CompactTimeStamp-2pXUBq), #app-mount .repliedMessage-3Z6XBG::after, .tree-3agP2X,
-.inner-NQg18Y, .scrollerBase-_bVAAt[aria-label=Channels] .content-2a4AW9 > div:not(:nth-child(1)):not(:nth-child(2)),
+.inner-NQg18Y, .scrollerBase-_bVAAt[aria-label=Channels] .content-yjf30S > div:not(:nth-child(1)):not(:nth-child(2)),
 .gridContainer-1cF_Ic, .userPopoutInner-1hXSeY, .overlayBackground-1KgwVi, .searchHeader-1r_ZSh, div#MemberCount, .channelName-3w2Y3c, .title-31SJ6t,
 .scrollerBase-_bVAAt:not([aria-label=Channels]):not(.description-zXiu5E):not(.perksModal-fSYqOq):not(.list-1AJFv_):not(.contentRegionScroller-2_GT_N):not(.scroller-hE2gWq):not(.scroller-1J_F7B):not(.scroller-3_YDR2):not(.scroller-3j5xK2):not(.videoGrid-1tZm-F):not(.peopleList-2VBrVI),
 .uploadModal-2ie9O_, .tile-2TcwiO, .interactive-2zD88a, .card-2TuZPZ, .footer-VCsJQY, .container-1ILvLB section, .item-1BCeuB, .developerPortalCtaWrapper-2XNafh, .hljs,
@@ -184,7 +184,7 @@
   margin-left: 10px !important;
 }
 
-.menu-1QACrS .scroller-1bVxF5, .container-JhuCwn, .menu-1QACrS, .card-16VQ8C, .mainContainer-yxgti4 {
+.menu-1QACrS .scroller-nxCRu_, .container-JhuCwn, .menu-1QACrS, .card-16VQ8C, .mainContainer-yxgti4 {
   border-radius: 8px;
 }
 
