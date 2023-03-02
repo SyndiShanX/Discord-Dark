@@ -187,7 +187,7 @@
   margin-left: 10px !important;
 }
 
-.menu-1QACrS .scroller-nxCRu_, .container-JhuCwn, .menu-1QACrS, .card-16VQ8C, .mainContainer-yxgti4 {
+.menu-2TXYjN .scroller-nxCRu_, .container-JhuCwn, .menu-2TXYjN, .card-16VQ8C, .mainContainer-yxgti4 {
   border-radius: 8px;
 }
 
@@ -525,7 +525,7 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
 
 /* Normal Status Picker (Removes User Popup) - Zuzumi */
 .accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-qc0szY, .accountProfilePopoutWrapper-3GskID .avatarWrapper-3y0KZ1, .accountProfilePopoutWrapper-3GskID .profileBadges-31rDHI,
-.accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX:before, .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda div:not(.menu-1QACrS, .menu-1QACrS *),
+.accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX:before, .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda div:not(.menu-2TXYjN, .menu-2TXYjN *),
 .accountProfilePopoutWrapper-3GskID[id=account-divider-1] {
   display: none;
 }
