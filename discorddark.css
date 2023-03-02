@@ -60,7 +60,7 @@
 .css-1yz4bi9-option:hover, .css-1ba14n5-option:hover, .container-3EtAkD:hover, .memberRow-1FhJgR.emptyRowContainer-1phf3W:hover, .inviteRow-3vmB7i:hover, .sticker-H2HhJD:hover, .emojiItem-277VFM:hover,
 .card-2gdrYL:hover, .radioBar-3w9XY-:hover, .unreadBar-elBRZx:hover, .base-2v-uc0:hover, .rowContainer-3t7486:hover, .accountButton-234qAZ:hover, .categoryItemDefaultCategorySelected-2YeRUu:hover,
 .navButtonActive-1EqC5l:hover, .tag-3T_qsl:hover, .option-ayUoaq:hover, .container-2NdZr9:hover, .fieldBackground-2TpuOY:hover, .clickable-1isLJk:hover, .css-19vtg9u-control:hover, .channelRow-4X_3fi:hover,
-.option-Uc12mm:not(.focused-10mbp-):hover, .button-1zW0-r:hover {
+.option-Uc12mm:not(.focused-10mbp-):hover, .button-1zW0-r:hover, .card-2JNtco:hover {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -105,7 +105,7 @@
 .quickswitcher-pKcM9U, .body-2WIpo7, .popoutInfo-16MuYF, .titleBar-1it3bQ, .accountList-Wii_T5, .card-16VQ8C, .container-2McqkF, .copyInput-3AbKWB, .clickable-1isLJk,
 .containerPadding-3Ok3MG, .containerFooter-3BSQ3U, .fieldBackground-2TpuOY, .mainContainer-yxgti4, .guildCard-2vt3bt, .css-19vtg9u-control, .select-1Ia3hD,
 .inputWrapper-3a4ywb, .guildSection-2Zyzy8, .emojiSection-3QtaWO, .activeGame-1OdxzI, .errorPage-2pZ2Kq, .body-16rSsp, .pageBody-23bo4p, .upsellContent-10YytV,
-.upsellFooter-3M1V33, .card-2xlCYc, .root-1CAIjD, .footer-IubaaS, .scroller-Q9d9Di {
+.upsellFooter-3M1V33, .card-2xlCYc, .root-1CAIjD, .footer-IubaaS, .scroller-Q9d9Di, .card-2JNtco, .textContentFooter-2JnNv8 {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
