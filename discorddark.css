@@ -26,7 +26,7 @@
 .upsellContainer-3qKRln, .box-2iMsQm, .uploadInput-3fblkw, .connectContainer-1hylYM, .emojiItem-277VFM.emojiItemSelected-2Lg50V, .categoryItemDefaultCategorySelected-2YeRUu,
 .categoryItemDefaultCategory-3haEDq:hover, .navButtonActive-1EqC5l, .card-2xymMp, .container-2NdZr9, .container-SidGiM, .messageContainer-3VTXBC, .messages-23can0,
 .dropCriteria-UN2xbq, .gameNameInput-2wbDJ9:hover, .upsellContainer-TwfTaF, .input-3O04eu, .select-Zz0IcO, .option-Uc12mm.focused-10mbp-, .radioBar-1XgZqD,
-.backgroundModifierContainer-WjXgb2, .settingsRowSubsection-3vOCnI, .upsellPreview-zfsyzm, .card-ErWTld, .container-_dQaft, .button-1zW0-r {
+.backgroundModifierContainer-WjXgb2, .settingsRowSubsection-3vOCnI, .upsellPreview-zfsyzm, .card-ErWTld, .container-_dQaft, .button-1zW0-r, .container-2rzKKA {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -166,7 +166,7 @@
 .css-1yz4bi9-option, .input-2m5SfJ, .searchBar-zdmu7v, .container-x8Y1ix, .searchBarComponent-3N7dCG, .unreadBar-elBRZx, .bd-search-wrapper, .bd-select-option.selected,
 .gameNameInput-3TuPuA, .select-1Ia3hD, .rowContainer-3t7486, .categoryItemDefaultCategorySelected-2YeRUu, .navButtonActive-1EqC5l, .tag-3T_qsl, .copyInput-3AbKWB,
 .fieldBackground-2TpuOY, .fieldFooterContainer-2QTUnl, .card-16VQ8C, .mainContainer-yxgti4, .css-19vtg9u-control, .inputWrapper-3a4ywb, .card-2xlCYc,
-.card-2guEcY {
+.card-2guEcY, .container-2rzKKA {
   border: 1px solid var(--border-primary) !important;
 }
 
@@ -175,7 +175,7 @@
 .css-1yz4bi9-option:hover, .input-2m5SfJ:hover, .searchBar-zdmu7v:hover, .container-x8Y1ix:hover, .searchBarComponent-3N7dCG:hover, .unreadBar-elBRZx:hover, .bd-search-wrapper:hover, .bd-select-option.selected:hover,
 .gameNameInput-3TuPuA:hover, .select-1Ia3hD:hover, .rowContainer-3t7486:hover, .categoryItemDefaultCategorySelected-2YeRUu:hover, .navButtonActive-1EqC5l:hover, .tag-3T_qsl:hover, .copyInput-3AbKWB:hover,
 .fieldBackground-2TpuOY:hover, .fieldFooterContainer-2QTUnl:hover, .card-16VQ8C:hover, .mainContainer-yxgti4:hover, .css-19vtg9u-control:hover, .inputWrapper-3a4ywb:hover, .gameNameInput-2wbDJ9:hover, .card-2xlCYc:hover,
-.card-2guEcY:hover {
+.card-2guEcY:hover, .container-2rzKKA:hover {
   border: 1px solid var(--border-secondary) !important;
 }
 
@@ -594,7 +594,7 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
   }
 }
 /* Home Icon Animation on Hover - The Commie Axolotl */
-.listItemWrapper-3d87LP:hover {
+.tutorialContainer-1pL9QS .listItemWrapper-3d87LP:hover .svg-2ifYOU {
   animation: spin 1s ease;
 }
 
