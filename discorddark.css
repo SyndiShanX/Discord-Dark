@@ -354,6 +354,25 @@ h2.name-3BUDLf, h3.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
   color: #35afea !important;
 }
 
+/* Fixed Small Image Group Previews */
+.lazyImg-ewiNCh, .originalLink-Azwuo9 {
+  min-width: auto !important;
+}
+
+.oneByOneGrid-3Cl27N, .oneByTwoGrid-25mx0i, .threeByThreeGrid-2CT4mS, .threeByThreeGrid-2CT4mS > div, .twoByTwoGrid-35pISX, .twoByTwoGrid-35pISX > div {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.hoverButtonGroup-2yZIzC {
+  top: 0;
+  right: 0;
+}
+
+.hoverButton-36QWJk {
+  border-radius: 5px;
+}
+
 /* ---------- Buttons ---------- */
 /* Hover Color Change: -23, -50, -31 */
 .button-ejjZWC, .item-2GWPIy[aria-controls=ADD_FRIEND-tab], .bd-button, .item-4m-12I.selected-3jieYB, .leftTrayIcon-3kMl25,
