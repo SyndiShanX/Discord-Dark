@@ -359,9 +359,25 @@ h2.name-3BUDLf, h3.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
   min-width: auto !important;
 }
 
-.oneByOneGrid-3Cl27N, .oneByTwoGrid-25mx0i, .threeByThreeGrid-2CT4mS, .threeByThreeGrid-2CT4mS > div, .twoByTwoGrid-35pISX, .twoByTwoGrid-35pISX > div {
+.mediaAttachmentsContainer-1WGRWy > div {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.oneByTwoSoloItem-MZsImq {
+  flex: 0.5;
+}
+
+.twoByOneGrid-3RBEQO {
+  flex-direction: row;
+}
+
+.oneByTwoGrid-25mx0i {
+  align-items: flex-start;
+}
+
+.lazyImgContainer-3k3gRy, .mediaAttachmentsContainer-1WGRWy {
+  border-radius: 0 !important;
 }
 
 .hoverButtonGroup-2yZIzC {
