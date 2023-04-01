@@ -85,7 +85,7 @@
 /* Darkness 3 Background Image */
 .wrapper-2vIMkT, .container-1zzFcN, .members-3WRCEx .content-yjf30S, .container-ZMc96U, .searchBar-3TnChZ,
 .input-2g-os5, .scrollableContainer-15eg7h, .container-YkUktl, .tooltip-14MtrL, .replyBar-1oi75v,
-.clipContainer-31nYlH, .iconWrapper-3plkqh, .container-1NXEtd, .container-1-ERn5:not(.bannerVisible-Vkyg1I) .header-3OsQeK,
+.clipContainer-31nYlH, .iconWrapper-1CGrJp, .container-1NXEtd, .container-1-ERn5:not(.bannerVisible-Vkyg1I) .header-3OsQeK,
 .container-2o3qEW, #app-mount .repliedMessage-3Z6XBG:not(.latin24CompactTimeStamp-2pXUBq), #app-mount .repliedMessage-3Z6XBG::after, .tree-3agP2X,
 .inner-NQg18Y, .scrollerBase-1Pkza4[aria-label=Channels] .content-yjf30S > div:not(:nth-child(1)):not(:nth-child(2)),
 .gridContainer-1cF_Ic, .userProfileInner-3F03PX, .overlayBackground-1KgwVi, .scroller-WSmht3, .scroller-nxCRu_,
@@ -556,6 +556,10 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
 .addButtonIcon-3HZ_2f {
   width: 10px;
   height: 10px;
+}
+
+.roleRemoveIcon-387wKV {
+  margin: -5px 0 0 -6.75px;
 }
 
 /* Hide Help Icon - Xyhlo */
