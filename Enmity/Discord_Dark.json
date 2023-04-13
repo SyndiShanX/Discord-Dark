@@ -3,12 +3,13 @@
 	"description": "A Github Dark Theme for Discord Mobile",
 	"version": "1.16",
 	"authors": [{ "name": "SyndiShanX#4620", "id": "178394162381455360" }],
+	"spec": 2,
 	"background": {
 		"blur": 0,
 		"url": "https://syndishanx.github.io/Discord-Dark/Enmity/Background.png",
 		"alpha": 1.0
 	},
-	"theme_color_map": {
+	"semanticColors": {
 		"KEYBOARD": [ "rgba(0, 0, 0, 0.5)", "rgba(0, 0, 0, 0.5)" ],
 		"HEADER_PRIMARY": [ "#FFFFFF", "#FFFFFF" ],
 		"HEADER_SECONDARY": [ "#FFFFFF", "#FFFFFF" ],
@@ -38,20 +39,17 @@
 		"CHANNEL_ICON": [ "#8E9297", "#8E9297" ],
 		"CHANNELS_DEFAULT": [ "#c0c0c0", "#c0c0c0" ]
 	},
-	"colours": {
-		"PRIMARY_DARK": "#1A1A1A",
-		"PRIMARY_DARK_100": "#FFFFFF",
-		"PRIMARY_DARK_200": "#FFFFFF",
-		"PRIMARY_DARK_300": "#B6B6B6",
-		"PRIMARY_DARK_360": "#4F545C",
-		"PRIMARY_DARK_400": "#585858",
-		"PRIMARY_DARK_500": "#4F545C",
-		"PRIMARY_DARK_600": "rgba(0, 0, 0, 0.5)",
-		"PRIMARY_DARK_630": "rgba(0, 0, 0, 0.5)",
-		"PRIMARY_DARK_700": "#4F545C",
-		"PRIMARY_DARK_800": "#090909",
-		"STATUS_YELLOW": "#C2B23C",
-		"WHITE": "#FFFFFF"
+	"rawColors": {
+		"PRIMARY_100": "#FFFFFF",
+		"PRIMARY_200": "#FFFFFF",
+		"PRIMARY_300": "#B6B6B6",
+		"PRIMARY_360": "#4F545C",
+		"PRIMARY_400": "#585858",
+		"PRIMARY_500": "#4F545C",
+		"PRIMARY_600": "rgba(0, 0, 0, 0.5)",
+		"PRIMARY_630": "rgba(0, 0, 0, 0.5)",
+		"PRIMARY_700": "#4F545C",
+		"PRIMARY_800": "#090909"
 	},
 	"unsafe_colors": {
 		"CHAT_GREY": "#1A1A1A"
