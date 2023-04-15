@@ -117,8 +117,8 @@
 }
 
 /* ---------- Main Tweaks ---------- */
-/* Hide GIF, and Gift Buttons */
-.buttons-uaqb-5 > .buttonContainer-2lnNiN:nth-child(2), .buttons-uaqb-5 > .buttonContainer-2lnNiN:nth-child(3), .buttons-uaqb-5 > .button-ejjZWC {
+/* Hide GIF, Gift, and Super Reaction Buttons */
+.buttons-uaqb-5 > .buttonContainer-2lnNiN:nth-child(2), .buttons-uaqb-5 > .buttonContainer-2lnNiN:nth-child(3), .buttons-uaqb-5 > .button-ejjZWC, .wrapper-2vIMkT .button-3bklZh:nth-child(2) {
   display: var(--GIFtButtons) !important;
 }
 
