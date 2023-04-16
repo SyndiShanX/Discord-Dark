@@ -61,7 +61,7 @@
 .css-1yz4bi9-option:hover, .css-1ba14n5-option:hover, .container-3EtAkD:hover, .memberRow-1FhJgR.emptyRowContainer-1phf3W:hover, .inviteRow-3vmB7i:hover, .sticker-H2HhJD:hover, .emojiItem-277VFM:hover,
 .card-2gdrYL:hover, .radioBar-3w9XY-:hover, .unreadBar-elBRZx:hover, .base-2v-uc0:hover, .rowContainer-3t7486:hover, .accountButton-234qAZ:hover, .categoryItemDefaultCategorySelected-2YeRUu:hover,
 .navButtonActive-1EqC5l:hover, .tag-3T_qsl:hover, .option-ayUoaq:hover, .container-2NdZr9:hover, .fieldBackground-2TpuOY:hover, .clickable-1isLJk:hover, .css-19vtg9u-control:hover, .channelRow-4X_3fi:hover,
-.option-Uc12mm:not(.focused-10mbp-):hover, .button-1zW0-r:hover, .card-2JNtco:hover {
+.option-Uc12mm:not(.focused-10mbp-):hover, .button-1zW0-r:hover, .card-2JNtco:hover, .hoverButton-36QWJk:not(.removeAttachmentHoverButton-3gHROs):hover, .row-1qtctT:hover {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
