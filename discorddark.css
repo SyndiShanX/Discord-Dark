@@ -14,7 +14,7 @@
 /* ---------- Background Images ---------- */
 /* Main Background Image */
 .item-2GWPIy.selected-1sf9UK:not(.tabBarItem-1b8RUP):not(.tabBarItem-3nPo4Z):not(.tabBarItem-30Te4-),
-.item-2GWPIy:hover.selected-1sf9UK:not(.tabBarItem-1b8RUP):not(.tabBarItem-30Te4-), .item-2GWPIy:hover.selected-26oxtA,
+.item-2GWPIy:hover.selected-1sf9UK:not(.tabBarItem-1b8RUP), .item-2GWPIy:hover.selected-26oxtA,
 .selected-1-Z6gm .layout-1qmrhw, .selected-1-Z6gm .layout-1qmrhw:hover, .selected-2TbFuo .content-1gYQeQ,
 .upload-vLbqu-, .selected-26oxtA, .container-2qVG6q, .contentRegion-3HkfJJ, .bd-description-wrap, .bd-footer,
 .option-2KkUJO.selected-rZcOL-, .stickerInspected-mwnU6w, .bd-select-options, .searchBar-zdmu7v, .searchBarComponent-3N7dCG, .card-x5zW6z, .tag-3T_qsl,
@@ -47,7 +47,7 @@
 .peopleColumn-1wMU14, .nowPlayingColumn-1eCBCN, .folderIconWrapper-1_bOZe, .loadingPopout-1feYe_, .wrapper-2h7HDT, .upload-3GTSF9, .container-3kfp0r,
 .popout-TdhJ6Z, .checklistItem-1gWPPD, .optionContainer-yOpaLq, .card-8UsK4b, .insightsActions-3cTXpa, .rowContainer-3t7486, .messageGroupWrapper-1jf_7C,
 .channelTextAreaInner-2_mflx, .inputWrapper-3a4ywb, .channelHeader-DFRX8q, .previewListItem-2VAZ-Y:not(.selected-3KWlIC),
-.metadataContainer-35U-On {
+.metadataContainer-35U-On, .item-2GWPIy.selected-1sf9UK.tabBarItem-30Te4- {
   background-image: var(--bgDarkness1) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -64,7 +64,7 @@
 .card-2gdrYL:hover, .radioBar-3w9XY-:hover, .unreadBar-elBRZx:hover, .base-2v-uc0:hover, .rowContainer-3t7486:hover, .accountButton-234qAZ:hover, .categoryItemDefaultCategorySelected-2YeRUu:hover,
 .navButtonActive-1EqC5l:hover, .tag-3T_qsl:hover, .option-ayUoaq:hover, .container-2NdZr9:hover, .fieldBackground-2TpuOY:hover, .clickable-1isLJk:hover, .css-19vtg9u-control:hover, .channelRow-4X_3fi:hover,
 .option-Uc12mm:not(.focused-10mbp-):hover, .button-1zW0-r:hover, .card-2JNtco:hover, .hoverButton-36QWJk:not(.removeAttachmentHoverButton-3gHROs):hover, .row-1qtctT:hover, .collapseable-1FiLab:hover,
-.actionContainer-2krsiT:hover {
+.actionContainer-2krsiT:hover, .listRow-2nO1T6:hover {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -165,7 +165,7 @@
   background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
-.selected-2TbFuo .content-1gYQeQ, .item-2GWPIy.selected-1sf9UK:not(.tabBarItem-3VvT2z):not(.tabBarItem-MeqDhW):not(.tabBarItem-3nPo4Z),
+.selected-2TbFuo .content-1gYQeQ, .item-2GWPIy.selected-1sf9UK:not(.tabBarItem-3VvT2z):not(.tabBarItem-MeqDhW):not(.tabBarItem-3nPo4Z):not(.tabBarItem-30Te4-),
 .input-2g-os5, .list-3FIpnh .scrollableContainer-15eg7h, .selected-1-Z6gm, .css-gvi9bl-control, .css-1ba14n5-option, .option-2KkUJO.selected-rZcOL-,
 .css-1yz4bi9-option, .input-2m5SfJ, .searchBar-zdmu7v, .container-x8Y1ix, .searchBarComponent-3N7dCG, .unreadBar-elBRZx, .bd-search-wrapper, .bd-select-option.selected,
 .gameNameInput-3TuPuA, .select-1Ia3hD, .rowContainer-3t7486, .categoryItemDefaultCategorySelected-2YeRUu, .navButtonActive-1EqC5l, .tag-3T_qsl, .copyInput-3AbKWB,
@@ -174,7 +174,7 @@
   border: 1px solid var(--border-primary) !important;
 }
 
-.selected-2TbFuo .content-1gYQeQ:hover, .item-2GWPIy.selected-1sf9UK:not(.tabBarItem-3VvT2z):not(.tabBarItem-MeqDhW):not(.tabBarItem-3nPo4Z):hover,
+.selected-2TbFuo .content-1gYQeQ:hover, .item-2GWPIy.selected-1sf9UK:not(.tabBarItem-3VvT2z):not(.tabBarItem-MeqDhW):not(.tabBarItem-3nPo4Z):not(.tabBarItem-30Te4-):hover,
 .input-2g-os5:hover, .list-3FIpnh .scrollableContainer-15eg7h:hover, .selected-1-Z6gm:hover, .css-gvi9bl-control:hover, .css-1ba14n5-option:hover, .option-2KkUJO.selected-rZcOL-:hover,
 .css-1yz4bi9-option:hover, .input-2m5SfJ:hover, .searchBar-zdmu7v:hover, .container-x8Y1ix:hover, .searchBarComponent-3N7dCG:hover, .unreadBar-elBRZx:hover, .bd-search-wrapper:hover, .bd-select-option.selected:hover,
 .gameNameInput-3TuPuA:hover, .select-1Ia3hD:hover, .rowContainer-3t7486:hover, .categoryItemDefaultCategorySelected-2YeRUu:hover, .navButtonActive-1EqC5l:hover, .tag-3T_qsl:hover, .copyInput-3AbKWB:hover,
@@ -345,6 +345,47 @@ h2.name-3BUDLf, h3.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 .userInfo-regn9W > div:nth-child(2) {
   position: relative;
   left: 100px;
+}
+
+/* Added User Profiles, Plugin Repo, and Theme Repo Tab Styling */
+.tabBarItem-30Te4-:nth-child(1), .tabBarItem-30Te4-:nth-child(1):hover, .tabBarItem-30Te4-:nth-child(2), .tabBarItem-30Te4-:nth-child(2):hover,
+.tabBarItem-30Te4-:nth-child(3), .tabBarItem-30Te4-:nth-child(3):hover {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-left-style: none !important;
+}
+
+.tabBarItem-30Te4-:nth-child(1):hover, .tabBarItem-30Te4-:nth-child(2):hover, .tabBarItem-30Te4-:nth-child(3):hover {
+  border-bottom-color: var(--brand-experiment);
+}
+
+.tabBarItem-30Te4-:nth-child(1).selected-1sf9UK, .tabBarItem-30Te4-:nth-child(2).selected-1sf9UK, .tabBarItem-30Te4-:nth-child(3).selected-1sf9UK {
+  border-bottom-color: var(--control-brand-foreground) !important;
+}
+
+.tabBarItem-30Te4- {
+  font-size: 16px;
+  height: 53px;
+  width: 108px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.userProfileInner-1ngKnf .tabBarItem-30Te4- {
+  height: 30px;
+}
+
+.tabBarItem-30Te4-:nth-child(2) {
+  left: -20px;
+}
+
+.tabBarItem-30Te4-:nth-child(3) {
+  left: -40px;
 }
 
 /* Updated Viewer Icon when in a Call */
