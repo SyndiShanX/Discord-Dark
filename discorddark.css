@@ -28,7 +28,7 @@
 .dropCriteria-UN2xbq, .gameNameInput-2wbDJ9:hover, .upsellContainer-TwfTaF, .input-3O04eu, .select-Zz0IcO, .option-Uc12mm.focused-10mbp-, .radioBar-1XgZqD,
 .backgroundModifierContainer-WjXgb2, .settingsRowSubsection-3vOCnI, .upsellPreview-zfsyzm, .card-ErWTld, .container-_dQaft, .button-1zW0-r, .container-2rzKKA,
 .message-1oQ5HY, .inputField-1iYysB, .field-3rN-Ip:not(.directionColumn-3pi1nm), .input-3NIgDw, .keywordsTextArea-3QkFoG, .collapseable-1FiLab, .actionContainer-2krsiT,
-.actionContainer-EzNGrb {
+.actionContainer-EzNGrb, .reactionTooltipContent-3XfUAU {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -191,7 +191,8 @@
   margin-left: 10px !important;
 }
 
-.menu-2TXYjN .scroller-nxCRu_, .container-JhuCwn, .menu-2TXYjN, .card-16VQ8C, .mainContainer-yxgti4 {
+.menu-2TXYjN .scroller-nxCRu_, .container-JhuCwn, .menu-2TXYjN, .card-16VQ8C, .mainContainer-yxgti4,
+.reactionTooltipContent-3XfUAU {
   border-radius: 8px;
 }
 
