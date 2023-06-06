@@ -123,7 +123,7 @@
 /* ---------- Main Tweaks ---------- */
 /* Hide GIF, Gift, and Super Reaction Buttons */
 .buttons-uaqb-5 > .buttonContainer-2lnNiN:nth-child(2), .buttons-uaqb-5 > .buttonContainer-2lnNiN:nth-child(3), .buttons-uaqb-5 > .button-ejjZWC, .wrapper-2vIMkT .button-3bklZh:nth-child(2),
-.colorPremiumGradient-38tGFG {
+.colorPremiumGradient-38tGFG, .stickerIconOffset-2zxofV {
   display: var(--GIFtButtons) !important;
 }
 
