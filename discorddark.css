@@ -123,7 +123,7 @@
 /* ---------- Main Tweaks ---------- */
 /* Hide GIF, Gift, and Super Reaction Buttons */
 .buttons-uaqb-5 > .buttonContainer-2lnNiN:nth-child(2), .buttons-uaqb-5 > .buttonContainer-2lnNiN:nth-child(3), .buttons-uaqb-5 > .button-ejjZWC, .wrapper-2vIMkT .button-3bklZh:nth-child(2),
-.colorPremiumGradient-38tGFG, .stickerIconOffset-2zxofV {
+.colorPremiumGradient-38tGFG, .stickerIconOffset-2zxofV, .reactions-3ryImn div[aria-label="Add Super Reaction"] {
   display: var(--GIFtButtons) !important;
 }
 
