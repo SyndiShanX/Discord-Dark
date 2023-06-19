@@ -19,11 +19,11 @@
 /* Better Inbox - Disease */
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
 
+/* Plugins/Themes Counter - Skamt */
+@import url("https://raw.githack.com/Skamt/BDAddons/main/CSS/AddonsCounter.css");
+
 /* Server Rings - Gibbu */
 @import url("https://discordstyles.github.io/SoftX/ServerRings.css");
-
-/* Better Crashes - Disease */
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/wellThisIsAwkwardSoTryThis.css);
 
 /* Normalized Forums - Disease */
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/NormalizedForums.css);
@@ -66,9 +66,9 @@
 	--gray-button-border: #919599;                                 /* Orange Button Colors                                                   */
 	--orange-button: #A54829;                                      /*                                                                        */
 	--orange-button-hover: #C65731;                                /*                                                                        */
-	--orange-button-border: #CC4300;                               /* Icons Size                                                             */
-	--settingsiconssize: 18px;                                     /* Gift and GIF Buttons (none | block)                                    */
-	--GIFtButtons: none;                                           /* Icons Gap                                                              */
+	--orange-button-border: #CC4300;                               /* Gift and GIF Buttons (none | block)                                    */
+	--GIFtButtons: none;                                           /* Icons Size                                                             */
+	--settingsiconssize: 18px;                                     /* Icons Gap                                                              */
 	--settingsiconsgap: 14px;                                      /* Settings Sidebar Width                                                 */
 	--sidebar-width: 245px;                                        /* Scrollbar Slider Color                                                 */
 	--scrollbar-color: rgba(55, 55, 55, 0.5);                      /* Scrollbar Slider Hover Color                                           */

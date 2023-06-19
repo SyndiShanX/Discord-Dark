@@ -957,6 +957,16 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
   d: path("M48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24Z") !important;
 }
 
+/* Plugins/Themes Counter - Fixes */
+#themes-tab:after, #plugins-tab:after {
+  border: 1px solid var(--border-primary);
+  border-radius: 3px;
+  position: relative;
+  height: 28px;
+  left: 50px;
+  top: 0px;
+}
+
 /* Server Rings Edit - Sidebar Fixes and Click Animation Reducer */
 .guilds-2JjMmN {
   width: 90px;
