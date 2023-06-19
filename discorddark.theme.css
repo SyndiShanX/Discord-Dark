@@ -38,8 +38,7 @@
 @import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css);
 
 :root {
-	--theme: Discord Dark by SyndiShanX;                           /* Update Warning                                                         */
-	--version-1-29: none;                                          /* Replaces Default Discord Colors                                        */
+	--theme: Discord Dark by SyndiShanX;                           /* Replaces Default Discord Colors                                        */
 	--background-primary: rgba(0, 0, 0, 0);                        /*                                                                        */
 	--background-secondary: #1a1a1a;                               /*                                                                        */
 	--background-tertiary: rgba(0, 0, 0, 0.5);                     /*                                                                        */
