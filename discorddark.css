@@ -1,17 +1,6 @@
 /* Update Warning - _david_ */
 #app-mount .app-2CXKsg:before {
   content: "Your version of Discord Dark is outdated. Please Download the Newest Version from the Updates Tab in the Settings or from https://github.com/SyndiShanX/Discord-Dark";
-  display: var(--version-1-29, block);
-  background-color: #4a90e2;
-  color: #fff;
-  font-size: 14px;
-  line-height: 36px;
-  font-weight: 500;
-  text-align: center;
-  z-index: 99;
-}
-#app-mount .app-2CXKsg:before {
-  content: "Your version of Discord Dark is outdated. Please Download the Newest Version from the Updates Tab in the Settings or from https://github.com/SyndiShanX/Discord-Dark";
   display: var(--version-1-28, block);
   background-color: #4a90e2;
   color: #fff;
