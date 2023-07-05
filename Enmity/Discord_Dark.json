@@ -2,7 +2,7 @@
 	"name": "Discord_Dark",
 	"description": "A Github Dark Theme for Discord Mobile",
 	"version": "1.16",
-	"authors": [{ "name": "SyndiShanX#4620", "id": "178394162381455360" }],
+	"authors": [{ "name": "SyndiShanX", "id": "178394162381455360" }],
 	"spec": 2,
 	"background": {
 		"blur": 0,

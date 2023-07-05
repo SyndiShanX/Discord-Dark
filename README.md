@@ -2,7 +2,7 @@
 
 A Github Dark Theme for Discord
 
-Made by: SyndiShanX#4620
+Made by: SyndiShanX
 
 Inspired by: Github Dark
 
