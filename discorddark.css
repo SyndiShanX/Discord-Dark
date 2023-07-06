@@ -88,7 +88,7 @@
 .packHeader-w9jpYl, .header-11eigE, .base-2v-uc0, .header-1ULbqO, .footer-1fjuF6, .headerTop-3C2Zn0, .feature-2IUcBI, .imageWrapper-oMkQl4, .actionButton-3-B2x-, .footer-IubaaS,
 .bd-search-wrapper, .activeGame-3ncS55, .card-2gdrYL, .previewOverlayInner-1WXURq, .bar-1Bhnl9, .connectionHeader-Ixbb1s, .header-1ffhsl, .background-3d_SjE, .item-2idW98,
 .root-1CAIjD:not(.carouselModal-1eUFoq), .scrollerBase-1Pkza4:not([aria-label=Channels]):not(.description-zXiu5E):not(.perksModal-fSYqOq):not(.list-1AJFv_):not(.contentRegionScroller-2_GT_N):not(.scroller-hE2gWq):not(.scroller-1J_F7B):not(.scroller-3_YDR2):not(.scroller-3j5xK2):not(.videoGrid-1tZm-F):not(.peopleList-2VBrVI),
-.bd-addon-header, .attachment-1PZZB2, .inline:not(.bd-setting-item), .body-2khErn, .headerTop-2y3V6H, .aboutMeSection-3bipSD, .activityUserPopout-2MzGCj, .list-1uSVgu,
+.bd-addon-header, .attachment-1PZZB2, .body-2khErn, .headerTop-2y3V6H, .aboutMeSection-3bipSD, .activityUserPopout-2MzGCj, .list-1uSVgu,
 .aboutMeSection---MkQa, .inlineContent-2YnoDy, .container-3ssFyj, .contentWrapper-3vHNP2, .categoryHeader-OpJ1Ly, .categoryHeader-OpJ1Ly::after, .bodyInnerWrapper-2bQs1k,
 .footer-1Dc_h6, .background-2hs1sP, .fieldList-in8WkP, .accountProfileCard-lbN7n-, .profileBannerPreview-3_l0Wd, .container-1oeRFJ.clickable-28SzVr, .tierBody-1d3UiS,
 .wrapper-24fR1R, .box-J4N4jE, .container-3i3IzO, .tutorialContainer-2sGCg9, .container-2c4_8A, .header-3_zmOb, .browser-mnQ1T7, .container-3O_wAf, .wrapperAudio-1Bzv_Z,
@@ -432,6 +432,11 @@ h2.name-3BUDLf, h3.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 .pulsingEllipsis-S-xTiX {
   top: 325px;
   left: 725px;
+}
+
+/* Darkened Code Blocks to Increase Visibility when Message is Hovered */
+.inline:not(.bd-setting-item) {
+  background-color: rgba(0, 0, 0, 0.65) !important;
 }
 
 /* ---------- Buttons ---------- */
