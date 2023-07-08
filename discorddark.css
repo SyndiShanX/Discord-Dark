@@ -1,6 +1,6 @@
 /* ---------- Background Images ---------- */
 /* Main Background Image */
-.item-2GWPIy.selected-1sf9UK:not(.tabBarItem-1b8RUP):not(.tabBarItem-3nPo4Z):not(.tabBarItem-30Te4-),
+.item-2GWPIy.selected-1sf9UK:not(.tabBarItem-1b8RUP, .tabBarItem-3nPo4Z, .tabBarItem-30Te4-),
 .item-2GWPIy:hover.selected-1sf9UK:not(.tabBarItem-1b8RUP), .item-2GWPIy:hover.selected-26oxtA,
 .selected-1-Z6gm .layout-1qmrhw, .selected-1-Z6gm .layout-1qmrhw:hover, .selected-2TbFuo .wrapper-NhbLHG .link-1_kTxV, .selected-2TbFuo .wrapper-NhbLHG:hover .link-1_kTxV,
 .upload-vLbqu-, .selected-26oxtA, .container-2qVG6q, .contentRegion-3HkfJJ, .bd-description-wrap, .bd-footer,
@@ -61,7 +61,7 @@
   background-position: left top !important;
 }
 
-.item-2GWPIy:hover:not(.item-3mHhwr):not(.tabBarItem-1b8RUP):not(.tabBarItem-3nPo4Z), .item-5ApiZt.focused-3LIdPu,
+.item-2GWPIy:hover:not(.item-3mHhwr, .tabBarItem-1b8RUP, .tabBarItem-3nPo4Z), .item-5ApiZt.focused-3LIdPu,
 .role-2TIOKu, .searchFilter-2UfsDk, .searchAnswer-23w-CH, .memberRow-1FhJgR, .option-2eIyOn, .header-JUTO-g, .wrapper-NhbLHG:hover .link-1_kTxV {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
@@ -76,8 +76,7 @@
 .wrapper-2vIMkT, .container-1zzFcN, .members-3WRCEx .content-yjf30S, .container-ZMc96U, .searchBar-3TnChZ,
 .input-2g-os5, .scrollableContainer-15eg7h, .container-YkUktl, .tooltip-14MtrL, .replyBar-1oi75v,
 .clipContainer-31nYlH, .iconWrapper-1CGrJp, .container-1NXEtd, .container-1-ERn5:not(.bannerVisible-Vkyg1I) .header-3OsQeK,
-.container-2o3qEW, #app-mount .repliedMessage-3Z6XBG:not(.latin24CompactTimeStamp-2pXUBq), #app-mount .repliedMessage-3Z6XBG::after, .tree-3agP2X,
-.inner-NQg18Y, .scrollerBase-1Pkza4[aria-label=Channels] .content-yjf30S > div:not(:nth-child(1)):not(:nth-child(2)),
+.container-2o3qEW, #app-mount .repliedMessage-3Z6XBG:not(.latin24CompactTimeStamp-2pXUBq), #app-mount .repliedMessage-3Z6XBG::after, .tree-3agP2X, .inner-NQg18Y,
 .gridContainer-1cF_Ic, .userProfileInner-1ngKnf, .overlayBackground-2aa7wt, .scroller-WSmht3, .scroller-nxCRu_,
 .searchHeader-1r_ZSh, div#MemberCount, .channelName-3w2Y3c, .title-31SJ6t, .uploadModal-2ie9O_, .tile-2TcwiO, .interactive-2zD88a, .card-2TuZPZ, .footer-VCsJQY,
 .container-1ILvLB section, .item-1BCeuB, .developerPortalCtaWrapper-2XNafh, .hljs, .header-GwIGlr, .changeDetails-bk98pu, .css-rzbxvl-option, .css-1yz4bi9-option,
@@ -87,7 +86,7 @@
 .checklistItem-37OOck, .notEnoughMembersError-1KwJkE, .featureCard-1RR4Tl, .container-3EtAkD, .activityPanel-9icbyU, .cardContent-1-5hym, .inspector-2A2Chb, .inspector-DFKXwB,
 .packHeader-w9jpYl, .header-11eigE, .base-2v-uc0, .header-1ULbqO, .footer-1fjuF6, .headerTop-3C2Zn0, .feature-2IUcBI, .imageWrapper-oMkQl4, .actionButton-3-B2x-, .footer-IubaaS,
 .bd-search-wrapper, .activeGame-3ncS55, .card-2gdrYL, .previewOverlayInner-1WXURq, .bar-1Bhnl9, .connectionHeader-Ixbb1s, .header-1ffhsl, .background-3d_SjE, .item-2idW98,
-.root-1CAIjD:not(.carouselModal-1eUFoq), .scrollerBase-1Pkza4:not([aria-label=Channels]):not(.description-zXiu5E):not(.perksModal-fSYqOq):not(.list-1AJFv_):not(.contentRegionScroller-2_GT_N):not(.scroller-hE2gWq):not(.scroller-1J_F7B):not(.scroller-3_YDR2):not(.scroller-3j5xK2):not(.videoGrid-1tZm-F):not(.peopleList-2VBrVI),
+.root-1CAIjD:not(.carouselModal-1eUFoq), .scrollerBase-1Pkza4:not([aria-label=Channels], .description-zXiu5E, .perksModal-fSYqOq, .list-1AJFv_, .contentRegionScroller-2_GT_N, .scroller-hE2gWq, .scroller-1J_F7B, .scroller-3_YDR2, .scroller-3j5xK2, .videoGrid-1tZm-F, .peopleList-2VBrVI),
 .bd-addon-header, .attachment-1PZZB2, .body-2khErn, .headerTop-2y3V6H, .aboutMeSection-3bipSD, .activityUserPopout-2MzGCj, .list-1uSVgu,
 .aboutMeSection---MkQa, .inlineContent-2YnoDy, .container-3ssFyj, .contentWrapper-3vHNP2, .categoryHeader-OpJ1Ly, .categoryHeader-OpJ1Ly::after, .bodyInnerWrapper-2bQs1k,
 .footer-1Dc_h6, .background-2hs1sP, .fieldList-in8WkP, .accountProfileCard-lbN7n-, .profileBannerPreview-3_l0Wd, .container-1oeRFJ.clickable-28SzVr, .tierBody-1d3UiS,
@@ -109,8 +108,7 @@
 
 /* ---------- Main Tweaks ---------- */
 /* Hide GIF, Gift, and Super Reaction Buttons */
-.buttons-uaqb-5 > .buttonContainer-2lnNiN:nth-child(2), .buttons-uaqb-5 > .buttonContainer-2lnNiN:nth-child(3), .buttons-uaqb-5 > .button-ejjZWC, .wrapper-2vIMkT .button-3bklZh:nth-child(2),
-.colorPremiumGradient-38tGFG, .stickerIconOffset-2zxofV, .reactions-3ryImn div[aria-label="Add Super Reaction"] {
+button:has([d^="M16.886 7.999H20C21.104"], [d^="m2 2c-1.1046 0-2"]), .button-3bklZh:has([d^="M20.3397 14.2379C21.2318"]), #message-add-reaction-1 {
   display: var(--GIFtButtons) !important;
 }
 
@@ -153,7 +151,7 @@
   background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
-.selected-2TbFuo .wrapper-NhbLHG .link-1_kTxV, .item-2GWPIy.selected-1sf9UK:not(.tabBarItem-3VvT2z):not(.tabBarItem-MeqDhW):not(.tabBarItem-3nPo4Z):not(.tabBarItem-30Te4-),
+.selected-2TbFuo .wrapper-NhbLHG .link-1_kTxV, .item-2GWPIy.selected-1sf9UK:not(.tabBarItem-3VvT2z, .tabBarItem-MeqDhW, .tabBarItem-3nPo4Z, .tabBarItem-30Te4-),
 .input-2g-os5, .list-3FIpnh .scrollableContainer-15eg7h, .selected-1-Z6gm, .css-gvi9bl-control, .css-1ba14n5-option, .option-2KkUJO.selected-rZcOL-,
 .css-1yz4bi9-option, .input-2m5SfJ, .searchBar-zdmu7v, .container-x8Y1ix, .searchBarComponent-3N7dCG, .unreadBar-elBRZx, .bd-search-wrapper, .bd-select-option.selected,
 .gameNameInput-3TuPuA, .select-1Ia3hD, .rowContainer-3t7486, .categoryItemDefaultCategorySelected-2YeRUu, .navButtonActive-1EqC5l, .tag-3T_qsl, .copyInput-3AbKWB,
@@ -162,7 +160,7 @@
   border: 1px solid var(--border-primary) !important;
 }
 
-.item-2GWPIy.selected-1sf9UK:not(.tabBarItem-3VvT2z):not(.tabBarItem-MeqDhW):not(.tabBarItem-3nPo4Z):not(.tabBarItem-30Te4-):hover,
+.item-2GWPIy.selected-1sf9UK:not(.tabBarItem-3VvT2z, .tabBarItem-MeqDhW, .tabBarItem-3nPo4Z, .tabBarItem-30Te4-):hover,
 .input-2g-os5:hover, .list-3FIpnh .scrollableContainer-15eg7h:hover, .selected-1-Z6gm:hover, .css-gvi9bl-control:hover, .css-1ba14n5-option:hover, .option-2KkUJO.selected-rZcOL-:hover,
 .css-1yz4bi9-option:hover, .input-2m5SfJ:hover, .searchBar-zdmu7v:hover, .container-x8Y1ix:hover, .searchBarComponent-3N7dCG:hover, .unreadBar-elBRZx:hover, .bd-search-wrapper:hover, .bd-select-option.selected:hover,
 .gameNameInput-3TuPuA:hover, .select-1Ia3hD:hover, .rowContainer-3t7486:hover, .categoryItemDefaultCategorySelected-2YeRUu:hover, .navButtonActive-1EqC5l:hover, .tag-3T_qsl:hover, .copyInput-3AbKWB:hover,
@@ -257,7 +255,7 @@ h2.name-3BUDLf, h3.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 }
 
 /* Change Text Color to White to Increase Readability */
-.inputWrapper-1YNMmM .input-2g-os5, .text-sm-normal-3Zj3Iv, .button-ejjZWC.colorBrand-2M3O3N:not(.lookBlank-21BCro):not(.lookInverted-2D7oAl) div,
+.inputWrapper-1YNMmM .input-2g-os5, .text-sm-normal-3Zj3Iv, .button-ejjZWC.colorBrand-2M3O3N:not(.lookBlank-21BCro, .lookInverted-2D7oAl) div,
 .username-3JLfHz, .text-PdAsFQ, .title-OdeD-o, .title-2Giw-4, .contents-18-Yxp, .footerTitle-3Bslxi, .nameInput-ph8KMi .lookOutlined-3sRXeN .contents-18-Yxp,
 .bd-settings-title, .bd-error-modal, .title-1_TkpU, .size16-rrJ6ag, .size24-17l95E, .size14-3fJ-ot, .defaultColor-24IHKz, .sampleLink-5BWNy9, .text-md-normal-304U3g,
 .text-xs-bold-1NF1lz, .card-jdf7Rs, .backgroundModifierContainer-WjXgb2:hover .text-sm-medium-2-Xzsi, .defaultColor-1EVLSt, .customStatus-3Bvsdb, .themed-qqoYp3,
@@ -481,14 +479,14 @@ h2.name-3BUDLf, h3.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
 
 /* Blue */
 .button-ejjZWC.colorBrand-2M3O3N:not(.lookBlank-FgPMy6):not(.lookInverted-2D7oAl), .button-ejjZWC.colorBrandNew-abZT3v, .bd-button-title,
-button.bd-addon-button:not(.bd-link):not(.bd-button-danger), .bd-view-button.selected {
+button.bd-addon-button:not(.bd-link, .bd-button-danger), .bd-view-button.selected {
   background-color: var(--blue-button) !important;
   border-color: var(--blue-button-border) !important;
   color: #fff !important;
 }
 
 .button-ejjZWC.colorBrand-2M3O3N:not(.lookBlank-FgPMy6):not(.lookInverted-2D7oAl):hover, .button-ejjZWC.colorBrandNew-abZT3v:hover, .bd-button-title:hover,
-button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-button.selected:hover {
+button.bd-addon-button:not(.bd-link, .bd-button-danger):hover, .bd-view-button.selected:hover {
   background-color: var(--blue-button-hover) !important;
   border-color: var(--blue-button-border) !important;
 }
@@ -584,7 +582,7 @@ button.bd-addon-button:not(.bd-link):not(.bd-button-danger):hover, .bd-view-butt
   display: none !important;
 }
 
-.scroller-3X7KbA > div:nth-child(2) > .listItem-3SmSlK {
+.scroller-3X7KbA > .listItem-3SmSlK {
   margin-top: 15px !important;
 }
 
