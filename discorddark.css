@@ -990,6 +990,11 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover, .bd-view-button.s
   top: -5px;
 }
 
+.scrollerBase-1Pkza4 > div > .listItem-3SmSlK {
+  position: relative !important;
+  top: 2px !important;
+}
+
 #app-mount .blobContainer-ikKyFs:active, #app-mount .listItemWrapper-3d87LP:active {
   transform: scale(0.95);
 }
