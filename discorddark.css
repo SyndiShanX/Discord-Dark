@@ -224,8 +224,20 @@ body {
   background: var(--selection-background) !important;
 }
 
+.containerDefault-YUSmu3 .modeUnread-3Cxepe .name-28HaxV {
+  color: var(--unread-channel-text) !important;
+}
+
+.containerDefault-YUSmu3 .wrapper-NhbLHG:not(.modeUnread-3Cxepe, .modeMuted-2T4MDZ) .name-28HaxV, .containerDefault-YUSmu3 > .link-1_kTxV > .content-2V2neN > .name-28HaxV {
+  color: var(--default-channel-text) !important;
+}
+
+.containerDefault-YUSmu3 .modeMuted-2T4MDZ .name-28HaxV {
+  color: var(--muted-channel-text) !important;
+}
+
 h2.name-3BUDLf, h3.membersGroup-2eiWxl, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
-  color: #3973AC !important;
+  color: var(--category-title-text-color) !important;
 }
 
 .name-3BUDLf .overflow-1wOqNV:hover {
