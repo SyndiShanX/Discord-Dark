@@ -110,7 +110,7 @@
 /* ---------- Main Tweaks ---------- */
 /* Hide GIF, Gift, and Super Reaction Buttons */
 button:has([d^="M16.886 7.999H20C21.104"], [d^="m2 2c-1.1046 0-2"]), .button-3bklZh:has([d^="M20.3397 14.2379C21.2318"]), #message-add-reaction-1, .stickerIconOffset-2zxofV,
-.addReactButton-3bSQb6:has([d^="M20.3397 14.2379C21.2318"]) {
+.addReactButton-3bSQb6:has([d^="M20.3397 14.2379C21.2318"]), .reactionBtn-3I19bq:has([d^="M20.3397 14.2379C21.2318"]) {
   display: var(--GIFtButtons) !important;
 }
 
