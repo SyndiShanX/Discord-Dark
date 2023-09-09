@@ -236,7 +236,7 @@ body {
   color: var(--muted-channel-text) !important;
 }
 
-h2.name-3BUDLf, h3.membersGroup-2eiWxl, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV {
+h2.name-3BUDLf, h3.membersGroup-2eiWxl, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV, .member-counter-text {
   color: var(--category-title-text-color) !important;
 }
 
@@ -453,6 +453,11 @@ h2.name-3BUDLf, h3.membersGroup-2eiWxl, h2.membersGroup-2eiWxl, .name-3BUDLf .ov
 /* Darkened Code Blocks to Increase Visibility when Message is Hovered */
 .inline:not(.bd-setting-item) {
   background-color: rgba(0, 0, 0, 0.65) !important;
+}
+
+/* Hide Offline Member Counter from Plugin */
+.offline-member-counter {
+  display: none;
 }
 
 /* ---------- Buttons ---------- */
