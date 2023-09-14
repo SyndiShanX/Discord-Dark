@@ -3,7 +3,7 @@
  * @description A Github Dark Theme for Discord, meant to be used with Discord Dark Mode
  * @author SyndiShanX
  * @authorLink https://github.com/SyndiShanX
- * @version 1.32
+ * @version 1.33
  * @website https://syndishanx.github.io/Discord-Dark
  * @source https://github.com/SyndiShanX/Discord-Dark
 */
@@ -13,12 +13,6 @@
 
 /* Icons by Mwittrien */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
-
-/* Invites Redesign - Disease */
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
-
-/* Better Inbox - Disease */
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css);
 
 /* Plugins/Themes Counter - Skamt */
 @import url("https://raw.githack.com/Skamt/BDAddons/main/CSS/AddonsCounter.css");
@@ -46,6 +40,7 @@
 	--border-primary: #5c5c5c;                                     /*                                                                        */
 	--border-secondary: #c0c0c0;                                   /*                                                                        */
 	--channels-default: #3973AC;                                   /*                                                                        */
+	--control-brand-foreground: #3a496b!important;                 /* Category Title Text Color                                              */
 	--category-title-text-color: #3973AC;                          /* Channel State Text Colors                                              */
 	--unread-channel-text: #ffffff;                                /*                                                                        */
 	--default-channel-text: #949BA4;                               /*                                                                        */
