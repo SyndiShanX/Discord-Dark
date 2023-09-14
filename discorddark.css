@@ -460,6 +460,10 @@ h2.name-3BUDLf, h3.membersGroup-2eiWxl, h2.membersGroup-2eiWxl, .name-3BUDLf .ov
   display: none;
 }
 
+.member-counter-wrapper {
+  margin-bottom: 0px !important;
+}
+
 /* ---------- Buttons ---------- */
 /* Hover Color Change: -23, -50, -31 */
 .button-ejjZWC, .item-2GWPIy[aria-controls=ADD_FRIEND-tab], .bd-button, .item-4m-12I.selected-3jieYB, .leftTrayIcon-3kMl25,
