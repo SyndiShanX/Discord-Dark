@@ -15,7 +15,8 @@
 .dropCriteria-UN2xbq, .gameNameInput-2wbDJ9:hover, .upsellContainer-TwfTaF, .input-3O04eu, .select-Zz0IcO, .option-Uc12mm.focused-10mbp-, .radioBar-1XgZqD,
 .backgroundModifierContainer-WjXgb2, .settingsRowSubsection-3vOCnI, .upsellPreview-zfsyzm, .card-ErWTld, .container-_dQaft, .button-1zW0-r, .container-2rzKKA,
 .message-1oQ5HY, .inputField-1iYysB, .field-3rN-Ip:not(.directionColumn-3pi1nm), .input-3NIgDw, .keywordsTextArea-3QkFoG, .collapseable-1FiLab, .actionContainer-2krsiT,
-.actionContainer-EzNGrb, .reactionTooltipContent-3XfUAU, .tooltipPrimary-2466a2, .keybindHint-2zIIxQ, .soundButton-2P2Ua2, .container-q2_DnH, .container-1PloNW.isOpen-O7ANQc {
+.actionContainer-EzNGrb, .reactionTooltipContent-3XfUAU, .tooltipPrimary-2466a2, .keybindHint-2zIIxQ, .soundButton-2P2Ua2, .container-q2_DnH, .container-3wvkMY.isOpen-2ldXbM,
+.container-1PloNW.isOpen-O7ANQc {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -50,8 +51,8 @@
 .css-1yz4bi9-option:hover, .css-1ba14n5-option:hover, .container-3EtAkD:hover, .memberRow-1FhJgR.emptyRowContainer-1phf3W:hover, .inviteRow-3vmB7i:hover, .sticker-H2HhJD:hover, .emojiItem-277VFM:hover,
 .card-2gdrYL:hover, .radioBar-3w9XY-:hover, .unreadBar-elBRZx:hover, .base-2v-uc0:hover, .rowContainer-3t7486:hover, .accountButton-234qAZ:hover, .categoryItemDefaultCategorySelected-2YeRUu:hover,
 .navButtonActive-1EqC5l:hover, .tag-3T_qsl:hover, .option-ayUoaq:hover, .container-2NdZr9:hover, .fieldBackground-2TpuOY:hover, .clickable-1isLJk:hover, .css-19vtg9u-control:hover, .channelRow-4X_3fi:hover,
-.option-Uc12mm:not(.focused-10mbp-):hover, .button-1zW0-r:hover, .container-1PloNW:not(.isOpen-O7ANQc):hover, .hoverButton-36QWJk:not(.removeAttachmentHoverButton-3gHROs):hover, .row-1qtctT:hover, .collapseable-1FiLab:hover,
-.actionContainer-2krsiT:hover, .listRow-2nO1T6:hover, .content-1Tgc42:hover, .soundButton-2P2Ua2:hover, .roundedRow-2mAezB:hover, .childButton-3o_dlg:hover {
+.option-Uc12mm:not(.focused-10mbp-):hover, .button-1zW0-r:hover, .container-3wvkMY:not(.isOpen-2ldXbM):hover, .container-1PloNW:not(.isOpen-O7ANQc):hover, .hoverButton-36QWJk:not(.removeAttachmentHoverButton-3gHROs):hover,
+.row-1qtctT:hover, .collapseable-1FiLab:hover, .actionContainer-2krsiT:hover, .listRow-2nO1T6:hover, .content-1Tgc42:hover, .soundButton-2P2Ua2:hover, .roundedRow-2mAezB:hover, .childButton-3o_dlg:hover {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -96,8 +97,8 @@
 .quickswitcher-pKcM9U, .body-2WIpo7, .popoutInfo-16MuYF, .titleBar-1it3bQ, .accountList-Wii_T5, .card-16VQ8C, .container-2McqkF, .copyInput-3AbKWB, .clickable-1isLJk,
 .containerPadding-3Ok3MG, .containerFooter-3BSQ3U, .fieldBackground-2TpuOY, .mainContainer-yxgti4, .guildCard-2vt3bt, .css-19vtg9u-control, .select-1Ia3hD,
 .inputWrapper-3a4ywb, .guildSection-2Zyzy8, .emojiSection-3QtaWO, .activeGame-1OdxzI, .errorPage-2pZ2Kq, .body-16rSsp, .upsellContent-10YytV,
-.upsellFooter-3M1V33, .card-2xlCYc, .scroller-Q9d9Di, .container-1PloNW:not(.isOpen-O7ANQc), .textContentFooter-2JnNv8, .addGamePopout-2SKNIV, .body-2rDNbs, .container-2kTWmC,
-.contentExpandContainer-2s0jVV, .header-3YNgrp, .wrapper-1peqyq, .slotsContainer-3Li39W, .container-2qjEOK {
+.upsellFooter-3M1V33, .card-2xlCYc, .scroller-Q9d9Di, .container-3wvkMY:not(.isOpen-2ldXbM), .container-1PloNW:not(.isOpen-O7ANQc), .textContentFooter-2JnNv8, .addGamePopout-2SKNIV,
+.body-2rDNbs, .container-2kTWmC, .contentExpandContainer-2s0jVV, .header-3YNgrp, .wrapper-1peqyq, .slotsContainer-3Li39W, .container-2qjEOK {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -158,7 +159,7 @@ button:has([d^="M16.886 7.999H20C21.104"], [d^="m2 2c-1.1046 0-2"]), .button-3bk
 .css-1yz4bi9-option, .input-2m5SfJ, .searchBar-zdmu7v, .container-x8Y1ix, .searchBarComponent-3N7dCG, .unreadBar-elBRZx, .bd-search-wrapper, .bd-select-option.selected,
 .gameNameInput-3TuPuA, .select-1Ia3hD, .rowContainer-3t7486, .categoryItemDefaultCategorySelected-2YeRUu, .navButtonActive-1EqC5l, .tag-3T_qsl, .copyInput-3AbKWB,
 .fieldBackground-2TpuOY, .fieldFooterContainer-2QTUnl, .card-16VQ8C, .mainContainer-yxgti4, .css-19vtg9u-control, .inputWrapper-3a4ywb, .card-2xlCYc,
-.card-2guEcY, .container-2rzKKA, .collapseable-1FiLab, .actionContainer-2krsiT, .modeSelected-3DmyhH .link-1_kTxV, .container-1PloNW.isOpen-O7ANQc {
+.card-2guEcY, .container-2rzKKA, .collapseable-1FiLab, .actionContainer-2krsiT, .modeSelected-3DmyhH .link-1_kTxV, .container-3wvkMY.isOpen-2ldXbM, .container-1PloNW.isOpen-O7ANQc {
   border: 1px solid var(--border-primary) !important;
 }
 
@@ -167,7 +168,7 @@ button:has([d^="M16.886 7.999H20C21.104"], [d^="m2 2c-1.1046 0-2"]), .button-3bk
 .css-1yz4bi9-option:hover, .input-2m5SfJ:hover, .searchBar-zdmu7v:hover, .container-x8Y1ix:hover, .searchBarComponent-3N7dCG:hover, .unreadBar-elBRZx:hover, .bd-search-wrapper:hover, .bd-select-option.selected:hover,
 .gameNameInput-3TuPuA:hover, .select-1Ia3hD:hover, .rowContainer-3t7486:hover, .categoryItemDefaultCategorySelected-2YeRUu:hover, .navButtonActive-1EqC5l:hover, .tag-3T_qsl:hover, .copyInput-3AbKWB:hover,
 .fieldBackground-2TpuOY:hover, .fieldFooterContainer-2QTUnl:hover, .card-16VQ8C:hover, .mainContainer-yxgti4:hover, .css-19vtg9u-control:hover, .inputWrapper-3a4ywb:hover, .gameNameInput-2wbDJ9:hover, .card-2xlCYc:hover,
-.card-2guEcY:hover, .container-2rzKKA:hover, .collapseable-1FiLab:hover, .actionContainer-2krsiT:hover, .modeSelected-3DmyhH .link-1_kTxV:hover, .container-1PloNW.isOpen-O7ANQc:hover {
+.card-2guEcY:hover, .container-2rzKKA:hover, .collapseable-1FiLab:hover, .actionContainer-2krsiT:hover, .modeSelected-3DmyhH .link-1_kTxV:hover, .container-3wvkMY.isOpen-2ldXbM:hover, .container-1PloNW.isOpen-O7ANQc:hover {
   border: 1px solid var(--border-secondary) !important;
 }
 
