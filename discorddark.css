@@ -16,7 +16,7 @@
 .backgroundModifierContainer-WjXgb2, .settingsRowSubsection-3vOCnI, .upsellPreview-zfsyzm, .card-ErWTld, .container-_dQaft, .button-1zW0-r, .container-2rzKKA,
 .message-1oQ5HY, .inputField-1iYysB, .field-3rN-Ip:not(.directionColumn-3pi1nm), .input-3NIgDw, .keywordsTextArea-3QkFoG, .collapseable-1FiLab, .actionContainer-2krsiT,
 .actionContainer-EzNGrb, .reactionTooltipContent-3XfUAU, .tooltipPrimary-2466a2, .keybindHint-2zIIxQ, .soundButton-2P2Ua2, .container-q2_DnH, .container-3wvkMY.isOpen-2ldXbM,
-.container-1PloNW.isOpen-O7ANQc {
+.container-1PloNW.isOpen-O7ANQc, .content-1bnD2b, .ctaContainer-3GjHpt {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -27,7 +27,7 @@
 }
 
 /* Darkness 1 Background Image */
-.footer-GXWBBp, .textContainer-36wgKK, .scrollerInner-2PPAp2, .form-3gdLxP,
+.footer-GXWBBp, .textContainer-36wgKK, .scrollerInner-2PPAp2, .form-3qe0Ni,
 .container-JhuCwn, .button-12Fmur:hover, .expandedFolderBackground-1kSAf6, .content-3spvdd,
 .container-2qVG6q:hover, .folderIconWrapper-1oRIZr, .container-x8Y1ix, .queryContainer-ZunrLZ, .scroller-3j5xK2, .peopleList-2VBrVI,
 .scroller-hE2gWq, .videoGrid-1tZm-F, .resultsGroup-1BPR25, .previewCard-DOrO3c, .card-3_CqkU, .scroller-1J_F7B, .css-1ba14n5-option, .circleButton-33AIyY,
@@ -48,7 +48,7 @@
 
 /* Darkness 2 Background Image */
 .layout-1qmrhw:hover, .interactive-26HRN_:not(.interactiveSelected-29CP8y):hover,
-.avatarWrapper-1B9FTW:hover, .container-x8Y1ix:hover, .roleRow-230vCm:hover, .item-2idW98:hover, .item-1BCeuB:hover, .peopleListItem-u6dGxF:hover, .css-rzbxvl-option:hover,
+.avatarWrapper-12uuu4:hover, .container-x8Y1ix:hover, .roleRow-230vCm:hover, .item-2idW98:hover, .item-1BCeuB:hover, .peopleListItem-u6dGxF:hover, .css-rzbxvl-option:hover,
 .css-1yz4bi9-option:hover, .css-1ba14n5-option:hover, .container-3EtAkD:hover, .memberRow-1FhJgR.emptyRowContainer-1phf3W:hover, .inviteRow-3vmB7i:hover, .sticker-H2HhJD:hover, .emojiItem-277VFM:hover,
 .card-2gdrYL:hover, .radioBar-3w9XY-:hover, .unreadBar-elBRZx:hover, .base-2v-uc0:hover, .rowContainer-3t7486:hover, .accountButton-234qAZ:hover, .categoryItemDefaultCategorySelected-2YeRUu:hover,
 .navButtonActive-1EqC5l:hover, .tag-3T_qsl:hover, .option-ayUoaq:hover, .container-2NdZr9:hover, .fieldBackground-2TpuOY:hover, .clickable-1isLJk:hover, .css-19vtg9u-control:hover, .channelRow-4X_3fi:hover,
@@ -76,12 +76,12 @@
 }
 
 /* Darkness 3 Background Image */
-.wrapper-2vIMkT, .container-1zzFcN, .members-3WRCEx .content-yjf30S, .container-ZMc96U, .searchBar-3TnChZ,
-.input-2g-os5, .scrollableContainer-15eg7h, .container-YkUktl, .tooltip-14MtrL, .replyBar-1oi75v,
+.wrapper-2vIMkT, .container-2NLBJg, .members-2y1nVj .content-yjf30S, .container-ZMc96U, .searchBar-3TnChZ,
+.input-2g-os5, .scrollableContainer-15eg7h, .container-1CH86i, .tooltip-14MtrL, .replyBar-1oi75v,
 .clipContainer-31nYlH, .iconWrapper-1CGrJp, .container-1NXEtd, .container-1-ERn5:not(.bannerVisible-Vkyg1I) .header-3OsQeK,
-.container-2o3qEW, #app-mount .repliedMessage-3Z6XBG:not(.latin24CompactTimeStamp-2pXUBq), #app-mount .repliedMessage-3Z6XBG::after, .tree-3agP2X, .inner-NQg18Y,
+.container-2vWgD2, #app-mount .repliedMessage-3Z6XBG:not(.latin24CompactTimeStamp-2pXUBq), #app-mount .repliedMessage-3Z6XBG::after, .tree-3agP2X, .inner-NQg18Y,
 .gridContainer-1cF_Ic, .userProfileInner-1ngKnf, .overlayBackground-2aa7wt, .scroller-WSmht3, .scroller-nxCRu_,
-.searchHeader-1r_ZSh, div#MemberCount, .channelName-3w2Y3c, .title-31SJ6t, .uploadModal-2ie9O_, .tile-2TcwiO, .interactive-2zD88a, .card-2TuZPZ, .footer-VCsJQY,
+.searchHeader-1r_ZSh, div#MemberCount, .channelName-3w2Y3c, .title-5wgnIa, .uploadModal-2ie9O_, .tile-2TcwiO, .interactive-2zD88a, .card-2TuZPZ, .footer-VCsJQY,
 .container-1ILvLB section, .item-1BCeuB, .developerPortalCtaWrapper-2XNafh, .hljs, .header-GwIGlr, .changeDetails-bk98pu, .css-rzbxvl-option, .css-1yz4bi9-option,
 .roleRow-3LoHQ6, .stickyHeader-hH_ZLl, .container-3NTP7o, .css-3vaxre-menu, .ctaBar-2UsjF2, .tierMarker-Vw1C95, .tierBody-16Chc9, .tierHeader---JJFb, .perk-2WeBWW,
 .folderHeader-2FpErk, .container-20TyK0, .container-nwU-8G, .container-2O1UgZ, .header-1w9Q93, .footer-5ji8u1, .userSelectNone-3AtPzf, .iconLayout-3Bjizv, .descriptionBox-1EKQKL,
@@ -95,9 +95,9 @@
 .footer-1Dc_h6, .background-2hs1sP, .fieldList-in8WkP, .accountProfileCard-lbN7n-, .profileBannerPreview-3_l0Wd, .container-1oeRFJ.clickable-28SzVr, .tierBody-1d3UiS,
 .wrapper-24fR1R, .box-J4N4jE, .container-3i3IzO, .tutorialContainer-2sGCg9, .container-2c4_8A, .header-3_zmOb, .browser-mnQ1T7, .container-3O_wAf, .wrapperAudio-1Bzv_Z,
 .bd-error-modal-footer, .modal-3Hrb0S, .checklistHeader-3liG7E, .topPill-3DJJNV, .ChannelDms-channelpopout-header, .ChannelDms-channelpopout-collapseButton,
-.quickswitcher-pKcM9U, .body-2WIpo7, .popoutInfo-16MuYF, .titleBar-1it3bQ, .accountList-Wii_T5, .card-16VQ8C, .container-2McqkF, .copyInput-3AbKWB, .clickable-1isLJk,
+.quickswitcher-pKcM9U, .body-2WIpo7, .popoutInfo-16MuYF, .titleBar-3AIemB, .accountList-Wii_T5, .card-16VQ8C, .container-2McqkF, .copyInput-3AbKWB, .clickable-1isLJk,
 .containerPadding-3Ok3MG, .containerFooter-3BSQ3U, .fieldBackground-2TpuOY, .mainContainer-yxgti4, .guildCard-2vt3bt, .css-19vtg9u-control, .select-1Ia3hD,
-.inputWrapper-3a4ywb, .guildSection-2Zyzy8, .emojiSection-3QtaWO, .activeGame-1OdxzI, .errorPage-2pZ2Kq, .body-16rSsp, .upsellContent-10YytV,
+.inputWrapper-3a4ywb, .guildSection-2Zyzy8, .emojiSection-3QtaWO, .activeGame-1OdxzI, .errorPage-1T2eY7, .body-16rSsp, .upsellContent-10YytV,
 .upsellFooter-3M1V33, .card-2xlCYc, .scroller-Q9d9Di, .container-3wvkMY:not(.isOpen-2ldXbM), .container-1PloNW:not(.isOpen-O7ANQc), .textContentFooter-2JnNv8, .addGamePopout-2SKNIV,
 .body-2rDNbs, .container-2kTWmC, .contentExpandContainer-2s0jVV, .header-3YNgrp, .wrapper-1peqyq, .slotsContainer-3Li39W, .container-2qjEOK {
   background-image: var(--bgDarkness3) !important;
@@ -238,7 +238,7 @@ body {
   color: var(--muted-channel-text) !important;
 }
 
-h2.name-3BUDLf, h3.membersGroup-2eiWxl, h2.membersGroup-2eiWxl, .name-3BUDLf .overflow-1wOqNV, .member-counter-text {
+h2.name-3BUDLf, h3.membersGroup-2YoqY-, h2.membersGroup-2YoqY-, .name-3BUDLf .overflow-1wOqNV, .member-counter-text {
   color: var(--category-title-text-color) !important;
 }
 
@@ -246,7 +246,7 @@ h2.name-3BUDLf, h3.membersGroup-2eiWxl, h2.membersGroup-2eiWxl, .name-3BUDLf .ov
   color: var(--interactive-hover) !important;
 }
 
-.form-3gdLxP::before, .mask-WB_llw, .option-2KkUJO::after, .iconWrapper-eK7GO6 {
+.form-3qe0Ni::before, .mask-WB_llw, .option-2KkUJO::after, .iconWrapper-eK7GO6 {
   background: transparent !important;
 }
 
@@ -647,22 +647,22 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover, .bd-view-button.s
 }
 
 /* Normal Status Picker (Removes User Popup) - Zuzumi */
-.accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-2CLfzN, .accountProfilePopoutWrapper-3GskID .avatarWrapper-eenWra, .accountProfilePopoutWrapper-3GskID .profileBadges-2pItdR,
-.accountProfilePopoutWrapper-3GskID .userProfileInner-1ngKnf:before, .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-3A0Pcz div:not(.menu-2TXYjN, .menu-2TXYjN *),
-.accountProfilePopoutWrapper-3GskID[id=account-divider-1] {
+.accountProfilePopoutWrapper-Ag_Fip .bannerSVGWrapper-2CLfzN, .accountProfilePopoutWrapper-Ag_Fip .avatarWrapper-eenWra, .accountProfilePopoutWrapper-Ag_Fip .profileBadges-2pItdR,
+.accountProfilePopoutWrapper-Ag_Fip .userProfileInner-1ngKnf:before, .accountProfilePopoutWrapper-Ag_Fip .userPopoutOverlayBackground-3A0Pcz div:not(.menu-2TXYjN, .menu-2TXYjN *),
+.accountProfilePopoutWrapper-Ag_Fip[id=account-divider-1] {
   display: none;
 }
 
-.accountProfilePopoutWrapper-3GskID {
+.accountProfilePopoutWrapper-Ag_Fip {
   left: 0;
 }
 
-.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-3A0Pcz {
+.accountProfilePopoutWrapper-Ag_Fip .userPopoutOverlayBackground-3A0Pcz {
   margin: 0;
   border-radius: 4px;
 }
 
-.accountProfilePopoutWrapper-3GskID > div, .accountProfilePopoutWrapper-3GskID .menu-KSaHL1 .submenu-1apzyU {
+.accountProfilePopoutWrapper-Ag_Fip > div, .accountProfilePopoutWrapper-Ag_Fip .menu-KSaHL1 .submenu-1apzyU {
   border-radius: 4px;
   width: 220px;
 }
@@ -672,7 +672,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover, .bd-view-button.s
   animation: UserModalButtons 0.5s normal ease;
 }
 
-.container-YkUktl .noWrap-hBpHBz {
+.container-1CH86i .noWrap-hBpHBz {
   width: 100px;
   opacity: 1;
 }
@@ -965,7 +965,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover, .bd-view-button.s
   height: 10px;
 }
 
-.platform-win .winButton-3UMjdg {
+.platform-win .winButton-3SigSb {
   top: 4px !important;
   height: 40px !important;
 }
