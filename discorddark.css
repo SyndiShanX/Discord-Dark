@@ -954,24 +954,61 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover, .bd-view-button.s
   overflow-y: scroll;
 }
 
-/* Old Title Bar Edit - Spacing and Cutoff Fixes */
-.base-2jDfDU {
-  top: 0px;
-  height: 100vh;
+/* Old Title Bar - Gibbu */
+:root {
+  --TB-header-padding: 125px;
 }
 
-.platform-win .typeWindows-2-g3UY {
-  top: -3px;
+.platform-win .typeWindows-3ILlhq {
   height: 10px;
+  margin-top: 0;
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 100%;
+  background: transparent;
+}
+
+.platform-win .winButtonClose-23zAIt {
+  border-top-right-radius: var(--TB-tr-roundness);
 }
 
 .platform-win .winButton-3SigSb {
+  position: relative;
   top: 4px !important;
+  right: var(--TB-position-right, 0px);
   height: 40px !important;
+  width: var(--TB-width, 40px);
+}
+
+.platform-win .winButton-3SigSb :not(.winButtonClose-23zAIt):hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.platform-win .container-ZMc96U {
+  padding-right: var(--TB-header-padding);
+}
+
+.platform-win .wordmarkWindows-1rsity {
+  display: none;
+}
+
+.platform-win #app-mount.bd-detached-editor .winButton-3SigSb {
+  right: 30%;
 }
 
 .platform-win .closeButton-30b1gR {
+  right: unset;
   left: 8px;
+}
+
+.platform-win #app-mount .typeWindows-3ILlhq::before {
+  content: none !important;
+}
+
+.base-2jDfDU {
+  top: 0px;
+  height: 100vh;
 }
 
 .notice-2HEN-u {

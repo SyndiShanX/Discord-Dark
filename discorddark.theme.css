@@ -3,7 +3,7 @@
  * @description A Github Dark Theme for Discord, meant to be used with Discord Dark Mode
  * @author SyndiShanX
  * @authorLink https://github.com/SyndiShanX
- * @version 1.35
+ * @version 1.36
  * @website https://syndishanx.github.io/Discord-Dark
  * @source https://github.com/SyndiShanX/Discord-Dark
 */
@@ -28,9 +28,6 @@
 
 /* Account Details Columns - Deceiving */
 @import url(https://dablulite.github.io/accountdetailscolumns/import.css);
-
-/* Old Title Bar - Gibbu */
-@import url("https://discordstyles.github.io/Addons/windows-titlebar.css");
 
 /* Old Discord Font - Overimagine */
 @import url(https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css);
