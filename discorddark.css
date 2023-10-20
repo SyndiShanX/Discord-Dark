@@ -17,7 +17,7 @@
 .message-1oQ5HY, .inputField-1iYysB, .field-3rN-Ip:not(.directionColumn-3pi1nm), .input-3NIgDw, .keywordsTextArea-3QkFoG, .collapseable-1FiLab, .actionContainer-2krsiT,
 .actionContainer-EzNGrb, .reactionTooltipContent-3XfUAU, .tooltipPrimary-2466a2, .keybindHint-2zIIxQ, .soundButton-2P2Ua2, .container-q2_DnH, .container-3wvkMY.isOpen-2ldXbM,
 .container-1PloNW.isOpen-O7ANQc, .content-1bnD2b, .ctaContainer-3GjHpt, .firstPartyCategorySelected-2zQ3yM, .smallPerkCard-39W9m_, .bigPerkCard-3KkaK3, .recommendedServerCard-3f-92z,
-.wrapper-3htY7x, .friendRequestsButton-77veU7 {
+.wrapper-3htY7x, .friendRequestsButton-77veU7, .createSticker-y-_Ug2 {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -177,7 +177,7 @@ button:has([d^="M16.886 7.999H20C21.104"], [d^="m2 2c-1.1046 0-2"]), .button-3bk
   border: 1px solid var(--border-secondary) !important;
 }
 
-.selected-2TbFuo .wrapper-NhbLHG:hover .link-1_kTxV {
+.selected-2TbFuo .wrapper-NhbLHG:hover .link-1_kTxV, .stickerInspected-mwnU6w, .emojiItemSelected-2Lg50V {
   border: 1px solid var(--border-secondary) !important;
 }
 
@@ -468,6 +468,30 @@ h2.name-3BUDLf, h3.membersGroup-2YoqY-, h2.membersGroup-2YoqY-, .name-3BUDLf .ov
 
 .member-counter-wrapper {
   margin-bottom: 0px !important;
+}
+
+/* Add Padding to Stickers and Emojis */
+.sticker-2Yb_-L {
+  padding: 12px !important;
+  border-radius: 12px !important;
+}
+
+.sticker-2Yb_-L, .assetWrapper-2hzITV {
+  width: 72px !important;
+  height: 72px !important;
+}
+
+.row-2mBMW2 {
+  height: 98px !important;
+}
+
+.emojiItem-277VFM {
+  padding: 4px !important;
+  border-radius: 12px !important;
+}
+
+.emojiListRow-3hshyU {
+  height: calc(var(--custom-emoji-picker-constants-emoji-size-medium) + var(--custom-emoji-picker-constants-emoji-container-padding-vertical) * 2 + 2);
 }
 
 /* ---------- Buttons ---------- */
