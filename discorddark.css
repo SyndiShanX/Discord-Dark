@@ -11,12 +11,13 @@
 .previewContainer-29oeA6, .spoilerText-27bIiA, .ChannelDms-channelpopout-collapseButton:hover, .optionContainer-yOpaLq:hover, .container-1wv6C6, .communityInfoPill-2Mll66,
 .achievementContainer-2jBIZt, .container-3wgZ8J, .mainContainer-yxgti4, .descriptionBox-SKGNgB, .memberInsightsContainer-3TdlTJ, .notice-5OG6bf, .smallPerkCard-2sX_--,
 .upsellContainer-3qKRln, .box-2iMsQm, .uploadInput-3fblkw, .connectContainer-1hylYM, .emojiItem-277VFM.emojiItemSelected-2Lg50V, .categoryItemDefaultCategorySelected-2YeRUu,
-.categoryItemDefaultCategory-3haEDq:hover, .navButtonActive-1EqC5l, .card-2xymMp, .container-2NdZr9, .container-SidGiM, .messageContainer-3VTXBC, .messages-23can0,
+.categoryItemDefaultCategory-3haEDq:hover, .navButtonActive-1EqC5l, .card-2xymMp, .container-2NdZr9, .container-SidGiM, .messages-23can0, .faq-29l_f8,
 .dropCriteria-UN2xbq, .gameNameInput-2wbDJ9:hover, .upsellContainer-TwfTaF, .input-3O04eu, .select-Zz0IcO, .option-Uc12mm.focused-10mbp-, .radioBar-1XgZqD,
 .backgroundModifierContainer-WjXgb2, .settingsRowSubsection-3vOCnI, .upsellPreview-zfsyzm, .card-ErWTld, .container-_dQaft, .button-1zW0-r, .container-2rzKKA,
 .message-1oQ5HY, .inputField-1iYysB, .field-3rN-Ip:not(.directionColumn-3pi1nm), .input-3NIgDw, .keywordsTextArea-3QkFoG, .collapseable-1FiLab, .actionContainer-2krsiT,
 .actionContainer-EzNGrb, .reactionTooltipContent-3XfUAU, .tooltipPrimary-2466a2, .keybindHint-2zIIxQ, .soundButton-2P2Ua2, .container-q2_DnH, .container-3wvkMY.isOpen-2ldXbM,
-.container-1PloNW.isOpen-O7ANQc, .content-1bnD2b, .ctaContainer-3GjHpt, .firstPartyCategorySelected-2zQ3yM {
+.container-1PloNW.isOpen-O7ANQc, .content-1bnD2b, .ctaContainer-3GjHpt, .firstPartyCategorySelected-2zQ3yM, .smallPerkCard-39W9m_, .bigPerkCard-3KkaK3, .recommendedServerCard-3f-92z,
+.wrapper-3htY7x, .friendRequestsButton-77veU7 {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -34,9 +35,9 @@
 .perksModal-fSYqOq, .input-2m5SfJ, div.theme-dark .messageContainer-3a6gLR, .contentRegionScroller-2_GT_N.auto-2TJ1RH.scrollerBase-1Pkza4, .unreadBar-elBRZx,
 .peopleColumn-1wMU14, .nowPlayingColumn-1eCBCN, .folderIconWrapper-1_bOZe, .loadingPopout-1feYe_, .wrapper-2h7HDT, .upload-3GTSF9, .container-3kfp0r,
 .popout-TdhJ6Z, .checklistItem-1gWPPD, .optionContainer-yOpaLq, .card-8UsK4b, .insightsActions-3cTXpa, .rowContainer-3t7486, .messageGroupWrapper-1jf_7C,
-.channelTextAreaInner-2_mflx, .inputWrapper-3a4ywb, .channelHeader-DFRX8q, .previewListItem-2VAZ-Y:not(.selected-3KWlIC), .pageBody-23bo4p,
-.metadataContainer-35U-On, .item-2GWPIy.selected-1sf9UK.tabBarItem-30Te4-, .childButton-3o_dlg, .matchingPostsRow-2IiEQ1, .replies-15QcwL,
-.activityUserPopoutV2-3eKqzY:has(.spotifyButtonLogo-2wqT62) {
+.channelTextAreaInner-2_mflx, .inputWrapper-3a4ywb, .previewListItem-2VAZ-Y:not(.selected-3KWlIC), .pageBody-23bo4p, .replies-15QcwL,
+.metadataContainer-35U-On, .item-2GWPIy.selected-1sf9UK.tabBarItem-30Te4-, .childButton-3o_dlg, .matchingPostsRow-2IiEQ1,
+.activityUserPopoutV2-3eKqzY:has(.spotifyButtonLogo-2wqT62), .messageContainer-3VTXBC, .messages-23can0 {
   background-image: var(--bgDarkness1) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -65,7 +66,7 @@
 
 .item-2GWPIy:hover:not(.item-3mHhwr, .tabBarItem-1b8RUP, .tabBarItem-3nPo4Z), .item-5ApiZt.focused-3LIdPu,
 .role-2TIOKu, .searchFilter-2UfsDk, .searchAnswer-23w-CH, .memberRow-1FhJgR, .option-2eIyOn, .header-JUTO-g, .wrapper-NhbLHG:hover .link-1_kTxV,
-.modeSelected-3DmyhH .link-1_kTxV {
+.modeSelected-3DmyhH .link-1_kTxV, .wrapper-1HIH0j {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -99,7 +100,8 @@
 .containerPadding-3Ok3MG, .containerFooter-3BSQ3U, .fieldBackground-2TpuOY, .mainContainer-yxgti4, .guildCard-2vt3bt, .css-19vtg9u-control, .select-1Ia3hD,
 .inputWrapper-3a4ywb, .guildSection-2Zyzy8, .emojiSection-3QtaWO, .activeGame-1OdxzI, .errorPage-1T2eY7, .body-16rSsp, .upsellContent-10YytV,
 .upsellFooter-3M1V33, .card-2xlCYc, .scroller-Q9d9Di, .container-3wvkMY:not(.isOpen-2ldXbM), .container-1PloNW:not(.isOpen-O7ANQc), .textContentFooter-2JnNv8, .addGamePopout-2SKNIV,
-.body-2rDNbs, .container-2kTWmC, .contentExpandContainer-2s0jVV, .header-3YNgrp, .wrapper-1peqyq, .slotsContainer-3Li39W, .container-2qjEOK, .categoryList-2qRrlj {
+.body-2rDNbs, .container-2kTWmC, .contentExpandContainer-2s0jVV, .header-3YNgrp, .wrapper-1peqyq, .slotsContainer-3Li39W, .container-2qjEOK, .categoryList-2qRrlj,
+.channelHeader-DFRX8q {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -541,7 +543,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover, .bd-view-button.s
 /* Gray */
 .button-ejjZWC.colorPrimary-2-Lusz, .colorGrey-2iAG-B, .passthrough--fbdFR.selected-3jieYB, .leftTrayIcon-3kMl25, .primaryDark-2UJt1G, .selected-2LAck8,
 .watchButton-2v6cPT, .lookOutlined-3sRXeN, .dismiss-3oneud, .sizeMin-DfpWCE, .buttonColor-1u-3JF, .streamPreview-3Fo29Y .button-ejjZWC,
-.button-2XiUpU, .addRoleContainer-2tqBaM, .backgroundAccent-1MMH1o {
+.button-2XiUpU, .addRoleContainer-2tqBaM, .backgroundAccent-1MMH1o, .tertiary-1e-lAP {
   background-color: var(--gray-button) !important;
   border-color: var(--gray-button-border) !important;
   color: #fff !important;
@@ -549,7 +551,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover, .bd-view-button.s
 
 .button-ejjZWC.colorPrimary-2-Lusz:hover, .colorGrey-2iAG-B:hover, .passthrough--fbdFR.selected-3jieYB:hover, .leftTrayIcon-3kMl25:hover, .primaryDark-2UJt1G:hover, .selected-2LAck8:hover,
 .watchButton-2v6cPT:hover, .lookOutlined-3sRXeN:hover, .dismiss-3oneud:hover, .sizeMin-DfpWCE:hover, .buttonColor-1u-3JF:hover, .streamPreview-3Fo29Y .button-ejjZWC:hover,
-.button-2XiUpU:hover, .addRoleContainer-2tqBaM:hover {
+.button-2XiUpU:hover, .addRoleContainer-2tqBaM:hover, .tertiary-1e-lAP:hover {
   background-color: var(--gray-button-hover) !important;
   border-color: var(--gray-button-border) !important;
 }
