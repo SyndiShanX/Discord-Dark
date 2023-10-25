@@ -1,86 +1,86 @@
 /* Placement */
 #themes-tab,
 #plugins-tab {
-	display: grid;
+	display: grid!important;
 	grid-template-areas:
 		"title title title"
 		"search counter controls"
-		"addons addons addons";
-	min-height: unset;
+		"addons addons addons"!important;
+	min-height: unset!important;
 }
 
 #themes-tab:after,
 #plugins-tab:after {
-	grid-area: counter;
+	grid-area: counter!important;
 }
 
 .bd-addon-controls:not(#a) {
-	display: contents;
+	display: contents!important;
 }
 
 .bd-settings-title {
-	grid-area: title;
+	grid-area: title!important;
 }
 
 .bd-search-wrapper {
-	grid-area: search;
+	grid-area: search!important;
 }
 
 .bd-controls-advanced {
-	grid-area: controls;
-	justify-self: flex-end;
+	grid-area: controls!important;
+	justify-self: flex-end!important;
 }
 
 .bd-addon-list {
-	grid-area: addons;
+	grid-area: addons!important;
 }
 
 .bd-empty-image-container,
 .bd-empty-results {
-	grid-column: 1/-1;
+	grid-column: 1/-1!important;
 }
 
 /* Cosmetics*/
 #themes-tab:after,
 #plugins-tab:after {
-	white-space: nowrap;
-	align-self: flex-start;
-	justify-self: flex-start;
-	translate: -100%;
-	height: 27px;
-	box-sizing: border-box;
-	color: var(--text-muted);
-	background-color: var(--background-tertiary);
-	font-weight: 500;
-	font-family: var(--font-primary);
-	font-size: 0.9rem;
-	padding: 6px;
-	margin-left: 0px;
-	border-left: 1px solid var(--text-muted);
-	border-radius: 0 3px 3px 0;
+	white-space: nowrap!important;
+	align-self: flex-start!important;
+	justify-self: flex-start!important;
+	translate: -100%!important;
+	height: 27px!important;
+	box-sizing: border-box!important;
+	color: var(--text-muted)!important;
+	background-color: var(--background-tertiary)!important;
+	font-weight: 500!important;
+	font-family: var(--font-primary)!important;
+	font-size: 0.9rem!important;
+	padding: 6px!important;
+	margin-left: 0px!important;
+	border-left: 1px solid var(--text-muted)!important;
+	border-radius: 0 3px 3px 0!important;
 }
 
 /* Counter Styles */
 :root {
-	counter-reset: activeAddonCount addonCount;
+	counter-reset: activeAddonCount addonCount!important;
 }
 
 .bd-addon-card {
-	counter-increment: addonCount;
+	counter-increment: addonCount!important;
 }
 
 .bd-switch-checked {
-	counter-increment: activeAddonCount;
+	counter-increment: activeAddonCount!important;
 }
 
 #themes-tab:after,
 #plugins-tab:after {
-	content: counter(activeAddonCount) " / " counter(addonCount);
-	animation: f 100ms linear infinite forwards;
+	content: counter(activeAddonCount) " / " counter(addonCount)!important;
+	animation: f 100ms linear infinite forwards!important;
 }
 
 @keyframes f {
 	to {
-		content: counter(activeAddonCount) " / " counter(addonCount);
+		content: counter(activeAddonCount) " / " counter(addonCount)!important;
 	}
 }
