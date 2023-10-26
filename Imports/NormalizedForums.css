@@ -1,6 +1,6 @@
 #app-mount .container-3wLKDe,
 #app-mount .background_e80d5a {
-    background-color: var(--background-primary)!important;
+    background-color: var(--background-primary);
 }
 
 /* Card */
@@ -8,56 +8,56 @@
 .card_d4f6c7,
 .container_acafc1,
 .container__92dc8 {
-    background-color: var(--background-secondary)!important;
-    border-radius: 8px!important;
+    background-color: var(--background-secondary);
+    border-radius: 8px;
 }
 
 .icon_f71c55 {
-    border-color: var(--background-secondary)!important;
-    background-color: var(--background-secondary)!important;
+    border-color: var(--background-secondary);
+    background-color: var(--background-secondary);
 }
 
 .container-3wLKDe {
-    border: none!important;
+    border: none;
 }
 
 .container-3wLKDe:hover {
-    background-color: var(--background-modifier-hover)!important;
+    background-color: var(--background-modifier-hover);
 }
 
 .mainCard-3KBsBI h3 {
-    font-family: var(--font-display)!important;
-    font-size: 16px!important;
-    line-height: 20px!important;
+    font-family: var(--font-display);
+    font-size: 16px;
+    line-height: 20px;
 }
 
 /* Form */
 
 .mainCard-3KBsBI.header-1Uy0p6:hover {
-    border-color: transparent!important;
+    border-color: transparent;
 }
 
 .mainCard-3KBsBI form textarea,
 .mainCard-3KBsBI form textarea::placeholder {
-    font-size: 16px!important;
-    line-height: 26px!important;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .mainCard-3KBsBI .pill_f055c3 {
-    background-color: var(--background-tertiary)!important;
+    background-color: var(--background-tertiary);
 }
 
 .mainCard-3KBsBI .dots__44c48 {
-    border-color: var(--background-secondary)!important;
+    border-color: var(--background-secondary);
 }
 
 /* Sidebar */
 .container_def45c .container__404b9 h3 {
-    font-family: var(--font-display)!important;
-    font-size: 28px!important;
-    line-height: 32px!important;
+    font-family: var(--font-display);
+    font-size: 28px;
+    line-height: 32px;
 }
 
 .container_def45c .container__404b9 .iconWrapper__3e4a9 {
-    margin-top: 0!important;
+    margin-top: 0;
 }
