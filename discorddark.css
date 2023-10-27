@@ -127,6 +127,11 @@ button:has([d^="M16.886 7.999H20C21.104"], [d^="m2 2c-1.1046 0-2"]), .button_d55
   width: 230px;
 }
 
+/* Hide Shop */
+.channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/shop"] {
+  display: none;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   border: none !important;
