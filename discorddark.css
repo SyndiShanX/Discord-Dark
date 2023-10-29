@@ -283,6 +283,14 @@ h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .ov
   background-color: transparent;
 }
 
+.content-2Lxwdo {
+  margin-bottom: 10px;
+}
+
+#channels {
+  background-image: none !important;
+}
+
 /* Change Text Color to White to Increase Readability */
 .inputWrapper-1YNMmM .input-2g-os5, .text-sm-normal-3Zj3Iv, .button_afdfd9.colorBrand_b2253e:not(.lookBlank-21BCro, .lookInverted-2D7oAl) div,
 .username__2cac3, .text-PdAsFQ, .title-OdeD-o, .title-2Giw-4, .contents-18-Yxp, .footerTitle-3Bslxi, .nameInput-ph8KMi .lookOutlined-3sRXeN .contents-18-Yxp,
@@ -292,35 +300,19 @@ h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .ov
   color: #fff !important;
 }
 
-.content-2Lxwdo {
-  margin-bottom: 10px;
-}
-
-#channels {
-  background-image: none !important;
-}
-
 /* Removes Divider in Forums and Some Elements in Tab Menus */
 .divider_ffec75, .container_d6dad3 .option_b5597b::after, .previewContainer_d2b616 .theme-light {
   display: none !important;
 }
 
 /* Updated Threads page to Look less like Garbage */
-.channelTextAreaInner-2_mflx {
+.channelTextAreaInner_c7593c {
   margin-right: 12px !important;
 }
 
 .inner__9fd0b .textArea__74543 div div[data-slate-node=element] {
   width: 100% !important;
   height: 100% !important;
-}
-
-.accountButton-234qAZ button:hover {
-  background-color: transparent !important;
-}
-
-.accountButton-234qAZ {
-  border-radius: 8px !important;
 }
 
 /* Fixed The Styling of the Emoji Picking Menu */
@@ -510,23 +502,23 @@ h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .ov
 
 /* Styled Thread Reaction Button so it Matches the Normal One */
 .reactionMe_bf6909 {
-  background-color: var(--brand-experiment-15a);
-  border-color: var(--brand-experiment);
+  background-color: var(--brand-experiment-15a) !important;
+  border-color: var(--brand-experiment) !important;
 }
 
 /* ---------- Buttons ---------- */
 /* Hover Color Change: -23, -50, -31 */
 .button_afdfd9, .item__48dda[aria-controls=ADD_FRIEND-tab], .bd-button, .item_f48d11.selected__47401, .leftTrayIcon_b73d25,
-.staticButton__819a1, .button__13ec4, .selected-2LAck8 {
+.staticButton__819a1, .button__13ec4 {
   border: 1px solid;
   border-color: rgba(0, 0, 0, 0);
 }
 
-.barFill-2Bh7CX {
+.barFill__30e17 {
   background-color: var(--blue-button-hover) !important;
 }
 
-.colorWhite-rEQuAQ .contents-18-Yxp, .lookInverted-2D7oAl .premiumSubscribeButton__521a4, .lookInverted-2D7oAl .giftButton__06890, .lookInverted-2D7oAl .contents-18-Yxp {
+.premiumSubscribeButton__521a4, .giftButton__06890 {
   color: var(--blue-button-hover) !important;
 }
 
@@ -585,17 +577,17 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover, .bd-view-button.s
 }
 
 /* Gray */
-.button_afdfd9.colorPrimary__6ed40, .colorGrey-2iAG-B, .passthrough__7cd54.selected__47401, .leftTrayIcon_b73d25, .primaryDark__6b700, .selected-2LAck8,
-.watchButton-2v6cPT, .lookOutlined-3sRXeN, .dismiss-3oneud, .sizeMin-DfpWCE, .buttonColor__6f6b0, .streamPreview_fecc46 .button_afdfd9,
-.button_fb10b9, .addRoleContainer__23777, .backgroundAccent__6330c, .tertiary_bc0225, .buttonInner__2771e, .viewServerButton__1ce42 {
+.button_afdfd9.colorPrimary__6ed40, .passthrough__7cd54.selected__47401, .leftTrayIcon_b73d25, .primaryDark__6b700, .buttonColor__6f6b0,
+.streamPreview_fecc46 .button_afdfd9, .button_fb10b9, .addRoleContainer__23777, .backgroundAccent__6330c, .tertiary_bc0225, .buttonInner__2771e,
+.viewServerButton__1ce42 {
   background-color: var(--gray-button) !important;
   border-color: var(--gray-button-border) !important;
   color: #fff !important;
 }
 
-.button_afdfd9.colorPrimary__6ed40:hover, .colorGrey-2iAG-B:hover, .passthrough__7cd54.selected__47401:hover, .leftTrayIcon_b73d25:hover, .primaryDark__6b700:hover, .selected-2LAck8:hover,
-.watchButton-2v6cPT:hover, .lookOutlined-3sRXeN:hover, .dismiss-3oneud:hover, .sizeMin-DfpWCE:hover, .buttonColor__6f6b0:hover, .streamPreview_fecc46 .button_afdfd9:hover,
-.button_fb10b9:hover, .addRoleContainer__23777:hover, .tertiary_bc0225:hover, .buttonInner__2771e:hover, .viewServerButton__1ce42:hover {
+.button_afdfd9.colorPrimary__6ed40:hover, .passthrough__7cd54.selected__47401:hover, .leftTrayIcon_b73d25:hover, .primaryDark__6b700:hover, .buttonColor__6f6b0:hover,
+.streamPreview_fecc46 .button_afdfd9:hover, .button_fb10b9:hover, .addRoleContainer__23777:hover, .backgroundAccent__6330c:hover, .tertiary_bc0225:hover, .buttonInner__2771e:hover,
+.viewServerButton__1ce42:hover {
   background-color: var(--gray-button-hover) !important;
   border-color: var(--gray-button-border) !important;
 }
