@@ -227,7 +227,7 @@ body {
   color: var(--muted-channel-text) !important;
 }
 
-h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .overflow__87fe8, .member-counter-text {
+h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .overflow__87fe8, .member_counter_text {
   color: var(--category-title-text-color) !important;
 }
 
@@ -433,7 +433,7 @@ h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .ov
   display: none;
 }
 
-.member_counter_wrapper {
+.member_counter_wrapper:has([class*=online_member_counter]) {
   margin-bottom: 0px !important;
 }
 
