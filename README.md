@@ -14,7 +14,7 @@ This Theme is meant to be used with Discord Dark Mode
 
 Copy discorddark.theme.css into your Better Discord Themes Folder
 
-###### Enmity:
+###### Enmity (Deprecated):
 
 Click on the copy button and add to Enmity
 ```
