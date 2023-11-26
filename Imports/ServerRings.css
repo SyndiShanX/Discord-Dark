@@ -221,13 +221,11 @@
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .blobContainer__5ee50,
-#app-mount .listItemWrapper__1f93b {
+#app-mount .blobContainer__5ee50, #app-mount .listItemWrapper__1f93b {
   transition: var(--transition, 0.15s ease);
   transition-property: transform;
 }
-#app-mount .blobContainer__5ee50:active,
-#app-mount .listItemWrapper__1f93b:active {
+#app-mount .blobContainer__5ee50:active, #app-mount .listItemWrapper__1f93b:active {
   transform: scale(0.9);
 }
 #app-mount .svg_ad7356 foreignObject {
