@@ -3,7 +3,7 @@
  * @description A Github Dark Theme for Discord, meant to be used with Discord Dark Mode
  * @author SyndiShanX
  * @authorLink https://github.com/SyndiShanX
- * @version 1.40
+ * @version 1.41
  * @website https://syndishanx.github.io/Discord-Dark
  * @source https://github.com/SyndiShanX/Discord-Dark
 */
@@ -28,6 +28,9 @@
 
 /* Old Discord Font - Overimagine */
 @import url("https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css");
+
+/* Old Discord Icons - Dav */
+@import url(https://davart154.github.io/Themes/Icon%20Revert%202023/2023%20Icon%20Revert.css);
 
 :root {
 	--theme: Discord Dark by SyndiShanX;                           /* Replaces Default Discord Colors                                        */
@@ -73,7 +76,8 @@
   --server-hover-colour: 186, 186, 186;                          /* Server Rings - Selected Color                                          */
   --server-selected-colour: var(--accent, 53, 175, 234);         /* Server Rings - Spacing                                                 */
   --server-spacing: 16px;                                        /* Server Rings - Glow Intensity                                          */
-  --server-glow-intensity: 1;                                    /* Discord Opacity | Transparency Needs to be Enabled                     */
+  --server-glow-intensity: 1;                                    /* Titlebar Height                                                        */
+  --titlebar-height: 20px;                                       /* Discord Opacity | Transparency Needs to be Enabled                     */
 	--discord-opacity: 1.0;                                        /* Images are Stored here to improve Loading times, more info in css file */	
 	/*
 		Images are Stored here to improve Loading times, to get the Image Code:

@@ -1019,7 +1019,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 }
 
 .platform-win .typeWindows__5fa63 {
-  height: 10px;
+  height: var(--titlebar-height);
   margin-top: 0;
   position: absolute;
   top: -3px;
@@ -1046,6 +1046,10 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 
 .platform-win .container__11d72 {
   padding-right: var(--TB-header-padding);
+}
+
+.container__7c79d, .platform-win .container__11d72 {
+  top: var(--titlebar-height);
 }
 
 .platform-win .wordmarkWindows__05c46 {
