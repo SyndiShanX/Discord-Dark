@@ -16,7 +16,7 @@
   width: 100%;
   margin-bottom: var(--server-spacing);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill], #app-mount .tutorialContainer__890ea [class*=pill] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill], #app-mount .tutorialContainer__890ea [class*=pill] {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -25,7 +25,7 @@
   overflow: visible;
   margin-left: -2px;
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] .item_f9d377, #app-mount .tutorialContainer__890ea [class*=pill] .item_f9d377 {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] .item_f9d377, #app-mount .tutorialContainer__890ea [class*=pill] .item_f9d377 {
   height: 100% !important;
   width: 100%;
   margin: 0;
@@ -37,186 +37,186 @@
   transition: var(--transition);
   transition-property: box-shadow;
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 0"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 0"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 0"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 0"] {
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
   border-color: rgb(var(--server-unread-colour));
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 1"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 1"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 1"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 1"] {
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
   border-color: rgb(var(--server-unread-colour));
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 2"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 2"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 2"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 2"] {
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
   border-color: rgb(var(--server-unread-colour));
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 3"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 3"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 3"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 3"] {
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
   border-color: rgb(var(--server-unread-colour));
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 4"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 4"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 4"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 4"] {
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
   border-color: rgb(var(--server-unread-colour));
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 5"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 5"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 5"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 5"] {
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
   border-color: rgb(var(--server-unread-colour));
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 6"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 6"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 6"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 6"] {
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
   border-color: rgb(var(--server-unread-colour));
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 7"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 7"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 7"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 7"] {
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
   border-color: rgb(var(--server-unread-colour));
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 8"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 8"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 8"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 8"] {
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
   border-color: rgb(var(--server-unread-colour));
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 9"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 9"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 9"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 9"] {
   border-color: rgb(var(--server-hover-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 10"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 10"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 10"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 10"] {
   border-color: rgb(var(--server-hover-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 11"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 11"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 11"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 11"] {
   border-color: rgb(var(--server-hover-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 12"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 12"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 12"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 12"] {
   border-color: rgb(var(--server-hover-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 13"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 13"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 13"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 13"] {
   border-color: rgb(var(--server-hover-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 14"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 14"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 14"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 14"] {
   border-color: rgb(var(--server-hover-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 15"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 15"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 15"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 15"] {
   border-color: rgb(var(--server-hover-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 16"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 16"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 16"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 16"] {
   border-color: rgb(var(--server-hover-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 17"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 17"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 17"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 17"] {
   border-color: rgb(var(--server-hover-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 18"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 18"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 18"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 18"] {
   border-color: rgb(var(--server-hover-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 19"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 19"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 19"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 19"] {
   border-color: rgb(var(--server-hover-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 20"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 20"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 20"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 20"] {
   border-color: rgb(var(--server-hover-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 21"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 21"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 21"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 21"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 22"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 22"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 22"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 22"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 23"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 23"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 23"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 23"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 24"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 24"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 24"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 24"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 25"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 25"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 25"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 25"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 26"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 26"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 26"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 26"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 27"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 27"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 27"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 27"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 28"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 28"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 28"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 28"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 29"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 29"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 29"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 29"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 30"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 30"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 30"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 30"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 31"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 31"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 31"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 31"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 32"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 32"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 32"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 32"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 33"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 33"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 33"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 33"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 34"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 34"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 34"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 34"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 35"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 35"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 35"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 35"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 36"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 36"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 36"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 36"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 37"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 37"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 37"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 37"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 38"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 38"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 38"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 38"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 39"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 39"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 39"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 39"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
-#app-mount .scroller__3d071>div:nth-child(3) .listItem_fa7b36 [class*=pill] span[style*="height: 40"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 40"] {
+#app-mount .scroller__3d071>div .listItem_fa7b36 [class*=pill] span[style*="height: 40"], #app-mount .tutorialContainer__890ea .listItem_fa7b36 [class*=pill] span[style*="height: 40"] {
   transform: scale(1) !important;
   border-color: rgb(var(--server-selected-colour));
   box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
