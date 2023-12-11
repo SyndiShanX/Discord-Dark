@@ -100,20 +100,9 @@ div#MemberCount, .title_b7d661, .uploadModal_eae2a0, .tile_a411a4, .interactive_
 }
 
 /* ---------- Main Tweaks ---------- */
-/* Hide GIF, Gift, and Super Reaction Buttons */
-button:has([d^="M16.886 7.999H20C21.104"], [d^="m2 2c-1.1046 0-2"]), .button_d553e5:has([d^="M20.3397 14.2379C21.2318"]), #message-add-reaction-1, .stickerIconOffset__86287,
-.addReactButton__59750:has([d^="M20.3397 14.2379C21.2318"]), .reactionBtn__46474:has([d^="M20.3397 14.2379C21.2318"]), .reactionBtn__46474:has([d^="M12.1151 2.00065C12.0768"]) {
-  display: var(--GIFtButtons) !important;
-}
-
 .animatedContainer__341f6 {
   border-radius: 7px;
   width: 230px;
-}
-
-/* Hide Shop */
-.channel_c21703 .linkButton_ebd2ba > .link__2e8e1[href="/shop"] {
-  display: none;
 }
 
 /* Scrollbar */
@@ -1049,7 +1038,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 }
 
 .container__7c79d, .platform-win .container__11d72 {
-  top: var(--titlebar-height);
+  top: calc(var(--titlebar-height) - 3px);
 }
 
 .platform-win .wordmarkWindows__05c46 {
