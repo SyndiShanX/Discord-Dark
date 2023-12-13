@@ -1037,7 +1037,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   padding-right: var(--TB-header-padding);
 }
 
-.container__7c79d, .platform-win .container__11d72 {
+.container__7c79d, .platform-win .container__11d72, .newMessagesBar__8b6d7 {
   top: calc(var(--titlebar-height) - 3px);
 }
 
