@@ -62,7 +62,7 @@
 
 .item__48dda:hover:not(.item_e4ca95, .tabBarItem__0ff10), .item__183e8.focused__27621, .searchFilter__118cb, .role__631a3,
 .searchAnswer_b452e7, .memberRow__91c35, .header__63c59, .wrapper__7bcde:hover .link__95dc0, .modeSelected__487d6 .link__95dc0, .wrapper_efe67f, .emojisContainer__68736,
-.searchHeaderContainer_c4c100, .paginationContainer__7663e, .searchBar__63890, .card_x5zW6z:hover .description_zXiu5E {
+.searchHeaderContainer_c4c100, .paginationContainer__7663e, .searchBar__63890, .card_x5zW6z:hover .description_zXiu5E, .titleBar__01af6 {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -84,7 +84,7 @@ div#MemberCount, .title_b7d661, .uploadModal_eae2a0, .tile_a411a4, .interactive_
 .scrollerBase_dc3aa9:not([aria-label=Channels], .list__41249, .contentRegionScroller__86c79, .scroller__00e7e, .scroller__52680, .videoGrid__8b6fc, .peopleList__2379e, .browser_c50ce0, .description_zXiu5E),
 .attachment_f3cf2c.activityUserPopout_c7e67d, .contentWrapper__321ed, .categoryHeader_f97a5f, .categoryHeader_f97a5f::after, .footer_bfb4b9, .fieldList_aab0de,
 .accountProfileCard__22589, .container__4f20e.clickable__17ccb, .tierBody__615a1, .wrapper__93f27, .container__767d1, .container__50947, .header__53b07, .browser_fece63,
-.wrapperAudio__555ce, .modal__4f3da, .ChannelDms-channelpopout-header, .ChannelDms-channelpopout-collapseButton, .quickswitcher_a3d29a, .body__91006, .titleBar__01af6,
+.wrapperAudio__555ce, .modal__4f3da, .ChannelDms-channelpopout-header, .ChannelDms-channelpopout-collapseButton, .quickswitcher_a3d29a, .body__91006,
 .container_d6dad3, .copyInput_c1c679, .clickable_cdb399, .containerPadding_cfd5a0, .containerFooter_c8da8a, .fieldBackground_b79764, .mainContainer_e09640, .guildCard__2fa7d,
 .inputWrapper_b7205b, .guildSection_ebda04, .emojiSection_a65b54, .activeGame__99516, .errorPage_da3c8d, .body__83069, .upsellContent_b657aa, .upsellFooter__63475, .card__11580,
 .scroller__5a651, .container__15ddf:not(.isOpen__036bf), .container_c24cbd:not(.isOpen_d88bb6), .textContentFooter__5a630, .addGamePopout_e4ca8f, .body_fa303f, .container_d27846,
@@ -1023,7 +1023,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 
 .platform-win .winButton__88672 {
   position: relative;
-  top: 4px !important;
+  top: 4px;
   right: var(--TB-position-right, 0px);
   height: 40px !important;
   width: var(--TB-width, 40px);
@@ -1037,8 +1037,12 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   padding-right: var(--TB-header-padding);
 }
 
+.winButton__88672 {
+  top: calc(var(--titlebar-height) - 1px) !important;
+}
+
 .container__7c79d, .platform-win .container__11d72, .newMessagesBar__8b6d7 {
-  top: calc(var(--titlebar-height) - 3px);
+  top: calc(var(--titlebar-height) - 3px) !important;
 }
 
 .platform-win .wordmarkWindows__05c46 {
