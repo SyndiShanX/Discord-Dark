@@ -3,7 +3,7 @@
  * @description A Github Dark Theme for Discord, meant to be used with Discord Dark Mode
  * @author SyndiShanX
  * @authorLink https://github.com/SyndiShanX
- * @version 1.42
+ * @version 1.43.0
  * @website https://syndishanx.github.io/Discord-Dark
  * @source https://github.com/SyndiShanX/Discord-Dark
 */
@@ -92,7 +92,7 @@
 /* Hide GIF, Gift, Super Reaction, and Shop Buttons */
 
 /* GIF Button */
-button:has([d^="M5 2a3 3 0 0 0-3 3v14a3"]),
+button:has([d^="M5 2a3 3 0 0 0-3 3v14a3"]):not(:has([d^="M15 2a1 1 0 0 1 1-1h6a1"])),
 /* Gift Button */
 button:has([d^="M4 6a4 4 0 0 1 4-4h.09c1.8"]),
 /* Super Reaction Buttons */
