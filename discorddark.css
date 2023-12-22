@@ -1094,7 +1094,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 }
 
 .notice__5fd4c {
-  top: 8px;
+  top: calc(var(--titlebar-height) - 2px) !important;
   border-radius: 0px;
 }
 
