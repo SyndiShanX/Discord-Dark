@@ -1067,7 +1067,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   top: calc(var(--titlebar-height) - 1px) !important;
 }
 
-.container__7c79d, .platform-win .container__11d72, .newMessagesBar__8b6d7 {
+.container__7c79d, .platform-win .container__11d72, .newMessagesBar__8b6d7, .unreadMentionsIndicatorTop_ada847 {
   top: calc(var(--titlebar-height) - 3px) !important;
 }
 
@@ -1156,6 +1156,10 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 
 #app-mount .blobContainer__5ee50:active, #app-mount .listItemWrapper__1f93b:active {
   transform: scale(0.95);
+}
+
+.unreadMentionsIndicatorTop_ada847 {
+  left: 5px;
 }
 
 /* Syntax Naming - CodeDotSpectra */
