@@ -1059,7 +1059,8 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   top: calc(var(--titlebar-height) - 1px) !important;
 }
 
-.container__7c79d, .platform-win .container__11d72, .newMessagesBar__8b6d7, .unreadMentionsIndicatorTop_ada847, .privateChannels__93473 {
+.container__7c79d, .platform-win .container__11d72, .newMessagesBar__8b6d7, .unreadMentionsIndicatorTop_ada847,
+.privateChannels__93473, .bd-notice, .members__9f47b, .scroller_f0f183, .profilePanel__12596 {
   top: calc(var(--titlebar-height) - 3px) !important;
 }
 
