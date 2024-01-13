@@ -439,15 +439,6 @@ h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .ov
   background-color: rgba(0, 0, 0, 0.65) !important;
 }
 
-/* Hide Offline Member Counter from Plugin */
-.offline_member_counter {
-  display: none;
-}
-
-.member_counter_wrapper:has([class*=online_member_counter]) {
-  margin-bottom: 0px !important;
-}
-
 /* Add Padding to Stickers and Emojis */
 .sticker__7d2dd {
   padding: 12px !important;
@@ -485,7 +476,7 @@ h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .ov
 }
 
 /* Styled BD Theme Settings Modal */
-.bd-addon-modal {
+.bd-addon-modal:not(:has(.bd-addon-settings-wrap)) {
   width: 100%;
 }
 
