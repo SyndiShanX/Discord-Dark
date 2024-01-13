@@ -502,6 +502,12 @@ h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .ov
   outline: 1px solid transparent;
 }
 
+/* Fixed User Profile Popout */
+.popoutContainer__3d17d {
+  position: relative;
+  left: 35px;
+}
+
 /* ---------- Buttons ---------- */
 /* Hover Color Change: -23, -50, -31 */
 .button_afdfd9, .item__48dda[aria-controls=ADD_FRIEND-tab], .bd-button, .item_f48d11.selected__47401, .leftTrayIcon_b73d25,
