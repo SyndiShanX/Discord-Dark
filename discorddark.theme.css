@@ -3,7 +3,7 @@
  * @description A Github Dark Theme for Discord, meant to be used with Discord Dark Mode
  * @author SyndiShanX
  * @authorLink https://github.com/SyndiShanX
- * @version 1.43
+ * @version 1.44
  * @website https://syndishanx.github.io/Discord-Dark
  * @source https://github.com/SyndiShanX/Discord-Dark
 */
@@ -12,19 +12,19 @@
 @import url("https://syndishanx.github.io/Discord-Dark/discorddark.css");
 
 /* Icons - Mwittrien */
-@import url("https://syndishanx.github.io/Discord-Dark/Imports/SettingsIcons.css");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 
 /* Plugins/Themes Counter - Skamt */
-@import url("https://syndishanx.github.io/Discord-Dark/Imports/AddonsCounter.css");
+@import url("https://raw.githack.com/Skamt/BDAddons/main/CSS/AddonsCounter.css");
 
 /* Server Rings - Gibbu */
-@import url("https://syndishanx.github.io/Discord-Dark/Imports/ServerRings.css");
+@import url("https://discordstyles.github.io/SoftX/ServerRings.css");
 
 /* Normalized Forums - Disease */
 @import url("https://syndishanx.github.io/Discord-Dark/Imports/NormalizedForums.css");
 
 /* Spotify Activity Redesign - DaBluLite */
-@import url("https://syndishanx.github.io/Discord-Dark/Imports/SpotifyRedesign.css");
+@import url("https://dablulite.github.io/css-snippets/SpotifyActivityRedesign/import.css");
 
 /* Old Discord Font - Overimagine */
 @import url("https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css");
