@@ -10,11 +10,11 @@ This Theme is meant to be used with Discord Dark Mode
 
 ## Installation:
 
-###### Better Discord:
+##### Better Discord:
 
 Copy discorddark.theme.css into your Better Discord Themes Folder
 
-###### Enmity:
+##### Enmity:
 
 Click on the copy button and add to Enmity
 ```
