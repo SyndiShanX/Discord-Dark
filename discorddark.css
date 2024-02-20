@@ -17,7 +17,8 @@
 .recommendedServerCard__70a39, .wrapper__0df00, .friendRequestsButton_f19806, .createSticker__22fad, .previewMessage__1075c, .wrapper_fbbb73, .resizeHandle_f1a098,
 .changelog__6d46d, .safetyStepRow__3a1e7, .testimonialHeroContainer__4a355, .action_c957d9, .upsellPreview_e0cb61, .previewListItem__4f725, .header_d08072, .table_a843c4,
 .howItWorksContainer_ef4386, .channelRow__96673, .card_x5zW6z, .description_zXiu5E, .bd-select, .bd-select-option.selected, .container_dbadf5 .attachment_f3cf2c,
-.searchBar_e0c60b, .inlineCode_d702a4, .before_inlineCode__37e14, .after_inlineCode__2197d, .popoutContainer__2101b {
+.searchBar_e0c60b, .inlineCode_d702a4, .before_inlineCode__37e14, .after_inlineCode__2197d, .popoutContainer__2101b, .reactionTooltip__9384a, .guildSidebar__8763f,
+.termsFieldBody__2e9c4 {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -1068,6 +1069,10 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 .container__7c79d, .platform-win .container__11d72, .newMessagesBar__8b6d7, .unreadMentionsIndicatorTop_ada847,
 .privateChannels__93473, .bd-notice, .members__9f47b, .scroller_f0f183, .profilePanel__12596 {
   top: calc(var(--titlebar-height) - 3px) !important;
+}
+
+.platform-win .standardSidebarView__1129a {
+  top: 40px !important;
 }
 
 .platform-win .wordmarkWindows__05c46 {
