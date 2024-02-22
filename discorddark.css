@@ -52,7 +52,7 @@
 .navButtonActive__735cb:hover, .option_b5597b:hover, .container__7b33c:hover, .fieldBackground_b79764:hover, .clickable_cdb399:hover, .channelRow__96673:hover, .option_be8b2e:not(.focused_a2f507):hover, .button__3ecb4:hover,
 .container__15ddf:not(.isOpen__036bf):hover, .container_c24cbd:not(.isOpen_d88bb6):hover, .hoverButton__13836:not(.removeAttachmentHoverButton__4ddb5):hover, .row__4daf2:hover, .collapseable__71e46:hover,
 .actionContainer__51bd9:hover, .listRow__60937:hover, .content_b60865:hover, .soundButton__5ad7b:hover, .roundedRow_b6c2e1:hover, .childButton__832dc:hover, .action_c957d9:hover, .previewListItem__4f725:hover, .channelRow__96673:hover,
-.card_x5zW6z:hover, .description_zXiu5E:hover, .bd-select:hover, .bd-select-option:hover {
+.card_x5zW6z:hover, .description_zXiu5E:hover, .bd-select:hover, .bd-select-option:hover, .item__776a8:hover {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -64,7 +64,7 @@
 
 .item__48dda:hover:not(.item_e4ca95, .tabBarItem__0ff10), .item__183e8.focused__27621, .searchFilter__118cb, .role__631a3,
 .searchAnswer_b452e7, .memberRow__91c35, .header__63c59, .wrapper__7bcde:hover .link__95dc0, .modeSelected__487d6 .link__95dc0, .wrapper_efe67f, .emojisContainer__68736,
-.searchHeaderContainer_c4c100, .paginationContainer__7663e, .searchBar__63890, .card_x5zW6z:hover .description_zXiu5E, .titleBar__01af6 {
+.searchHeaderContainer_c4c100, .paginationContainer__7663e, .searchBar__63890, .card_x5zW6z:hover .description_zXiu5E, .titleBar__01af6, .cardHeader__27283 {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -465,7 +465,7 @@ h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .ov
 }
 
 /* Added Rounded Border to Forums Post Creation Input */
-.input_d266e7 {
+.formContainer__8f0e4 .input_d266e7 {
   border-radius: 4px;
   padding-left: 5px;
 }
