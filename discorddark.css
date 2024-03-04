@@ -18,7 +18,7 @@
 .changelog__6d46d, .safetyStepRow__3a1e7, .testimonialHeroContainer__4a355, .action_c957d9, .upsellPreview_e0cb61, .previewListItem__4f725, .header_d08072, .table_a843c4,
 .howItWorksContainer_ef4386, .channelRow__96673, .card_x5zW6z, .description_zXiu5E, .bd-select, .bd-select-option.selected, .container_dbadf5 .attachment_f3cf2c,
 .searchBar_e0c60b, .inlineCode_d702a4, .before_inlineCode__37e14, .after_inlineCode__2197d, .popoutContainer__2101b, .reactionTooltip__9384a, .guildSidebar__8763f,
-.contentRegion__0bec1, .termsFieldBody__2e9c4, .section_efc22d {
+.contentRegion__0bec1, .termsFieldBody__2e9c4, .section_efc22d, .field__9e8e2 {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -32,7 +32,7 @@
 .footer__06f4b, .textContainer__709ff, .scrollerInner__059a5, .form__13a2c, .container-JhuCwn,
 .button__4f306:hover, .expandedFolderBackground__1bec6, .content_d67847, .container-2qVG6q:hover, .input__74754,
 .folderIconWrapper__72239, .queryContainer_c359fe, .peopleList__2379e, .scroller__00e7e, .videoGrid__8b6fc, div.theme-dark .messageContainer__18275,
-.contentRegionScroller__86c79.auto_a48086.scrollerBase_dc3aa9, .unreadBar__6ecda, .peopleColumn__51df3, .nowPlayingColumn_f5023f, .popout__24e32, .checklistItem__9f80c,
+.contentRegionScroller__86c79.auto__76cc7.scrollerBase__2b744, .unreadBar__6ecda, .peopleColumn__51df3, .nowPlayingColumn_f5023f, .popout__24e32, .checklistItem__9f80c,
 .optionContainer__5d0b1, .insightsActions_f32a84, .messageGroupWrapper_f8c6e9, .inputWrapper_b7205b, .previewListItem__4f725:not(.selected__2d410), .pageBody_db54f5,
 .replies_c11247, .scrollerContainer_c3503a, .metadataContainer__7b316, .contentPreview_b317ee, .item__48dda.selected__5711d.tabBarItem_b56b35,
 .matchingPostsRow__510be, .activityUserPopoutV2__32328:has(.spotifyButtonLogo__526f7), .messageContainer_aa7d14, .messages_f7999e, .header_c01fde, .howItWorksImageContainer__91f71,
@@ -76,7 +76,7 @@
 
 /* Darkness 3 Background Image */
 .wrapper_c727b6, .container_d667ff, .members__9f47b .content__23cab, .container__11d72, .searchBar_e4ea2a,
-.input-2g-os5, .scrollableContainer__33e06, .container_ca50b9, .tooltip-14MtrL, .replyBar_b64d74,
+.input-2g-os5, .scrollableContainer__33e06, .container_ca50b9, .tooltip-14MtrL, .replyBar_b64d74, .scrollerBase__2b744:not(:has(.contentColumn_dc7d36)),
 .clipContainer__99c30, .iconWrapper__1629a, .container__590e2, .container__7c79d:not(.bannerVisible__191f6) .header__104ca,
 .container_b2ce9c, #app-mount .repliedMessage_e2bf4a:not(.latin24CompactTimeStamp__21614), #app-mount .repliedMessage_e2bf4a::after, .tree__7a511, .inner__9fd0b,
 .gridContainer_de8cdc, .userProfileInner__8065b, .overlayBackground__86b78, .scroller__4b984, .scroller__750f5, .searchHeader__19d87,
@@ -91,7 +91,7 @@ div#MemberCount, .title_b7d661, .uploadModal_eae2a0, .tile_a411a4, .interactive_
 .inputWrapper_b7205b, .guildSection_ebda04, .emojiSection_a65b54, .activeGame__99516, .errorPage_da3c8d, .body__83069, .upsellContent_b657aa, .upsellFooter__63475, .card__11580,
 .scroller__5a651, .container__15ddf:not(.isOpen__036bf), .container_c24cbd:not(.isOpen_d88bb6), .textContentFooter__5a630, .addGamePopout_e4ca8f, .body_fa303f, .container_d27846,
 .contentExpandContainer_f58ed7, .header_bf5f46, .wrapper__3d460, .container_df3aa0, .categoryList_f8c48f, .channelHeader__5d30c, .wrapper__5c5cd, .children__32014::after,
-.header_ca85b3, .howItWorksDescription__89167, .avatarCard_edc99c, .earningsPreviewContainer__775cb, .scrollerBase__2b744, .bd-modal-content, .bd-modal-header, .bd-modal-footer {
+.header_ca85b3, .howItWorksDescription__89167, .avatarCard_edc99c, .earningsPreviewContainer__775cb, .bd-modal-content, .bd-modal-header, .bd-modal-footer {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -628,7 +628,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   flex: 1 1 100%;
 }
 
-.contentColumn_dc7d36, .customColumn_e22a6e, .customScroller_f72801 > div, .exampleModal-2X2Vf8, .contentWidth-xLB44s, .stickersHero-rhTlUd, .notificationSettings-1U0JsJ {
+.contentColumn_dc7d36, .customColumn_e22a6e, .customScroller_f72801 > div {
   max-width: 100%;
 }
 
@@ -645,6 +645,10 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   background-color: transparent;
 }
 
+.field__9e8e2:not(:has(.fieldSpacerBottom__804b2)) {
+  margin-bottom: 24px;
+}
+
 .field__9e8e2:last-child {
   margin-right: 0 !important;
 }
@@ -657,7 +661,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   flex-flow: column;
   padding: 15px;
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 24px;
   margin-top: 0 !important;
   position: relative;
   overflow-y: scroll;
