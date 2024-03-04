@@ -18,7 +18,7 @@
 .changelog__6d46d, .safetyStepRow__3a1e7, .testimonialHeroContainer__4a355, .action_c957d9, .upsellPreview_e0cb61, .previewListItem__4f725, .header_d08072, .table_a843c4,
 .howItWorksContainer_ef4386, .channelRow__96673, .card_x5zW6z, .description_zXiu5E, .bd-select, .bd-select-option.selected, .container_dbadf5 .attachment_f3cf2c,
 .searchBar_e0c60b, .inlineCode_d702a4, .before_inlineCode__37e14, .after_inlineCode__2197d, .popoutContainer__2101b, .reactionTooltip__9384a, .guildSidebar__8763f,
-.contentRegion__0bec1, .termsFieldBody__2e9c4, .section_efc22d, .field__9e8e2 {
+.contentRegion__0bec1, .termsFieldBody__2e9c4, .section_efc22d, .field__9e8e2, .container_c3bf25 div, .container_a6c201, .category_ba5745, .activeCategory_acadca {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -52,7 +52,7 @@
 .navButtonActive__735cb:hover, .option_b5597b:hover, .container__7b33c:hover, .fieldBackground_b79764:hover, .clickable_cdb399:hover, .channelRow__96673:hover, .option_be8b2e:not(.focused_a2f507):hover, .button__3ecb4:hover,
 .container__15ddf:not(.isOpen__036bf):hover, .container_c24cbd:not(.isOpen_d88bb6):hover, .hoverButton__13836:not(.removeAttachmentHoverButton__4ddb5):hover, .row__4daf2:hover, .collapseable__71e46:hover,
 .actionContainer__51bd9:hover, .listRow__60937:hover, .content_b60865:hover, .soundButton__5ad7b:hover, .roundedRow_b6c2e1:hover, .childButton__832dc:hover, .action_c957d9:hover, .previewListItem__4f725:hover, .channelRow__96673:hover,
-.card_x5zW6z:hover, .description_zXiu5E:hover, .bd-select:hover, .bd-select-option:hover, .item__776a8:hover {
+.card_x5zW6z:hover, .description_zXiu5E:hover, .bd-select:hover, .bd-select-option:hover, .item__776a8:hover, .category_ba5745:hover, .category__2d800:hover {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -144,7 +144,7 @@ div#MemberCount, .title_b7d661, .uploadModal_eae2a0, .tile_a411a4, .interactive_
 .bd-search-wrapper, .bd-select-option.selected, .categoryItemDefaultCategorySelected__8245a, .navButtonActive__735cb, .copyInput_c1c679, .fieldBackground_b79764, .input_d266e7,
 .fieldFooterContainer_bde375, .mainContainer_e09640, .inputWrapper_b7205b, .card__11580, .card__4dc22, .container__6604b, .collapseable__71e46, .actionContainer__51bd9,
 .modeSelected__487d6 .link__95dc0, .container__15ddf.isOpen__036bf, .container_c24cbd.isOpen_d88bb6, .firstPartyCategorySelected__99299, .action_c957d9, .previewListItem__4f725,
-.card_x5zW6z, .container_dbadf5 .attachment_f3cf2c, .searchBar_e0c60b, .section_efc22d {
+.card_x5zW6z, .container_dbadf5 .attachment_f3cf2c, .searchBar_e0c60b, .section_efc22d, .activeCategory_acadca {
   border: 1px solid var(--border-primary) !important;
 }
 
@@ -154,7 +154,7 @@ div#MemberCount, .title_b7d661, .uploadModal_eae2a0, .tile_a411a4, .interactive_
 .bd-search-wrapper:hover, .bd-select-option.selected:hover, .categoryItemDefaultCategorySelected__8245a:hover, .navButtonActive__735cb:hover, .copyInput_c1c679:hover, .fieldBackground_b79764:hover, .input_d266e7:hover,
 .fieldFooterContainer_bde375:hover, .mainContainer_e09640:hover, .inputWrapper_b7205b:hover, .card__11580:hover, .card__4dc22:hover, .container__6604b:hover, .collapseable__71e46:hover, .actionContainer__51bd9:hover,
 .modeSelected__487d6 .link__95dc0:hover, .container__15ddf.isOpen__036bf:hover, .container_c24cbd.isOpen_d88bb6:hover, .firstPartyCategorySelected__99299:hover, .action_c957d9:hover, .previewListItem__4f725:hover,
-.card_x5zW6z:hover, .container_dbadf5 .attachment_f3cf2c:hover, .searchBar_e0c60b:hover, .section_efc22d:hover {
+.card_x5zW6z:hover, .container_dbadf5 .attachment_f3cf2c:hover, .searchBar_e0c60b:hover, .section_efc22d:hover, .activeCategory_acadca:hover {
   border: 1px solid var(--border-secondary) !important;
 }
 
@@ -512,6 +512,24 @@ h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .ov
 .popoutContainer__3d17d {
   position: relative;
   left: 35px;
+}
+
+/* Fixed Settings Icon Colors */
+.settingsTabBar__17e8a, .settingsTabBar__19aa3 {
+  color: #fff;
+}
+
+/* Fixed Server Settings App Directory Search Box */
+.searchBox_a63854 {
+  background: transparent !important;
+}
+
+.searchBoxInput__73c9c {
+  border-radius: 8px;
+}
+
+.searchIcon_e60ea8 {
+  margin-left: 15px;
 }
 
 /* ---------- Buttons ---------- */
