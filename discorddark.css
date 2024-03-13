@@ -92,7 +92,8 @@ div#MemberCount, .title_b7d661, .uploadModal_eae2a0, .tile_a411a4, .interactive_
 .inputWrapper_b7205b, .guildSection_ebda04, .emojiSection_a65b54, .activeGame__99516, .errorPage_da3c8d, .body__83069, .upsellContent_b657aa, .upsellFooter__63475, .card__11580,
 .scroller__5a651, .container__15ddf:not(.isOpen__036bf), .container_c24cbd:not(.isOpen_d88bb6), .textContentFooter__5a630, .addGamePopout_e4ca8f, .body_fa303f, .container_d27846,
 .contentExpandContainer_f58ed7, .header_bf5f46, .wrapper__3d460, .container_df3aa0, .categoryList_f8c48f, .channelHeader__5d30c, .wrapper__5c5cd, .children__32014::after,
-.header_ca85b3, .howItWorksDescription__89167, .avatarCard_edc99c, .earningsPreviewContainer__775cb, .bd-modal-content, .bd-modal-header, .bd-modal-footer {
+.header_ca85b3, .howItWorksDescription__89167, .avatarCard_edc99c, .earningsPreviewContainer__775cb, .bd-modal-content, .bd-modal-header, .bd-modal-footer, .folderHeader_c74367,
+.cardContent__6a0e0, .container_d926f4, .settingCard__00567 {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -541,6 +542,12 @@ h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .ov
 
 .searchIcon_e60ea8 {
   margin-left: 15px;
+}
+
+/* Fixed Channel Permissions Settings UI */
+.container_d926f4, .settingCard__00567 {
+  padding: 12px !important;
+  border-radius: 12px !important;
 }
 
 /* ---------- Buttons ---------- */
