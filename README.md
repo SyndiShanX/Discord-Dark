@@ -1,10 +1,8 @@
 ![Icon](https://syndishanx.github.io/Discord-Dark/Images/Discord-Dark-Icon.png)
 
-A Github Dark Theme for Discord
+A Github Dark Inspired Theme for Discord
 
 Made by: SyndiShanX
-
-Inspired by: Github Dark
 
 This Theme is meant to be used with Discord Dark Mode
 
