@@ -37,7 +37,7 @@
 .optionContainer__5d0b1, .insightsActions_f32a84, .messageGroupWrapper_f8c6e9, .inputWrapper_b7205b, .previewListItem__4f725:not(.selected__2d410), .pageBody_db54f5,
 .replies_c11247, .scrollerContainer_c3503a, .metadataContainer__7b316, .contentPreview_b317ee, .item__48dda.selected__5711d.tabBarItem_b56b35,
 .matchingPostsRow__510be, .activityUserPopoutV2__32328:has(.spotifyButtonLogo__526f7), .messageContainer_aa7d14, .messages_f7999e, .header_c01fde, .howItWorksImageContainer__91f71,
-.childButton__832dc {
+.childButton__832dc, .inner__999f6 {
   background-image: var(--bgDarkness1) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -81,13 +81,13 @@
 .clipContainer__99c30, .iconWrapper__1629a, .container__590e2, .container__7c79d:not(.bannerVisible__191f6) .header__104ca,
 .container_b2ce9c, #app-mount .repliedMessage_e2bf4a:not(.latin24CompactTimeStamp__21614), #app-mount .repliedMessage_e2bf4a::after, .tree__7a511, .inner__9fd0b,
 .gridContainer_de8cdc, .userProfileInner__8065b, .overlayBackground__86b78, .scroller__4b984, .scroller__750f5, .searchHeader__19d87,
-div#MemberCount, .title_b7d661, .uploadModal_eae2a0, .tile_a411a4, .interactive__01cfa, .card__86773, .footer_ceda43, .container__0810b section, .hljs, .container__6d33c, .container__467eb, .container__6bc11, .header_f5cc88, .footer_a3029c, .userSelectNone_e7df64, .iconLayout__6d744,
+div#MemberCount, .title_b7d661, .uploadModal_eae2a0, .tile_a411a4, .interactive__01cfa, .card__86773, .footer_ceda43, .container__0810b section, .hljs, .container__6d33c, .container__467eb, .container__6bc11, .header_f5cc88,
 .container_d5f6d0, .activityPanel__22355, .inspector__17331, .inspector__993e1, .packHeader__8b804, .header__55964, .base__76a71, .header_c3c744, .imageWrapper_fd6587,
 .actionButton__23182, .footer__89240, .bd-search-wrapper, .bd-error-modal-footer, .bd-addon-header, .connectionHeader__3c82d, .header__6d5ea, .background_b61fcc, .root_a28985,
 .scrollerBase_dc3aa9:not([aria-label=Channels], .list__41249, .contentRegionScroller__86c79, .scroller__00e7e, .scroller__52680, .videoGrid__8b6fc, .peopleList__2379e, .browser_c50ce0, .description_zXiu5E),
 .attachment_f3cf2c.activityUserPopout_c7e67d, .contentWrapper__321ed, .categoryHeader_f97a5f, .categoryHeader_f97a5f::after, .footer_bfb4b9, .fieldList_aab0de,
 .accountProfileCard__22589, .container__4f20e.clickable__17ccb, .tierBody__615a1, .wrapper__93f27, .container__767d1, .container__50947, .header__53b07, .browser_fece63,
-.wrapperAudio__555ce, .modal__4f3da, .ChannelDms-channelpopout-header, .ChannelDms-channelpopout-collapseButton, .quickswitcher_a3d29a, .body__91006,
+.wrapperAudio__555ce, .modal__4f3da, .ChannelDms-channelpopout-header, .ChannelDms-channelpopout-collapseButton, .quickswitcher_a3d29a, .body__91006, .footer_a3029c, .userSelectNone_e7df64,
 .container_d6dad3, .copyInput_c1c679, .clickable_cdb399, .containerPadding_cfd5a0, .containerFooter_c8da8a, .fieldBackground_b79764, .mainContainer_e09640, .guildCard__2fa7d,
 .inputWrapper_b7205b, .guildSection_ebda04, .emojiSection_a65b54, .activeGame__99516, .errorPage_da3c8d, .body__83069, .upsellContent_b657aa, .upsellFooter__63475, .card__11580,
 .scroller__5a651, .container__15ddf:not(.isOpen__036bf), .container_c24cbd:not(.isOpen_d88bb6), .textContentFooter__5a630, .addGamePopout_e4ca8f, .body_fa303f, .container_d27846,
@@ -548,6 +548,11 @@ h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .ov
 /* Fixed Stream Buttons */
 .outerButton_ad76b6 {
   border-radius: 48px;
+}
+
+/* Fixed Search Bar in Friends View */
+.input__74754 {
+  border-radius: 8px;
 }
 
 /* ---------- Buttons ---------- */
