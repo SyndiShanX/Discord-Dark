@@ -1111,6 +1111,10 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   top: calc(var(--titlebar-height) - 3px) !important;
 }
 
+.chatButton_c6f407 {
+  top: calc(var(--titlebar-height) + 8px) !important;
+}
+
 .platform-win .standardSidebarView__1129a {
   top: 40px !important;
 }
