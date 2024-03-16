@@ -93,7 +93,7 @@ div#MemberCount, .title_b7d661, .uploadModal_eae2a0, .tile_a411a4, .interactive_
 .scroller__5a651, .container__15ddf:not(.isOpen__036bf), .container_c24cbd:not(.isOpen_d88bb6), .textContentFooter__5a630, .addGamePopout_e4ca8f, .body_fa303f, .container_d27846,
 .contentExpandContainer_f58ed7, .header_bf5f46, .wrapper__3d460, .container_df3aa0, .categoryList_f8c48f, .channelHeader__5d30c, .wrapper__5c5cd, .children__32014::after,
 .header_ca85b3, .howItWorksDescription__89167, .avatarCard_edc99c, .earningsPreviewContainer__775cb, .bd-modal-content, .bd-modal-header, .bd-modal-footer, .folderHeader_c74367,
-.cardContent__6a0e0, .container_d926f4, .settingCard__00567 {
+.cardContent__6a0e0, .container_d926f4, .settingCard__00567, .slotsContainer__9d357 {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -545,6 +545,11 @@ h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .ov
   border-radius: 12px !important;
 }
 
+/* Fixed Stream Buttons */
+.outerButton_ad76b6 {
+  border-radius: 48px;
+}
+
 /* ---------- Buttons ---------- */
 /* Hover Color Change: -23, -50, -31 */
 .button_afdfd9, .item__48dda[aria-controls=ADD_FRIEND-tab], .bd-button, .item_f48d11.selected__47401, .leftTrayIcon_b73d25,
@@ -618,7 +623,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 /* Gray */
 .button_afdfd9.colorPrimary__6ed40, .passthrough__7cd54.selected__47401, .leftTrayIcon_b73d25, .primaryDark__6b700, .buttonColor__6f6b0,
 .streamPreview_fecc46 .button_afdfd9, .button_fb10b9, .addRoleContainer__23777, .backgroundAccent__6330c, .tertiary_bc0225, .buttonInner__2771e,
-.viewServerButton__1ce42 {
+.viewServerButton__1ce42, .participantsButton__56586, .outerButton_ad76b6 {
   background-color: var(--gray-button) !important;
   border-color: var(--gray-button-border) !important;
   color: #fff !important;
@@ -626,7 +631,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 
 .button_afdfd9.colorPrimary__6ed40:hover, .passthrough__7cd54.selected__47401:hover, .leftTrayIcon_b73d25:hover, .primaryDark__6b700:hover, .buttonColor__6f6b0:hover,
 .streamPreview_fecc46 .button_afdfd9:hover, .button_fb10b9:hover, .addRoleContainer__23777:hover, .backgroundAccent__6330c:hover, .tertiary_bc0225:hover, .buttonInner__2771e:hover,
-.viewServerButton__1ce42:hover {
+.viewServerButton__1ce42:hover, .participantsButton__56586:hover, .outerButton_ad76b6:hover {
   background-color: var(--gray-button-hover) !important;
   border-color: var(--gray-button-border) !important;
 }
