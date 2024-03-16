@@ -406,11 +406,6 @@ h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .ov
   left: 2px;
 }
 
-/* Set Color of Server Folder Icon */
-.expandedFolderIconWrapper__458cf > svg {
-  color: #35afea !important;
-}
-
 /* Fixed Small Image Group Previews */
 .lazyImg_dafbb7, .originalLink__94d5d {
   min-width: auto !important;
