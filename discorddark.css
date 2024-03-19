@@ -283,7 +283,7 @@ h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .ov
 }
 
 /* Change Text Color to White to Increase Readability */
-.inputWrapper-1YNMmM .input-2g-os5, .text-sm-normal-3Zj3Iv, .button_afdfd9.colorBrand_b2253e div, .username__2cac3, .themed_b957e8,
+.inputWrapper-1YNMmM .input-2g-os5, .text-sm-normal-3Zj3Iv, .button_afdfd9.colorBrand_b2253e div:not(.controlIcon__25700), .username__2cac3, .themed_b957e8,
 .bd-settings-title, .bd-error-modal, .backgroundModifierContainer__73a0a:hover .text-sm-medium_bc6ffc, .defaultColor__77578, .connectedAccountNameText__00810,
 .text-xs-normal_ccc5fb {
   color: #fff !important;
@@ -553,6 +553,11 @@ h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .ov
 /* Fixed Search Bar in Friends View */
 .input__74754 {
   border-radius: 8px;
+}
+
+/* Fixed Stream Buttons */
+.centerButton__3205b {
+  padding: 15px;
 }
 
 /* ---------- Buttons ---------- */
@@ -1117,7 +1122,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 }
 
 .container__7c79d, .platform-win .container__11d72, .newMessagesBar__8b6d7, .unreadMentionsIndicatorTop_ada847,
-.privateChannels__93473, .bd-notice, .members__9f47b, .scroller_f0f183, .profilePanel__12596 {
+.privateChannels__93473, .bd-notice, .members__9f47b, .scroller_f0f183, .profilePanel__12596, .header_ca85b3 {
   top: calc(var(--titlebar-height) - 3px) !important;
 }
 

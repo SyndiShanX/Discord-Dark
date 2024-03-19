@@ -3,7 +3,7 @@
  * @description A Github Dark Theme for Discord, meant to be used with Discord Dark Mode
  * @author SyndiShanX
  * @authorLink https://github.com/SyndiShanX
- * @version 1.44
+ * @version 1.45
  * @website https://syndishanx.github.io/Discord-Dark
  * @source https://github.com/SyndiShanX/Discord-Dark
 */
@@ -28,9 +28,6 @@
 
 /* Old Discord Font - Overimagine */
 @import url("https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css");
-
-/* Old Discord Icons - Dav */
-@import url(https://davart154.github.io/Themes/Icon%20Revert%202023/2023%20Icon%20Revert.css);
 
 :root {
 	--AD-buttons: none;
@@ -92,9 +89,9 @@
 /* Hide GIF, Gift, Super Reaction, and Shop Buttons */
 
 /* GIF Button */
-button:has([d^="M5 2a3 3 0 0 0-3 3v14a3"]):not(:has([d^="M15 2a1 1 0 0 1 1-1h6a1"])),
+button:has([d^=" M-7,-10 C-8.656999588012695,-10 -10"]),
 /* Gift Button */
-button:has([d^="M4 6a4 4 0 0 1 4-4h.09c1.8"]),
+button:has([d^=" M-7,10 C-8.104999542236328,10 -9"]),
 /* Super Reaction Buttons */
 #message-add-reaction-1, .stickerIconOffset__86287,
 .addReactButton__59750:has([d^="M20.3397 14.2379C21.2318"]), .reactionBtn__46474:has([d^="M20.3397 14.2379C21.2318"]), .reactionBtn__46474:has([d^="M12.1151 2.00065C12.0768"]),
