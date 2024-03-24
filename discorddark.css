@@ -350,8 +350,8 @@ h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .ov
 
 /* Added User Profiles, Plugin Repo, Theme Repo, and Events to Tab Styling */
 .tabBarItem_b56b35:nth-child(1), .tabBarItem_b56b35:nth-child(1):hover, .tabBarItem_b56b35:nth-child(2), .tabBarItem_b56b35:nth-child(2):hover,
-.tabBarItem_b56b35:nth-child(3), .tabBarItem_b56b35:nth-child(3):hover, .tabBarItem__8ac5b:nth-child(1), .tabBarItem__8ac5b:nth-child(1):hover,
-.tabBarItem__8ac5b:nth-child(2), .tabBarItem__8ac5b:nth-child(2):hover {
+.tabBarItem_b56b35:nth-child(3), .tabBarItem_b56b35:nth-child(3):hover, .tabBarItem_b56b35:nth-child(4), .tabBarItem_b56b35:nth-child(4):hover,
+.tabBarItem__8ac5b:nth-child(1), .tabBarItem__8ac5b:nth-child(1):hover, .tabBarItem__8ac5b:nth-child(2), .tabBarItem__8ac5b:nth-child(2):hover {
   margin-left: 0px;
   margin-right: 0px;
   padding-top: 15px;
@@ -370,13 +370,13 @@ h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .ov
   padding-right: 15px;
 }
 
-.tabBarItem_b56b35:nth-child(1):hover, .tabBarItem_b56b35:nth-child(2):hover, .tabBarItem_b56b35:nth-child(3):hover, .tabBarItem__8ac5b:nth-child(1):hover,
-.tabBarItem__8ac5b:nth-child(2):hover {
+.tabBarItem_b56b35:nth-child(1):hover, .tabBarItem_b56b35:nth-child(2):hover, .tabBarItem_b56b35:nth-child(3):hover, .tabBarItem_b56b35:nth-child(4):hover,
+.tabBarItem__8ac5b:nth-child(1):hover, .tabBarItem__8ac5b:nth-child(2):hover {
   border-bottom-color: var(--brand-experiment) !important;
 }
 
 .tabBarItem_b56b35:nth-child(1).selected__5711d, .tabBarItem_b56b35:nth-child(2).selected__5711d, .tabBarItem_b56b35:nth-child(3).selected__5711d,
-.tabBarItem__8ac5b:nth-child(1).selected__5711d, .tabBarItem__8ac5b:nth-child(2).selected__5711d {
+.tabBarItem_b56b35:nth-child(4).selected__5711d, .tabBarItem__8ac5b:nth-child(1).selected__5711d, .tabBarItem__8ac5b:nth-child(2).selected__5711d {
   border-bottom-color: var(--control-brand-foreground) !important;
 }
 
@@ -392,12 +392,20 @@ h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .ov
   height: 30px;
 }
 
+.tabBarItem_b56b35:nth-child(1) {
+  left: -5px;
+}
+
 .tabBarItem_b56b35:nth-child(2) {
-  left: -20px;
+  left: -45px;
 }
 
 .tabBarItem_b56b35:nth-child(3) {
-  left: -40px;
+  left: -85px;
+}
+
+.tabBarItem_b56b35:nth-child(4) {
+  left: -125px;
 }
 
 /* Updated Viewer Icon when in a Call */
