@@ -19,7 +19,8 @@
 .howItWorksContainer_ef4386, .channelRow__96673, .card_x5zW6z, .description_zXiu5E, .bd-select, .bd-select-option.selected, .container_dbadf5 .attachment_f3cf2c,
 .searchBar_e0c60b, .inlineCode_d702a4, .before_inlineCode__37e14, .after_inlineCode__2197d, .popoutContainer__2101b, .reactionTooltip__9384a, .guildSidebar__8763f,
 .contentRegion__0bec1, .termsFieldBody__2e9c4, .section_efc22d, .field__9e8e2, .container_c3bf25 div, .container_a6c201, .category_ba5745, .activeCategory_acadca,
-.avatarBackground__92f2a, .linkingBanner_aea654, .box__6431e, .container__60a4a, .bannedUser__38b44, .keyboardShortcutsModal__74c71, .modalTitle_cf2de1, .modalSubtitle__40325 {
+.avatarBackground__92f2a, .linkingBanner_aea654, .box__6431e, .container__60a4a, .bannedUser__38b44, .keyboardShortcutsModal__74c71, .modalTitle_cf2de1, .modalSubtitle__40325,
+.banner_f13f1e {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -566,6 +567,12 @@ h2.name__590d6, h3.membersGroup__85843, h2.membersGroup__85843, .name__590d6 .ov
 /* Fixed Stream Buttons */
 .centerButton__3205b {
   padding: 15px;
+}
+
+/* Added Message Bar Banner */
+.banner_f13f1e {
+  border: 1px solid var(--border-primary) !important;
+  border-bottom: none;
 }
 
 /* ---------- Buttons ---------- */
@@ -1184,7 +1191,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   border-radius: 3px;
   position: relative;
   height: 28px;
-  left: 50px;
+  left: -170px;
   top: 0px;
 }
 
@@ -1239,7 +1246,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   background: currentColor;
 }
 
-.container_ca50b9 .button__4f306 .lottieIcon__9d8ab[style^="--__lottieIconColor:var(--status-danger)"] > svg {
+.container_ca50b9 .button__4f306 .lottieIcon__9d8ab[style*="var(--status-danger)"] > svg {
   background: linear-gradient(-45deg, currentColor 12px, var(--status-danger) 0, var(--status-danger) 15px, currentColor 0);
 }
 
@@ -1254,7 +1261,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 }
 
 /* Mic with Slash */
-.container_ca50b9 .button__4f306:nth-last-child(3) .lottieIcon__9d8ab[style^="--__lottieIconColor:var(--status-danger)"] > svg {
+.container_ca50b9 .button__4f306:nth-last-child(3) .lottieIcon__9d8ab[style*="var(--status-danger)"] > svg {
   -webkit-clip-path: path("M5.5833 9.1667H4.1667C4.1667 10.1583 4.45 11.0833 4.9167 11.9L5.9417 10.875C5.7167 10.3583 5.5833 9.7833 5.5833 9.1667ZM7.5083 9.2375C7.5125 9.2604 7.5167 9.2833 7.5167 9.3083L12.5 4.3167V4.1667C12.5 2.7833 11.3833 1.6667 10 1.6667 8.6167 1.6667 7.5 2.7833 7.5 4.1667V9.1667C7.5 9.1917 7.5042 9.2146 7.5083 9.2375ZM9.7697 13.4106 9.136 14.0442 8.5444 14.6407C8.7482 14.6942 8.9558 14.7366 9.1667 14.7667V18.3333H10.8333V14.7667C13.5667 14.3583 15.8333 12.0083 15.8333 9.1667H14.4167C14.4167 11.6667 12.3 13.4167 10 13.4167 9.923 13.4167 9.8462 13.4146 9.7697 13.4106ZM17.5 3.5583 16.4417 2.5 2.5 16.4417 3.5583 17.5 7.05 14.0167 8.075 12.9833 9.4583 11.6 12.4917 8.5667 17.5 3.5583Z");
           clip-path: path("M5.5833 9.1667H4.1667C4.1667 10.1583 4.45 11.0833 4.9167 11.9L5.9417 10.875C5.7167 10.3583 5.5833 9.7833 5.5833 9.1667ZM7.5083 9.2375C7.5125 9.2604 7.5167 9.2833 7.5167 9.3083L12.5 4.3167V4.1667C12.5 2.7833 11.3833 1.6667 10 1.6667 8.6167 1.6667 7.5 2.7833 7.5 4.1667V9.1667C7.5 9.1917 7.5042 9.2146 7.5083 9.2375ZM9.7697 13.4106 9.136 14.0442 8.5444 14.6407C8.7482 14.6942 8.9558 14.7366 9.1667 14.7667V18.3333H10.8333V14.7667C13.5667 14.3583 15.8333 12.0083 15.8333 9.1667H14.4167C14.4167 11.6667 12.3 13.4167 10 13.4167 9.923 13.4167 9.8462 13.4146 9.7697 13.4106ZM17.5 3.5583 16.4417 2.5 2.5 16.4417 3.5583 17.5 7.05 14.0167 8.075 12.9833 9.4583 11.6 12.4917 8.5667 17.5 3.5583Z");
 }
@@ -1266,7 +1273,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 }
 
 /* Headset with Slash */
-.container_ca50b9 .button__4f306:nth-last-child(2) .lottieIcon__9d8ab[style^="--__lottieIconColor:var(--status-danger)"] > svg {
+.container_ca50b9 .button__4f306:nth-last-child(2) .lottieIcon__9d8ab[style*="var(--status-danger)"] > svg {
   -webkit-clip-path: path("M5.135 12.5054C5.0905 12.5018 5.0455 12.5 5 12.5H3.3333V10C3.3333 6.3233 6.3242 3.3333 10 3.3333 11.2341 3.3333 12.3909 3.6703 13.3832 4.2572L14.5918 3.0486C13.2743 2.1755 11.6955 1.6667 10 1.6667 5.405 1.6667 1.6667 5.4042 1.6667 10V15.9737L5.135 12.5054ZM16.4375 8.264C16.5869 8.8177 16.6667 9.3997 16.6667 10V12.5H15C14.08 12.5 13.3333 13.2467 13.3333 14.1667V16.6667C13.3333 17.5867 14.08 18.3333 15 18.3333H16.6667C17.5875 18.3333 18.3333 17.5867 18.3333 16.6667V10C18.3333 8.9229 18.128 7.8929 17.7544 6.9471L16.4375 8.264ZM2.6675 19.6869 1.489 18.5084 17.9882 2.0093 19.1667 3.1878 2.6675 19.6869Z");
           clip-path: path("M5.135 12.5054C5.0905 12.5018 5.0455 12.5 5 12.5H3.3333V10C3.3333 6.3233 6.3242 3.3333 10 3.3333 11.2341 3.3333 12.3909 3.6703 13.3832 4.2572L14.5918 3.0486C13.2743 2.1755 11.6955 1.6667 10 1.6667 5.405 1.6667 1.6667 5.4042 1.6667 10V15.9737L5.135 12.5054ZM16.4375 8.264C16.5869 8.8177 16.6667 9.3997 16.6667 10V12.5H15C14.08 12.5 13.3333 13.2467 13.3333 14.1667V16.6667C13.3333 17.5867 14.08 18.3333 15 18.3333H16.6667C17.5875 18.3333 18.3333 17.5867 18.3333 16.6667V10C18.3333 8.9229 18.128 7.8929 17.7544 6.9471L16.4375 8.264ZM2.6675 19.6869 1.489 18.5084 17.9882 2.0093 19.1667 3.1878 2.6675 19.6869Z");
 }
