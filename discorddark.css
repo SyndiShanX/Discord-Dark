@@ -20,7 +20,7 @@
 .searchBar__5a20a, .inlineCode__0cacf, .before_inlineCode__48f7c, .after_inlineCode__59586, .popoutContainer__6565f, .reactionTooltip__20d0b, .guildSidebar__74787,
 .contentRegion__08eba, .termsFieldBody__30daf, .section__253ec, .field__69fa0, .container_db1b74 div, .container__11a0b, .category_c3da1d, .activeCategory__585b4,
 .avatarBackground__1bc8d, .linkingBanner_e88074, .box__6431e, .container__03b79, .bannedUser_f75842, .keyboardShortcutsModal__44538, .modalTitle__3df11, .modalSubtitle_f39977,
-.banner_f13f1e {
+.banner_f13f1e, .connection__6dbd8 {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -83,7 +83,7 @@
 .container_f79ab4, #app-mount .repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700), #app-mount .repliedMessage__636d2::after, .tree__7a511, .inner__9fd0b,
 .gridContainer_e31d85, .userProfileInner__61cc1, .overlayBackground__2666e, .scroller__89969, .scroller__8f066, .searchHeader__4d70e,
 div#MemberCount, .title_d4ba1a, .uploadModal__6eb75, .tile_a411a4, .interactive__46c44, .card__86773, .footer_f06dbb, .container__13b2a section, .hljs, .container_ced194, .container__353bc, .container__4a36d, .header__21b33,
-.container__9c57c, .activityPanel_b73e7a, .inspector__7b643, .inspector__80c84, .packHeader__8c477, .header_e5d8b2, .base__87e58, .header__3028e, .imageWrapper__178ee,
+.container__9c57c, .activityPanel_b73e7a, .inspector__7b643, .inspector__80c84, .packHeader__8c477, .header_e5d8b2, .base__87e58, .header__3028e, .imageWrapper__178ee:not(:has(.loadingOverlay__35a04)),
 .actionButton__2b4bb, .footer_e0b400, .bd-search-wrapper, .bd-error-modal-footer, .bd-addon-header, .connectionHeader__2b82f, .header__5e5a6, .background__4e802, .root_a28985,
 .scrollerBase_f742b2:not([aria-label=Channels], .list__41249, .contentRegionScroller__9ae20, .scroller__7c25e, .scroller_c92337, .videoGrid__6c223, .peopleList_d2f527, .browser__428d5, .description_zXiu5E),
 .attachment__06ca3.activityUserPopout_eceeb9, .contentWrapper_e0bb2c, .categoryHeader__70c8e, .categoryHeader__70c8e::after, .footer__86f19, .fieldList__4e6dd,
