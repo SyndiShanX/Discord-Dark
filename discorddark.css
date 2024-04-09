@@ -38,7 +38,7 @@
 .optionContainer__0233f, .insightsActions__029d2, .messageGroupWrapper__1fce2, .inputWrapper__815c5, .previewListItem__6ce7d:not(.selected__5e5aa), .pageBody_c0e5dd,
 .replies__1b03e, .scrollerContainer__35215, .metadataContainer__1842c, .contentPreview__122fc, .item__48dda.selected_a523ff.tabBarItem_ce14f3,
 .matchingPostsRow__6cdb0, .activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34), .messageContainer_cb3d47, .messages__1aaa1, .header_b2c494, .howItWorksImageContainer__33219,
-.childButton__58a87, .inner__999f6 {
+.childButton__58a87, .inner__999f6, .option_eb83e4:has(.selectedIcon_e9ecc2) {
   background-image: var(--bgDarkness1) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -94,7 +94,7 @@ div#MemberCount, .title_d4ba1a, .uploadModal__6eb75, .tile_a411a4, .interactive_
 .scroller__18a89, .container__5130c:not(.isOpen__036bf), .container__7d004:not(.isOpen_d88bb6), .textContentFooter_e03480, .addGamePopout__61649, .body__86f4c, .container_cff83e,
 .contentExpandContainer__684c6, .header__93ab0, .wrapper_c899da, .container__3a30a, .categoryList_eac4ac, .channelHeader_ea0f89, .wrapper__6b7d8, .children_cde9af::after,
 .header__8863a, .howItWorksDescription__07c9e, .avatarCard__8d1e3, .earningsPreviewContainer__2b25a, .bd-modal-content, .bd-modal-header, .bd-modal-footer, .folderHeader__28488,
-.cardContent_b4a133, .container__7dc86, .settingCard__9b0ad, .slotsContainer_fdf76f {
+.cardContent_b4a133, .container__7dc86, .settingCard__9b0ad, .slotsContainer_fdf76f, .option_eb83e4 {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -147,7 +147,7 @@ div#MemberCount, .title_d4ba1a, .uploadModal__6eb75, .tile_a411a4, .interactive_
 .bd-search-wrapper, .bd-select-option.selected, .categoryItemDefaultCategorySelected__7d6e0, .navButtonActive__0c878, .copyInput_f549fd, .fieldBackground__65920, .input_f27786,
 .fieldFooterContainer__937dd, .mainContainer_f0f256, .inputWrapper__815c5, .card__11580, .card__4dc22:not(.container__14313), .container__9922f, .collapseable_a59844, .actionContainer_e638f2,
 .modeSelected__473f1 .link_ddbb36, .container__5130c.isOpen__036bf, .container__7d004.isOpen_d88bb6, .firstPartyCategorySelected__54b34, .action__94060, .previewListItem__6ce7d,
-.card_x5zW6z, .container__62863 .attachment__06ca3, .searchBar__5a20a, .section__253ec, .activeCategory__585b4, .moreContainer_dd4188 {
+.card_x5zW6z, .container__62863 .attachment__06ca3, .searchBar__5a20a, .section__253ec, .activeCategory__585b4, .moreContainer_dd4188, .option_eb83e4:has(.selectedIcon_e9ecc2) {
   border: 1px solid var(--border-primary) !important;
 }
 
@@ -157,7 +157,7 @@ div#MemberCount, .title_d4ba1a, .uploadModal__6eb75, .tile_a411a4, .interactive_
 .bd-search-wrapper:hover, .bd-select-option.selected:hover, .categoryItemDefaultCategorySelected__7d6e0:hover, .navButtonActive__0c878:hover, .copyInput_f549fd:hover, .fieldBackground__65920:hover, .input_f27786:hover,
 .fieldFooterContainer__937dd:hover, .mainContainer_f0f256:hover, .inputWrapper__815c5:hover, .card__11580:hover, .card__4dc22:not(.container__14313):hover, .container__9922f:hover, .collapseable_a59844:hover, .actionContainer_e638f2:hover,
 .modeSelected__473f1 .link_ddbb36:hover, .container__5130c.isOpen__036bf:hover, .container__7d004.isOpen_d88bb6:hover, .firstPartyCategorySelected__54b34:hover, .action__94060:hover, .previewListItem__6ce7d:hover,
-.card_x5zW6z:hover, .container__62863 .attachment__06ca3:hover, .searchBar__5a20a:hover, .section__253ec:hover, .activeCategory__585b4:hover, .moreContainer_dd4188:hover {
+.card_x5zW6z:hover, .container__62863 .attachment__06ca3:hover, .searchBar__5a20a:hover, .section__253ec:hover, .activeCategory__585b4:hover, .moreContainer_dd4188:hover, .option_eb83e4:has(.selectedIcon_e9ecc2):hover {
   border: 1px solid var(--border-secondary) !important;
 }
 
@@ -195,7 +195,7 @@ div#MemberCount, .title_d4ba1a, .uploadModal__6eb75, .tile_a411a4, .interactive_
   margin-left: 10px !important;
 }
 
-.menu__088f7 .scroller__8f066, .menu__088f7, .mainContainer_f0f256 {
+.menu__088f7 .scroller__8f066, .menu__088f7, .mainContainer_f0f256, .option_eb83e4:has(.selectedIcon_e9ecc2) {
   border-radius: 8px;
 }
 
