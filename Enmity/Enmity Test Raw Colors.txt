@@ -1,0 +1,172 @@
+    /* Unused? */
+		"PRIMARY_DARK": "#ff0000",
+		/* Search Bar Text Blinker */
+    "PRIMARY_100": "#00ff00",
+		/* Spoiler Text */
+    "PRIMARY_200": "#0000ff",
+		/* Embed Title */
+    "PRIMARY_300": "#ffff00",
+		/* Unused? */
+    "PRIMARY_360": "#ff00ff",
+		/* Unused? */
+    "PRIMARY_400": "#00ffff",
+		
+    /* Unused? */
+		"PRIMARY_500": "#ff0000",
+		/* Joined Server Embed, and Server Embed Image Background Color */
+    "PRIMARY_600": "#00ff00",
+		/* Unused? */
+    "PRIMARY_630": "#0000ff",
+		/* Role Tag Background Color */
+    "PRIMARY_660": "#ffff00",
+		/* Unused? */
+    "PRIMARY_700": "#ff00ff",
+		/* Unused? */
+    "PRIMARY_800": "#00ffff",
+		
+    /* Unused? */
+		"BRAND_260": "#ff0000",
+		/* Selected Tab, and Popup Top Buttons Color */
+    "BRAND_360": "#00ff00",
+		/* Some Buttons, Bot Tag, Server Folder, Username/Channel/Message Mention, Your Reaction, and Editable Settings Active Background Colors */
+    "BRAND_500": "#0000ff",
+		/* Your Reaction Border Color */
+    "BRAND_560": "#ffff00",
+		/* Unused? */
+    "BRAND_900": "#ff00ff",
+		/* Unused? */
+    "BRAND_NEW": "#00ffff",
+		
+    /* Mention Overlay Color */
+		"YELLOW_300": "#ff0000",
+		/* Action Chat Notification, and Create/Find Server Icons Color */
+    "GREEN_360": "#00ff00",
+		/* Unused? */
+    "DANGER": "#0000ff",
+		/* Unused? */
+    "RED_400": "#ffff00",
+		/* Link Text Color */
+    "BLUE_345": "#ff00ff",
+		/* Unused? */
+    "PLUM_1": "#00ffff",
+		
+    /* Text Input Placeholder, and Normal Channel Text Color */
+		"PLUM_10": "#ff0000",
+		/* Footer Elements, Selected Channel, Expanded Server Folder, Profile Options Border/Highlight, Highlighted Chat Message, and Default Gray Background Color */
+    "PLUM_11": "#00ff00",
+		/* Grab Bar, Rules Channel, Server Type, Disabled Settings Toggle, and Highlighted Message in Searches Background Color */
+    "PLUM_13": "#0000ff",
+		/* Some Buttons, Member Since Separator, Reply Connector, Loading Circle, and Jump to Present Background Color */
+    "PLUM_15": "#ffff00",
+		/* Emoji Selected Tab, 1px Top/Bottom Separator, Popout Default, and Default Embed Sidebar Background Color */
+    "PLUM_16": "#ff00ff",
+		/* User Area Footer, and Filter Results Background Color */
+    "PLUM_17": "#00ffff",
+		
+    /* Popout Elements, Embed, User Area Section, Status Border Background Colors */
+		"PLUM_18": "#ff0000",
+		/* Clicked Popout Elements */
+    "PLUM_19": "#00ff00",
+		/* App Startup, Server Channels, Popout, Add Members Button, Elipses Button, Settings Header, and Emoji Popout Background Colors */
+    "PLUM_20": "#0000ff",
+		/* Unused? */
+    "PLUM_21": "#ffff00",
+		/* Reply Swipe Background Color */
+    "PLUM_22": "#ff00ff",
+		/* Search Bar, and Emoji Popout Tab Background Color */
+    "PLUM_24": "#00ffff",
+		
+    /* Unused? */
+		"PLUM_25": "#ff0000",
+		/* Embed Bold/Filename, Selected Channel Text Colors */
+    "PLUM_3": "#00ff00",
+		/* Unused? */
+    "PLUM_4": "#0000ff",
+		/* Chat Button Icons, Selected Channel Icon, Server Search Icons, and Chat Text Colors */
+    "PLUM_6": "#ffff00",
+		/* Timestamps, File Size, Settings Category, Server Category, Setting Definition, Reply, Server Invite Embed, and Start of the Channel Text Colors */
+    "PLUM_9": "#ff00ff",
+		/* Unused? */
+    "PRIMARY_230": "#00ffff",
+		
+    /* Unused? */
+		"PRIMARY_460": "#ff0000",
+		/* Unused? */
+    "PRIMARY_645": "#00ff00",
+		/* Nitro Boost Icon Color */
+		"GUILD_BOOSTING_PINK": "#0000ff",
+		/* Unused? */
+    "GUILD_BOOSTING_PURPLE": "#ffff00",
+		/* Unused? */
+    "GUILD_BOOSTING_PURPLE_FOR_GRADIENTS": "#ff00ff",
+		
+		/* Various Solid Colors */
+    "GREEN_100": "#0000ff",
+    "GREEN_130": "#0000ff",
+    "GREEN_160": "#0000ff",
+    "GREEN_200": "#0000ff",
+    "GREEN_230": "#0000ff",
+    "GREEN_260": "#0000ff",
+    "GREEN_300": "#0000ff",
+    "GREEN_330": "#0000ff",
+    "GREEN_345": "#0000ff",
+    "GREEN_400": "#0000ff",
+    "GREEN_430": "#0000ff",
+    "GREEN_460": "#0000ff",
+    "GREEN_500": "#0000ff",
+    "GREEN_530": "#0000ff",
+    "GREEN_560": "#0000ff",
+    "GREEN_600": "#0000ff",
+    "GREEN_630": "#0000ff",
+    "GREEN_660": "#0000ff",
+    "GREEN_700": "#0000ff",
+    "GREEN_730": "#0000ff",
+    "GREEN_760": "#0000ff",
+    "GREEN_800": "#0000ff",
+    "GREEN_830": "#0000ff",
+    "GREEN_860": "#0000ff",
+    "GREEN_900": "#0000ff",
+    "RED_260": "#ffff00",
+    "RED_300": "#ffff00",
+    "RED_330": "#ffff00",
+    "RED_345": "#ffff00",
+    "RED_360": "#ffff00",
+    "RED_430": "#ffff00",
+    "RED_460": "#ffff00",
+    "RED_500": "#ffff00",
+    "RED_530": "#ffff00",
+    "RED_560": "#ffff00",
+    "RED_600": "#ffff00",
+    "RED_630": "#ffff00",
+    "RED_660": "#ffff00",
+    "RED_700": "#ffff00",
+    "YELLOW_100": "#ff0000",
+    "YELLOW_130": "#ff0000",
+    "YELLOW_160": "#ff0000",
+    "YELLOW_200": "#ff0000",
+    "YELLOW_230": "#ff0000",
+    "YELLOW_260": "#ff0000",
+    "YELLOW_330": "#ff0000",
+    "YELLOW_345": "#ff0000",
+    "YELLOW_360": "#ff0000",
+    "YELLOW_400": "#ff0000",
+    "YELLOW_430": "#ff0000",
+    "YELLOW_460": "#ff0000",
+    "YELLOW_500": "#ff0000",
+    "YELLOW_530": "#ff0000",
+    "YELLOW_560": "#ff0000",
+    "YELLOW_600": "#00ff00",
+    "YELLOW_630": "#ff0000",
+    "YELLOW_660": "#ff0000",
+    "YELLOW_700": "#ff0000",
+    "YELLOW_730": "#ff0000",
+    "YELLOW_760": "#ff0000",
+    "YELLOW_800": "#ff0000",
+    "YELLOW_830": "#ff0000",
+    "YELLOW_860": "#ff0000",
+    "YELLOW_900": "#ff0000",
+		
+		/* Server Start, Channel Access, Toggle Setting, and Some Settings Icon Colors */
+		"WHITE_500": "#00ffff",
+		/* Unused? */
+    "WHITE_630": "#FF6A00"

@@ -1,0 +1,20 @@
+		/* Default Chat, App Header, App Footer, and Search Tag Background Colors */
+		"BACKGROUND_PRIMARY": [ "#ff00ff", "#ff00ff" ],
+		/* Code Blocks, Reactions, Expanded Server Folder, Server Channel/Members, and Settings Background Colors */
+		"BACKGROUND_SECONDARY": [ "#00ffff", "#00ffff" ],
+		/* User/Channel Highlights from Action Chat Notifications Text Color */
+		"HEADER_PRIMARY": [ "#ffff00", "#ffff00" ],
+		/* Reaction Count Text Color */
+		"INTERACTIVE_ACTIVE": [ "#00ffff", "#00ffff" ],
+		/* SVG Base Color */
+		"INTERACTIVE_NORMAL": [ "#0000ff", "#0000ff" ],
+		/* Keyboard Background Color (Obviously) */
+		"KEYBOARD": [ "#ffff00", "#ffff00" ],
+		/* Username/Channel/Message Mention Text Color */
+		"MENTION_FOREGROUND": [ "#ff00ff" ],
+		/* Link Text Color */
+		"TEXT_LINK": [ "#ffff00", "#ffff00" ],
+		/* Server Embed User Count Colors */
+		"TEXT_MUTED": [ "#ff00ff", "#ff00ff" ],
+		/* Code Block, File Size, and Action Chat Notifications Text Color */
+		"TEXT_NORMAL": [ "#00ffff", "#00ffff" ]

@@ -1,0 +1,110 @@
+		/* Unused? */
+		"BACKGROUND_ACCENT": [ "#ff0000", "#ff0000" ],
+		/* Unused? */
+		"BACKGROUND_FLOATING": [ "#00ff00", "#00ff00" ],
+		/* Unused? */
+		"BACKGROUND_MESSAGE_HOVER": [ "#0000ff", "#0000ff" ],
+		/* Unused? */
+		"BACKGROUND_MOBILE_PRIMARY": [ "#ffff00", "#ffff00" ],
+		/* Unused? */
+		"BACKGROUND_MOBILE_SECONDARY": [ "#ff00ff", "#ff00ff" ],
+		/* Unused? */
+		"BACKGROUND_MODIFIER_ACCENT": [ "#00ffff", "#00ffff" ],
+		
+		/* Unused? */
+		"BACKGROUND_MODIFIER_ACTIVE": [ "#ff0000", "#ff0000" ],
+		/* Unused? */
+		"BACKGROUND_MODIFIER_HOVER": [ "#00ff00", "#00ff00" ],
+		/* Unused? */
+		"BACKGROUND_MODIFIER_SELECTED": [ "#0000ff", "#0000ff" ],
+		/* Unused? */
+		"BACKGROUND_NESTED_FLOATING": [ "#ffff00", "#ffff00" ],
+		/* Default Chat, App Header, App Footer, and Search Tag Background Colors */
+		"BACKGROUND_PRIMARY": [ "#ff00ff", "#ff00ff" ],
+		/* Code Blocks, Reactions, Expanded Server Folder, Server Channel/Members, and Settings Background Colors */
+		"BACKGROUND_SECONDARY": [ "#00ffff", "#00ffff" ],
+		
+		/* Unused? */
+		"BACKGROUND_SECONDARY_ALT": [ "#ff0000", "#ff0000" ],
+		/* Unused? */
+		"BACKGROUND_TERTIARY": [ "#00ff00", "#00ff00" ],
+		/* Unused? */
+		"BG_BACKDROP": [ "#0000ff" ],
+		/* Unused? */
+		"BG_BASE_PRIMARY": [ "#ffff00" ],
+		/* Unused? */
+		"BG_BASE_SECONDARY": [ "#ff00ff" ],
+		/* Unused? */
+		"BG_BASE_TERTIARY": [ "#00ffff", "#00ffff" ],
+		
+		/* Unused? */
+		"BORDER_FAINT": [ "#ff0000" ],
+		/* Unused? */
+		"BORDER_STRONG": [ "#00ff00" ],
+		/* Unused? */
+		"BORDER_SUBTLE": [ "#0000ff" ],
+		/* Unused? */
+		"CARD_PRIMARY_BG": [ "#ffff00" ],
+		/* Unused? */
+		"CARD_SECONDARY_BG": [ "#ff00ff" ],
+		/* Unused? */
+		"CHANNELS_DEFAULT": [ "#00ffff", "#00ffff" ],
+		
+		/* Unused? */
+		"CHANNELTEXTAREA_BACKGROUND": [ "#ff0000", "#ff0000" ],
+		/* Unused? */
+		"CHANNEL_ICON": [ "#00ff00", "#00ff00" ],
+		/* Unused? */
+		"CHANNEL_TEXT_AREA_PLACEHOLDER": [ "#0000ff", "#0000ff" ],
+		/* User/Channel Highlights from Action Chat Notifications Text Color */
+		"HEADER_PRIMARY": [ "#ffff00", "#ffff00" ],
+		/* Unused? */
+		"HEADER_SECONDARY": [ "#ff00ff", "#ff00ff" ],
+		/* Reaction Count Text Color */
+		"INTERACTIVE_ACTIVE": [ "#00ffff", "#00ffff" ],
+		
+		/* Unused? */
+		"INTERACTIVE_HOVER": [ "#ff0000", "#ff0000" ],
+		/* Unused? */
+		"INTERACTIVE_MUTED": [ "#00ff00", "#00ff00" ],
+		/* SVG Base Color */
+		"INTERACTIVE_NORMAL": [ "#0000ff", "#0000ff" ],
+		/* Keyboard Background Color (Obviously) */
+		"KEYBOARD": [ "#ffff00", "#ffff00" ],
+		/* Username/Channel/Message Mention Text Color */
+		"MENTION_FOREGROUND": [ "#ff00ff" ],
+		/* Unused? */
+		"REDESIGN_ACTIVITY_CARD_BACKGROUND": [ "#00ffff" ],
+		
+		/* Unused? */
+		"REDESIGN_BUTTON_SECONDARY_ALT_BACKGROUND": [ "#ff0000" ],
+		/* Unused? */
+		"REDESIGN_BUTTON_SECONDARY_BACKGROUND": [ "#00ff00" ],
+		/* Unused? */
+		"REDESIGN_BUTTON_SECONDARY_BORDER": [ "#0000ff" ],
+		/* Unused? */
+		"REDESIGN_CHANNEL_CATEGORY_NAME_TEXT": [ "#ffff00" ],
+		/* Unused? */
+		"REDESIGN_CHANNEL_NAME_TEXT": [ "#ff00ff" ],
+		/* Unused? */
+		"REDESIGN_CHAT_INPUT_BACKGROUND": [ "#00ffff" ],
+		
+		/* Unused? */
+		"SCROLLBAR_AUTO_THUMB": [ "#ff0000", "#ff0000" ],
+		/* Unused? */
+		"SCROLLBAR_AUTO_TRACK": [ "#00ff00", "#00ff00" ],
+		/* Unused? */
+		"SCROLLBAR_THIN_THUMB": [ "#0000ff", "#0000ff" ],
+		/* Unused? */
+		"SCROLLBAR_THIN_TRACK": [ "#ffff00", "#ffff00" ],
+		/* Unused? */
+		"SPOILER_HIDDEN_BACKGROUND": [ "#ff00ff" ],
+		/* Unused? */
+		"TEXT_DANGER": [ "#00ffff" ],
+		
+		/* Link Text Color */
+		"TEXT_LINK": [ "#ffff00", "#ffff00" ],
+		/* Server Embed User Count Colors */
+		"TEXT_MUTED": [ "#ff00ff", "#ff00ff" ],
+		/* Code Block, File Size, and Action Chat Notifications Text Color */
+		"TEXT_NORMAL": [ "#00ffff", "#00ffff" ]
