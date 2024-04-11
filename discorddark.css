@@ -105,6 +105,15 @@ div#MemberCount, .title_d4ba1a, .uploadModal__6eb75, .tile_a411a4, .interactive_
 }
 
 /* ---------- Main Tweaks ---------- */
+/* Hide GIF, Gift, Nitro DM, and Shop Buttons */
+/* GIF Button */
+button:has([d^=" M-7,-10 C-8.656999588012695,-10 -10"]),
+button:has([d^=" M-7,10 C-8.104999542236328,10 -9"]),
+li:has([d^="M7 4a1 1 0 0 0 0 2h3a1 1 0 1 1 0 2H5.5a1"]),
+li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]) {
+  display: var(--AD-buttons) !important;
+}
+
 .animatedContainer__0e828 {
   border-radius: 7px;
   width: 230px;
