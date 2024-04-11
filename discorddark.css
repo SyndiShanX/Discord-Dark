@@ -584,6 +584,11 @@ h2.name__27f04, h3.membersGroup_cad095, h2.membersGroup_cad095, .name__27f04 .ov
   border-bottom: none;
 }
 
+/* Fixed Channel Scroller Height */
+.sidebar_e031be .content__690c5 {
+  padding-bottom: 20px;
+}
+
 /* ---------- Buttons ---------- */
 /* Hover Color Change: -23, -50, -31 */
 .button__581d0, .item__48dda[aria-controls=ADD_FRIEND-tab], .bd-button, .item_f48d11.selected__5faae, .leftTrayIcon_e01f72,
@@ -657,7 +662,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 /* Gray */
 .button__581d0.colorPrimary_ebe632, .passthrough__91f95.selected__5faae, .leftTrayIcon_e01f72, .primaryDark_ec74a7, .buttonColor__8c13f,
 .streamPreview__3a6b0 .button__581d0, .button__440c9, .addRoleContainer__02a05, .backgroundAccent__6d013, .tertiary_ad6d80, .buttonInner__865de,
-.viewServerButton__457ab, .participantsButton__11fa3, .outerButton__53b54 {
+.viewServerButton__457ab, .participantsButton__11fa3, .outerButton__53b54, .voiceChannelsButton_fd0b98 {
   background-color: var(--gray-button) !important;
   border-color: var(--gray-button-border) !important;
   color: #fff !important;
@@ -665,7 +670,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 
 .button__581d0.colorPrimary_ebe632:hover, .passthrough__91f95.selected__5faae:hover, .leftTrayIcon_e01f72:hover, .primaryDark_ec74a7:hover, .buttonColor__8c13f:hover,
 .streamPreview__3a6b0 .button__581d0:hover, .button__440c9:hover, .addRoleContainer__02a05:hover, .backgroundAccent__6d013:hover, .tertiary_ad6d80:hover, .buttonInner__865de:hover,
-.viewServerButton__457ab:hover, .participantsButton__11fa3:hover, .outerButton__53b54:hover {
+.viewServerButton__457ab:hover, .participantsButton__11fa3:hover, .outerButton__53b54:hover, .voiceChannelsButton_fd0b98:hover {
   background-color: var(--gray-button-hover) !important;
   border-color: var(--gray-button-border) !important;
 }
