@@ -398,7 +398,7 @@ h2.name__27f04, h3.membersGroup_cad095, h2.membersGroup_cad095, .name__27f04 .ov
   font-weight: 500;
 }
 
-.userProfileInner__61cc1 .tabBarItem_ce14f3 {
+.userProfileInner__8ff35 .tabBarItem_ce14f3 {
   height: 30px;
 }
 
@@ -835,7 +835,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 
 /* Normal Status Picker (Removes User Popup) - Zuzumi */
 .accountProfilePopoutWrapper_d4887f .bannerSVGWrapper__8a38c, .accountProfilePopoutWrapper_d4887f .avatarWrapper__0cd44, .accountProfilePopoutWrapper_d4887f .profileBadges__1f2ab,
-.accountProfilePopoutWrapper_d4887f .userProfileInner__61cc1:before, .accountProfilePopoutWrapper_d4887f .userPopoutOverlayBackground_bf6444 div:not(.menu__088f7, .menu__088f7 *),
+.accountProfilePopoutWrapper_d4887f .userProfileInner__61cc1:before, .accountProfilePopoutWrapper_d4887f .userPopoutOverlayBackground__3e7e6 div:not(.menu__088f7, .menu__088f7 *),
 .accountProfilePopoutWrapper_d4887f[id=account-divider-1] {
   display: none;
 }
@@ -844,7 +844,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   left: 0;
 }
 
-.accountProfilePopoutWrapper_d4887f .userPopoutOverlayBackground_bf6444 {
+.accountProfilePopoutWrapper_d4887f .userPopoutOverlayBackground__3e7e6 {
   margin: 0;
   border-radius: 4px;
 }
