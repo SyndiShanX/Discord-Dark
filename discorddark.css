@@ -595,6 +595,11 @@ h2.name__27f04, h3.membersGroup_cad095, h2.membersGroup_cad095, .name__27f04 .ov
   padding-bottom: 20px;
 }
 
+/* Hide Server Active Now Section in Members List */
+.members__573eb .container__8d997, .membersGroup_cad095:has(.header_dcac87) {
+  display: none;
+}
+
 /* ---------- Buttons ---------- */
 /* Hover Color Change: -23, -50, -31 */
 .button__581d0, .item__48dda[aria-controls=ADD_FRIEND-tab], .bd-button, .item_f48d11.selected__5faae, .leftTrayIcon_e01f72,
