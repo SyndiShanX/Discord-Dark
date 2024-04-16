@@ -114,6 +114,10 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]) {
   display: var(--AD-buttons) !important;
 }
 
+.nowPlayingColumn_b025fe {
+  display: var(--active-now) !important;
+}
+
 .animatedContainer__0e828 {
   border-radius: 7px;
   width: 230px;

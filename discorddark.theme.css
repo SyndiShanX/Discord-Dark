@@ -3,7 +3,7 @@
  * @description A Github Dark Theme for Discord, meant to be used with Discord Dark Mode
  * @author SyndiShanX
  * @authorLink https://github.com/SyndiShanX
- * @version 1.47
+ * @version 1.48
  * @website https://syndishanx.github.io/Discord-Dark
  * @source https://github.com/SyndiShanX/Discord-Dark
 */
@@ -31,6 +31,7 @@
 
 :root {
 	--AD-buttons: none;
+	--active-now: block;
 	--server-spacing: 16px!important;
 	--server-glow-intensity: 1;
 	--settingsiconssize: 18px;
