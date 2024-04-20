@@ -80,7 +80,7 @@
 .wrapper__4e6b6, .container_e1958d, .members__573eb .content__690c5, .container__26baa, .searchBar__621ec,
 .input-2g-os5, .scrollableContainer_ff917f, .container_debb33, .tooltip-14MtrL, .replyBar_ed6afc, .scrollerBase__65223:not(:has(.contentColumn__5f80b)),
 .clipContainer_ab9cf6, .iconWrapper__8d563, .container__7e23c, .container_f41675:not(.bannerVisible_ef30fe) .header__77c95,
-.container_f79ab4, #app-mount .repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700), #app-mount .repliedMessage__636d2::after, .tree__7a511, .inner__9fd0b,
+.container_f79ab4, .repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700), .repliedMessage__636d2::after, .tree__7a511, .inner__9fd0b,
 .gridContainer_e31d85, .userProfileInner__8ff35, .overlayBackground__345c9, .scroller__89969, .scroller__8f066, .searchHeader__4d70e,
 div#MemberCount, .title_d4ba1a, .uploadModal__6eb75, .tile_a411a4, .interactive__46c44, .card__86773, .footer_f06dbb, .container__13b2a section, .hljs, .container_ced194, .container__353bc, .container__4a36d, .header__21b33,
 .container__9c57c, .activityPanel_b73e7a, .inspector__7b643, .inspector__80c84, .packHeader__8c477, .header_e5d8b2, .base__87e58, .header__3028e, .imageWrapper__178ee:not(:has(.loadingOverlay__35a04)),
@@ -929,7 +929,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   }
 }
 /* Fancy Reply Styling - Gibbu */
-#app-mount .repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700) {
+.repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700) {
   position: absolute;
   top: 25px;
   left: 86px;
@@ -943,32 +943,32 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   box-sizing: border-box;
 }
 
-#app-mount .repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700) .messageGroupWrapper__1fce2 {
+.repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700) .messageGroupWrapper__1fce2 {
   top: 35px !important;
 }
 
-#app-mount .repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700) > div {
+.repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700) > div {
   position: relative;
   z-index: 1;
 }
 
-#app-mount .repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700) img.replyAvatar__4ba85 {
+.repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700) img.replyAvatar__4ba85 {
   display: none;
 }
 
-#app-mount .repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700) img.emoji {
+.repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700) img.emoji {
   display: inline;
 }
 
-#app-mount .repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700) .username__0b0e7 {
+.repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700) .username__0b0e7 {
   margin-right: 5px;
 }
 
-#app-mount .repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700)::before {
+.repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700)::before {
   content: none;
 }
 
-#app-mount .repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700)::after {
+.repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700)::after {
   content: "";
   position: absolute;
   top: -1px;
@@ -983,7 +983,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   border-right: none;
 }
 
-#app-mount .repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700) + .contents_d3ae0d .header__6a14d {
+.repliedMessage__636d2:not(.latin24CompactTimeStamp_f2f700) + .contents_d3ae0d .header__6a14d {
   margin-bottom: 32px;
 }
 
@@ -1256,7 +1256,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   top: 2px !important;
 }
 
-#app-mount .blobContainer_c44493:active, #app-mount .listItemWrapper__3d465:active {
+.blobContainer_c44493:active, .listItemWrapper__3d465:active {
   transform: scale(0.95);
 }
 
@@ -1270,7 +1270,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 }
 
 /* Only Show Threads on Hover - Vortex */
-.containerDefault_ae2ea4:hover + .container__342a0, .containerDefault_ae2ea4:hover {
+.containerDefault_ae2ea4:hover + .container__342a0, .containerDefault_ae2ea4:hover, .container__342a0:hover {
   max-height: 1000px;
   transition: max-height 1s ease;
 }
