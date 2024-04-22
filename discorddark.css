@@ -176,7 +176,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]) {
   border: 1px solid var(--border-secondary) !important;
 }
 
-.reaction__4a43f:not(.reactionMe__0fffc), .reactionBtn__2d05d {
+.reaction__4a43f:not(.reactionMe__0fffc), .reactionBtn__2d05d, .container__86c3c, .spamBanner_b5e5bf {
   border: 1px solid var(--border-primary);
   background-image: var(--bgImage);
   background-clip: border-box;
@@ -673,7 +673,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 /* Gray */
 .button__581d0.colorPrimary_ebe632, .passthrough__91f95.selected__5faae, .leftTrayIcon_e01f72, .primaryDark_ec74a7, .buttonColor__8c13f,
 .streamPreview__3a6b0 .button__581d0, .button__440c9, .addRoleContainer__02a05, .backgroundAccent__6d013, .tertiary_ad6d80, .buttonInner__865de,
-.viewServerButton__457ab, .participantsButton__11fa3, .outerButton__53b54, .voiceChannelsButton_fd0b98 {
+.viewServerButton__457ab, .participantsButton__11fa3, .outerButton__53b54, .voiceChannelsButton_fd0b98, .container__048f4 {
   background-color: var(--gray-button) !important;
   border-color: var(--gray-button-border) !important;
   color: #fff !important;
@@ -681,7 +681,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 
 .button__581d0.colorPrimary_ebe632:hover, .passthrough__91f95.selected__5faae:hover, .leftTrayIcon_e01f72:hover, .primaryDark_ec74a7:hover, .buttonColor__8c13f:hover,
 .streamPreview__3a6b0 .button__581d0:hover, .button__440c9:hover, .addRoleContainer__02a05:hover, .backgroundAccent__6d013:hover, .tertiary_ad6d80:hover, .buttonInner__865de:hover,
-.viewServerButton__457ab:hover, .participantsButton__11fa3:hover, .outerButton__53b54:hover, .voiceChannelsButton_fd0b98:hover {
+.viewServerButton__457ab:hover, .participantsButton__11fa3:hover, .outerButton__53b54:hover, .voiceChannelsButton_fd0b98:hover, .container__048f4:hover {
   background-color: var(--gray-button-hover) !important;
   border-color: var(--gray-button-border) !important;
 }
