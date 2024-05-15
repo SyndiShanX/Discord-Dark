@@ -20,7 +20,7 @@
 .searchBar__5a20a, .inlineCode__0cacf, .before_inlineCode__48f7c, .after_inlineCode__59586, .popoutContainer__6565f, .reactionTooltip__20d0b, .guildSidebar__74787,
 .contentRegion__08eba, .termsFieldBody__30daf, .section__253ec, .field__69fa0, .container_db1b74 div, .container__11a0b, .category_c3da1d, .activeCategory__585b4,
 .avatarBackground__1bc8d, .linkingBanner_e88074, .box__6431e, .container__03b79, .bannedUser_f75842, .keyboardShortcutsModal__44538, .modalTitle__3df11, .modalSubtitle_f39977,
-.banner_f13f1e, .connection__6dbd8, .quickswitcher_b5bb0a > input, .container__8d997 {
+.banner_f13f1e, .connection__6dbd8, .quickswitcher_b5bb0a > input, .container__8d997, .navButtons__60fcf, .termsFieldBody_c56d5f {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -595,8 +595,8 @@ h2.name__27f04, h3.membersGroup_cad095, h2.membersGroup_cad095, .name__27f04 .ov
   padding-bottom: 20px;
 }
 
-/* Hide Server Active Now Section in Members List */
-.members__573eb .container__8d997, .membersGroup_cad095:has(.header_dcac87) {
+/* Hide Server Active Now Section in Members List | Hide Gradient on Terms Page */
+.members__573eb .container__8d997, .membersGroup_cad095:has(.header_dcac87), .overlay_a15774 {
   display: none;
 }
 
