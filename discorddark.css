@@ -20,7 +20,7 @@
 .searchBar__5a20a, .inlineCode__0cacf, .before_inlineCode__48f7c, .after_inlineCode__59586, .popoutContainer__6565f, .reactionTooltip__20d0b, .guildSidebar__74787,
 .contentRegion__08eba, .termsFieldBody__30daf, .section__253ec, .field__69fa0, .container_db1b74 div, .container__11a0b, .category_c3da1d, .activeCategory__585b4,
 .avatarBackground__1bc8d, .linkingBanner_e88074, .box__6431e, .container__03b79, .bannedUser_f75842, .keyboardShortcutsModal__44538, .modalTitle__3df11, .modalSubtitle_f39977,
-.banner_f13f1e, .connection__6dbd8, .quickswitcher_b5bb0a > input, .container__8d997, .navButtons__60fcf, .termsFieldBody_c56d5f {
+.banner_f13f1e, .connection__6dbd8, .quickswitcher_b5bb0a > input, .container__8d997, .navButtons__60fcf, .termsFieldBody_c56d5f, .card__7865b, .activityTextContainer__930a7 {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -94,7 +94,7 @@ div#MemberCount, .title_d4ba1a, .uploadModal__6eb75, .tile_a411a4, .interactive_
 .scroller__18a89, .container__5130c:not(.isOpen__036bf), .container__7d004:not(.isOpen_d88bb6), .textContentFooter_e03480, .addGamePopout__61649, .body__86f4c, .container_cff83e,
 .contentExpandContainer__684c6, .header__93ab0, .wrapper_c899da, .container__3a30a, .categoryList_eac4ac, .channelHeader_ea0f89, .wrapper__6b7d8, .children_cde9af::after,
 .header__8863a, .howItWorksDescription__07c9e, .avatarCard__8d1e3, .earningsPreviewContainer__2b25a, .bd-modal-content, .bd-modal-header, .bd-modal-footer, .folderHeader__28488,
-.cardContent_b4a133, .container__7dc86, .settingCard__9b0ad, .slotsContainer_fdf76f, .option_eb83e4 {
+.cardContent_b4a133, .container__7dc86, .settingCard__9b0ad, .slotsContainer_fdf76f, .option_eb83e4, .previewForm__6f804, .container_a88e31, .container__0998c {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -155,13 +155,13 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]) {
   background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
-.selected__11b62 .wrapper__612a5 .link_ddbb36, .item__48dda.selected_a523ff:not(.tabBarItem_c09345, .tabBarItem_c97278, .tabBarItem_ce14f3, .tabBarItem__75bf2, .settingsTabBarItem__94457, .settingsTabBarItem_edfbff), .container__03b79,
+.selected__11b62 .wrapper__612a5 .link_ddbb36, .item__48dda.selected_a523ff:not(.tabBarItem_c09345, .tabBarItem_c97278, .tabBarItem_ce14f3, .tabBarItem__75bf2, .settingsTabBarItem__94457, .settingsTabBarItem_edfbff), .container__03b79, .box_dd6d91,
 .input-2g-os5, .list-3FIpnh .scrollableContainer_ff917f, .selected__7f4cb, .input__48d49, .searchBarComponent__8f95f, .unreadBar__4ead4,
 .bd-search-wrapper, .bd-select-option.selected, .categoryItemDefaultCategorySelected__7d6e0, .navButtonActive__0c878, .copyInput_f549fd, .fieldBackground__65920, .input_f27786,
 .fieldFooterContainer__937dd, .mainContainer_f0f256, .inputWrapper__815c5, .card__11580, .card__4dc22:not(.container__14313), .container__9922f, .collapseable_a59844, .actionContainer_e638f2,
 .modeSelected__473f1 .link_ddbb36, .container__5130c.isOpen__036bf, .container__7d004.isOpen_d88bb6, .firstPartyCategorySelected__54b34, .action__94060, .previewListItem__6ce7d,
 .card_x5zW6z, .container__62863 .attachment__06ca3, .searchBar__5a20a, .section__253ec, .activeCategory__585b4, .moreContainer_dd4188, .option_eb83e4:has(.selectedIcon_e9ecc2),
-.container__8d997 {
+.container__8d997, .card__7865b {
   border: 1px solid var(--border-primary) !important;
 }
 
@@ -172,7 +172,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]) {
 .fieldFooterContainer__937dd:hover, .mainContainer_f0f256:hover, .inputWrapper__815c5:hover, .card__11580:hover, .card__4dc22:not(.container__14313):hover, .container__9922f:hover, .collapseable_a59844:hover, .actionContainer_e638f2:hover,
 .modeSelected__473f1 .link_ddbb36:hover, .container__5130c.isOpen__036bf:hover, .container__7d004.isOpen_d88bb6:hover, .firstPartyCategorySelected__54b34:hover, .action__94060:hover, .previewListItem__6ce7d:hover,
 .card_x5zW6z:hover, .container__62863 .attachment__06ca3:hover, .searchBar__5a20a:hover, .section__253ec:hover, .activeCategory__585b4:hover, .moreContainer_dd4188:hover, .option_eb83e4:has(.selectedIcon_e9ecc2):hover,
-.container__8d997:hover {
+.container__8d997:hover, .card__7865b:hover {
   border: 1px solid var(--border-secondary) !important;
 }
 
@@ -598,6 +598,11 @@ h2.name__27f04, h3.membersGroup_cad095, h2.membersGroup_cad095, .name__27f04 .ov
 /* Hide Server Active Now Section in Members List | Hide Gradient on Terms Page */
 .members__573eb .container__8d997, .membersGroup_cad095:has(.header_dcac87), .overlay_a15774 {
   display: none;
+}
+
+/* Add Custom Border Color to Start Coversation Bubble */
+.box_dd6d91::after {
+  border-top: 10px solid var(--border-primary) !important;
 }
 
 /* ---------- Buttons ---------- */
