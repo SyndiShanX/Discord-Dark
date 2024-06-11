@@ -94,7 +94,8 @@ div#MemberCount, .title_d4ba1a, .uploadModal__6eb75, .tile_a411a4, .interactive_
 .scroller__18a89, .container__5130c:not(.isOpen__036bf), .container__7d004:not(.isOpen_d88bb6), .textContentFooter_e03480, .addGamePopout__61649, .body__86f4c, .container_cff83e,
 .contentExpandContainer__684c6, .header__93ab0, .wrapper_c899da, .container__3a30a, .categoryList_eac4ac, .channelHeader_ea0f89, .wrapper__6b7d8, .children_cde9af::after,
 .header__8863a, .howItWorksDescription__07c9e, .avatarCard__8d1e3, .earningsPreviewContainer__2b25a, .bd-modal-content, .bd-modal-header, .bd-modal-footer, .folderHeader__28488,
-.cardContent_b4a133, .container__7dc86, .settingCard__9b0ad, .slotsContainer_fdf76f, .option_eb83e4, .previewForm__6f804, .container_a88e31, .container__0998c {
+.cardContent_b4a133, .container__7dc86, .settingCard__9b0ad, .slotsContainer_fdf76f, .option_eb83e4, .previewForm__6f804, .container_a88e31, .container__0998c, .popout__7a706,
+.popout__4c91f {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
