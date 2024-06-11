@@ -1270,6 +1270,10 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   left: 5px;
 }
 
+.scrollerBase__65223 > div:nth-child(-n+2) {
+  margin-top: 4px;
+}
+
 /* User Area Icon Recolor */
 .panels__58331 .lottieIcon_c7076c :not(defs *)[fill][fill-opacity] {
   fill: white;
