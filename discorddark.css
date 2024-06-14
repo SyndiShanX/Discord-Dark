@@ -20,7 +20,8 @@
 .searchBar__5a20a, .inlineCode__0cacf, .before_inlineCode__48f7c, .after_inlineCode__59586, .popoutContainer__6565f, .reactionTooltip__20d0b, .guildSidebar__74787,
 .contentRegion__08eba, .termsFieldBody__30daf, .section__253ec, .field__69fa0, .container_db1b74 div, .container__11a0b, .category_c3da1d, .activeCategory__585b4,
 .avatarBackground__1bc8d, .linkingBanner_e88074, .box__6431e, .container__03b79, .bannedUser_f75842, .keyboardShortcutsModal__44538, .modalTitle__3df11, .modalSubtitle_f39977,
-.banner_f13f1e, .connection__6dbd8, .quickswitcher_b5bb0a > input, .container__8d997, .navButtons__60fcf, .termsFieldBody_c56d5f, .card__7865b, .activityTextContainer__930a7 {
+.banner_f13f1e, .connection__6dbd8, .quickswitcher_b5bb0a > input, .container__8d997, .navButtons__60fcf, .termsFieldBody_c56d5f, .card__7865b, .activityTextContainer__930a7,
+.statusBubble__1a4c3, .statusBubbleOuter__7e51b:before, .statusBubbleOuter__7e51b:after, .showMoreButton__50b95, .button_c03db1 {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -54,7 +55,7 @@
 .navButtonActive__0c878:hover, .option__91497:hover, .container_bdd168:hover, .fieldBackground__65920:hover, .clickable__1454c:hover, .channelRow__538ef:hover, .option_eb83e4:not(.focused_d14fa7):hover, .button_bfb8e1:hover,
 .container__5130c:not(.isOpen__036bf):hover, .container__7d004:not(.isOpen_d88bb6):hover, .hoverButton_be4802:not(.removeAttachmentHoverButton__161a2):hover, .row__9e25f:hover, .collapseable_a59844:hover,
 .actionContainer_e638f2:hover, .listRow__50619:hover, .content__3b07e:hover, .soundButton__845c7:hover, .roundedRow_fe1ade:hover, .childButton__58a87:hover, .action__94060:hover, .previewListItem__6ce7d:hover, .channelRow__538ef:hover,
-.card_x5zW6z:hover, .description_zXiu5E:hover, .bd-select:hover, .bd-select-option:hover, .item__776a8:hover, .category_c3da1d:hover, .category_a343a6:hover {
+.card_x5zW6z:hover, .description_zXiu5E:hover, .bd-select:hover, .bd-select-option:hover, .item__776a8:hover, .category_c3da1d:hover, .category_a343a6:hover, .button_c03db1:hover {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -64,7 +65,7 @@
   background-position: left top !important;
 }
 
-.item__48dda:hover:not(.item_e4ca95, .tabBarItem_c97278), .item__183e8.focused_dcafb9, .searchFilter_dbda51, .role_d81130,
+.item__48dda:hover:not(.item_e4ca95, .tabBarItem_c97278), .item__183e8.focused_dcafb9, .searchFilter_dbda51, .role__18ec9,
 .searchAnswer__2ccaf, .memberRow_d581f4, .header_ee0bd9, .wrapper__612a5:hover .link_ddbb36, .modeSelected__473f1 .link_ddbb36, .wrapper__8a5dd, .emojisContainer__8e659,
 .searchHeaderContainer_a29f84, .paginationContainer_b8c933, .searchBar__2f128, .card_x5zW6z:hover .description_zXiu5E, .titleBar__710b0, .cardHeader_ca5ec0, .searchResult__00093 {
   background-image: var(--bgDarkness2) !important;
@@ -162,7 +163,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]) {
 .fieldFooterContainer__937dd, .mainContainer_f0f256, .inputWrapper__815c5, .card__11580, .card__4dc22:not(.container__14313), .container__9922f, .collapseable_a59844, .actionContainer_e638f2,
 .modeSelected__473f1 .link_ddbb36, .container__5130c.isOpen__036bf, .container__7d004.isOpen_d88bb6, .firstPartyCategorySelected__54b34, .action__94060, .previewListItem__6ce7d,
 .card_x5zW6z, .container__62863 .attachment__06ca3, .searchBar__5a20a, .section__253ec, .activeCategory__585b4, .moreContainer_dd4188, .option_eb83e4:has(.selectedIcon_e9ecc2),
-.container__8d997, .card__7865b {
+.container__8d997, .card__7865b, .showMoreButton__50b95, .button_c03db1 {
   border: 1px solid var(--border-primary) !important;
 }
 
@@ -173,7 +174,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]) {
 .fieldFooterContainer__937dd:hover, .mainContainer_f0f256:hover, .inputWrapper__815c5:hover, .card__11580:hover, .card__4dc22:not(.container__14313):hover, .container__9922f:hover, .collapseable_a59844:hover, .actionContainer_e638f2:hover,
 .modeSelected__473f1 .link_ddbb36:hover, .container__5130c.isOpen__036bf:hover, .container__7d004.isOpen_d88bb6:hover, .firstPartyCategorySelected__54b34:hover, .action__94060:hover, .previewListItem__6ce7d:hover,
 .card_x5zW6z:hover, .container__62863 .attachment__06ca3:hover, .searchBar__5a20a:hover, .section__253ec:hover, .activeCategory__585b4:hover, .moreContainer_dd4188:hover, .option_eb83e4:has(.selectedIcon_e9ecc2):hover,
-.container__8d997:hover, .card__7865b:hover {
+.container__8d997:hover, .card__7865b:hover, .showMoreButton__50b95:hover, .button_c03db1:hover {
   border: 1px solid var(--border-secondary) !important;
 }
 
@@ -822,7 +823,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 }
 
 /* Revert Role Design - Ashtrath */
-.role_d81130 {
+.role__18ec9, .showMoreButton__50b95, .button_c03db1 {
   background: transparent;
   border: 1px solid;
   border-radius: 11px;
@@ -832,7 +833,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   margin-left: 0;
 }
 
-.addButton__6f12b.role_d81130 {
+.addButton__6f12b.role__18ec9 {
   border-color: #4f545c;
 }
 
