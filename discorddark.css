@@ -1304,6 +1304,11 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   line-height: 1.3;
 }
 
+/* Temp Fix for Extra Top Bar */
+.BDFDB_undefined_1focKH, .noticeWrapper_8z511t, .updateNotice_2DjjHs, .BDFDB_undefined_mW0jTt {
+  display: none;
+}
+
 /* Syntax Naming - CodeDotSpectra */
 .hljs.css::before {content: "CSS\00000a\00000a";}
 .hljs.js::before {content: "Javascript\00000a\00000a";}
