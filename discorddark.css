@@ -636,13 +636,15 @@ h2.name_a08117, h3.membersGroup_cbd271, h2.membersGroup_cbd271, .name_a08117 .ov
 }
 
 /* Green */
-.button_dd4f85.colorGreen_dd4f85, .item_a0[aria-controls=ADD_FRIEND-tab], .allow_e3c4bb.selected_e3c4bb {
+.button_dd4f85.colorGreen_dd4f85, .item_a0[aria-controls=ADD_FRIEND-tab], .allow_e3c4bb.selected_e3c4bb,
+.addFriend_c2739c {
   background-color: var(--green-button) !important;
   border-color: var(--green-button-border) !important;
   color: #fff !important;
 }
 
-.button_dd4f85.colorGreen_dd4f85:hover, .item_a0[aria-controls=ADD_FRIEND-tab]:hover, .allow_e3c4bb.selected_e3c4bb:hover {
+.button_dd4f85.colorGreen_dd4f85:hover, .item_a0[aria-controls=ADD_FRIEND-tab]:hover, .allow_e3c4bb.selected_e3c4bb:hover,
+.addFriend_c2739c:hover {
   background-color: var(--green-button-hover) !important;
   border-color: var(--green-button-border) !important;
 }
