@@ -854,7 +854,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 }
 
 /* Normal Status Picker (Removes User Popup) - Zuzumi */
-.accountProfilePopoutWrapper_b2ca13 .userPopoutInner_c69a7b:before, .accountProfilePopoutWrapper_b2ca13 .wrapper_cb78f1.biteSize_cb78f1, .accountProfilePopoutWrapper_b2ca13 .header_c6e596,
+.accountProfilePopoutWrapper_b2ca13 .userPopoutInner_c69a7b:before, .accountProfilePopoutWrapper_b2ca13 .wrapper_cb78f1.biteSize_cb78f1, .accountProfilePopoutWrapper_b2ca13 .header_b07019,
 .accountProfilePopoutWrapper_b2ca13 .body_d4e7c2 div:has(.descriptionClamp_fc5c48), .accountProfilePopoutWrapper_b2ca13 .activity_cd74cc, .accountProfilePopoutWrapper_b2ca13 .tags_c32acf,
 .accountProfilePopoutWrapper_b2ca13 .profileEffects_f867f9 {
   display: none;
@@ -893,7 +893,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   bottom: 0px;
 }
 
-.accountProfilePopoutWrapper_b2ca13 .userPopoutOuter_c69a7b.userPopoutOuter_c69a7b {
+.accountProfilePopoutWrapper_b2ca13 .userPopoutOuter_c69a7b.userProfileOuter_c69a7b {
   width: 220px;
   background: var(--background-floating);
 }
