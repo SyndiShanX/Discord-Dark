@@ -854,24 +854,56 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 }
 
 /* Normal Status Picker (Removes User Popup) - Zuzumi */
-.accountProfilePopoutWrapper_b2ca13 .bannerSVGWrapper_b32cc2, .accountProfilePopoutWrapper_b2ca13 .avatarWrapper_f89da9, .accountProfilePopoutWrapper_b2ca13 .profileBadges_f89da9,
-.accountProfilePopoutWrapper_b2ca13 .userProfileInner_c69a7b:before, .accountProfilePopoutWrapper_b2ca13 .userPopoutOverlayBackground_c69a7b div:not(.menu_d90b3d, .menu_d90b3d *),
-.accountProfilePopoutWrapper_b2ca13[id=account-divider-1] {
+.accountProfilePopoutWrapper_b2ca13 .userPopoutInner_c69a7b:before, .accountProfilePopoutWrapper_b2ca13 .wrapper_cb78f1.biteSize_cb78f1, .accountProfilePopoutWrapper_b2ca13 .header_c6e596,
+.accountProfilePopoutWrapper_b2ca13 .body_d4e7c2 div:has(.descriptionClamp_fc5c48), .accountProfilePopoutWrapper_b2ca13 .activity_cd74cc, .accountProfilePopoutWrapper_b2ca13 .tags_c32acf,
+.accountProfilePopoutWrapper_b2ca13 .profileEffects_f867f9 {
   display: none;
 }
 
+.accountProfilePopoutWrapper_b2ca13 .body_d4e7c2 {
+  padding: 8px;
+  gap: 8px;
+}
+
+.accountProfilePopoutWrapper_b2ca13 .username_d4e7c2 {
+  padding: 0px 8px;
+}
+
+.accountProfilePopoutWrapper_b2ca13 .menus_d4e7c2 {
+  gap: 0px !important;
+}
+
+.accountProfilePopoutWrapper_b2ca13 .menu_d4e7c2 {
+  background-color: transparent;
+}
+
+.accountProfilePopoutWrapper_b2ca13 .menus_d4e7c2 > .menu_d4e7c2 > .scroller_d90b3d {
+  padding: 0px !important;
+}
+
+.accountProfilePopoutWrapper_b2ca13 .menu_d4e7c2:last-of-type [role=group]:first-of-type::before {
+  content: "";
+  display: block;
+  margin: 7px 4px 8px 4px;
+  border-bottom: 1px solid var(--profile-body-divider-color);
+}
+
 .accountProfilePopoutWrapper_b2ca13 {
-  left: 0;
+  left: 0px;
+  bottom: 0px;
 }
 
-.accountProfilePopoutWrapper_b2ca13 .userPopoutOverlayBackground_c69a7b {
-  margin: 0;
-  border-radius: 4px;
-}
-
-.accountProfilePopoutWrapper_b2ca13 > div, .accountProfilePopoutWrapper_b2ca13 .menu-KSaHL1 .submenu-1apzyU {
-  border-radius: 4px;
+.accountProfilePopoutWrapper_b2ca13 .userPopoutOuter_c69a7b.userPopoutOuter_c69a7b {
   width: 220px;
+  background: var(--background-floating);
+}
+
+.accountProfilePopoutWrapper_b2ca13 .userPopoutInner_c69a7b {
+  max-height: 100%;
+  width: 220px;
+  gap: 0px;
+  padding-bottom: 0px;
+  background: var(--background-floating);
 }
 
 /* Profile Buttons Animation - Xyhlo */
@@ -1280,6 +1312,10 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 /* User Area Icon Recolor */
 .panels_a4d4d9 .lottieIcon_f73ef7 :not(defs *)[fill][fill-opacity] {
   fill: white;
+}
+
+.lottieIcon_f73ef7 > svg > g > g > g:nth-child(1) > g > g:nth-child(2) > g:nth-child(2) > path {
+  stroke: white;
 }
 
 /* Only Show Threads on Hover - Vortex */
