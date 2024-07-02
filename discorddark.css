@@ -21,7 +21,8 @@
 .contentRegion_c25c6d, .termsFieldBody_bd5b94, .section_cd82a7, .field_b69b77, .container_d00e26 div, .container_f9d8eb, .category_d7acc7, .activeCategory_fa8ebf,
 .avatarBackground_bb882a, .linkingBanner_f70f48, .box_f70f48, .container_c23582, .bannedUser_c90ddb, .keyboardShortcutsModal_ad95dc, .modalTitle_ad95dc, .modalSubtitle_ad95dc,
 .banner_d29eee, .connection_e2a436, .quickswitcher_f4e139 > input, .container_c64476, .navButtons_cd377c, .termsFieldBody_cd377c, .card_cc2c09, .activityTextContainer_d46b95,
-.statusBubble_d0a252, .statusBubbleOuter_d0a252:before, .statusBubbleOuter_d0a252:after, .showMoreButton_c83b44, .button_f1cdcc {
+.statusBubble_d0a252, .statusBubbleOuter_d0a252:before, .statusBubbleOuter_d0a252:after, .showMoreButton_c83b44, .button_f1cdcc, .contentWrapper_c721cc, .valuePropContainer_cc2278,
+.getXboxApp_c502c2, .contentCollapsed_c3427e:not(.contentCollapsedExpanded_c3427e) .wrapper_f4e40b {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -327,7 +328,8 @@ h2.name_a08117, h3.membersGroup_cbd271, h2.membersGroup_cbd271, .name_a08117 .ov
   padding-right: 10px !important;
 }
 
-/* Updated Tab Menus */
+/* Improved Tab Menus */
+/* Profiles Settings Tabs - .tabBarItem_bff66b */
 .tabBarItem_bff66b:nth-child(1), .tabBarItem_bff66b:nth-child(1):hover, .tabBarItem_c69589:nth-child(1), .tabBarItem_c69589:nth-child(1):hover,
 .settingsTabBarItem_f62afd:nth-child(1), .settingsTabBarItem_f62afd:nth-child(1):hover, .settingsTabBarItem_d576e9:nth-child(1), .settingsTabBarItem_d576e9:nth-child(1):hover {
   margin-right: 0px;
@@ -367,9 +369,11 @@ h2.name_a08117, h3.membersGroup_cbd271, h2.membersGroup_cbd271, .name_a08117 .ov
 }
 
 /* Added User Profiles, Plugin Repo, Theme Repo, and Events to Tab Styling */
-.tabBarItem_b9fccc:nth-child(1), .tabBarItem_b9fccc:nth-child(1):hover, .tabBarItem_b9fccc:nth-child(2), .tabBarItem_b9fccc:nth-child(2):hover,
-.tabBarItem_b9fccc:nth-child(3), .tabBarItem_b9fccc:nth-child(3):hover, .tabBarItem_b9fccc:nth-child(4), .tabBarItem_b9fccc:nth-child(4):hover,
-.tabBarItem_a31cc1:nth-child(1), .tabBarItem_a31cc1:nth-child(1):hover, .tabBarItem_a31cc1:nth-child(2), .tabBarItem_a31cc1:nth-child(2):hover {
+/* User Profile Tabs - .tabBarItem_c1519f | Plugin/Theme Repo Tabs - .tab_d8bb15 */
+.tabBarItem_c1519f:nth-child(1), .tabBarItem_c1519f:nth-child(1):hover, .tabBarItem_c1519f:nth-child(2), .tabBarItem_c1519f:nth-child(2):hover,
+.tabBarItem_c1519f:nth-child(3), .tabBarItem_c1519f:nth-child(3):hover, .tabBarItem_c1519f:nth-child(4), .tabBarItem_c1519f:nth-child(4):hover,
+.tab_d8bb15:nth-child(1), .tab_d8bb15:nth-child(1):hover, .tab_d8bb15:nth-child(2), .tab_d8bb15:nth-child(2):hover,
+.tab_d8bb15:nth-child(3), .tab_d8bb15:nth-child(3):hover {
   margin-left: 0px;
   margin-right: 0px;
   padding-top: 15px;
@@ -380,50 +384,29 @@ h2.name_a08117, h3.membersGroup_cbd271, h2.membersGroup_cbd271, .name_a08117 .ov
   border-left-style: none !important;
 }
 
+.tabBarItem_c1519f:nth-child(1):hover, .tabBarItem_c1519f:nth-child(2):hover, .tabBarItem_c1519f:nth-child(3):hover, .tabBarItem_c1519f:nth-child(4):hover,
+.tab_d8bb15:nth-child(1):hover, .tab_d8bb15:nth-child(2):hover, .tab_d8bb15:nth-child(3):hover {
+  border-bottom-color: var(--brand-experiment) !important;
+}
+
+.tabBarItem_c1519f:nth-child(1).selected_a0, .tabBarItem_c1519f:nth-child(2).selected_a0, .tabBarItem_c1519f:nth-child(3).selected_a0,
+.tabBarItem_b9fccc:nth-child(4).selected_a0, .tab_d8bb15:nth-child(1).selected_a0, .tab_d8bb15:nth-child(2).selected_a0, .tab_d8bb15:nth-child(3).selected_a0 {
+  border-bottom-color: var(--control-brand-foreground) !important;
+}
+
+.tabBarItem_c1519f {
+  font-size: 16px;
+  height: 53px;
+  text-align: center;
+  font-weight: 500;
+}
+
 .settingsTabBarItem_d576e9:nth-child(2), .settingsTabBarItem_d576e9:nth-child(2):hover {
   margin-left: 0px;
   margin-right: 0px;
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.tabBarItem_b9fccc:nth-child(1):hover, .tabBarItem_b9fccc:nth-child(2):hover, .tabBarItem_b9fccc:nth-child(3):hover, .tabBarItem_b9fccc:nth-child(4):hover,
-.tabBarItem_a31cc1:nth-child(1):hover, .tabBarItem_a31cc1:nth-child(2):hover {
-  border-bottom-color: var(--brand-experiment) !important;
-}
-
-.tabBarItem_b9fccc:nth-child(1).selected_a0, .tabBarItem_b9fccc:nth-child(2).selected_a0, .tabBarItem_b9fccc:nth-child(3).selected_a0,
-.tabBarItem_b9fccc:nth-child(4).selected_a0, .tabBarItem_a31cc1:nth-child(1).selected_a0, .tabBarItem_a31cc1:nth-child(2).selected_a0 {
-  border-bottom-color: var(--control-brand-foreground) !important;
-}
-
-.tabBarItem_b9fccc {
-  font-size: 16px;
-  height: 53px;
-  width: 108px;
-  text-align: center;
-  font-weight: 500;
-}
-
-.userProfileInner_c69a7b .tabBarItem_b9fccc {
-  height: 30px;
-}
-
-.tabBarItem_b9fccc:nth-child(1) {
-  left: -5px;
-}
-
-.tabBarItem_b9fccc:nth-child(2) {
-  left: -45px;
-}
-
-.tabBarItem_b9fccc:nth-child(3) {
-  left: -85px;
-}
-
-.tabBarItem_b9fccc:nth-child(4) {
-  left: -125px;
 }
 
 /* Updated Viewer Icon when in a Call */
