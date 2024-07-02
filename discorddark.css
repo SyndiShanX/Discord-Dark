@@ -200,7 +200,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]) {
   background-position: left top;
 }
 
-.tooltipContent_b6c360, .reactionTooltip_fba897, .popout_c5b389 {
+.tooltipContent_b6c360, .reactionTooltip_fba897, .popout_c5b389, .activity_cd74cc {
   border: 1px solid var(--border-primary) !important;
   border-radius: 4px;
 }
