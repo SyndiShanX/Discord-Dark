@@ -22,7 +22,7 @@
 .avatarBackground_bb882a, .linkingBanner_f70f48, .box_f70f48, .container_c23582, .bannedUser_c90ddb, .keyboardShortcutsModal_ad95dc, .modalTitle_ad95dc, .modalSubtitle_ad95dc,
 .banner_d29eee, .connection_e2a436, .quickswitcher_f4e139 > input, .container_c64476, .navButtons_cd377c, .termsFieldBody_cd377c, .card_cc2c09, .activityTextContainer_d46b95,
 .statusBubble_d0a252, .statusBubbleOuter_d0a252:before, .statusBubbleOuter_d0a252:after, .showMoreButton_c83b44, .button_f1cdcc, .contentWrapper_c721cc, .valuePropContainer_cc2278,
-.getXboxApp_c502c2, .contentCollapsed_c3427e:not(.contentCollapsedExpanded_c3427e) .wrapper_f4e40b {
+.getXboxApp_c502c2, .contentCollapsed_c3427e:not(.contentCollapsedExpanded_c3427e) .wrapper_f4e40b, .topRow_d936aa, .bottomRowActionDisabled_d936aa, .modInfoItem_ce9fb9 {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -40,7 +40,7 @@
 .optionContainer_e3f8c2, .insightsActions_cfaf72, .messageGroupWrapper_ac90a2, .inputWrapper_a8fde9, .previewListItem_aa7c25:not(.selected_aa7c25), .pageBody_c2efea,
 .replies__1b03e, .scrollerContainer_c90ddb, .metadataContainer_e2a436, .contentPreview_a57509, .item_a0.selected_a0.tabBarItem_b9fccc,
 .matchingPostsRow_a6d69a, .activityUserPopoutV2_d5089b:has(.spotifyButtonLogo__6ca34), .messageContainer_ddb5b4, .messages_c06487, .header_a6d69a, .howItWorksImageContainer_aa72d6,
-.childButton_f45bfc, .inner__999f6, .option_f6639d:has(.selectedIcon_f6639d) {
+.childButton_f45bfc, .inner__999f6, .option_f6639d:has(.selectedIcon_f6639d), .bottomRowAction_d936aa:not(.bottomRowActionDisabled_d936aa) {
   background-image: var(--bgDarkness1) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -56,7 +56,7 @@
 .navButtonActive_af5dbb:hover, .option_b0286e:hover, .container_d9c848:hover, .fieldBackground_ceff93:hover, .clickable_ceff93:hover, .channelRow_f04d06:hover, .option_f6639d:not(.focused_f6639d):hover, .button_a24e84:hover,
 .container__5130c:not(.isOpen__036bf):hover, .container_a57509:not(.isOpen_a57509):hover, .hoverButton_be4802:not(.removeAttachmentHoverButton__161a2):hover, .row_c5b389:hover, .collapseable_a3cc4a:hover,
 .actionContainer_b6e944:hover, .listRow_e4be58:hover, .content_cdc675:hover, .soundButton_f40049:hover, .roundedRow_a39fe9:hover, .childButton_f45bfc:hover, .action_e3f878:hover, .previewListItem_aa7c25:hover, .channelRow_f04d06:hover,
-.card_x5zW6z:hover, .description_zXiu5E:hover, .bd-select:hover, .bd-select-option:hover, .item_b119de:hover, .category_d7acc7:hover, .category_fa8ebf:hover, .button_f1cdcc:hover {
+.card_x5zW6z:hover, .description_zXiu5E:hover, .bd-select:hover, .bd-select-option:hover, .item_b119de:hover, .category_d7acc7:hover, .category_fa8ebf:hover, .button_f1cdcc:hover, .innerBottomRowAction_d936aa:hover:hover, .modInfoItem_ce9fb9:hover {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -97,7 +97,7 @@ div#MemberCount, .title_a7d72e, .uploadModal_f82cc7, .tile_dc5fc4, .interactive_
 .contentExpandContainer_cd99d3, .header_d0dc1d, .wrapper_cdfd51, .container_d20375, .categoryList_c6ee36, .channelHeader_f3978e, .wrapper_b211c6, .children_e44302::after,
 .header_b385c8, .howItWorksDescription_aa72d6, .avatarCard_da92c3, .earningsPreviewContainer_da92c3, .bd-modal-content, .bd-modal-header, .bd-modal-footer, .folderHeader_dd864e,
 .cardContent_eaaaea, .container_a49993, .settingCard_dd864e, .slotsContainer_bdea70, .option_f6639d, .previewForm_c1668f, .container_be6a5c, .container_cfbfb9, .popout_d201be,
-.popout_a9414b {
+.popout_a9414b, .header_f51af4, .embedWrapper_b558d0 {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -109,7 +109,6 @@ div#MemberCount, .title_a7d72e, .uploadModal_f82cc7, .tile_dc5fc4, .interactive_
 
 /* ---------- Main Tweaks ---------- */
 /* Hide GIF, Gift, Nitro DM, and Shop Buttons */
-/* GIF Button */
 button:has([d^=" M-7,-10 C-8.656999588012695,-10 -10"]),
 button:has([d^=" M-7,10 C-8.104999542236328,10 -9"]),
 li:has([d^="M7 4a1 1 0 0 0 0 2h3a1 1 0 1 1 0 2H5.5a1"]),
@@ -1185,7 +1184,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 }
 
 .container_fd6364, .platform-win .container_e44302, .newMessagesBar_cf58b5, .unreadMentionsIndicatorTop_fea3ef,
-.privateChannels_f0963d, .bd-notice, .members_cbd271, .scroller_c43953, .profilePanel_b433b4, .header_b385c8 {
+.privateChannels_f0963d, .bd-notice, .members_cbd271, .scroller_c43953, .profilePanel_b433b4, .header_b385c8, .notice_a50047, .notice_be03aa {
   top: calc(var(--titlebar-height) - 3px) !important;
 }
 
