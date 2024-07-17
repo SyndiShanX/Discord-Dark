@@ -11,12 +11,12 @@
 .box_af45f8, .connectContainer_e2a436, .emojiItem_fbfedd.emojiItemSelected_fbfedd, .categoryItemDefaultCategorySelected_dfa278, .categoryItemDefaultCategory_dfa278:hover,
 .navButtonActive_af5dbb, .card_e90143, .container_d9c848, .container_bf1c84, .messages_c06487, .faq_eaedb7, .dropCriteria_e8af36, .gameNameInput_fd966d:hover, .input_f8bc55,
 .select_f6639d, .option_f6639d.focused_f6639d, .radioBar_eb92a8, .backgroundModifierContainer_e5c5d5, .settingsRowSubsection_ebd904, .upsellPreview_aa7c25, .card_ea91d1,
-.container__23c08, .button_a24e84, .container_acb8b3, .message__1b914, .inputField_d4eb58, .field_a4eb9e:not(.directionColumn__959e9), .input_f89ba0, .keywordsTextArea_bdc518,
+.container__23c08, .button_a24e84, .container_acb8b3, .message__1b914, .inputField_f26de7, .field_fb9bea:not(.directionColumn__959e9), .input_f89ba0, .keywordsTextArea_bdc518,
 .collapseable_a3cc4a, .actionContainer_b6e944, .actionContainer_cec7a5, .tooltipPrimary_b6c360, .keybindHint_c66e5e, .soundButton_f40049, .container_d331f1,
 .container__5130c.isOpen__036bf, .container_a57509.isOpen_a57509, .content__28297, .ctaContainer__95bd7, .firstPartyCategorySelected_a7a485, .perkCard_d611db,
 .recommendedServerCard_ebbdfd, .wrapper_d4ec61, .friendRequestsButton_c0c071, .createSticker_a708c4, .previewMessage_c31d36, .wrapper_faf5ab, .resizeHandle_d1c246,
 .changelog_abe1fa, .safetyStepRow_abe1fa, .testimonialHeroContainer_d3081b, .action_e3f878, .upsellPreview_aa7c25, .previewListItem_aa7c25, .header_bd2368, .table_aabef9,
-.howItWorksContainer_aa72d6, .channelRow_f04d06, .card_x5zW6z, .description_zXiu5E, .bd-select, .bd-select-option.selected, .container_b558d0 .attachment_a4623d,
+.howItWorksContainer_aa72d6, .channelRow_f04d06, .card_x5zW6z, .description_zXiu5E, .bd-select, .bd-select-option.selected, .container_b558d0 .attachment_b52bef,
 .searchBar_a46bef, .inlineCode_cdb578, .before_inlineCode_cdb578, .after_inlineCode_cdb578, .popoutContainer_c938c7, .reactionTooltip_fba897, .guildSidebar_a74b6f,
 .contentRegion_c25c6d, .termsFieldBody_bd5b94, .section_cd82a7, .field_b69b77, .container_d00e26 div, .container_f9d8eb, .category_d7acc7, .activeCategory_fa8ebf,
 .avatarBackground_bb882a, .linkingBanner_f70f48, .box_f70f48, .container_c23582, .bannedUser_c90ddb, .keyboardShortcutsModal_ad95dc, .modalTitle_ad95dc, .modalSubtitle_ad95dc,
@@ -33,7 +33,7 @@
 }
 
 /* Darkness 1 Background Image */
-.footer_ad9cbd, .textContainer_ad9cbd, .scrollerInner_e2e187, .form_a7d72e, .container-JhuCwn,
+.footer_d8e2d0, .textContainer_d8e2d0, .scrollerInner_e2e187, .form_a7d72e, .container-JhuCwn,
 .button_f67531:hover, .expandedFolderBackground_bc7085, .content_c2654d, .container-2qVG6q:hover, .input__48d49,
 .folderIconWrapper_bc7085, .queryContainer_eedf95, .peopleList_e0840f, .scroller_bf550a, .videoGrid_bae578, div.theme-dark .messageContainer_da1bd9,
 .contentRegionScroller_c25c6d.auto_c49869.scrollerBase_c49869, .unreadBar_c43953, .peopleColumn_c2739c, .nowPlayingColumn_c2739c, .popout_c5b389, .checklistItem_bd2368,
@@ -52,7 +52,7 @@
 
 /* Darkness 2 Background Image */
 .layout_e9f61e:hover, .interactive_f5eb4b:not(.interactiveSelected_c91bad):hover, .avatarWrapper_b2ca13:hover, .roleRow_a930f1:hover, .peopleListItem_d51464:hover,
-.container_cc7b67:hover, .memberRow_fe3229.emptyRowContainer_fe3229:hover, .sticker_a708c4:hover, .emojiItem_fbfedd:hover, .unreadBar_c43953:hover, .base_f23da8:hover, .categoryItemDefaultCategorySelected_dfa278:hover,
+.container_cc7b67:hover, .memberRow_fe3229.emptyRowContainer_fe3229:hover, .sticker_a708c4:hover, .emojiItem_fbfedd:hover, .unreadBar_c43953:hover, .base_bcc24e:hover, .categoryItemDefaultCategorySelected_dfa278:hover,
 .navButtonActive_af5dbb:hover, .option_b0286e:hover, .container_d9c848:hover, .fieldBackground_ceff93:hover, .clickable_ceff93:hover, .channelRow_f04d06:hover, .option_f6639d:not(.focused_f6639d):hover, .button_a24e84:hover,
 .container__5130c:not(.isOpen__036bf):hover, .container_a57509:not(.isOpen_a57509):hover, .hoverButton_be4802:not(.removeAttachmentHoverButton__161a2):hover, .row_c5b389:hover, .collapseable_a3cc4a:hover,
 .actionContainer_b6e944:hover, .listRow_e4be58:hover, .content_cdc675:hover, .soundButton_f40049:hover, .roundedRow_a39fe9:hover, .childButton_f45bfc:hover, .action_e3f878:hover, .previewListItem_aa7c25:hover, .channelRow_f04d06:hover,
@@ -67,7 +67,7 @@
 }
 
 .item_a0:hover:not(.item_c2739c, .tabBarItem_c69589), .item_d90b3d.focused_d90b3d, .searchFilter_b0fa94, .role_f9575e,
-.searchAnswer_b0fa94, .memberRow_fe3229, .header_bd05f1, .wrapper_d8bfb3:hover .link_d8bfb3, .modeSelected_d8bfb3 .link_d8bfb3, .wrapper_b9fe76, .emojisContainer_adff39,
+.searchAnswer_b0fa94, .memberRow_fe3229, .header_bd05f1, .wrapper_d8bfb3:hover .link_d8bfb3, .modeSelected_d8bfb3 .link_d8bfb3, .wrapper_a71a1c, .emojisContainer_adff39,
 .searchHeaderContainer_b0740c, .paginationContainer_cb152b, .searchBar_b0740c, .card_x5zW6z:hover .description_zXiu5E, .titleBar_a934d8, .cardHeader_dedfd1, .searchResult_ddc613 {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
@@ -83,12 +83,12 @@
 .input-2g-os5, .scrollableContainer_d0696b, .container_b2ca13, .tooltip-14MtrL, .replyBar_b11c5e, .scrollerBase_c49869:not(:has(.contentColumn_c25c6d)),
 .clipContainer_b11c5e, .iconWrapper__8d563, .container_ee69e0, .container_fd6364:not(.bannerVisible_fd6364) .header_fd6364,
 .container_cbd271, .repliedMessage_f9f2ca:not(.latin24CompactTimeStamp_f9f2ca), .repliedMessage_f9f2ca::after, .tree_fea3ef, .inner_d0696b,
-.gridContainer_ad0b71, .userProfileInner_c69a7b, .overlayBackground_c69a7b, .scroller_c47fa9, .scroller_d90b3d, .searchHeader_b7c924,
-div#MemberCount, .title_a7d72e, .uploadModal_f82cc7, .tile_dc5fc4, .interactive_c0f6a6, .card_eb1ca6, .footer_f82cc7, .container__13b2a section, .hljs, .container_e5cdf3, .container_b6cd66, .container_b0914a, .header_ac90a2,
-.container_cc7b67, .activityPanel_a4d4d9, .inspector_c6ee36, .inspector_c3120f, .packHeader_de4721, .header_c6ee36, .base_f23da8, .header_a3bc57, .imageWrapper__178ee:not(:has(.loadingOverlay__35a04)),
+.gridContainer_b0068a, .userProfileInner_c69a7b, .overlayBackground_c69a7b, .scroller_c47fa9, .scroller_d90b3d, .searchHeader_b7c924,
+div#MemberCount, .title_a7d72e, .uploadModal_f82cc7, .tile_dc5fc4, .interactive_c0f6a6, .card_e90879, .footer_f82cc7, .container__13b2a section, .hljs, .container_e5cdf3, .container_b6cd66, .container_b0914a, .header_ac90a2,
+.container_cc7b67, .activityPanel_a4d4d9, .inspector_c6ee36, .inspector_c3120f, .packHeader_de4721, .header_c6ee36, .base_bcc24e, .header_a3bc57, .imageWrapper__178ee:not(:has(.loadingOverlay__35a04)),
 .actionButton_e01b91, .footer_f9a4c9, .bd-search-wrapper, .bd-error-modal-footer, .bd-addon-header, .connectionHeader_e2a436, .header_f9a4c9, .background_b69b77, .root_f9a4c9,
 .scrollerBase_eed6a8:not([aria-label=Channels], .list_e87574, .contentRegionScroller_c25c6d, .scroller_bf550a, .scroller_e9196a, .videoGrid_bae578, .peopleList_e0840f, .browser_c2efea, .description_zXiu5E),
-.attachment_a4623d.activityUserPopout_c1d9fd, .contentWrapper_af5dbb, .categoryHeader_fe2299, .categoryHeader_fe2299::after, .footer_edf4d6, .fieldList_b69b77,
+.attachment_b52bef.activityUserPopout_c1d9fd, .contentWrapper_af5dbb, .categoryHeader_fe2299, .categoryHeader_fe2299::after, .footer_edf4d6, .fieldList_b69b77,
 .accountProfileCard_b69b77, .container_e9f61e.clickable_e9f61e, .tierBody_da77bd, .wrapper_d864ab, .container_c15230, .container_ebd74a, .header_e664f3, .browser_f542fc,
 .wrapperAudio_f316dd, .modal__4f3da, .ChannelDms-channelpopout-header, .ChannelDms-channelpopout-collapseButton, .quickswitcher_f4e139, .body_adbea6, .footer_ac90a2, .userSelectNone_c16c2b,
 .container_eedf95, .copyInput_d7e343, .clickable_ceff93, .containerPadding_ceff93, .containerFooter_ceff93, .fieldBackground_ceff93, .mainContainer_ea28e2, .guildCard_e95c0f,
@@ -162,7 +162,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]) {
 .bd-search-wrapper, .bd-select-option.selected, .categoryItemDefaultCategorySelected_dfa278, .navButtonActive_af5dbb, .copyInput_d7e343, .fieldBackground_ceff93, .input_f8bc55,
 .fieldFooterContainer_ceff93, .mainContainer_ea28e2, .inputWrapper_a8fde9, .card__11580, .card_a298b8:not(.container_f7ea1b), .container_acb8b3, .collapseable_a3cc4a, .actionContainer_b6e944,
 .modeSelected_d8bfb3 .link_d8bfb3, .container__5130c.isOpen__036bf, .container_a57509.isOpen_a57509, .firstPartyCategorySelected_a7a485, .action_e3f878, .previewListItem_aa7c25,
-.card_x5zW6z, .container_b558d0 .attachment_a4623d, .searchBar_a46bef, .section_cd82a7, .activeCategory_fa8ebf, .moreContainer_ac3629, .option_f6639d:has(.selectedIcon_f6639d),
+.card_x5zW6z, .container_b558d0 .attachment_b52bef, .searchBar_a46bef, .section_cd82a7, .activeCategory_fa8ebf, .moreContainer_ac3629, .option_f6639d:has(.selectedIcon_f6639d),
 .container_c64476, .card_cc2c09, .showMoreButton_c83b44, .button_f9d37d {
   border: 1px solid var(--border-primary) !important;
 }
@@ -173,7 +173,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]) {
 .bd-search-wrapper:hover, .bd-select-option.selected:hover, .categoryItemDefaultCategorySelected_dfa278:hover, .navButtonActive_af5dbb:hover, .copyInput_d7e343:hover, .fieldBackground_ceff93:hover, .input_f8bc55:hover,
 .fieldFooterContainer_ceff93:hover, .mainContainer_ea28e2:hover, .inputWrapper_a8fde9:hover, .card__11580:hover, .card_a298b8:not(.container_f7ea1b):hover, .container_acb8b3:hover, .collapseable_a3cc4a:hover, .actionContainer_b6e944:hover,
 .modeSelected_d8bfb3 .link_d8bfb3:hover, .container__5130c.isOpen__036bf:hover, .container_a57509.isOpen_a57509:hover, .firstPartyCategorySelected_a7a485:hover, .action_e3f878:hover, .previewListItem_aa7c25:hover,
-.card_x5zW6z:hover, .container_b558d0 .attachment_a4623d:hover, .searchBar_a46bef:hover, .section_cd82a7:hover, .activeCategory_fa8ebf:hover, .moreContainer_ac3629:hover, .option_f6639d:has(.selectedIcon_f6639d):hover,
+.card_x5zW6z:hover, .container_b558d0 .attachment_b52bef:hover, .searchBar_a46bef:hover, .section_cd82a7:hover, .activeCategory_fa8ebf:hover, .moreContainer_ac3629:hover, .option_f6639d:has(.selectedIcon_f6639d):hover,
 .container_c64476:hover, .card_cc2c09:hover, .showMoreButton_c83b44:hover, .button_f9d37d:hover {
   border: 1px solid var(--border-secondary) !important;
 }
@@ -301,7 +301,7 @@ h2.name_a08117, h3.membersGroup_cbd271, h2.membersGroup_cbd271, .name_a08117 .ov
 }
 
 /* Change Text Color to White to Increase Readability */
-.inputWrapper-1YNMmM .input-2g-os5, .text-sm-normal-3Zj3Iv, .button_dd4f85.colorBrand_dd4f85 div:not(.controlIcon_ef18ee), .username_be84f0, .themed_a0,
+.inputWrapper-1YNMmM .input-2g-os5, .text-sm-normal-3Zj3Iv, .button_dd4f85.colorBrand_dd4f85 div:not(.controlIcon_ef18ee), .username_cd0810, .themed_a0,
 .bd-settings-title, .bd-error-modal, .backgroundModifierContainer_e5c5d5:hover .text-sm-medium_bc6ffc, .defaultColor__77578, .connectedAccountNameText_f3eb60,
 .text-xs-normal_ccc5fb, .defaultColor_a595eb, .userTagUsernameBase_c9ccf6, .customStatusText_cb55fc, .itemizedListText_f005b2 {
   color: #fff !important;
@@ -591,7 +591,7 @@ h2.name_a08117, h3.membersGroup_cbd271, h2.membersGroup_cbd271, .name_a08117 .ov
 
 /* ---------- Buttons ---------- */
 /* Hover Color Change: -23, -50, -31 */
-.button_dd4f85, .item_a0[aria-controls=ADD_FRIEND-tab], .bd-button, .item_e3c4bb.selected_e3c4bb, .leftTrayIcon_d880dc,
+.button_dd4f85, .item_a0[aria-controls=ADD_FRIEND-tab], .bd-button, .item_d25d19.selected_d25d19, .leftTrayIcon_d880dc,
 .staticButton_ef18ee, .button_e5cc00 {
   border: 1px solid;
   border-color: rgba(0, 0, 0, 0);
@@ -606,26 +606,26 @@ h2.name_a08117, h3.membersGroup_cbd271, h2.membersGroup_cbd271, .name_a08117 .ov
 }
 
 /* Red */
-.button_dd4f85.colorRed_dd4f85, .bd-button-danger, .deny_e3c4bb.selected_e3c4bb, .red_ef18ee {
+.button_dd4f85.colorRed_dd4f85, .bd-button-danger, .deny_d25d19.selected_d25d19, .red_ef18ee {
   background-color: var(--red-button) !important;
   border-color: var(--red-button-border) !important;
   color: #fff !important;
 }
 
-.button_dd4f85.colorRed_dd4f85:hover, .bd-button-danger:hover, .deny_e3c4bb.selected_e3c4bb:hover, .red_ef18ee:hover {
+.button_dd4f85.colorRed_dd4f85:hover, .bd-button-danger:hover, .deny_d25d19.selected_d25d19:hover, .red_ef18ee:hover {
   background-color: var(--red-button-hover) !important;
   border-color: var(--red-button-border) !important;
 }
 
 /* Green */
-.button_dd4f85.colorGreen_dd4f85, .item_a0[aria-controls=ADD_FRIEND-tab], .allow_e3c4bb.selected_e3c4bb,
+.button_dd4f85.colorGreen_dd4f85, .item_a0[aria-controls=ADD_FRIEND-tab], .allow_d25d19.selected_d25d19,
 .addFriend_c2739c {
   background-color: var(--green-button) !important;
   border-color: var(--green-button-border) !important;
   color: #fff !important;
 }
 
-.button_dd4f85.colorGreen_dd4f85:hover, .item_a0[aria-controls=ADD_FRIEND-tab]:hover, .allow_e3c4bb.selected_e3c4bb:hover,
+.button_dd4f85.colorGreen_dd4f85:hover, .item_a0[aria-controls=ADD_FRIEND-tab]:hover, .allow_d25d19.selected_d25d19:hover,
 .addFriend_c2739c:hover {
   background-color: var(--green-button-hover) !important;
   border-color: var(--green-button-border) !important;
@@ -662,7 +662,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 }
 
 /* Gray */
-.button_dd4f85.colorPrimary_dd4f85, .passthrough_e3c4bb.selected_e3c4bb, .leftTrayIcon_d880dc, .primaryDark_ef18ee, .buttonColor_dfbe6b,
+.button_dd4f85.colorPrimary_dd4f85, .passthrough_d25d19.selected_d25d19, .leftTrayIcon_d880dc, .primaryDark_ef18ee, .buttonColor_dfbe6b,
 .streamPreview_ba4b17 .button_dd4f85, .button_a39fe9, .addRoleContainer_a39fe9, .backgroundAccent_dd4615, .tertiary_ad6d80, .buttonInner_b385c8,
 .viewServerButton_adff39, .participantsButton_b83b18, .outerButton_e5cc00, .voiceChannelsButton_a08117, .container_aef5fd {
   background-color: var(--gray-button) !important;
@@ -670,7 +670,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   color: #fff !important;
 }
 
-.button_dd4f85.colorPrimary_dd4f85:hover, .passthrough_e3c4bb.selected_e3c4bb:hover, .leftTrayIcon_d880dc:hover, .primaryDark_ef18ee:hover, .buttonColor_dfbe6b:hover,
+.button_dd4f85.colorPrimary_dd4f85:hover, .passthrough_d25d19.selected_d25d19:hover, .leftTrayIcon_d880dc:hover, .primaryDark_ef18ee:hover, .buttonColor_dfbe6b:hover,
 .streamPreview_ba4b17 .button_dd4f85:hover, .button_a39fe9:hover, .addRoleContainer_a39fe9:hover, .backgroundAccent_dd4615:hover, .tertiary_ad6d80:hover, .buttonInner_b385c8:hover,
 .viewServerButton_adff39:hover, .participantsButton_b83b18:hover, .outerButton_e5cc00:hover, .voiceChannelsButton_a08117:hover, .container_aef5fd:hover {
   background-color: var(--gray-button-hover) !important;
@@ -1313,12 +1313,12 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 }
 
 /* Revert App Tag to Bot - Dav */
-.botTag_a02df3:not(.botTagAI_a02df3, .botTagOP_a02df3, .botTagRemix_a02df3, .decorator_c91bad) .botText_a02df3 {
+.botTag_a9e77f:not(.botTagAI_a9e77f, .botTagOP_a9e77f, .botTagRemix_a9e77f, .decorator_c91bad) .botText_a9e77f {
   font-size: 0 !important;
   line-height: 0 !important;
 }
 
-.botTag_a02df3:not(.botTagAI_a02df3, .botTagOP_a02df3, .botTagRemix_a02df3, .decorator_c91bad) .botText_a02df3:before {
+.botTag_a9e77f:not(.botTagAI_a9e77f, .botTagOP_a9e77f, .botTagRemix_a9e77f, .decorator_c91bad) .botText_a9e77f:before {
   content: "Bot";
   font-size: 0.625rem;
   line-height: 1.3;
