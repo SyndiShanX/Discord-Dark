@@ -33,7 +33,7 @@
 }
 
 /* Darkness 1 Background Image */
-.textContainer_ad9cbd, .scrollerInner_e2e187, .form_a7d72e, .container-JhuCwn,
+.textContainer_d8e2d0, .scrollerInner_e2e187, .form_a7d72e, .container-JhuCwn,
 .button_f67531:hover, .expandedFolderBackground_bc7085, .content_c2654d, .container-2qVG6q:hover, .input__48d49,
 .folderIconWrapper_bc7085, .queryContainer_eedf95, .peopleList_e0840f, .scroller_bf550a, .videoGrid_bae578, div.theme-dark .messageContainer_da1bd9,
 .contentRegionScroller_c25c6d.auto_c49869.scrollerBase_c49869, .unreadBar_c43953, .peopleColumn_c2739c, .nowPlayingColumn_c2739c, .popout_c5b389, .checklistItem_bd2368,
@@ -79,11 +79,11 @@
 }
 
 /* Darkness 3 Background Image */
-.wrapper_ef319f, .container_adcaac, .members_cbd271 .content_eed6a8, .container_fc4f04, .searchBar_f0963d, .textContainer_ad9cbd,
+.wrapper_ef319f, .container_adcaac, .members_cbd271 .content_eed6a8, .container_fc4f04, .searchBar_f0963d, .textContainer_d8e2d0,
 .input-2g-os5, .scrollableContainer_d0696b, .container_b2ca13, .tooltip-14MtrL, .replyBar_b11c5e, .scrollerBase_c49869:not(:has(.contentColumn_c25c6d)),
 .clipContainer_b11c5e, .iconWrapper__8d563, .container_ee69e0, .container_fd6364:not(.bannerVisible_fd6364) .header_fd6364,
 .container_cbd271, .repliedMessage_f9f2ca:not(.latin24CompactTimeStamp_f9f2ca), .repliedMessage_f9f2ca::after, .tree_fea3ef, .inner_d0696b,
-.gridContainer_ad0b71, .userProfileInner_c69a7b, .overlayBackground_c69a7b, .scroller_c47fa9, .scroller_d90b3d, .footer_ad9cbd, .searchHeader_b7c924,
+.gridContainer_b0068a, .userProfileInner_c69a7b, .overlayBackground_c69a7b, .scroller_c47fa9, .scroller_d90b3d, .footer_d8e2d0, .searchHeader_b7c924,
 div#MemberCount, .title_a7d72e, .uploadModal_f82cc7, .tile_dc5fc4, .interactive_c0f6a6, .card_e90879, .footer_f82cc7, .container__13b2a section, .hljs, .container_e5cdf3, .container_b6cd66, .container_b0914a, .header_ac90a2,
 .container_cc7b67, .activityPanel_a4d4d9, .inspector_c6ee36, .inspector_c3120f, .packHeader_de4721, .header_c6ee36, .base_bcc24e, .header_a3bc57, .imageWrapper__178ee:not(:has(.loadingOverlay__35a04)),
 .actionButton_e01b91, .footer_f9a4c9, .bd-search-wrapper, .bd-error-modal-footer, .bd-addon-header, .connectionHeader_e2a436, .header_f9a4c9, .background_b69b77, .root_f9a4c9,
@@ -301,7 +301,7 @@ h2.name_a08117, h3.membersGroup_cbd271, h2.membersGroup_cbd271, .name_a08117 .ov
 }
 
 /* Change Text Color to White to Increase Readability */
-.inputWrapper-1YNMmM .input-2g-os5, .text-sm-normal-3Zj3Iv, .button_dd4f85.colorBrand_dd4f85 div:not(.controlIcon_ef18ee), .username_be84f0, .themed_a0,
+.inputWrapper-1YNMmM .input-2g-os5, .text-sm-normal-3Zj3Iv, .button_dd4f85.colorBrand_dd4f85 div:not(.controlIcon_ef18ee), .username_cd0810, .themed_a0,
 .bd-settings-title, .bd-error-modal, .backgroundModifierContainer_e5c5d5:hover .text-sm-medium_bc6ffc, .defaultColor__77578, .connectedAccountNameText_f3eb60,
 .text-xs-normal_ccc5fb, .defaultColor_a595eb, .userTagUsernameBase_c9ccf6, .customStatusText_cb55fc, .itemizedListText_f005b2 {
   color: #fff !important;
