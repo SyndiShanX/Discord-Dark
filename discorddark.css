@@ -1110,6 +1110,10 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   order: -1;
 }
 
+div:has(> .searchBar_e7c031) {
+  order: -2;
+}
+
 /* Edited Timestamps - Obscure */
 .timestamp_f9f2ca:not(.timestampInline_f9f2ca, .timestampVisibleOnHover_f9f2ca):not(.latin24CompactTimeStamp_f9f2ca) time::after {
   content: " (" attr(aria-label) ")";
