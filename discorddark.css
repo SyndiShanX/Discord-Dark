@@ -110,11 +110,12 @@ div#MemberCount, .title_a7d72e, .uploadModal_f82cc7, .tile_dc5fc4, .interactive_
 }
 
 /* ---------- Main Tweaks ---------- */
-/* Hide GIF, Gift, Nitro DM, and Shop Buttons */
+/* Hide GIF, Gift, Nitro DM, Shop, and App Launcher Buttons */
 button:has([d^=" M-7,-10 C-8.656999588012695,-10 -10"]),
 button:has([d^=" M-7,10 C-8.104999542236328,10 -9"]),
 li:has([d^="M7 4a1 1 0 0 0 0 2h3a1 1 0 1 1 0 2H5.5a1"]),
-li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]) {
+li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
+.channelAppLauncher_df39bd {
   display: var(--AD-buttons) !important;
 }
 
@@ -305,7 +306,8 @@ h2.name_a08117, h3.membersGroup_cbd271, h2.membersGroup_cbd271, .name_a08117 .ov
 /* Change Text Color to White to Increase Readability */
 .inputWrapper-1YNMmM .input-2g-os5, .text-sm-normal-3Zj3Iv, .button_dd4f85.colorBrand_dd4f85 div:not(.controlIcon_ef18ee), .username_cd0810, .themed_a0,
 .bd-settings-title, .bd-error-modal, .backgroundModifierContainer_e5c5d5:hover .text-sm-medium_bc6ffc, .defaultColor__77578, .connectedAccountNameText_f3eb60,
-.text-xs-normal_ccc5fb, .defaultColor_a595eb, .userTagUsernameBase_c9ccf6, .customStatusText_cb55fc, .itemizedListText_f005b2 {
+.text-xs-normal_ccc5fb, .defaultColor_a595eb, .userTagUsernameBase_c9ccf6, .customStatusText_cb55fc, .itemizedListText_f005b2, .text_dc9488, .userTag_c32acf, .userTag_c32acf > span,
+[class*=normal_dc00ef] {
   color: #fff !important;
 }
 
