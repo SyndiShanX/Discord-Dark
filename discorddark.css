@@ -1309,18 +1309,6 @@ div:has(> .searchBar_e7c031) {
   stroke: white;
 }
 
-/* Only Show Threads on Hover - Vortex */
-.containerDefault_f6f816:hover + .container_e1e976, .containerDefault_f6f816:hover, .container_e1e976:hover {
-  max-height: 1000px;
-  transition: max-height 1s ease;
-}
-
-.container_e1e976 {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.25s ease;
-}
-
 /* Revert App Tag to Bot - Dav */
 .botTag_a9e77f:not(.botTagAI_a9e77f, .botTagOP_a9e77f, .botTagRemix_a9e77f, .decorator_c91bad) .botText_a9e77f {
   font-size: 0 !important;
