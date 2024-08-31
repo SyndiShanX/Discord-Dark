@@ -6,6 +6,8 @@ Made by: SyndiShanX
 
 This Theme is meant to be used with Discord Dark Mode
 
+Better Discord Page: https://betterdiscord.app/theme/Discord%20Dark
+
 ## Installation:
 
 ##### Better Discord:
