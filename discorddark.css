@@ -181,7 +181,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
   border: 1px solid var(--border-secondary) !important;
 }
 
-.reaction_ec6b19:not(.reactionMe_ec6b19), .reactionBtn_f61c73, .container_c06a56, .spamBanner_c1da2c, .wrapper_a71a1c {
+.reaction_ec6b19:not(.reactionMe_ec6b19), .reactionBtn_f61c73, .container_c06a56, .spamBanner_c1da2c, .wrapper_a71a1c, .upsellsContainer_b712b6 {
   border: 1px solid var(--border-primary);
   background-image: var(--bgImage);
   background-clip: border-box;
