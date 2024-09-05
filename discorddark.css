@@ -23,7 +23,7 @@
 .banner_d29eee, .connection_e2a436, .quickswitcher_f4e139 > input, .container_c64476, .navButtons_cd377c, .termsFieldBody_cd377c, .card_cc2c09, .activityTextContainer_d46b95,
 .statusBubble_d0a252, .statusBubbleOuter_d0a252:before, .statusBubbleOuter_d0a252:after, .showMoreButton_c83b44, .button_f9d37d, .contentWrapper_c721cc, .valuePropContainer_cc2278,
 .getXboxApp_c502c2, .contentCollapsed_c3427e:not(.contentCollapsedExpanded_c3427e) .wrapper_f4e40b, .topRow_d936aa, .bottomRowActionDisabled_d936aa, .modInfoItem_ce9fb9,
-.embedCard_bc2461, .stepContainer_a039eb, .uploadInput_a15d29 {
+.embedCard_bc2461, .stepContainer_a039eb, .uploadInput_a15d29, .footer_cf5d0a {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -181,7 +181,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
   border: 1px solid var(--border-secondary) !important;
 }
 
-.reaction_ec6b19:not(.reactionMe_ec6b19), .reactionBtn_f61c73, .container_c06a56, .spamBanner_c1da2c, .wrapper_a71a1c, .upsellsContainer_b712b6 {
+.reaction_ec6b19:not(.reactionMe_ec6b19), .reactionBtn_f61c73, .container_c06a56, .spamBanner_c1da2c, .wrapper_a71a1c, .upsellsContainer_b712b6, .guildPopout_cf5d0a {
   border: 1px solid var(--border-primary);
   background-image: var(--bgImage);
   background-clip: border-box;
