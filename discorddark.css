@@ -56,7 +56,7 @@
 .container_cc7b67:hover, .memberRow_fe3229.emptyRowContainer_fe3229:hover, .sticker_a708c4:hover, .emojiItem_fbfedd:hover, .unreadBar_c43953:hover, .base_bcc24e:hover, .categoryItemDefaultCategorySelected_dfa278:hover,
 .navButtonActive_af5dbb:hover, .option_b0286e:hover, .container_d9c848:hover, .fieldBackground_ceff93:hover, .clickable_ceff93:hover, .channelRow_f04d06:hover, .option_f6639d:not(.focused_f6639d):hover, .button_a24e84:hover,
 .container__5130c:not(.isOpen__036bf):hover, .container_a57509:not(.isOpen_a57509):hover, .hoverButton_be4802:not(.removeAttachmentHoverButton__161a2):hover, .row_c5b389:hover, .collapseable_a3cc4a:hover,
-.actionContainer_b6e944:hover, .listRow_e4be58:hover, .content_d80634:hover, .soundButton_f40049:hover, .roundedRow_a39fe9:hover, .childButton_f45bfc:hover, .action_e3f878:hover, .previewListItem_aa7c25:hover, .channelRow_f04d06:hover,
+.actionContainer_b6e944:hover, .listRow_d2d6cb:hover, .content_d80634:hover, .soundButton_f40049:hover, .roundedRow_a39fe9:hover, .childButton_f45bfc:hover, .action_e3f878:hover, .previewListItem_aa7c25:hover, .channelRow_f04d06:hover,
 .card_x5zW6z:hover, .description_zXiu5E:hover, .bd-select:hover, .bd-select-option:hover, .item_b119de:hover, .category_d7acc7:hover, .category_fa8ebf:hover, .button_f9d37d:hover, .innerBottomRowAction_d936aa:hover:hover, .modInfoItem_ce9fb9:hover {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
@@ -166,7 +166,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
 .fieldFooterContainer_ceff93, .mainContainer_ea28e2, .inputWrapper_a8fde9, .card__11580, .card_a298b8:not(.container_f7ea1b), .container_acb8b3, .collapseable_a3cc4a, .actionContainer_b6e944,
 .modeSelected_d8bfb3 .link_d8bfb3, .container__5130c.isOpen__036bf, .container_a57509.isOpen_a57509, .firstPartyCategorySelected_a7a485, .action_e3f878, .previewListItem_aa7c25,
 .card_x5zW6z, .container_b558d0 .attachment_b52bef, .searchBar_a46bef, .section_cd82a7, .activeCategory_fa8ebf, .moreContainer_ac3629, .option_f6639d:has(.selectedIcon_f6639d),
-.container_c64476, .card_cc2c09, .showMoreButton_c83b44, .button_f9d37d {
+.container_c64476, .card_cc2c09, .showMoreButton_c83b44, .button_f9d37d, .searchBar_e0840f {
   border: 1px solid var(--border-primary) !important;
 }
 
@@ -177,7 +177,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
 .fieldFooterContainer_ceff93:hover, .mainContainer_ea28e2:hover, .inputWrapper_a8fde9:hover, .card__11580:hover, .card_a298b8:not(.container_f7ea1b):hover, .container_acb8b3:hover, .collapseable_a3cc4a:hover, .actionContainer_b6e944:hover,
 .modeSelected_d8bfb3 .link_d8bfb3:hover, .container__5130c.isOpen__036bf:hover, .container_a57509.isOpen_a57509:hover, .firstPartyCategorySelected_a7a485:hover, .action_e3f878:hover, .previewListItem_aa7c25:hover,
 .card_x5zW6z:hover, .container_b558d0 .attachment_b52bef:hover, .searchBar_a46bef:hover, .section_cd82a7:hover, .activeCategory_fa8ebf:hover, .moreContainer_ac3629:hover, .option_f6639d:has(.selectedIcon_f6639d):hover,
-.container_c64476:hover, .card_cc2c09:hover, .showMoreButton_c83b44:hover, .button_f9d37d:hover {
+.container_c64476:hover, .card_cc2c09:hover, .showMoreButton_c83b44:hover, .button_f9d37d:hover, .searchBar_e0840f:hover {
   border: 1px solid var(--border-secondary) !important;
 }
 
@@ -202,7 +202,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
   background-position: left top;
 }
 
-.tooltipContent_b6c360, .reactionTooltip_fba897, .popout_c5b389, .activity_cd74cc {
+.tooltipContent_b6c360, .reactionTooltip_fba897, .popout_c5b389, .activity_f00225 {
   border: 1px solid var(--border-primary) !important;
   border-radius: 4px;
 }
@@ -305,8 +305,8 @@ h2.name_a08117, h3.membersGroup_cbd271, h2.membersGroup_cbd271, .name_a08117 .ov
 
 /* Change Text Color to White to Increase Readability */
 .inputWrapper-1YNMmM .input-2g-os5, .text-sm-normal-3Zj3Iv, .button_dd4f85.colorBrand_dd4f85 div:not(.controlIcon_ef18ee), .username_cd0810, .themed_a0,
-.bd-settings-title, .bd-error-modal, .backgroundModifierContainer_e5c5d5:hover .text-sm-medium_bc6ffc, .defaultColor__77578, .connectedAccountNameText_f3eb60,
-.text-xs-normal_ccc5fb, .defaultColor_a595eb, .userTagUsernameBase_c9ccf6, .customStatusText_cb55fc, .itemizedListText_f005b2, .text_dc9488, .userTag_c32acf, .userTag_c32acf > span,
+.bd-settings-title, .bd-error-modal, .backgroundModifierContainer_e5c5d5:hover .text-sm-medium_bc6ffc, .defaultColor__77578, .connectedAccountNameText_ab12c6,
+.text-xs-normal_ccc5fb, .defaultColor_a595eb, .userTagUsernameBase_c9ccf6, .customStatusText_cb55fc, .itemizedListText_f005b2, .text_fc9b46, .userTag_c32acf, .userTag_c32acf > span,
 [class*=normal_dc00ef] {
   color: #fff !important;
 }
@@ -372,9 +372,9 @@ h2.name_a08117, h3.membersGroup_cbd271, h2.membersGroup_cbd271, .name_a08117 .ov
 }
 
 /* Added User Profiles, Plugin Repo, Theme Repo, and Events to Tab Styling */
-/* User Profile Tabs - .tabBarItem_c1519f | Plugin/Theme Repo Tabs - .tab_d8bb15 */
-.tabBarItem_c1519f:nth-child(1), .tabBarItem_c1519f:nth-child(1):hover, .tabBarItem_c1519f:nth-child(2), .tabBarItem_c1519f:nth-child(2):hover,
-.tabBarItem_c1519f:nth-child(3), .tabBarItem_c1519f:nth-child(3):hover, .tabBarItem_c1519f:nth-child(4), .tabBarItem_c1519f:nth-child(4):hover,
+/* User Profile Tabs - .tabBarItem_ecc04c | Plugin/Theme Repo Tabs - .tab_d8bb15 */
+.tabBarItem_ecc04c:nth-child(1), .tabBarItem_ecc04c:nth-child(1):hover, .tabBarItem_ecc04c:nth-child(2), .tabBarItem_ecc04c:nth-child(2):hover,
+.tabBarItem_ecc04c:nth-child(3), .tabBarItem_ecc04c:nth-child(3):hover, .tabBarItem_ecc04c:nth-child(4), .tabBarItem_ecc04c:nth-child(4):hover,
 .tab_d8bb15:nth-child(1), .tab_d8bb15:nth-child(1):hover, .tab_d8bb15:nth-child(2), .tab_d8bb15:nth-child(2):hover,
 .tab_d8bb15:nth-child(3), .tab_d8bb15:nth-child(3):hover {
   margin-left: 0px;
@@ -387,17 +387,17 @@ h2.name_a08117, h3.membersGroup_cbd271, h2.membersGroup_cbd271, .name_a08117 .ov
   border-left-style: none !important;
 }
 
-.tabBarItem_c1519f:nth-child(1):hover, .tabBarItem_c1519f:nth-child(2):hover, .tabBarItem_c1519f:nth-child(3):hover, .tabBarItem_c1519f:nth-child(4):hover,
+.tabBarItem_ecc04c:nth-child(1):hover, .tabBarItem_ecc04c:nth-child(2):hover, .tabBarItem_ecc04c:nth-child(3):hover, .tabBarItem_ecc04c:nth-child(4):hover,
 .tab_d8bb15:nth-child(1):hover, .tab_d8bb15:nth-child(2):hover, .tab_d8bb15:nth-child(3):hover {
   border-bottom-color: var(--brand-experiment) !important;
 }
 
-.tabBarItem_c1519f:nth-child(1).selected_a0, .tabBarItem_c1519f:nth-child(2).selected_a0, .tabBarItem_c1519f:nth-child(3).selected_a0,
+.tabBarItem_ecc04c:nth-child(1).selected_a0, .tabBarItem_ecc04c:nth-child(2).selected_a0, .tabBarItem_ecc04c:nth-child(3).selected_a0,
 .tabBarItem_b9fccc:nth-child(4).selected_a0, .tab_d8bb15:nth-child(1).selected_a0, .tab_d8bb15:nth-child(2).selected_a0, .tab_d8bb15:nth-child(3).selected_a0 {
   border-bottom-color: var(--control-brand-foreground) !important;
 }
 
-.tabBarItem_c1519f {
+.tabBarItem_ecc04c {
   font-size: 16px;
   height: 53px;
   text-align: center;
@@ -444,7 +444,7 @@ h2.name_a08117, h3.membersGroup_cbd271, h2.membersGroup_cbd271, .name_a08117 .ov
   border-radius: 0 !important;
 }
 
-.hoverButtonGroup_e5c1dc {
+.hoverButtonGroup_d0395d {
   top: 0;
   right: 0;
 }
@@ -840,8 +840,8 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 }
 
 /* Normal Status Picker (Removes User Popup) - Zuzumi */
-.accountProfilePopoutWrapper_b2ca13 .userPopoutInner_c69a7b:before, .accountProfilePopoutWrapper_b2ca13 .wrapper_cb78f1.biteSize_cb78f1, .accountProfilePopoutWrapper_b2ca13 .header_b07019,
-.accountProfilePopoutWrapper_b2ca13 .body_d4e7c2 div:has(.descriptionClamp_fc5c48), .accountProfilePopoutWrapper_b2ca13 .activity_cd74cc, .accountProfilePopoutWrapper_b2ca13 .tags_c32acf,
+.accountProfilePopoutWrapper_b2ca13 .userPopoutInner_c69a7b:before, .accountProfilePopoutWrapper_b2ca13 .wrapper_cb78f1.biteSize_cb78f1, .accountProfilePopoutWrapper_b2ca13 .header_b8cc6d,
+.accountProfilePopoutWrapper_b2ca13 .body_d4e7c2 div:has(.descriptionClamp_abaf7d), .accountProfilePopoutWrapper_b2ca13 .activity_f00225, .accountProfilePopoutWrapper_b2ca13 .tags_c32acf,
 .accountProfilePopoutWrapper_b2ca13 .profileEffects_f867f9 {
   display: none;
 }
