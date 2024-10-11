@@ -1241,6 +1241,10 @@ div:has(> .searchBar_e7c031) {
   top: calc(var(--titlebar-height) + 8px) !important;
 }
 
+.bd-notice, .notice_a50047, .notice_be03aa {
+  width: 89.5%;
+}
+
 .platform-win .standardSidebarView_c25c6d {
   top: 40px !important;
 }
