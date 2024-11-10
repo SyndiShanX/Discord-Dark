@@ -24,7 +24,7 @@
 .statusBubble_d0a252, .statusBubbleOuter_d0a252:before, .statusBubbleOuter_d0a252:after, .showMoreButton_c83b44, .button_f9d37d, .contentWrapper_c721cc, .valuePropContainer_cc2278,
 .getXboxApp_c502c2, .contentCollapsed_c3427e:not(.contentCollapsedExpanded_c3427e) .wrapper_f4e40b, .topRow_d936aa, .bottomRowActionDisabled_d936aa, .modInfoItem_ce9fb9,
 .embedCard_bc2461, .stepContainer_a039eb, .uploadInput_a15d29, .footer_cf5d0a, .pollContainer_b558d0, .guildDetails_c73cee, .navItem_e462a4.selected_e462a4,
-.container_c2d7e2, .rewardDescriptionContainer_c2d7e2 {
+.container_c2d7e2, .rewardDescriptionContainer_c2d7e2, .footer_a823cd {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -59,7 +59,7 @@
 .container__5130c:not(.isOpen__036bf):hover, .container_a57509:not(.isOpen_a57509):hover, .hoverButton_be4802:not(.removeAttachmentHoverButton__161a2):hover, .row_c5b389:hover, .collapseable_a3cc4a:hover,
 .actionContainer_b6e944:hover, .listRow_d2d6cb:hover, .content_d80634:hover, .soundButton_f40049:hover, .roundedRow_a39fe9:hover, .childButton_f45bfc:hover, .action_e3f878:hover, .previewListItem_aa7c25:hover, .channelRow_f04d06:hover,
 .card_x5zW6z:hover, .description_zXiu5E:hover, .bd-select:hover, .bd-select-option:hover, .item_b119de:hover, .category_d7acc7:hover, .category_fa8ebf:hover, .button_f9d37d:hover, .innerBottomRowAction_d936aa:hover:hover, .modInfoItem_ce9fb9:hover,
-.answerInner_cf2c85:hover, .navItem_e462a4:hover {
+.answerInner_cf2c85:hover, .navItem_e462a4:hover, .footer_a823cd:hover {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -184,8 +184,8 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
 }
 
 .reaction_ec6b19:not(.reactionMe_ec6b19), .reactionBtn_f61c73, .container_c06a56, .spamBanner_c1da2c, .wrapper_a71a1c, .upsellsContainer_b712b6, .guildPopout_cf5d0a,
-.embed_e365d2 {
-  border: 1px solid var(--border-primary);
+.embed_e365d2, :where(.overlay_c69a7b), .activity_a972fe {
+  border: 1px solid var(--border-primary) !important;
   background-image: var(--bgImage);
   background-clip: border-box;
   background-origin: padding-box;
@@ -1031,8 +1031,9 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
   margin-right: 5px;
 }
 
-.repliedMessage_f9f2ca:not(.latin24CompactTimeStamp_f9f2ca)::before {
+.repliedMessage_f9f2ca:not(.latin24CompactTimeStamp_f9f2ca)::before, .repliedMessageClickableSpine_f9f2ca:not(.latin24CompactTimeStamp_f9f2ca) {
   content: none;
+  display: none;
 }
 
 .repliedMessage_f9f2ca:not(.latin24CompactTimeStamp_f9f2ca)::after {
@@ -1310,6 +1311,18 @@ div:has(> .searchBar_e7c031) {
 
 .container_d1c246 .container_e378b3 .iconWrapper_e378b3 {
   margin-top: 0;
+}
+
+/* Full Bio in User Profiles - Vilchu */
+[class^=viewFullBio_] {
+  display: none;
+}
+
+[class^=inner_] > [class^=body_] [class^=descriptionClamp_] {
+  -webkit-line-clamp: unset;
+  line-clamp: unset;
+  max-height: 112px;
+  overflow-y: auto;
 }
 
 /* Server Rings Edit - Sidebar Fixes and Click Animation Reducer */
