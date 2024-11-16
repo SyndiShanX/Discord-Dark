@@ -101,7 +101,7 @@ div#MemberCount, .title_a7d72e, .uploadModal_f82cc7, .tile_dc5fc4, .interactive_
 .contentExpandContainer_cd99d3, .header_d0dc1d, .wrapper_cdfd51, .container_d20375, .categoryList_c6ee36, .channelHeader_f3978e, .wrapper_b75bb9, .children_fc4f04::after,
 .header_b385c8, .howItWorksDescription_aa72d6, .avatarCard_da92c3, .earningsPreviewContainer_da92c3, .bd-modal-content, .bd-modal-header, .bd-modal-footer, .folderHeader_dd864e,
 .cardContent_eaaaea, .container_a49993, .settingCard_dd864e, .slotsContainer_bdea70, .option_f6639d, .previewForm_c1668f, .container_be6a5c, .container_cfbfb9, .popout_d201be,
-.popout_a9414b, .header_f51af4, .footerContainer_bc2461, .sidebar_a4d4d9 > div, .backdrop_accde0 {
+.popout_a9414b, .header_f51af4, .footerContainer_bc2461, .sidebar_a4d4d9 > div, .backdrop_accde0, .footer_f8ec41 {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -628,9 +628,9 @@ h2.name_a08117, h3.membersGroup_cbd271, h2.membersGroup_cbd271, .name_a08117 .ov
   stroke: white;
 }
 
-/* Remove Discoverability Background in Server List */
-.footer_aa1bff {
-  background: transparent !important;
+/* Make Discover Gradient always Visible */
+.gradientHidden_f8ec41 {
+  opacity: 100;
 }
 
 /* ---------- Buttons ---------- */
