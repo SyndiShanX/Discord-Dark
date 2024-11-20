@@ -3,7 +3,7 @@
  * @description A Github Dark Theme for Discord, meant to be used with Discord Dark Mode
  * @author SyndiShanX
  * @authorLink https://github.com/SyndiShanX
- * @version 1.50
+ * @version 1.51
  * @invite grjBktEUCy
  * @website https://syndishanx.github.io/Discord-Dark
  * @source https://github.com/SyndiShanX/Discord-Dark
@@ -29,6 +29,9 @@
 
 /* Old Discord Font - Overimagine */
 @import url("https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css");
+
+/* Revert App Tag to Bot - Dav */
+@import url("https://syndishanx.github.io/Discord-Dark/Imports/RevertBotTags.css");
 
 :root {
 	--AD-buttons: none;
