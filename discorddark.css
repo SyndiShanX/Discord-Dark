@@ -184,7 +184,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
 }
 
 .reaction_ec6b19:not(.reactionMe_ec6b19), .reactionBtn_f61c73, .container_c06a56, .spamBanner_c1da2c, .wrapper_a71a1c, .upsellsContainer_b712b6, .guildPopout_cf5d0a,
-.embed_e365d2, :where(.overlay_c69a7b), .activity_a972fe {
+.embed_e365d2, :where(.overlay_c69a7b), .activity_a972fe, .bumpBox_ca33de {
   border: 1px solid var(--border-primary) !important;
   background-image: var(--bgImage);
   background-clip: border-box;
