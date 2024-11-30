@@ -24,7 +24,7 @@
 .statusBubble_d0a252, .statusBubbleOuter_d0a252:before, .statusBubbleOuter_d0a252:after, .showMoreButton_c83b44, .button_f9d37d, .contentWrapper_c721cc, .valuePropContainer_cc2278,
 .getXboxApp_c502c2, .contentCollapsed_c3427e:not(.contentCollapsedExpanded_c3427e) .wrapper_f4e40b, .topRow_d936aa, .bottomRowActionDisabled_d936aa, .modInfoItem_ce9fb9,
 .embedCard_bc2461, .stepContainer_a039eb, .uploadInput_a15d29, .footer_cf5d0a, .pollContainer_b558d0, .guildDetails_c73cee, .navItem_e462a4.selected_e462a4,
-.container_c2d7e2, .rewardDescriptionContainer_c2d7e2, .footer_a823cd {
+.container_c2d7e2, .rewardDescriptionContainer_c2d7e2, .footer_a823cd, .contentHeader_c73f92, .contentFooter_c73f92, .option_c3b890, .postEnrollmentBackground_e23249 {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -59,7 +59,7 @@
 .container__5130c:not(.isOpen__036bf):hover, .container_a57509:not(.isOpen_a57509):hover, .hoverButton_be4802:not(.removeAttachmentHoverButton__161a2):hover, .row_c5b389:hover, .collapseable_a3cc4a:hover,
 .actionContainer_b6e944:hover, .listRow_d2d6cb:hover, .content_d80634:hover, .soundButton_f40049:hover, .roundedRow_a39fe9:hover, .childButton_f45bfc:hover, .action_e3f878:hover, .previewListItem_aa7c25:hover, .channelRow_f04d06:hover,
 .card_x5zW6z:hover, .description_zXiu5E:hover, .bd-select:hover, .bd-select-option:hover, .item_b119de:hover, .category_d7acc7:hover, .category_fa8ebf:hover, .button_f9d37d:hover, .innerBottomRowAction_d936aa:hover:hover, .modInfoItem_ce9fb9:hover,
-.answerInner_cf2c85:hover, .navItem_e462a4:hover, .footer_a823cd:hover {
+.answerInner_cf2c85:hover, .navItem_e462a4:hover, .footer_a823cd:hover, .option_c3b890:hover {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -101,7 +101,7 @@ div#MemberCount, .title_a7d72e, .uploadModal_f82cc7, .tile_dc5fc4, .interactive_
 .contentExpandContainer_cd99d3, .header_d0dc1d, .wrapper_cdfd51, .container_d20375, .categoryList_c6ee36, .channelHeader_f3978e, .wrapper_b75bb9, .children_fc4f04::after,
 .header_b385c8, .howItWorksDescription_aa72d6, .avatarCard_da92c3, .earningsPreviewContainer_da92c3, .bd-modal-content, .bd-modal-header, .bd-modal-footer, .folderHeader_dd864e,
 .cardContent_eaaaea, .container_a49993, .settingCard_dd864e, .slotsContainer_bdea70, .option_f6639d, .previewForm_c1668f, .container_be6a5c, .container_cfbfb9, .popout_d201be,
-.popout_a9414b, .header_f51af4, .footerContainer_bc2461, .sidebar_a4d4d9 > div, .backdrop_accde0, .footer_f8ec41 {
+.popout_a9414b, .header_f51af4, .footerContainer_bc2461, .sidebar_a4d4d9 > div, .backdrop_accde0, .footer_d71945, .videoCont_c73f92 {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -184,7 +184,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
 }
 
 .reaction_ec6b19:not(.reactionMe_ec6b19), .reactionBtn_f61c73, .container_c06a56, .spamBanner_c1da2c, .wrapper_a71a1c, .upsellsContainer_b712b6, .guildPopout_cf5d0a,
-.embed_e365d2, :where(.overlay_c69a7b), .activity_a972fe, .bumpBox_ca33de {
+.embed_e365d2, :where(.overlay_c69a7b), .activity_a972fe, .bumpBox_ca33de, .rewardTileWithInstructions_a18c91 {
   border: 1px solid var(--border-primary) !important;
   background-image: var(--bgImage);
   background-clip: border-box;
@@ -631,6 +631,27 @@ h2.name_a08117, h3.membersGroup_cbd271, h2.membersGroup_cbd271, .name_a08117 .ov
 /* Make Discover Gradient always Visible */
 .gradientHidden_f8ec41 {
   opacity: 100;
+}
+
+/* Align Discover Icon with all Other Server Icons */
+.footer_d71945 .listItemWrapper_dfb2f8 {
+  position: relative;
+  left: 17%;
+  width: 100%;
+  border: 2px solid transparent;
+}
+
+/* Added Outlines to Inline Code */
+.markup_f8f345 code.inline {
+  border: 1px solid var(--border-primary) !important;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+/* Fixed Quest Top Border */
+.postEnrollmentBackground_e23249 {
+  border-top: 2px solid transparent;
+  border-radius: 0;
 }
 
 /* ---------- Buttons ---------- */
