@@ -1406,6 +1406,7 @@ div:has(> .searchBar_e7c031) {
 .hljs.csharp::before {content: "C#\00000a\00000a";}
 .hljs.c::before {content: "C\00000a\00000a";}
 .hljs.cpp::before {content: "C++\00000a\00000a";}
+.hljs.c\+\+::before {content: "C++\00000a\00000a";}
 .hljs.coffeescript::before {content: "Coffeescript\00000a\00000a";}
 .hljs.bash::before {content: "Bash\00000a\00000a";}
 .hljs.bat::before {content: "Batch\00000a\00000a";}
