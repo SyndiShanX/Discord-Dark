@@ -1393,11 +1393,6 @@ div:has(> .searchBar_e7c031) {
   stroke: white;
 }
 
-/* Temp Fix for Extra Top Bar */
-.BDFDB_1focKH, .noticeWrapper_8z511t, .updateNotice_2DjjHs, .BDFDB_mW0jTt {
-  display: none;
-}
-
 /* Syntax Naming - CodeDotSpectra */
 .hljs.css::before {content: "CSS\00000a\00000a";}
 .hljs.js::before {content: "Javascript\00000a\00000a";}
