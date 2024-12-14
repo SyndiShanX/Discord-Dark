@@ -114,7 +114,7 @@ div#MemberCount, .title_a7d72e, .uploadModal_f82cc7, .tile_dc5fc4, .interactive_
 /* ---------- Main Tweaks ---------- */
 /* Hide GIF, Gift, Nitro DM, Shop, and App Launcher Buttons */
 button:has([d^=" M-7,-10 C-8.656999588012695,-10 -10"]),
-button:has([d^=" M-7,10 C-8.104999542236328,10 -9"]),
+button:has([d^=" M-7,10 C-8.104999542236328,10 -9"], .giftIconContainer_fdeb78),
 li:has([d^="M7 4a1 1 0 0 0 0 2h3a1 1 0 1 1 0 2H5.5a1"]),
 li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
 .channelAppLauncher_df39bd {
@@ -184,7 +184,8 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
 }
 
 .reaction_ec6b19:not(.reactionMe_ec6b19), .reactionBtn_f61c73, .container_c06a56, .spamBanner_c1da2c, .wrapper_a71a1c, .upsellsContainer_b712b6, .guildPopout_cf5d0a,
-.embed_e365d2, :where(.overlay_c69a7b), .activity_a972fe, .bumpBox_ca33de, .rewardTileWithInstructions_a18c91, .profileEntryCard_f1257c {
+.embed_e365d2, :where(.overlay_c69a7b), .activity_a972fe, .bumpBox_ca33de, .rewardTileWithInstructions_a18c91, .profileEntryCard_f1257c, .nonVisualMediaItemContainer_cda674 .embedWrapper_b558d0,
+.descriptionContainer_ddbb27 {
   border: 1px solid var(--border-primary) !important;
   background-image: var(--bgImage);
   background-clip: border-box;
