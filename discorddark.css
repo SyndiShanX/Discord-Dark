@@ -1359,7 +1359,7 @@ div:has(> .searchBar_e7c031) {
 
 .expandedFolderBackground_bc7085:not(.collapsed_bc7085) {
   width: 58px;
-  height: calc(100% + 6px);
+  height: calc(100% - 20px);
 }
 
 .collapsed_bc7085 {
@@ -1383,6 +1383,12 @@ div:has(> .searchBar_e7c031) {
 
 .scrollerBase_c49869 > div:nth-child(-n+2) {
   margin-top: 4px;
+}
+
+.stack_ae6a65 {
+  padding-top: 20px !important;
+  position: relative;
+  top: -20px;
 }
 
 /* User Area Icon Recolor */
