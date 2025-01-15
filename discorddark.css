@@ -84,7 +84,7 @@
 
 /* Darkness 3 Background Image */
 .wrapper_f7e168, .container_adcaac, .members_cbd271 .content_eed6a8, .container_fc4f04, .searchBar_f0963d, .textContainer_d8e2d0,
-.input-2g-os5, .scrollableContainer_bdf0de, .container_b2ca13, .tooltip-14MtrL, .replyBar_b11c5e, .scrollerBase_c49869:not(:has(.contentColumn_c25c6d)),
+.input-2g-os5, .scrollableContainer_bdf0de, .container_b2ca13, .tooltip-14MtrL, .replyBar_b11c5e, .scrollerBase_c49869:not(:has(.contentColumn_c25c6d), .peopleList_e0840f),
 .clipContainer_b11c5e, .iconWrapper__8d563, .container_ee69e0, .container_fd6364:not(.bannerVisible_fd6364) .header_fd6364,
 .container_cbd271, .repliedMessage_f9f2ca:not(.latin24CompactTimeStamp_f9f2ca), .repliedMessage_f9f2ca::after, .tree_fea3ef, .inner_bdf0de,
 .gridContainer_b0068a, .userProfileInner_c69a7b, .overlayBackground_c69a7b, .scroller_c47fa9, .scroller_d90b3d, .footer_d8e2d0, .searchHeader_b7c924,
