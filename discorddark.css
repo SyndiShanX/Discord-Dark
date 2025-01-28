@@ -772,7 +772,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
 }
 
 .contentColumn_c25c6d, .customColumn_c25c6d, .customScroller_c25c6d > div {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 .layer_d4b6c5[aria-label=GUILD_SETTINGS] .sidebarRegion_c25c6d {
