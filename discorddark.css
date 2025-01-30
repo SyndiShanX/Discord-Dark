@@ -72,7 +72,7 @@
 .item_b3f026:hover:not(.item__133bf, .tabBarItem__81b3e), .item_c1e9c4.focused_c1e9c4, .searchFilter_bd8186, .role_dfa8b6,
 .searchAnswer_bd8186, .memberRow__9a73f, .header_c6bf1b, .wrapper__2ea32:hover .link__2ea32, .modeSelected__2ea32 .link__2ea32, .wrapper_d5f3cd, .emojisContainer_adff39,
 .searchHeaderContainer__98d1c, .paginationContainer_e8f197, .searchBar__98d1c, .card_x5zW6z:hover .description_zXiu5E, .titleBar__421ed, .cardHeader_b44011, .searchResult__02a39,
-.wrapper_a68543, .searchBar__1ac1c {
+.wrapper_a68543, .searchBar__1ac1c, .bd-store-card, .bd-addon-store-modal {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -101,7 +101,7 @@ div#MemberCount, .title_f75fb0, .uploadModal_dbca3c, .tile__90dc5, .interactive_
 .contentExpandContainer_a25a68, .header__0856d, .wrapper_d852db, .container_c791b2, .categoryList_c0e32c, .channelHeader__35a7e, .wrapper_fc8177, .children__9293f::after,
 .header__34c2c, .howItWorksDescription_aa72d6, .avatarCard_da92c3, .earningsPreviewContainer_da92c3, .bd-modal-content, .bd-modal-header, .bd-modal-footer, .folderHeader_dd864e,
 .cardContent_f62fce, .container__0ab2c, .settingCard_dd864e, .slotsContainer__0800c, .option__3f413, .previewForm_d9be46, .container_be6a5c, .container_cfbfb9, .popout__7fe3a,
-.popout__669b5, .header__3a5a1, .footerContainer__44492, .sidebar_c48ade > div, .backdrop__8a7fc, .footer__214dc, .videoCont_de2fa0 {
+.popout__669b5, .header__3a5a1, .footerContainer__44492, .sidebar_c48ade > div, .backdrop__8a7fc, .footer__214dc, .videoCont_de2fa0, .bd-addon-store-card, .bd-install-modal-items {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -168,7 +168,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
 .fieldFooterContainer_eaaeee, .mainContainer_c5e6a1, .inputWrapper_a97616, .card__11580, .card__73069:not(.container_d878e7), .container__6764b, .collapseable__217b7, .actionContainer__6446f,
 .modeSelected__2ea32 .link__2ea32, .container__5130c.isOpen__036bf, .container__9a337.isOpen__9a337, .firstPartyCategorySelected__3ad28, .action_c66e86, .previewListItem_d9161f,
 .card_x5zW6z, .container_b7e1cb .fileWrapper__0ccae, .searchBar__97492, .section__00943, .activeCategory_fa8ebf, .moreContainer__55bab, .option__3f413:has(.selectedIcon__3f413),
-.container__0f2e8, .card__88264, .showMoreButton_c83b44, .button_fb7f94, .searchBar__5ec2f, .answerInner__4c520, .searchBar__1ac1c, .navItem__551b0.selected__551b0 {
+.container__0f2e8, .card__88264, .showMoreButton_c83b44, .button_fb7f94, .searchBar__5ec2f, .answerInner__4c520, .searchBar__1ac1c, .navItem__551b0.selected__551b0, .bd-store-card {
   border: 1px solid var(--border-primary) !important;
 }
 
@@ -179,7 +179,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
 .fieldFooterContainer_eaaeee:hover, .mainContainer_c5e6a1:hover, .inputWrapper_a97616:hover, .card__11580:hover, .card__73069:not(.container_d878e7):hover, .container__6764b:hover, .collapseable__217b7:hover, .actionContainer__6446f:hover,
 .modeSelected__2ea32 .link__2ea32:hover, .container__5130c.isOpen__036bf:hover, .container__9a337.isOpen__9a337:hover, .firstPartyCategorySelected__3ad28:hover, .action_c66e86:hover, .previewListItem_d9161f:hover,
 .card_x5zW6z:hover, .container_b7e1cb .fileWrapper__0ccae:hover, .searchBar__97492:hover, .section__00943:hover, .activeCategory_fa8ebf:hover, .moreContainer__55bab:hover, .option__3f413:has(.selectedIcon__3f413):hover,
-.container__0f2e8:hover, .card__88264:hover, .showMoreButton_c83b44:hover, .button_fb7f94:hover, .searchBar__5ec2f:hover, .answerInner__4c520:hover, .searchBar__1ac1c:hover, .navItem__551b0.selected__551b0:hover {
+.container__0f2e8:hover, .card__88264:hover, .showMoreButton_c83b44:hover, .button_fb7f94:hover, .searchBar__5ec2f:hover, .answerInner__4c520:hover, .searchBar__1ac1c:hover, .navItem__551b0.selected__551b0:hover, .bd-store-card:hover {
   border: 1px solid var(--border-secondary) !important;
 }
 
@@ -655,6 +655,12 @@ h2.name__29444, h3.membersGroup_c8ffbb, h2.membersGroup_c8ffbb, .name__29444 .ov
   border-radius: 0;
 }
 
+/* Styled BD Store */
+.bd-addon-store {
+  grid-template-columns: 1fr 1fr 1fr !important;
+  width: 176%;
+}
+
 /* ---------- Buttons ---------- */
 /* Hover Color Change: -23, -50, -31 */
 .button__201d5, .item_b3f026[aria-controls=ADD_FRIEND-tab], .bd-button, .item__344e6.selected__344e6, .leftTrayIcon_cb9592,
@@ -672,13 +678,13 @@ h2.name__29444, h3.membersGroup_c8ffbb, h2.membersGroup_c8ffbb, .name__29444 .ov
 }
 
 /* Red */
-.button__201d5.colorRed__201d5, .bd-button-danger, .deny__344e6.selected__344e6, .red_f1ceac {
+.button__201d5.colorRed__201d5, .bd-button-danger, .deny__344e6.selected__344e6, .red_f1ceac, .bd-button.bd-button-color-red {
   background-color: var(--red-button) !important;
   border-color: var(--red-button-border) !important;
   color: #fff !important;
 }
 
-.button__201d5.colorRed__201d5:hover, .bd-button-danger:hover, .deny__344e6.selected__344e6:hover, .red_f1ceac:hover {
+.button__201d5.colorRed__201d5:hover, .bd-button-danger:hover, .deny__344e6.selected__344e6:hover, .red_f1ceac:hover, .bd-button.bd-button-color-red:hover {
   background-color: var(--red-button-hover) !important;
   border-color: var(--red-button-border) !important;
 }
@@ -699,14 +705,14 @@ h2.name__29444, h3.membersGroup_c8ffbb, h2.membersGroup_c8ffbb, .name__29444 .ov
 
 /* Blue */
 .button__201d5.colorBrand__201d5:not(.lookBlank__201d5), .button__201d5.colorBrandNew__8872c, .bd-button-title, .bd-view-button.selected,
-button.bd-addon-button:not(.bd-link, .bd-button-danger) {
+button.bd-addon-button:not(.bd-link, .bd-button-danger), .bd-button.bd-button-color-brand {
   background-color: var(--blue-button) !important;
   border-color: var(--blue-button-border) !important;
   color: #fff !important;
 }
 
 .button__201d5.colorBrand__201d5:not(.lookBlank__201d5):hover, .button__201d5.colorBrandNew__8872c:hover, .bd-button-title:hover, .bd-view-button.selected:hover,
-button.bd-addon-button:not(.bd-link, .bd-button-danger):hover {
+button.bd-addon-button:not(.bd-link, .bd-button-danger):hover, .bd-button.bd-button-color-brand:hover {
   background-color: var(--blue-button-hover) !important;
   border-color: var(--blue-button-border) !important;
 }
