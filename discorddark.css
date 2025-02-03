@@ -99,9 +99,10 @@ div#MemberCount, .title_f75fb0, .uploadModal_dbca3c, .tile__90dc5, .interactive_
 .inputWrapper_a97616, .guildSection_d5cd2d, .emojiSection_d5cd2d, .activeGame_cc46f0, .errorPage_a57b28, .body__00943, .upsellContent__4cfe2, .upsellFooter__4cfe2, .card__11580,
 .scroller_ed5743, .container__5130c:not(.isOpen__036bf), .container__9a337:not(.isOpen__9a337), .textContentFooter__9a337, .addGamePopout_cc46f0, .body_be95d0, .container__3dde2,
 .contentExpandContainer_a25a68, .header__0856d, .wrapper_d852db, .container_c791b2, .categoryList_c0e32c, .channelHeader__35a7e, .wrapper_fc8177, .children__9293f::after,
-.header__34c2c, .howItWorksDescription_aa72d6, .avatarCard_da92c3, .earningsPreviewContainer_da92c3, .bd-addon-modal, .bd-modal-footer, .bd-modal-small, .folderHeader_dd864e,
-.cardContent_f62fce, .container__0ab2c, .settingCard_dd864e, .slotsContainer__0800c, .option__3f413, .previewForm_d9be46, .container_be6a5c, .container_cfbfb9, .popout__7fe3a,
-.popout__669b5, .header__3a5a1, .footerContainer__44492, .sidebar_c48ade > div, .backdrop__8a7fc, .footer__214dc, .videoCont_de2fa0, .bd-addon-store-card, .bd-install-modal-items {
+.header__34c2c, .howItWorksDescription_aa72d6, .avatarCard_da92c3, .earningsPreviewContainer_da92c3, .folderHeader_dd864e, .cardContent_f62fce, .container__0ab2c, .settingCard_dd864e,
+.slotsContainer__0800c, .option__3f413, .previewForm_d9be46, .container_be6a5c, .container_cfbfb9, .popout__7fe3a, .popout__669b5, .header__3a5a1, .footerContainer__44492,
+.bd-addon-modal, .bd-modal-footer, .bd-modal-small, .bd-changelog-modal, .bd-addon-store-card, .bd-install-modal-items, .sidebar_c48ade > div, .backdrop__8a7fc, .footer__214dc,
+.videoCont_de2fa0 {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
