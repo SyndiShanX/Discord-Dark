@@ -655,6 +655,11 @@ h2.name__29444, h3.membersGroup_c8ffbb, h2.membersGroup_c8ffbb, .name__29444 .ov
   translate: 5%;
 }
 
+/* Fixed Modal Buttons Overlapping */
+.footerSeparator__49fc1 > button:nth-child(1) {
+  margin-left: 1em;
+}
+
 /* ---------- Buttons ---------- */
 /* Hover Color Change: -23, -50, -31 */
 .button__201d5, .item_b3f026[aria-controls=ADD_FRIEND-tab], .bd-button, .item__344e6.selected__344e6, .leftTrayIcon_cb9592,
