@@ -825,7 +825,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover, .bd-button.bd-but
 }
 
 .field__1fed1 .fieldButton__1fed1:nth-child(1) {
-  right: 175px;
+  right: 10em;
 }
 
 .field__1fed1 .fieldButton__1fed1 {
@@ -1315,7 +1315,7 @@ div:has(> .searchBar_c7e907) {
   border-radius: 3px;
   position: relative;
   height: 28px;
-  left: -170px;
+  left: -22em;
   top: 0px;
 }
 
