@@ -21,7 +21,7 @@
 .contentRegion__23e6b, .termsFieldBody_d48a51, .section__00943, .field__1fed1, .container__8e680 div, .container_f9d8eb, .category_d7acc7, .activeCategory_fa8ebf,
 .avatarBackground_eb2508, .linkingBanner_d9914b, .box_d9914b, .container_b1bfd4, .bannedUser_cdb2b0, .keyboardShortcutsModal_f061f6, .modalTitle_f061f6, .modalSubtitle_f061f6,
 .banner__183e8, .connection_c7f964, .quickswitcher_ac6cb0 > input, .container__0f2e8, .navButtons_fe70ca, .termsFieldBody_fe70ca, .card__88264, .activityTextContainer__18da2,
-.statusBubble_af9888, .statusBubbleOuter_af9888:before, .statusBubbleOuter_af9888:after, .showMoreButton_c83b44, .button_fb7f94, .contentWrapper__0d616, .valuePropContainer_cc2278,
+.inner_ab8609, .outer_ab8609:before, .outer_ab8609:after, .showMoreButton_c83b44, .button_fb7f94, .contentWrapper__0d616, .valuePropContainer_cc2278,
 .getXboxApp__7ba5f, .contentCollapsed__5f897:not(.contentCollapsedExpanded__5f897) .wrapper__22c64, .topRow__34940, .bottomRowActionDisabled__34940, .modInfoItem__96c0b,
 .embedCard__44492, .stepContainer_a68543, .uploadInput__94439, .footer__51eb2, .pollContainer_b7e1cb, .guildDetails__4cb8a, .navItem__551b0.selected__551b0,
 .container__956c6, .rewardDescriptionContainer__956c6, .footer__537ec, .contentHeader_de2fa0, .contentFooter_de2fa0, .option__66e7e, .postEnrollmentBackground__636a2 {
@@ -902,7 +902,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover, .bd-button.bd-but
 }
 
 /* Normal Status Picker (Removes User Popup) - Zuzumi */
-.accountProfilePopoutWrapper__37e49 .userPopoutInner_c69a7b:before, .accountProfilePopoutWrapper__37e49 .wrapper_da5890.biteSize_da5890, .accountProfilePopoutWrapper__37e49 .header__5be3e,
+.accountProfilePopoutWrapper__37e49 .userPopoutInner_c69a7b:before, .accountProfilePopoutWrapper__37e49 .wrapper_da5890.biteSize_ab8609, .accountProfilePopoutWrapper__37e49 .header__5be3e,
 .accountProfilePopoutWrapper__37e49 .body_d4e7c2 div:has(.descriptionClamp_f5f93a), .accountProfilePopoutWrapper__37e49 .activity_f00225, .accountProfilePopoutWrapper__37e49 .tags__63ed3,
 .accountProfilePopoutWrapper__37e49 .profileEffects__01370 {
   display: none;
