@@ -830,7 +830,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover, .bd-button.bd-but
 }
 
 .field__1fed1 .fieldButton__1fed1:nth-child(1) {
-  right: 10em;
+  margin-left: 5em;
 }
 
 .field__1fed1 .fieldButton__1fed1 {
