@@ -650,6 +650,11 @@ h2.name__29444, h3.membersGroup_c8ffbb, h2.membersGroup_c8ffbb, .name__29444 .ov
   width: 176%;
 }
 
+/* Moved Plugins/Theme Search Bar */
+.bd-search-wrapper {
+  translate: 5%;
+}
+
 /* ---------- Buttons ---------- */
 /* Hover Color Change: -23, -50, -31 */
 .button__201d5, .item_b3f026[aria-controls=ADD_FRIEND-tab], .bd-button, .item__344e6.selected__344e6, .leftTrayIcon_cb9592,
@@ -1309,14 +1314,74 @@ div:has(> .searchBar_c7e907) {
   d: path("M48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24Z") !important;
 }
 
-/* Plugins/Themes Counter - Fixes */
+/* Plugins/Themes Counter - Skamt - Modified */
+:root {
+  counter-reset: activeAddonCount addonCount;
+}
+
+.bd-addon-card {
+  counter-increment: addonCount;
+}
+
+.bd-switch-checked {
+  counter-increment: activeAddonCount;
+}
+
 #themes-tab:after, #plugins-tab:after {
+  content: counter(activeAddonCount) " / " counter(addonCount);
+}
+
+#themes-tab, #plugins-tab {
+  display: grid;
+  grid-template-areas: "title title title" "controls counter advcontrols" "store store store" "addons addons addons";
+  min-height: unset;
+}
+
+.bd-addon-controls:not(#a) {
+  display: contents;
+}
+
+.bd-settings-title {
+  grid-area: title;
+}
+
+.bd-addon-controls {
+  grid-area: controls;
+}
+
+.bd-controls-advanced {
+  grid-area: advcontrols;
+  justify-self: flex-end;
+}
+
+.bd-store-card {
+  grid-area: store;
+}
+
+.bd-addon-list {
+  grid-area: addons;
+}
+
+.bd-empty-image-container, .bd-empty-results {
+  grid-column: 1/-1;
+}
+
+#themes-tab:after, #plugins-tab:after {
+  grid-area: counter;
+  white-space: nowrap;
+  align-self: flex-start;
+  justify-self: flex-start;
+  box-sizing: border-box;
+  color: var(--text-muted);
+  background-color: var(--background-tertiary);
+  font-weight: 500;
+  font-family: var(--font-primary);
+  font-size: 0.9rem;
+  padding: 6px;
+  margin-left: 0px;
   border: 1px solid var(--border-primary);
   border-radius: 3px;
-  position: relative;
   height: 28px;
-  left: -22em;
-  top: 0px;
 }
 
 /* Normalized Forums - Class Updates */
