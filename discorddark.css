@@ -174,7 +174,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
 }
 
 .gameNameInput_cc46f0:hover,
-.item_b3f026.selected_b3f026:not(.tabBarItem_d6f9e9, .tabBarItem__81b3e, .tabBarItem_b9fccc, .tabBarItem__4efb4, .settingsTabBarItem_f62afd, .settingsTabBarItem_dc2e0e):hover, .reaction_f8896c:hover, .reaction__23977:hover, .reactionBtn_f8896c:hover,
+.item_b3f026.selected_b3f026:not(.tabBarItem_d6f9e9, .tabBarItem__81b3e, .tabBarItem_b9fccc, .tabBarItem__4efb4, .settingsTabBarItem_f62afd, .settingsTabBarItem_dc2e0e):hover, .reaction_f8896c:hover, .reaction__23977:hover, .reactionBtn__23977:hover,
 .selected__91a9d:hover, .input__48d49:hover, .searchBarComponent__35e86:hover, .unreadBar__629e4:hover, .bd-search-wrapper:hover, .bd-select-option.selected:hover, .categoryItemDefaultCategorySelected_b9ee0c:hover,
 .navButtonActive__08434:hover, .copyInput_fffc15:hover, .fieldBackground_eaaeee:hover, .input__0f084:hover, .fieldFooterContainer_eaaeee:hover, .mainContainer_c5e6a1:hover, .inputWrapper_a97616:hover, .card__11580:hover,
 .card__73069:not(.container_d878e7):hover, .container__6764b:hover, .collapseable__217b7:hover, .actionContainer__6446f:hover, .modeSelected__2ea32 .link__2ea32:hover, .container__5130c.isOpen__036bf:hover,
@@ -184,9 +184,9 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
   border: 1px solid var(--border-secondary) !important;
 }
 
-.reaction__23977:not(.reactionMe__23977), .reactionBtn_f8896c, .container__65338, .spamBanner_a2eac3, .wrapper_d5f3cd, .upsellsContainer__8f3cb, .guildPopout__51eb2,
+.reaction__23977:not(.reactionMe__23977), .reactionBtn__23977, .container__65338, .spamBanner_a2eac3, .wrapper_d5f3cd, .upsellsContainer__8f3cb, .guildPopout__51eb2,
 .embed_f69538, :where(.overlay_c0bea0), .activity__747b1, .bumpBox_cacd02, .rewardTileWithInstructions__960df, .profileEntryCard__06137, .nonVisualMediaItemContainer_f4758a .embedWrapper_b7e1cb,
-.descriptionContainer_ca49a1 {
+.descriptionContainer_ca49a1, .blockedIgnoredSettingsNotice__6811a {
   border: 1px solid var(--border-primary) !important;
   background-image: var(--bgImage);
   background-clip: border-box;
@@ -197,7 +197,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
   background-position: left top;
 }
 
-.reaction__23977:not(.reactionMe__23977):hover, .reactionBtn_f8896c:hover {
+.reaction__23977:not(.reactionMe__23977):hover, .reactionBtn__23977:hover {
   background-image: var(--bgDarkness2);
   background-clip: border-box;
   background-origin: padding-box;
