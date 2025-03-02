@@ -24,7 +24,8 @@
 .inner_ab8609, .outer_ab8609:before, .outer_ab8609:after, .showMoreButton_c83b44, .button_fb7f94, .contentWrapper__0d616, .valuePropContainer_cc2278,
 .getXboxApp__7ba5f, .contentCollapsed__5f897:not(.contentCollapsedExpanded__5f897) .wrapper__22c64, .topRow__34940, .bottomRowActionDisabled__34940, .modInfoItem__96c0b,
 .embedCard__44492, .stepContainer_a68543, .uploadInput__94439, .footer__51eb2, .pollContainer_b7e1cb, .guildDetails__4cb8a, .navItem__551b0.selected__551b0,
-.container__956c6, .rewardDescriptionContainer__956c6, .footer__537ec, .contentHeader_de2fa0, .contentFooter_de2fa0, .option__66e7e, .postEnrollmentBackground__636a2 {
+.container__956c6, .rewardDescriptionContainer__956c6, .footer__537ec, .contentHeader_de2fa0, .contentFooter_de2fa0, .option__66e7e, .postEnrollmentBackground__636a2,
+.selected__91a9d .childContainer__91a9d {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -72,7 +73,7 @@
 .item_b3f026:hover:not(.item__133bf, .tabBarItem__81b3e), .item_c1e9c4.focused_c1e9c4, .searchFilter_bd8186, .role_dfa8b6,
 .searchAnswer_bd8186, .memberRow__9a73f, .header_c6bf1b, .wrapper__2ea32:hover .link__2ea32, .modeSelected__2ea32 .link__2ea32, .wrapper_d5f3cd, .emojisContainer_adff39,
 .searchHeaderContainer__98d1c, .paginationContainer_e8f197, .searchBar__98d1c, .card_x5zW6z:hover .description_zXiu5E, .titleBar__421ed, .cardHeader_b44011, .searchResult__02a39,
-.wrapper_a68543, .searchBar__1ac1c, .bd-store-card, .bd-addon-store-modal {
+.wrapper_a68543, .searchBar__1ac1c, .bd-store-card, .bd-addon-store-modal, .clickable__91a9d:hover .childContainer__91a9d {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
