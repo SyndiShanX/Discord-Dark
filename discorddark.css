@@ -25,7 +25,7 @@
 .getXboxApp__7ba5f, .contentCollapsed__5f897:not(.contentCollapsedExpanded__5f897) .wrapper__22c64, .topRow__34940, .bottomRowActionDisabled__34940, .modInfoItem__96c0b,
 .embedCard__44492, .stepContainer_a68543, .uploadInput__94439, .footer__51eb2, .pollContainer_b7e1cb, .guildDetails__4cb8a, .navItem__551b0.selected__551b0,
 .container__956c6, .rewardDescriptionContainer__956c6, .footer__537ec, .contentHeader_de2fa0, .contentFooter_de2fa0, .option__66e7e, .postEnrollmentBackground__636a2,
-.selected__91a9d .childContainer__91a9d {
+.selected__91a9d .childContainer__91a9d, .termsFieldBody__523ab {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -103,7 +103,7 @@ div#MemberCount, .title_f75fb0, .uploadModal_dbca3c, .tile__90dc5, .interactive_
 .header__34c2c, .howItWorksDescription_aa72d6, .avatarCard_da92c3, .earningsPreviewContainer_da92c3, .folderHeader_dd864e, .cardContent_f62fce, .container__0ab2c, .settingCard_dd864e,
 .slotsContainer__0800c, .option__3f413, .previewForm_d9be46, .container_be6a5c, .container_cfbfb9, .popout__7fe3a, .popout__669b5, .header__3a5a1, .footerContainer__44492,
 .bd-addon-modal, .bd-modal-footer, .bd-modal-small, .bd-changelog-modal, .bd-addon-store-card, .bd-install-modal-items, .sidebar_c48ade > div, .backdrop__8a7fc, .footer__214dc,
-.videoCont_de2fa0, .content__37e49 {
+.videoCont_de2fa0, .content__37e49, .sidebarCard_f792fa {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
