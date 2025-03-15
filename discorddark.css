@@ -669,6 +669,16 @@ h2.name__29444, h3.membersGroup_c8ffbb, h2.membersGroup_c8ffbb, .name__29444 .ov
   fill: #fff;
 }
 
+/* Fixed Remove Role Icon Positioning */
+.roleRemoveIcon_dfa8b6 {
+  left: 5.5px;
+}
+
+/* Removed Red Glow behind Mute/Deafen Buttons */
+.panels_c48ade .redGlow__67645 {
+  background-color: transparent !important;
+}
+
 /* ---------- Buttons ---------- */
 /* Hover Color Change: -23, -50, -31 */
 .button__201d5, .item_b3f026[aria-controls=ADD_FRIEND-tab], .bd-button, .item__344e6.selected__344e6, .leftTrayIcon_cb9592,
