@@ -916,9 +916,8 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover, .bd-button.bd-but
 }
 
 /* Normal Status Picker (Removes User Popup) - Zuzumi */
-.accountProfilePopoutWrapper__37e49 .userPopoutInner_c69a7b:before, .accountProfilePopoutWrapper__37e49 .wrapper_da5890.biteSize_ab8609, .accountProfilePopoutWrapper__37e49 .header__5be3e,
-.accountProfilePopoutWrapper__37e49 .body_d4e7c2 div:has(.descriptionClamp_f5f93a), .accountProfilePopoutWrapper__37e49 .activity_f00225, .accountProfilePopoutWrapper__37e49 .tags__63ed3,
-.accountProfilePopoutWrapper__37e49 .profileEffects__01370 {
+.accountProfilePopoutWrapper__37e49 .userPopoutInner_c69a7b:before, .accountProfilePopoutWrapper__37e49 .wrapper_da5890.biteSize_ab8609, .accountProfilePopoutWrapper__37e49 .tags__63ed3,
+.accountProfilePopoutWrapper__37e49 .body_d4e7c2 div:has(.descriptionClamp_f5f93a), .accountProfilePopoutWrapper__37e49 .activity_f00225, .accountProfilePopoutWrapper__37e49 .profileEffects__01370 {
   display: none;
 }
 
