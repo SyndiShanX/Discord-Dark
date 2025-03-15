@@ -25,7 +25,8 @@
 .getXboxApp__7ba5f, .contentCollapsed__5f897:not(.contentCollapsedExpanded__5f897) .wrapper__22c64, .topRow__34940, .bottomRowActionDisabled__34940, .modInfoItem__96c0b,
 .embedCard__44492, .stepContainer_a68543, .uploadInput__94439, .footer__51eb2, .pollContainer_b7e1cb, .guildDetails__4cb8a, .navItem__551b0.selected__551b0,
 .container__956c6, .rewardDescriptionContainer__956c6, .footer__537ec, .contentHeader_de2fa0, .contentFooter_de2fa0, .option__66e7e, .postEnrollmentBackground__636a2,
-.selected__91a9d .childContainer__91a9d, .termsFieldBody__523ab {
+.selected__91a9d .childContainer__91a9d, .termsFieldBody__523ab, .channelRow__1ea09, .actionItem_d2b0e4, .suggestedChannel_d2b0e4, .pillItem__9e06a.pillItemSelected__9e06a,
+.container__5d756, .pill__33d66, .joinOptionContent__959cb.active__959cb {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -60,7 +61,7 @@
 .container__5130c:not(.isOpen__036bf):hover, .container__9a337:not(.isOpen__9a337):hover, .hoverButton_be4802:not(.removeAttachmentHoverButton__161a2):hover, .row__76f04:hover, .collapseable__217b7:hover,
 .actionContainer__6446f:hover, .listRow__9d78f:hover, .content__07f91:hover, .soundButton__6d4ed:hover, .roundedRow__71c22:hover, .childButton__3ed08:hover, .action_c66e86:hover, .previewListItem_d9161f:hover, .channelRow_e4503a:hover,
 .card_x5zW6z:hover, .description_zXiu5E:hover, .bd-select:hover, .bd-select-option:hover, .item_b28dff:hover, .category_d7acc7:hover, .category_fa8ebf:hover, .button_fb7f94:hover, .innerBottomRowAction__34940:hover:hover, .modInfoItem__96c0b:hover,
-.answerInner__4c520:hover, .navItem__551b0:hover, .footer__537ec:hover, .option__66e7e:hover {
+.answerInner__4c520:hover, .navItem__551b0:hover, .footer__537ec:hover, .option__66e7e:hover, .pillItem__9e06a:hover, .joinOptionContent__959cb:hover, .channelRow__1ea09:hover, .addActionItem_d2b0e4:hover {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -73,7 +74,8 @@
 .item_b3f026:hover:not(.item__133bf, .tabBarItem__81b3e), .item_c1e9c4.focused_c1e9c4, .searchFilter_bd8186, .role_dfa8b6,
 .searchAnswer_bd8186, .memberRow__9a73f, .header_c6bf1b, .wrapper__2ea32:hover .link__2ea32, .modeSelected__2ea32 .link__2ea32, .wrapper_d5f3cd, .emojisContainer_adff39,
 .searchHeaderContainer__98d1c, .paginationContainer_e8f197, .searchBar__98d1c, .card_x5zW6z:hover .description_zXiu5E, .titleBar__421ed, .cardHeader_b44011, .searchResult__02a39,
-.wrapper_a68543, .searchBar__1ac1c, .bd-store-card, .bd-addon-store-modal, .clickable__91a9d:hover .childContainer__91a9d {
+.wrapper_a68543, .searchBar__1ac1c, .bd-store-card, .bd-addon-store-modal, .clickable__91a9d:hover .childContainer__91a9d, .rules__92677, .header__75906, .container_e9b3cb,
+.channelList__75906, .coverageHeader_e34850 {
   background-image: var(--bgDarkness2) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -103,7 +105,7 @@ div#MemberCount, .title_f75fb0, .uploadModal_dbca3c, .tile__90dc5, .interactive_
 .header__34c2c, .howItWorksDescription_aa72d6, .avatarCard_da92c3, .earningsPreviewContainer_da92c3, .folderHeader_dd864e, .cardContent_f62fce, .container__0ab2c, .settingCard_dd864e,
 .slotsContainer__0800c, .option__3f413, .previewForm_d9be46, .container_be6a5c, .container_cfbfb9, .popout__7fe3a, .popout__669b5, .header__3a5a1, .footerContainer__44492,
 .bd-addon-modal, .bd-modal-footer, .bd-modal-small, .bd-changelog-modal, .bd-addon-store-card, .bd-install-modal-items, .sidebar_c48ade > div, .backdrop__8a7fc, .footer__214dc,
-.videoCont_de2fa0, .content__37e49, .sidebarCard_f792fa {
+.videoCont_de2fa0, .content__37e49, .sidebarCard_f792fa, .pillContainer__9e06a, .joinOptions__959cb, .onboardingStepContainer__28e57, .notice_a9b452, .review_a9b452 {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
