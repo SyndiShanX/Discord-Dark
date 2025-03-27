@@ -1506,6 +1506,15 @@ div:has(> .searchBar_c7e907) {
   margin-bottom: 0px !important;
 }
 
+/* Fixed BD Banners */
+.bd-notices {
+  width: 1350%;
+}
+
+.bd-notice {
+  border-radius: 8px 8px 0 0 !important;
+}
+
 /* Syntax Naming - CodeDotSpectra */
 .hljs.css::before {content: "CSS\00000a\00000a";}
 .hljs.js::before {content: "Javascript\00000a\00000a";}
