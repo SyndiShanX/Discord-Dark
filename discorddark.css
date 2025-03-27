@@ -1209,6 +1209,14 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover, .bd-button.bd-but
   transition: left 0.3s;
 }
 
+.chatLayerWrapper__01ae2 [class*=jumpToPresentBar] > button:first-child {
+  left: 572.5px;
+}
+
+.chatLayerWrapper__01ae2 [class*=jumpToPresentBar]:hover > button:first-child {
+  left: 462px;
+}
+
 /* BD Settings on Top - Skye */
 [class^=side] > :where(.bd-sidebar-header, [class*=-tab], [class*=-tab] + [class*=separator]) {
   order: -1;
