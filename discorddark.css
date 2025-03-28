@@ -732,6 +732,11 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow__82b15, .member_cou
   transition: none !important;
 }
 
+/* Removed Help Button */
+a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
+  display: none;
+}
+
 /* ---------- Buttons ---------- */
 /* Hover Color Change: -23, -50, -31 */
 .button__201d5, .item_b3f026[aria-controls=ADD_FRIEND-tab], .bd-button, .item__344e6.selected__344e6, .leftTrayIcon_cb9592,
