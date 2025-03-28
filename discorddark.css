@@ -12,7 +12,7 @@
 .groupCollapsedContainer__9d98d, .header__217b7, .upsellContainerFloating__0b69f, .bar__7aaec, .actionButton_f8fa06, .footer__537ec > button, .wrapper__6e9f8:not(.selected__6e9f8) .childWrapper__6e9f8,
 .groupContent__9d98d, .select__3f413, .select__9d98d, .option__3f413:has(.selectedIcon__3f413), .postEnrollmentBackground__636a2, .contentHeader_de2fa0, .contentFooter_de2fa0,
 .textContentFooter__9a337, .activityPanel_c48ade, .tile__90dc5, .termsFieldBody_fe70ca, .editProfileContainer__42179, .container__86ab2, .top_b3f026, .container__0b563,
-.prompt__5d7c9, .wrapper_d852db, .wrapper_fc8177.cozy_fc8177,
+.prompt__5d7c9, .wrapper_d852db, .wrapper_fc8177.cozy_fc8177, .radioBar__001a7,
 .channelRow__1ea09, .actionItem_d2b0e4, .suggestedChannel_d2b0e4, .pillItem__9e06a.pillItemSelected__9e06a, .container__5d756, .pill__33d66, .joinOptionContent__959cb.active__959cb {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
@@ -41,7 +41,7 @@
 .tierBody_f15dca, .benefits__62119, .connectionOptionsWrapper_c7f964, .connection_c7f964, .usersList__5cea9, .clickable__91a9d:hover, .item_b3f026:not(.addFriend__133bf):hover,
 .bd-select:hover, .bd-select-option:hover, .bd-store-card, .bd-addon-store-modal, .bd-description-wrap, .bd-footer, .panel_c0bea0 .scrollerBase_d125d2, .channelRow_e4503a:hover, .avatarWrapper__37e49:hover,
 .scrollerContainer_cdb2b0, .scrollerContainer_cdb2b0 .scrollerBase_d125d2, .upsellPreview_d9161f, .howItWorksContainer_dd30dc, .creatorBenefitCard__02e4c, .guildCard__2485e,
-.editProfileContainer__42179:hover,
+.editProfileContainer__42179:hover, .radioBar__001a7:hover,
 .rules__92677, .header__75906, .container_e9b3cb, .channelList__75906, .coverageHeader_e34850,
 .pillItem__9e06a:hover, .joinOptionContent__959cb:hover, .channelRow__1ea09:hover, .addActionItem_d2b0e4:hover {
   background-image: var(--bgDarkness2) !important;
