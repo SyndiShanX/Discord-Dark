@@ -1512,25 +1512,25 @@ div:has(> .searchBar_c7e907) {
   padding: calc(var(--custom-guild-list-padding) / 2);
 }
 
+/* Custom Guild Icon Size - Edits */
 .guildIcon__48112 {
   border-radius: 100% !important;
 }
 
 .circleIconButton__5bc7e {
-  translate: -4px -4px;
+  translate: -50% -50%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
 }
 
 .tutorialContainer__650eb > .listItem__650eb, .scroller_ef3116 > .listItem__650eb {
   margin-bottom: 0px !important;
 }
 
-/* Fixed BD Banners */
-.bd-notices {
-  width: 1350%;
-}
-
-.bd-notice {
-  border-radius: 8px 8px 0 0 !important;
+/* Fixed BD Banners - Bizz */
+#bd-notices {
+  grid-area: notice;
 }
 
 /* Syntax Naming - CodeDotSpectra */
