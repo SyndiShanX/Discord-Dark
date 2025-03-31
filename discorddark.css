@@ -12,7 +12,7 @@
 .groupCollapsedContainer__9d98d, .header__217b7, .upsellContainerFloating__0b69f, .bar__7aaec, .actionButton_f8fa06, .footer__537ec > button, .wrapper__6e9f8:not(.selected__6e9f8) .childWrapper__6e9f8,
 .groupContent__9d98d, .select__3f413, .select__9d98d, .option__3f413:has(.selectedIcon__3f413), .postEnrollmentBackground__636a2, .contentHeader_de2fa0, .contentFooter_de2fa0,
 .textContentFooter__9a337, .activityPanel_c48ade, .tile__90dc5, .termsFieldBody_fe70ca, .editProfileContainer__42179, .container__86ab2, .top_b3f026, .container__0b563,
-.prompt__5d7c9, .wrapper_d852db, .wrapper_fc8177.cozy_fc8177, .radioBar__001a7, .connectedAccountContainer_e6abe8, .note_fcb628 > textarea,
+.prompt__5d7c9, .wrapper_d852db, .wrapper_fc8177.cozy_fc8177, .radioBar__001a7, .connectedAccountContainer_e6abe8, .note_fcb628 > textarea, .wrapper__2ea32.selectedChannel_c69b6d .link__2ea32,
 .channelRow__1ea09, .actionItem_d2b0e4, .suggestedChannel_d2b0e4, .pillItem__9e06a.pillItemSelected__9e06a, .container__5d756, .pill__33d66, .joinOptionContent__959cb.active__959cb {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
@@ -749,6 +749,12 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
 
 .upload_aa605f {
   border: 1px solid var(--border-primary) !important;
+}
+
+/* Fixed Chat Date Dividers */
+.content__908e2 {
+  position: relative;
+  top: -10px;
 }
 
 /* ---------- Buttons ---------- */
