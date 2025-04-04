@@ -799,14 +799,14 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
 
 /* Blue */
 .button__201d5.colorBrand__201d5:not(.lookBlank__201d5), .button__201d5.colorBrandNew__8872c, .bd-button-title, .bd-view-button.selected,
-button.bd-addon-button:not(.bd-link, .bd-button-danger), .bd-button.bd-button-color-brand, .compactButton__7ff28 {
+button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red), .bd-button.bd-button-color-brand, .compactButton__7ff28 {
   background-color: var(--blue-button) !important;
   border: 1px solid var(--blue-button-border);
   color: #fff !important;
 }
 
 .button__201d5.colorBrand__201d5:not(.lookBlank__201d5):hover, .button__201d5.colorBrandNew__8872c:hover, .bd-button-title:hover, .bd-view-button.selected:hover,
-button.bd-addon-button:not(.bd-link, .bd-button-danger):hover, .bd-button.bd-button-color-brand:hover, .compactButton__7ff28:hover {
+button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):hover, .bd-button.bd-button-color-brand:hover, .compactButton__7ff28:hover {
   background-color: var(--blue-button-hover) !important;
   border: 1px solid var(--blue-button-border);
 }
@@ -1524,6 +1524,11 @@ nav.guilds_c48ade {
 /* Fixed BD Banners - Bizz */
 #bd-notices {
   grid-area: notice;
+}
+
+/* Fixed BD Button Margins */
+.bd-addon-card .bd-links .bd-addon-button {
+  margin-left: 5px;
 }
 
 /* Syntax Naming - CodeDotSpectra */
