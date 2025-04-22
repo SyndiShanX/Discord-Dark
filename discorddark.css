@@ -39,7 +39,7 @@
 }
 
 /* Darkness 2 Background Image */
-.tierBody_f15dca, .benefits__62119, .connectionOptionsWrapper_c7f964, .connection_c7f964, .usersList__5cea9, .header__49fc1, .footer__49fc1, .clickable__91a9d:hover, .item_b3f026:not(.addFriend__133bf):hover,
+.tierBody_f15dca, .benefits__62119, .connectionOptionsWrapper_c7f964, .connection_c7f964, .usersList__5cea9, .header__49fc1, .footer__49fc1, .root__49fc1, .clickable__91a9d:hover, .item_b3f026:not(.addFriend__133bf):hover,
 .bd-select:hover, .bd-select-option:hover, .bd-store-card, .bd-addon-store-modal, .bd-description-wrap, .bd-footer, .panel_c0bea0 .scrollerBase_d125d2, .channelRow_e4503a:hover, .avatarWrapper__37e49:hover,
 .scrollerContainer_cdb2b0, .scrollerContainer_cdb2b0 .scrollerBase_d125d2, .upsellPreview_d9161f, .howItWorksContainer_dd30dc, .creatorBenefitCard__02e4c, .guildCard__2485e,
 .editProfileContainer__42179:hover, .radioBar__001a7:hover, .container__6764b:hover, .scrollerBase_d125d2.thin_d125d2,
@@ -154,7 +154,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
   border: 1px solid var(--border-primary) !important;
 }
 
-.popover_c97e55, .popover_f84418, .actionBar_aa605f.wrapper_f7ecac, .actionButtons_cc1819, .reactionBtn__23977, .container__65338, .spamBanner_a2eac3, .wrapper_d5f3cd, .upsellsContainer__8f3cb,
+.popover_c97e55, .popover_f84418, .actionBar_aa605f.wrapper_f7ecac, .popover__2d0ab, .actionButtons_cc1819, .reactionBtn__23977, .container__65338, .spamBanner_a2eac3, .wrapper_d5f3cd, .upsellsContainer__8f3cb,
 .guildPopout__51eb2, .embed_f69538, :where(.overlay_c0bea0), .activity__747b1, .bumpBox_cacd02, .rewardTileWithInstructions__960df, .profileEntryCard__06137, .nonVisualMediaItemContainer_f4758a .embedWrapper_b7e1cb,
 .descriptionContainer_ca49a1, .blockedIgnoredSettingsNotice__6811a, .wrapper__44df5, .field__1fed1, .row__0624f, .metadataContainer_c7f964, .badgeList__1fed1, .bd-addon-store-card-embed,
 .connectContainer_c7f964 {
@@ -675,9 +675,13 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow__82b15, .member_cou
   border-radius: 12px !important;
 }
 
-.header__49fc1, .content__49fc1, .footer__49fc1 {
+.root__49fc1:not(:has(.footer__49fc1)) .content__49fc1 {
   border: 0 solid transparent;
-  border-radius: 0;
+  border-radius: 12px;
+}
+
+.header__49fc1, .footer__49fc1 {
+  border: 0 solid transparent;
 }
 
 .header__49fc1 {
@@ -768,6 +772,11 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
 .content__908e2 {
   position: relative;
   top: -10px;
+}
+
+/* Made Border Radius more Gradual on Delete Message Modal Embed */
+.message__89466 {
+  border-radius: 6px;
 }
 
 /* ---------- Buttons ---------- */
