@@ -788,6 +788,14 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
   padding-bottom: unset;
 }
 
+/* Fixed User Profile Text Color */
+.layer_da8173 .clanTagContainer__63ed3 span, .layer_da8173 .descriptionClamp_f5f93a span, .layer_da8173 .descriptionClamp_f5f93a code, .layer_da8173 .inner__74017 div {
+  color: #fff !important;
+}
+.layer_da8173 .inner__74017 .spriteGreyscale__04eed {
+  background-color: #fff !important;
+}
+
 /* ---------- Buttons ---------- */
 /* Hover Color Change: -23, -50, -31 */
 .button__201d5, .item_b3f026[aria-controls=ADD_FRIEND-tab], .bd-button, .item__344e6.selected__344e6, .leftTrayIcon_cb9592,
