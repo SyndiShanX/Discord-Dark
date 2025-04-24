@@ -154,7 +154,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
   border: 1px solid var(--border-primary) !important;
 }
 
-.popover_c97e55, .popover_f84418, .actionBar_aa605f.wrapper_f7ecac, .popover__2d0ab, .actionButtons_cc1819, .reactionBtn__23977, .container__65338, .spamBanner_a2eac3, .wrapper_d5f3cd, .upsellsContainer__8f3cb,
+.statusPopover__2d0ab, .popover_f84418, .actionBar_aa605f.wrapper_f7ecac, .popover__2d0ab, .actionButtons_cc1819, .reactionBtn__23977, .container__65338, .spamBanner_a2eac3, .wrapper_d5f3cd, .upsellsContainer__8f3cb,
 .guildPopout__51eb2, .embed_f69538, :where(.overlay_c0bea0), .activity__747b1, .bumpBox_cacd02, .rewardTileWithInstructions__960df, .profileEntryCard__06137, .nonVisualMediaItemContainer_f4758a .embedWrapper_b7e1cb,
 .descriptionContainer_ca49a1, .blockedIgnoredSettingsNotice__6811a, .wrapper__44df5, .field__1fed1, .row__0624f, .metadataContainer_c7f964, .badgeList__1fed1, .bd-addon-store-card-embed,
 .connectContainer_c7f964, .content__19fd1, .safetyTable__1f3e3 {
@@ -789,11 +789,29 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
 }
 
 /* Fixed User Profile Text Color */
-.layer_da8173 .clanTagContainer__63ed3 span, .layer_da8173 .descriptionClamp_f5f93a span, .layer_da8173 .descriptionClamp_f5f93a code, .layer_da8173 .inner__74017 div {
+.outer_c0bea0.theme-light textarea::-moz-placeholder {
   color: #fff !important;
 }
-.layer_da8173 .inner__74017 .spriteGreyscale__04eed {
+.outer_c0bea0.theme-light .chipletContainerInner__4a25c span, .outer_c0bea0.theme-light .descriptionClamp_f5f93a span, .outer_c0bea0.theme-light .descriptionClamp_f5f93a code, .outer_c0bea0.theme-light .inner__74017 div, .outer_c0bea0.theme-light .tooltipContent__382e7,
+.outer_c0bea0.theme-light .connectedAccountChildren_e6abe8 div, .outer_c0bea0.theme-light .connectedAccount_e6abe8 div, .outer_c0bea0.theme-light .defaultColor__5345c, .outer_c0bea0.theme-light textarea::placeholder, .outer_c0bea0.theme-light .connectedAccountOpenIcon_e6abe8,
+.outer_c0bea0.theme-light .toolbarContainer__39ec2 div, .outer_c0bea0.theme-light .listName__9d78f span, .outer_c0bea0.theme-light .listName__9d78f, .outer_c0bea0.theme-light .guildNick_aafe31, .outer_c0bea0.theme-light .collapseButton_fccfdf svg {
+  color: #fff !important;
+}
+.outer_c0bea0.theme-light .inner__74017 .spriteGreyscale__04eed, .outer_c0bea0.theme-light .spacer__530ce {
   background-color: #fff !important;
+}
+.outer_c0bea0.theme-light .tooltipContainer__2d0ab path, .outer_c0bea0.theme-light .toolbarContainer__39ec2 path {
+  fill: #fff;
+}
+.outer_c0bea0.theme-light .pill_dfa8b6 {
+  border-color: #fff;
+}
+.outer_c0bea0.theme-light .nicknameIcons__63ed3 button {
+  color: #AAAAB1;
+}
+
+.tooltip__382e7 {
+  color: #fff !important;
 }
 
 /* ---------- Buttons ---------- */
@@ -1031,52 +1049,31 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
 }
 
 /* Normal Status Picker (Removes User Popup) - Zuzumi */
-.accountProfilePopoutWrapper__37e49 .userPopoutInner_c69a7b:before, .accountProfilePopoutWrapper__37e49 .wrapper_da5890.biteSize_da5890, .accountProfilePopoutWrapper__37e49 .tags__63ed3,
-.accountProfilePopoutWrapper__37e49 .body_d4e7c2 div:has(.descriptionClamp_f5f93a), .accountProfilePopoutWrapper__37e49 .activity_f00225, .accountProfilePopoutWrapper__37e49 .profileEffects__01370 {
-  display: none;
-}
-
-.accountProfilePopoutWrapper__37e49 .body_d4e7c2 {
-  padding: 8px;
-  gap: 8px;
-}
-
-.accountProfilePopoutWrapper__37e49 .username_d4e7c2 {
-  padding: 0px 8px;
-}
-
-.accountProfilePopoutWrapper__37e49 .menus_d4e7c2 {
-  gap: 0px !important;
-}
-
-.accountProfilePopoutWrapper__37e49 .menu_d4e7c2 {
-  background-color: transparent;
-}
-
-.accountProfilePopoutWrapper__37e49 .menus_d4e7c2 > .menu_d4e7c2 > .scroller_c1e9c4 {
-  padding: 0px !important;
-}
-
-.accountProfilePopoutWrapper__37e49 .menu_d4e7c2:last-of-type [role=group]:first-of-type::before {
-  content: "";
-  display: block;
-  margin: 7px 4px 8px 4px;
-  border-bottom: 1px solid var(--profile-body-divider-color);
-}
-
-.accountProfilePopoutWrapper__37e49 {
+.outer_c0bea0:has(.menus_ce8328) {
   left: 0px;
   bottom: 0px;
 }
 
-.accountProfilePopoutWrapper__37e49 .userPopoutOuter_c69a7b.userProfileOuter_c69a7b {
-  width: 220px;
+.outer_c0bea0:has(.menus_ce8328).user-profile-popout {
   background: var(--background-floating);
 }
 
-.accountProfilePopoutWrapper__37e49 .userPopoutInner_c69a7b {
+.outer_c0bea0:has(.menus_ce8328) .inner_c0bea0:before, .outer_c0bea0:has(.menus_ce8328) .user-profile-popout, .outer_c0bea0:has(.menus_ce8328) .tags__63ed3, .outer_c0bea0:has(.menus_ce8328) .body_ce8328 div:has(.descriptionClamp_f5f93a), .outer_c0bea0:has(.menus_ce8328) .activity_f00225, .outer_c0bea0:has(.menus_ce8328) .profileEffects__01370,
+.outer_c0bea0:has(.menus_ce8328) .header__5be3e {
+  display: none;
+}
+.outer_c0bea0:has(.menus_ce8328) .body_ce8328 {
+  padding: 8px;
+  gap: 8px;
+}
+.outer_c0bea0:has(.menus_ce8328) .username_ce8328 {
+  padding: 0px 8px;
+}
+.outer_c0bea0:has(.menus_ce8328) .menus_d4e7c2 {
+  gap: 0px !important;
+}
+.outer_c0bea0:has(.menus_ce8328) .inner_c0bea0 {
   max-height: 100%;
-  width: 220px;
   gap: 0px;
   padding-bottom: 0px;
   background: var(--background-floating);
