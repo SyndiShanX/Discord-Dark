@@ -1126,7 +1126,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
   }
 }
 /* Home Icon Animation on Hover - The Commie Axolotl */
-.tutorialContainer__1f388 .selected__6e9f8 .childWrapper__6e9f8 > svg {
+.tutorialContainer__1f388:hover .childWrapper__6e9f8 > svg {
   animation: spin 1s ease;
 }
 
