@@ -9,7 +9,7 @@
 .messages__1ccd1, .messageContainer__95796, .header_ab6641, .header__5cea9, .activeGame_cc46f0, .upsellContainer__4cfe2, .upsellFooter__4cfe2,
 .body__6da2d, .popout__76f04, .navItem__551b0:active, .clickable__91a9d .layout__91a9d:active, .interactive_bf202d:active,
 .wrapper__2ea32:active .link__2ea32, .childContainer__91a9d:active, .bd-select-options, .bd-select, .bd-select-option.selected, .bd-number-input, .bd-addon-header,
-.groupCollapsedContainer__9d98d, .header__217b7, .upsellContainerFloating__0b69f, .bar__7aaec, .actionButton_f8fa06, .footer__537ec > button, .wrapper__6e9f8:not(.selected__6e9f8) .childWrapper__6e9f8,
+.groupCollapsedContainer__9d98d, .header__217b7, .upsellContainerFloating__0b69f, .bar__7aaec, .actionButton_f8fa06, .footer__7f9c0 > button, .wrapper__6e9f8:not(.selected__6e9f8) .childWrapper__6e9f8,
 .groupContent__9d98d, .select__3f413, .select__9d98d, .option__3f413:has(.selectedIcon__3f413), .postEnrollmentBackground__636a2, .contentHeader_de2fa0, .contentFooter_de2fa0,
 .textContentFooter__9a337, .activityPanel_c48ade, .tile__90dc5, .termsFieldBody_fe70ca, .editProfileContainer__42179, .container__86ab2, .top_b3f026:not(.tabBar_f8303a), .container__0b563,
 .prompt__5d7c9, .wrapper_d852db, .wrapper_fc8177.cozy_fc8177, .radioBar__001a7, .connectedAccountContainer_e6abe8, .note_fcb628 > textarea, .wrapper__2ea32.selectedChannel_c69b6d .link__2ea32,
@@ -155,7 +155,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
 }
 
 .statusPopover__2d0ab, .popover_f84418, .actionBar_aa605f.wrapper_f7ecac, .popover__2d0ab, .actionButtons_cc1819, .reactionBtn__23977, .container__65338, .spamBanner_a2eac3, .wrapper_d5f3cd, .upsellsContainer__8f3cb,
-.guildPopout__51eb2, .embed_f69538, :where(.overlay_c0bea0), .activity__747b1, .bumpBox_cacd02, .rewardTileWithInstructions__960df, .profileEntryCard__06137, .nonVisualMediaItemContainer_f4758a .embedWrapper_b7e1cb,
+.guildPopout__51eb2, .embed_f69538, :where(.overlay_c0bea0), .activity__747b1, .bumpBox_cacd02, .rewardTileWithInstructions__960df, .profileEntryCard__655fa, .nonVisualMediaItemContainer_f4758a .embedWrapper_b7e1cb,
 .descriptionContainer_ca49a1, .blockedIgnoredSettingsNotice__6811a, .wrapper__44df5, .field__1fed1, .row__0624f, .metadataContainer_c7f964, .badgeList__1fed1, .bd-addon-store-card-embed,
 .connectContainer_c7f964, .content__19fd1, .safetyTable__1f3e3, .noticeRegion__23e6b .container_fcf29c, .container_cdb3b1 {
   border: 1px solid var(--border-primary) !important;
@@ -192,7 +192,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
   margin-left: 10px !important;
 }
 
-.menu_c1e9c4 .scroller_c1e9c4, .menu_c1e9c4, .inner_a45028, .mainContainer_c5e6a1, .option__3f413:has(.selectedIcon__3f413), .profileEntryCard__06137, .fileWrapper__0ccae {
+.menu_c1e9c4 .scroller_c1e9c4, .menu_c1e9c4, .inner_a45028, .mainContainer_c5e6a1, .option__3f413:has(.selectedIcon__3f413), .profileEntryCard__655fa, .fileWrapper__0ccae {
   border-radius: 8px;
 }
 
@@ -792,7 +792,7 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
 .outer_c0bea0.theme-light textarea::-moz-placeholder {
   color: #fff !important;
 }
-.outer_c0bea0.theme-light .chipletContainerInner__4a25c span, .outer_c0bea0.theme-light .descriptionClamp_f5f93a span, .outer_c0bea0.theme-light .descriptionClamp_f5f93a code, .outer_c0bea0.theme-light .inner__74017 div, .outer_c0bea0.theme-light .tooltipContent__382e7,
+.outer_c0bea0.theme-light .chipletContainerInner__10651 span, .outer_c0bea0.theme-light .descriptionClamp_f5f93a span, .outer_c0bea0.theme-light .descriptionClamp_f5f93a code, .outer_c0bea0.theme-light .inner__74017 div, .outer_c0bea0.theme-light .tooltipContent__382e7,
 .outer_c0bea0.theme-light .connectedAccountChildren_e6abe8 div, .outer_c0bea0.theme-light .connectedAccount_e6abe8 div, .outer_c0bea0.theme-light .defaultColor__5345c, .outer_c0bea0.theme-light textarea::placeholder, .outer_c0bea0.theme-light .connectedAccountOpenIcon_e6abe8,
 .outer_c0bea0.theme-light .toolbarContainer__39ec2 div, .outer_c0bea0.theme-light .listName__9d78f span, .outer_c0bea0.theme-light .listName__9d78f, .outer_c0bea0.theme-light .guildNick_aafe31, .outer_c0bea0.theme-light .collapseButton_fccfdf svg {
   color: #fff !important;
@@ -1017,7 +1017,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
 .guilds_c48ade .scroller_ef3116 .tutorialContainer__1f388 {
   position: fixed;
   margin-top: 0px;
-  margin-left: 5px;
+  margin-left: 9px;
 }
 
 .tutorialContainer__1f388 {
@@ -1126,7 +1126,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
   }
 }
 /* Home Icon Animation on Hover - The Commie Axolotl */
-.tutorialContainer__1f388 .listItemWrapper_dfb2f8:hover .svg_cc5dd2 {
+.tutorialContainer__1f388 .selected__6e9f8 .childWrapper__6e9f8 > svg {
   animation: spin 1s ease;
 }
 
@@ -1398,28 +1398,22 @@ div:has(> .searchBar_c7e907) {
   width: 90px !important;
 }
 
-.wrapper__48112 {
+.folderGroup__48112 {
   position: relative !important;
   width: 82px !important;
 }
 
-.expandedFolderBackground__48112:not(.collapsed__48112) {
+.isExpanded__48112 .folderGroupBackground__48112 {
   width: 58px;
   height: calc(100% - 20px);
 }
 
-.collapsed__48112 {
-  width: 58px;
-  height: 58px;
-  top: -5px;
-}
-
-.scrollerBase__99f8c > div > .listItem__650eb {
+.scrollerBase_d125d2 > div > .listItem__650eb, .scrollerBase_d125d2 > .listItem__650eb {
   position: relative !important;
   top: 2px !important;
 }
 
-.blobContainer_e5445c:active, .listItemWrapper_dfb2f8:active {
+.blobContainer_e5445c:active {
   transform: scale(0.95);
 }
 
@@ -1434,6 +1428,29 @@ div:has(> .searchBar_c7e907) {
 .stack_dbd263 {
   padding-top: 20px !important;
   position: relative;
+}
+
+.listItem__650eb:not(:has(.folderHeader__48112)) .wrapper_cc5dd2 {
+  top: -4px;
+  left: -4px;
+}
+
+.isExpanded__48112 .folderButton__48112 .wrapper_cc5dd2 > svg foreignObject {
+  width: 56px !important;
+  height: 56px !important;
+}
+
+.folderGroup__48112 {
+  top: 4px;
+}
+
+.folderGroup__48112:not(.isExpanded__48112) {
+  left: 4px;
+}
+
+.folderGroup__48112 .listItem__650eb:has(.folderHeader__48112) .pill_e5445c {
+  left: calc(50% - 4px) !important;
+  top: calc(50% - 4px) !important;
 }
 
 /* User Area Icon Recolor */
@@ -1482,11 +1499,11 @@ div:has(> .searchBar_c7e907) {
   --g-4-r: calc((var(--g-48-r) - var(--guildbar-avatar-size)) / -2);
   --g-4-r-2: calc((var(--g-56-r) - var(--g-48)) / -2);
 }
-.visual-refresh .folderIcon__48112 > .wrapper_cc5dd2 {
+.visual-refresh .folderHeader__48112 > .wrapper_cc5dd2 {
   width: var(--g-48) !important;
   height: var(--g-48) !important;
 }
-.visual-refresh .folderIcon__48112 > .wrapper_cc5dd2 > .svg_cc5dd2 {
+.visual-refresh .folderHeader__48112 > .wrapper_cc5dd2 > .svg_cc5dd2 {
   width: var(--g-56-r);
   height: var(--g-56-r);
   top: var(--g-4-r-2);
@@ -1502,7 +1519,7 @@ div:has(> .searchBar_c7e907) {
   width: 40px;
   height: 40px;
 }
-.visual-refresh .folder__48112, .visual-refresh .folderIconWrapper__48112 {
+.visual-refresh .hiddenVisually__27f77, .visual-refresh .folderPreviewWrapper__48112 {
   width: 48px;
   height: 48px;
 }
@@ -1511,11 +1528,11 @@ div:has(> .searchBar_c7e907) {
   height: var(--g-40-r);
   margin: 0;
 }
-.visual-refresh .closedFolderIconWrapper__48112 {
+.visual-refresh .folderPreview__48112 {
   width: var(--g-40-r);
   height: var(--g-40-r);
 }
-.visual-refresh .guildIcon__48112 {
+.visual-refresh .folderPreviewGuildIcon__48112 {
   width: var(--g-19-r);
   height: var(--g-19-r);
 }
@@ -1536,7 +1553,7 @@ div:has(> .searchBar_c7e907) {
 }
 
 /* Custom Guild Icon Size - Edits */
-.guildIcon__48112 {
+.folderPreviewGuildIcon__48112 {
   border-radius: 100% !important;
 }
 
