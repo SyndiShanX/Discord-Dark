@@ -794,13 +794,14 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
 }
 .outer_c0bea0.theme-light .chipletContainerInner__10651 span, .outer_c0bea0.theme-light .descriptionClamp_f5f93a span, .outer_c0bea0.theme-light .descriptionClamp_f5f93a code, .outer_c0bea0.theme-light .inner__74017 div, .outer_c0bea0.theme-light .tooltipContent__382e7,
 .outer_c0bea0.theme-light .connectedAccountChildren_e6abe8 div, .outer_c0bea0.theme-light .connectedAccount_e6abe8 div, .outer_c0bea0.theme-light .defaultColor__5345c, .outer_c0bea0.theme-light textarea::placeholder, .outer_c0bea0.theme-light .connectedAccountOpenIcon_e6abe8,
-.outer_c0bea0.theme-light .toolbarContainer__39ec2 div, .outer_c0bea0.theme-light .listName__9d78f span, .outer_c0bea0.theme-light .listName__9d78f, .outer_c0bea0.theme-light .guildNick_aafe31, .outer_c0bea0.theme-light .collapseButton_fccfdf svg {
+.outer_c0bea0.theme-light .toolbarContainer__39ec2 div, .outer_c0bea0.theme-light .listName__9d78f span, .outer_c0bea0.theme-light .listName__9d78f, .outer_c0bea0.theme-light .guildNick_aafe31, .outer_c0bea0.theme-light .collapseButton_fccfdf svg, .outer_c0bea0.theme-light .labelText__1fdc8, .outer_c0bea0.theme-light .name__0a95c,
+.outer_c0bea0.theme-light .nick__0a95c, .outer_c0bea0.theme-light .info_f4bc97 > span, .outer_c0bea0.theme-light .details__89036 > div > div {
   color: #fff !important;
 }
-.outer_c0bea0.theme-light .inner__74017 .spriteGreyscale__04eed, .outer_c0bea0.theme-light .spacer__530ce {
+.outer_c0bea0.theme-light .inner__74017 .spriteGreyscale__04eed, .outer_c0bea0.theme-light .spacer__530ce, .outer_c0bea0.theme-light .divider_c4eb81 {
   background-color: #fff !important;
 }
-.outer_c0bea0.theme-light .tooltipContainer__2d0ab path, .outer_c0bea0.theme-light .toolbarContainer__39ec2 path {
+.outer_c0bea0.theme-light .tooltipContainer__2d0ab path, .outer_c0bea0.theme-light .toolbarContainer__39ec2 path, .outer_c0bea0.theme-light .inner_ab8609 svg > path, .outer_c0bea0.theme-light .discordIcon_c4eb81 > path {
   fill: #fff;
 }
 .outer_c0bea0.theme-light .pill_dfa8b6 {
