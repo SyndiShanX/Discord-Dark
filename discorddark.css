@@ -1460,6 +1460,10 @@ div:has(> .searchBar_c7e907) {
   left: 32px;
 }
 
+.upperBadge_cc5dd2 {
+  left: 32px;
+}
+
 /* User Area Icon Recolor */
 .panels_c48ade .lottieIcon__5eb9b :not(defs *)[fill][fill-opacity] {
   fill: white;
