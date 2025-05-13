@@ -1396,124 +1396,6 @@ div:has(> .searchBar_c7e907) {
   overflow-y: auto;
 }
 
-/* Server Rings Guild Icon Size Fix */
-#app-mount .listItem__650eb {
-  width: 100%;
-  margin-bottom: var(--server-spacing);
-}
-
-#app-mount .svg_cc5dd2 foreignObject {
-  border-radius: 50%;
-  -webkit-mask: none !important;
-  mask: none !important;
-}
-
-/* Server Rings Edit - Sidebar Fixes and Click Animation Reducer */
-.guilds_c48ade {
-  width: 90px !important;
-}
-
-.folderGroup__48112 {
-  position: relative !important;
-  width: 82px !important;
-}
-
-.isExpanded__48112 .folderGroupBackground__48112 {
-  width: 58px;
-  height: calc(100% - 20px);
-}
-
-.scrollerBase_d125d2 > div > .listItem__650eb, .scrollerBase_d125d2 > .listItem__650eb {
-  position: relative !important;
-  top: 2px !important;
-}
-
-.blobContainer_e5445c:active {
-  transform: scale(0.95);
-}
-
-.unreadMentionsIndicatorTop_ef3116 {
-  left: 5px;
-}
-
-.scrollerBase_d125d2 > div:nth-child(-n+2) {
-  margin-top: 4px;
-}
-
-.stack_dbd263 {
-  padding-top: 20px !important;
-  position: relative;
-}
-
-.listItem__650eb:not(:has(.folderHeader__48112)) .wrapper_cc5dd2 {
-  top: -4px;
-  left: -4px;
-}
-
-.isExpanded__48112 .folderButton__48112 .wrapper_cc5dd2 > svg foreignObject {
-  width: 56px !important;
-  height: 56px !important;
-}
-
-.folderGroup__48112 {
-  top: 4px;
-}
-
-.folderGroup__48112:not(.isExpanded__48112) {
-  left: 4px;
-}
-
-.folderGroup__48112 .listItem__650eb:has(.folderHeader__48112) .pill_e5445c {
-  top: calc(50% - 4px) !important;
-  left: calc(50% - 4px) !important;
-}
-
-.lowerBadge_cc5dd2 {
-  top: 32px;
-  left: 32px;
-}
-
-.upperBadge_cc5dd2 {
-  left: 32px;
-}
-
-.folderGroup__48112:not(.isExpanded__48112) .item__58105 {
-  display: none;
-}
-
-/* User Area Icon Recolor */
-.panels_c48ade .lottieIcon__5eb9b :not(defs *)[fill][fill-opacity] {
-  fill: white;
-}
-
-.panels_c48ade .lottieIcon__5eb9b > svg > g > g > g:nth-child(1) > g > g:nth-child(2) > g:nth-child(2) > path {
-  stroke: white;
-}
-
-/* Discord Message Box v3.0 */
-:root {
-  --color-brand-lighter: #4373c5;
-  --background-primary: transparent!important;
-}
-
-.visual-refresh .scrollableContainer__74017 {
-  transition: border-color 0.1s ease;
-  border: 1px solid var(--border-primary);
-  outline: none;
-}
-.visual-refresh .scrollableContainer__74017:focus-within, .visual-refresh .scrollableContainer__74017:hover, .visual-refresh .stackedBars__74017:hover {
-  background-color: #2e2c2c;
-  border-color: var(--color-brand-lighter);
-  box-shadow: 0px 0px 3px 1px #4373c5;
-}
-.visual-refresh .jumpToPresentBar__0f481 {
-  border: 1px solid transparent;
-  border-radius: 5px;
-  width: auto;
-  margin-left: 1px;
-  margin-bottom: -3px !important;
-}
-
 /* Custom Guild Icon Size - Refact0r */
 .visual-refresh {
   --size: 48;
@@ -1580,6 +1462,93 @@ div:has(> .searchBar_c7e907) {
   padding: calc(var(--custom-guild-list-padding) / 2);
 }
 
+/* Server Rings Guild Icon Size Fix */
+#app-mount .listItem__650eb {
+  width: 100%;
+  margin-bottom: var(--server-spacing);
+}
+
+#app-mount .svg_cc5dd2 foreignObject {
+  border-radius: 50%;
+  -webkit-mask: none !important;
+  mask: none !important;
+}
+
+/* Guild Icon Fixes */
+.guilds_c48ade {
+  width: 90px !important;
+}
+
+.folderGroup__48112 {
+  position: relative !important;
+  width: 82px !important;
+}
+
+.isExpanded__48112 .folderGroupBackground__48112 {
+  width: 58px;
+  height: calc(100% - 20px);
+}
+
+.scrollerBase_d125d2 > div > .listItem__650eb, .scrollerBase_d125d2 > .listItem__650eb {
+  position: relative !important;
+  top: 2px !important;
+}
+
+.blobContainer_e5445c:active {
+  transform: scale(0.95);
+}
+
+.unreadMentionsIndicatorTop_ef3116 {
+  left: 5px;
+}
+
+.scrollerBase_d125d2 > div:nth-child(-n+2) {
+  margin-top: 4px;
+}
+
+.stack_dbd263 {
+  padding-top: 20px !important;
+  position: relative;
+}
+
+.listItem__650eb:not(:has(.folderHeader__48112)) .wrapper_cc5dd2 {
+  top: -4px;
+  left: -4px;
+}
+
+.isExpanded__48112 .folderButton__48112 .wrapper_cc5dd2 > svg foreignObject {
+  width: 56px !important;
+  height: 56px !important;
+}
+
+.folderGroup__48112 {
+  top: 4px;
+}
+
+.folderGroup__48112:not(.isExpanded__48112) {
+  left: 4px;
+}
+
+.folderGroup__48112 .isExpanded__48112 .listItem__650eb:has(.folderHeader__48112) .pill_e5445c {
+  top: calc(50% - 4px) !important;
+  left: calc(50% - 4px) !important;
+}
+
+.lowerBadge_cc5dd2 {
+  top: 32px;
+  left: 32px;
+}
+
+.upperBadge_cc5dd2 {
+  left: 32px;
+}
+
+.isExpanded__48112 .folderIcon__48112 {
+  position: relative;
+  top: 4px;
+  left: 3px;
+}
+
 /* Custom Guild Icon Size - Edits */
 .folderPreviewGuildIcon__48112 {
   border-radius: 100% !important;
@@ -1596,6 +1565,34 @@ div:has(> .searchBar_c7e907) {
   margin-bottom: 0px !important;
 }
 
+.folderButton__48112 {
+  overflow: visible;
+}
+
+/* Discord Message Box v3.0 */
+:root {
+  --color-brand-lighter: #4373c5;
+  --background-primary: transparent!important;
+}
+
+.visual-refresh .scrollableContainer__74017 {
+  transition: border-color 0.1s ease;
+  border: 1px solid var(--border-primary);
+  outline: none;
+}
+.visual-refresh .scrollableContainer__74017:focus-within, .visual-refresh .scrollableContainer__74017:hover, .visual-refresh .stackedBars__74017:hover {
+  background-color: #2e2c2c;
+  border-color: var(--color-brand-lighter);
+  box-shadow: 0px 0px 3px 1px #4373c5;
+}
+.visual-refresh .jumpToPresentBar__0f481 {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  width: auto;
+  margin-left: 1px;
+  margin-bottom: -3px !important;
+}
+
 /* Revert User Area - Riddim Glitch */
 .visual-refresh section.panels_c48ade {
   margin-left: calc(var(--custom-guild-list-width) + 9.5px);
@@ -1607,6 +1604,15 @@ div:has(> .searchBar_c7e907) {
 
 nav.guilds_c48ade {
   margin-bottom: 0 !important;
+}
+
+/* User Area Icon Recolor */
+.panels_c48ade .lottieIcon__5eb9b :not(defs *)[fill][fill-opacity] {
+  fill: white;
+}
+
+.panels_c48ade .lottieIcon__5eb9b > svg > g > g > g:nth-child(1) > g > g:nth-child(2) > g:nth-child(2) > path {
+  stroke: white;
 }
 
 /* Fixed BD Banners - Bizz */
