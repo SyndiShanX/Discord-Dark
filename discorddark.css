@@ -1,3 +1,302 @@
+/* Server Rings - Gibbu */
+:root {
+  --server-ring-offset: 6px;
+}
+
+#app-mount .folderGroup__48112 {
+  --server-folder-offset: 6px;
+}
+
+#app-mount .folderGroup__48112 ul.stack_dbd263[role=group] {
+  height: auto !important;
+  overflow: visible !important;
+}
+
+#app-mount .folderGroup__48112 ul.stack_dbd263[role=group] .listItem__650eb {
+  --server-folder-offset: 0px;
+}
+
+#app-mount .scroller_ef3116 > div[style]:not([class]) {
+  margin-bottom: var(--server-spacing);
+}
+
+#app-mount .listItem__650eb {
+  width: 100%;
+  margin-bottom: var(--server-spacing);
+}
+
+#app-mount .listItem__650eb [class*=pill] {
+  --__ring-size: calc(
+  	((var(--server-icon-size, 45) * 1px) - 5px) + var(--server-folder-offset, 0px) + var(--server-ring-offset)
+  );
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--__ring-size);
+  height: var(--__ring-size);
+  overflow: visible;
+  margin-left: -2px;
+}
+
+#app-mount .listItem__650eb [class*=pill] .item__58105 {
+  height: 100% !important;
+  width: 100%;
+  margin: 0;
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid transparent;
+  box-shadow: none;
+  transform: none !important;
+  transition: var(--transition);
+  transition-property: box-shadow;
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 0"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-unread-colour) h s l/0.25);
+  border-color: hsl(from var(--server-unread-colour) h s l);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 1"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-unread-colour) h s l/0.25);
+  border-color: hsl(from var(--server-unread-colour) h s l);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 2"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-unread-colour) h s l/0.25);
+  border-color: hsl(from var(--server-unread-colour) h s l);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 3"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-unread-colour) h s l/0.25);
+  border-color: hsl(from var(--server-unread-colour) h s l);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 4"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-unread-colour) h s l/0.25);
+  border-color: hsl(from var(--server-unread-colour) h s l);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 5"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-unread-colour) h s l/0.25);
+  border-color: hsl(from var(--server-unread-colour) h s l);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 6"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-unread-colour) h s l/0.25);
+  border-color: hsl(from var(--server-unread-colour) h s l);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 7"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-unread-colour) h s l/0.25);
+  border-color: hsl(from var(--server-unread-colour) h s l);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 8"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-unread-colour) h s l/0.25);
+  border-color: hsl(from var(--server-unread-colour) h s l);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 9"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 10"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 11"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 12"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 13"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 14"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 15"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 16"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 17"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 18"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 19"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 20"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 21"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 22"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 23"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 24"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 25"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 26"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 27"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 28"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 29"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 30"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 31"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 32"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 33"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 34"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 35"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 36"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 37"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 38"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 39"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 40"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+
+#app-mount .blobContainer_e5445c,
+#app-mount .listItemWrapper_dfb2f8 {
+  transition: var(--transition, 0.15s ease);
+  transition-property: transform;
+}
+
+#app-mount .blobContainer_e5445c:active,
+#app-mount .listItemWrapper_dfb2f8:active {
+  transform: scale(0.9);
+}
+
+#app-mount .svg_cc5dd2 foreignObject {
+  border-radius: 50%;
+  -webkit-mask: none !important;
+  mask: none !important;
+}
+
+.pill__5bc7e {
+  display: none;
+}
+
 /* ---------- Background Images ---------- */
 /* Main Background Image */
 .bar_c38106, .scrollableContainer__74017, .searchBar__97492, .searchBar__1ac1c, .selected_c69b6d .wrapper__2ea32 .link__2ea32, .nav__551b0 .selected__551b0, .interactiveSelected__972a0,
@@ -1535,7 +1834,7 @@ div:has(> .searchBar_c7e907) {
   width: 48px;
   height: 48px;
 }
-.visual-refresh .expandedFolderIconWrapper__48112 {
+.visual-refresh .isExpanded__48112 .folderIcon__48112 {
   width: var(--g-40-r);
   height: var(--g-40-r);
   margin: 0;
