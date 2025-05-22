@@ -1549,6 +1549,10 @@ div:has(> .searchBar_c7e907) {
   left: 3px;
 }
 
+.tutorialContainer__1f388 .pill__1f388 {
+  left: -20px;
+}
+
 /* Custom Guild Icon Size - Edits */
 .folderPreviewGuildIcon__48112 {
   border-radius: 100% !important;
