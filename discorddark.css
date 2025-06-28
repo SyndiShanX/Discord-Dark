@@ -64,7 +64,7 @@
 .connectionHeader_c7f964, .accountProfileCard__1fed1,
 code, .repliedMessage_c19a55:not(.latin24CompactTimeStamp_c19a55), .spoilerContent__54ab5, .sidebar_c48ade:after, .standardSidebarView__23e6b, .box_f8c98c,
 .modalBody_b83a17, .resultsGroup__56fec, .searchFilter_bd8186, .searchAnswer_bd8186, .container_f792fa, .sidebarCard_f792fa, .measurement__6ba63,
-.embedWrapper_b7e1cb:not(.imageContent__0f481, .inlineMediaEmbed__623de), .file__0ccae, .upload_aa605f, [class*=inlineCode_ada32f],
+.embedFull__623de:not(.imageContent__0f481, .inlineMediaEmbed__623de), .file__0ccae, .upload_aa605f, [class*=inlineCode_ada32f],
 .addGamePopout_cc46f0, .popoutContainer__0f481,
 .pillContainer__9e06a, .joinOptions__959cb, .onboardingStepContainer__28e57, .notice_a9b452, .review_a9b452 {
   background-image: var(--bgDarkness3) !important;
