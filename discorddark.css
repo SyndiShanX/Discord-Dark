@@ -60,7 +60,7 @@
 .contentWrapper__08434, .emojiPicker_c0e32c, .header_c0e32c, .header_c656ac, .emojiListRow_fc7141, .categoryList_c0e32c, .categoryList_c0e32c .scrollerBase_d125d2, .nitroTopDividerContainer_b3fb5f, .categorySectionNitroLocked_c656ac,
 .header__8ef02, .packHeader_e94b8c, .createSticker_c6367b, .header_fed6d3, .textContainer__4d95d, .reactionTooltip_b49891,
 .code_cf4812, .container__9293f, [class*=scrollerBase_]:not(.scroller__36d07, .scrollerBase_d125d2, .customScroller__23e6b.scrollerBase__99f8c), .sidebarList_c48ade > nav, .header_f37cb1, .title_f75fb0, .children__9293f:after,
-.bd-search-wrapper, .bd-error-modal-footer, .bd-addon-modal, .bd-modal-footer, .bd-modal-small, .bd-changelog-modal, .bd-addon-store-card,
+.bd-search-wrapper, .bd-error-modal-footer, .bd-addon-modal, .bd-modal-footer, .bd-modal-small, .bd-modal-medium, .bd-changelog-modal, .bd-addon-store-card,
 .connectionHeader_c7f964, .accountProfileCard__1fed1,
 code, .repliedMessage_c19a55:not(.latin24CompactTimeStamp_c19a55), .spoilerContent__54ab5, .sidebar_c48ade:after, .standardSidebarView__23e6b, .box_f8c98c,
 .modalBody_b83a17, .resultsGroup__56fec, .searchFilter_bd8186, .searchAnswer_bd8186, .container_f792fa, .sidebarCard_f792fa, .measurement__6ba63,
@@ -1223,7 +1223,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
   z-index: 1;
   bottom: 24px;
   right: 22px;
-  height: auto;
+  height: 35px;
   border-radius: 100px;
   display: flex;
   padding: 8px 18px 8px 18px !important;
