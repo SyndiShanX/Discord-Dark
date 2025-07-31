@@ -1297,6 +1297,30 @@ div:has(> .searchBar_c7e907) {
   overflow-y: scroll;
 }
 
+/* Colored Embeds - DoggyBootsy */
+.embedFull__623de::after {
+  border-left-color: inherit;
+  content: "";
+  position: absolute;
+  left: -1px;
+  right: -1px;
+  top: -1px;
+  bottom: -1px;
+  border-left-width: 100vw;
+  border-left-style: solid;
+  z-index: -1;
+  opacity: 0.2;
+  filter: brightness(2);
+}
+
+.embedFull__623de {
+  isolation: isolate;
+  position: relative;
+  overflow: hidden;
+  border-width: 0;
+  border-left-width: 4px;
+}
+
 /* Fixes Mask on Server Icons */
 .svg_cc5dd2 > defs path {
   d: path("M48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24Z") !important;
@@ -1544,8 +1568,8 @@ div:has(> .searchBar_c7e907) {
 
 .isExpanded__48112 .folderHeader__48112 {
   position: relative;
-  top: 4px;
-  left: 3px;
+  top: -4px;
+  left: -8px;
 }
 
 .tutorialContainer__1f388 .pill__1f388 {
