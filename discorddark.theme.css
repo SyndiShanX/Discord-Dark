@@ -3,7 +3,7 @@
  * @description A Github Dark Theme for Discord, meant to be used with Discord Dark Mode
  * @author SyndiShanX
  * @authorLink https://github.com/SyndiShanX
- * @version 1.54
+ * @version 1.55
  * @invite grjBktEUCy
  * @website https://syndishanx.github.io/Discord-Dark
  * @source https://github.com/SyndiShanX/Discord-Dark
@@ -16,7 +16,7 @@
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 
 /* Server Rings - Gibbu */
-@import url("https://discordstyles.github.io/SoftX/ServerRings.css");
+@import url("https://syndishanx.github.io/Discord-Dark/Imports/ServerRings.css");
 
 /* Normalized Forums - Disease */
 @import url("https://syndishanx.github.io/Discord-Dark/Imports/NormalizedForums.css");
@@ -69,12 +69,14 @@
 	--scrollbar-color: rgba(55, 55, 55, 0.5);
 	--scrollbar-hover-color: rgba(75, 75, 75, 1);
 	--scrollbar-width: 8px;
-	--server-unread-colour: 194, 178, 60;
-	--server-hover-colour: 186, 186, 186;
-	--server-selected-colour: var(--accent, 53, 175, 234);
+	--titlebar-height: 20px;
+	--server-unread-colour: rgb(194, 178, 60);
+	--server-hover-colour: rgb(186, 186, 186);
+	--server-selected-colour: var(--accent, rgb(53, 175, 234));
 	--server-spacing: 16px!important;
 	--server-glow-intensity: 1;
-	--titlebar-height: 20px;
+	--server-ring-offset: 6px;
+	--server-icon-size: 55;
 	/*
 		Images are Stored here to improve Loading times, to get the Image Code:
 		Open https://codebeautify.org/image-to-base64-converter in a Browser, Upload the Image,
