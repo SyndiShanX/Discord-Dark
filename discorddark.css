@@ -61,7 +61,7 @@
 .clickable__91a9d, .content_c48ade, .panels_c48ade, .tooltipPrimary__382e7, .folderHeader__1a4ef, .nav__551b0, .header__551b0, .backdrop__8a7fc, .container__6cd3a > .clickableContainer__6cd3a.disabled__6cd3a, .mainContainer_c5e6a1, .contentExpandContainer_a25a68, .backgroundModifierContainer__6cd3a, .auditLog__43dab, .safetyStepRow_eae0ef, .simpleItemWrapper__5dac8,
 .contentWrapper__08434, .emojiPicker_c0e32c, .header_c0e32c, .header_c656ac, .emojiListRow_fc7141, .categoryList_c0e32c, .categoryList_c0e32c .scrollerBase_d125d2, .nitroTopDividerContainer_b3fb5f, .categorySectionNitroLocked_c656ac,
 .header__8ef02, .packHeader_e94b8c, .createSticker_c6367b, .header_fed6d3, .textContainer__4d95d, .reactionTooltip_b49891,
-.code_cf4812, .container__9293f, [class*=scrollerBase_]:not(.scroller__36d07, .scrollerBase_d125d2, .customScroller__23e6b.scrollerBase__99f8c), .sidebarList_c48ade > nav, .header_f37cb1, .title_f75fb0, .children__9293f:after,
+.code_cf4812, .container__9293f, [class*=scrollerBase_]:not(.scroller__36d07, .scrollerBase_d125d2, .customScroller__23e6b.scrollerBase__99f8c), .sidebarList_c48ade > nav, .title_f75fb0, .children__9293f:after,
 .bd-search-wrapper, .bd-error-modal-footer, .bd-addon-modal, .bd-modal-footer, .bd-modal-small, .bd-modal-medium, .bd-changelog-modal, .bd-addon-store-card,
 .connectionHeader_c7f964, .accountProfileCard__1fed1,
 code, .repliedMessage_c19a55:not(.latin24CompactTimeStamp_c19a55), .spoilerContent__54ab5, .sidebar_c48ade:after, .standardSidebarView__23e6b, .box_f8c98c,
@@ -94,7 +94,6 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
 
 .animatedContainer_f37cb1 {
   border-radius: 7px;
-  width: 230px;
 }
 
 /* Scrollbar */
