@@ -63,7 +63,7 @@
 .header__8ef02, .packHeader_e94b8c, .createSticker_c6367b, .header_fed6d3, .textContainer__4d95d, .reactionTooltip_b49891,
 .code_cf4812, .container__9293f, [class*=scrollerBase_]:not(.scroller__36d07, .scrollerBase_d125d2, .customScroller__23e6b.scrollerBase__99f8c), .sidebarList_c48ade > nav, .title_f75fb0, .children__9293f:after,
 .bd-search-wrapper, .bd-error-modal-footer, .bd-addon-modal, .bd-modal-footer, .bd-modal-small, .bd-modal-medium, .bd-changelog-modal, .bd-addon-store-card,
-.connectionHeader_c7f964, .accountProfileCard__1fed1,
+.connectionHeader_c7f964, .accountProfileCard__1fed1, .tooltip__4e35b,
 code, .repliedMessage_c19a55:not(.latin24CompactTimeStamp_c19a55), .spoilerContent__54ab5, .sidebar_c48ade:after, .standardSidebarView__23e6b, .box_f8c98c,
 .modalBody_b83a17, .resultsGroup__56fec, .searchFilter_bd8186, .searchAnswer_bd8186, .container_f792fa, .sidebarCard_f792fa, .measurement__6ba63,
 .embedFull__623de:not(.imageContent__0f481, .inlineMediaEmbed__623de), .file__0ccae, .upload_aa605f, [class*=inlineCode_ada32f],
@@ -181,7 +181,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
   background-position: left top;
 }
 
-.tooltipPrimary__382e7, .descriptionBox__981f7, .code_cf4812, .reactionTooltip_b49891, .popout__76f04, .activity_f00225, .cardContent_f62fce, .mosaicItemContent__6c706:has(.hljs),
+.tooltipPrimary__382e7, .descriptionBox__981f7, .code_cf4812, .tooltip__4e35b, .reactionTooltip_b49891, .popout__76f04, .activity_f00225, .cardContent_f62fce, .mosaicItemContent__6c706:has(.hljs),
 .spoilerContent__54ab5, .streamPreview__6da2d, .reactionTooltip_b49891 {
   border: 1px solid var(--border-primary) !important;
   border-radius: 4px !important;
@@ -829,6 +829,42 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
 /* Fixed New Shop Item Popout Buttons */
 .popover_d6f39b button {
   pointer-events: all;
+}
+
+/* Fixed the Alignment and Colors on Some Tooltip Pointers */
+/* Server List */
+.tooltipPrimary__382e7 .tooltipPointer__382e7 {
+  border-top-color: var(--border-primary);
+}
+
+.listItemTooltip__90d72, .listItemTooltip__91816 {
+  left: 5px;
+}
+
+.listItemTooltip__90d72 .tooltipPointer__382e7, .listItemTooltip__91816 .tooltipPointer__382e7 {
+  left: -10px;
+}
+
+/* User Area */
+.accountButtonsTooltip__37e49 .tooltipPointer__382e7 {
+  top: 34px;
+}
+
+/* User Profile */
+.caretIcon__4e35b .caretStroke__4e35b {
+  stroke: transparent;
+}
+
+.caretIcon__4e35b .caretFill__4e35b {
+  fill: var(--border-primary);
+}
+
+.caret__5bc6a:has(.caretIcon__4e35b) {
+  top: 31px;
+}
+
+.tooltip__4e35b {
+  top: -5px;
 }
 
 /* ---------- Buttons ---------- */
