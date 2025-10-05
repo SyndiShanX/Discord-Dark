@@ -44,7 +44,7 @@
 .tierBody_a36dee, .benefits_f18f64, .connectionOptionsWrapper_c7f964, .connection_c7f964, .usersList__5cea9, .header__49fc1, .footer__49fc1, .root__49fc1, .uploadInput__94439, .clickable__91a9d:hover, .item_b3f026:not(.addFriend__133bf):hover,
 .bd-select:hover, .bd-select-option:hover, .bd-store-card, .bd-addon-store-modal, .bd-description-wrap, .bd-footer, .panel_c0bea0 .scrollerBase_d125d2, .channelRow_e4503a:hover, .avatarWrapper__37e49:hover,
 .scrollerContainer__4b8d8, .scrollerContainer__4b8d8 .scrollerBase_d125d2, .upsellPreview_d9161f, .howItWorksContainer_dd30dc, .creatorBenefitCard__02e4c, .guildCard__2485e,
-.editProfileContainer__42179:hover, .radioBar__1bda4:hover, .container__6764b:hover, .scrollerBase_d125d2.thin_d125d2, .profileHeader__9c3be,
+.editProfileContainer__42179:hover, .radioBar__1bda4:hover, .container__6764b:hover, .profileHeader__9c3be,
 .appDetailsContainer__50a54,
 .rules__92677, .header__75906, .container_e9b3cb, .channelList__75906, .coverageHeader_e34850,
 .pillItem__9e06a:hover, .joinOptionContent__959cb:hover, .channelRow__1ea09:hover, .addActionItem_d2b0e4:hover {
@@ -63,7 +63,7 @@
 .header__8ef02, .packHeader_e94b8c, .createSticker_c6367b, .header_fed6d3, .textContainer__4d95d, .reactionTooltip_b49891,
 .code_cf4812, .container__9293f, [class*=scrollerBase_]:not(.scroller__36d07, .scrollerBase_d125d2, .customScroller__23e6b.scrollerBase__99f8c), .sidebarList_c48ade > nav, .title_f75fb0, .children__9293f:after,
 .bd-search-wrapper, .bd-error-modal-footer, .bd-addon-modal, .bd-modal-footer, .bd-modal-small, .bd-modal-medium, .bd-changelog-modal, .bd-addon-store-card,
-.connectionHeader_c7f964, .accountProfileCard__1fed1, .tooltip__4e35b,
+.connectionHeader_c7f964, .accountProfileCard__1fed1, .tooltip__4e35b, .scrollerBase_d125d2.thin_d125d2,
 code, .repliedMessage_c19a55:not(.latin24CompactTimeStamp_c19a55), .spoilerContent__54ab5, .sidebar_c48ade:after, .standardSidebarView__23e6b, .box_f8c98c,
 .modalBody_b83a17, .resultsGroup__56fec, .searchFilter_bd8186, .searchAnswer_bd8186, .container_f792fa, .sidebarCard_f792fa, .measurement__6ba63,
 .embedFull__623de:not(.imageContent__0f481, .inlineMediaEmbed__623de), .file__0ccae, .upload_aa605f, [class*=inlineCode_ada32f],
@@ -1701,6 +1701,14 @@ nav.guilds_c48ade {
 /* Fixed BD Button Margins */
 .bd-addon-card .bd-links .bd-addon-button {
   margin-left: 5px;
+}
+
+/* Remove Nameplates - narukami5414 */
+.childContainer__91a9d.nameplated__91a9d {
+  padding-right: 8px;
+}
+.childContainer__91a9d.nameplated__91a9d .container__4bbc6 {
+  display: none;
 }
 
 /* Syntax Naming - CodeDotSpectra */
