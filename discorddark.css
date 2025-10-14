@@ -1,7 +1,7 @@
 /* ---------- Background Images ---------- */
 /* Main Background Image */
 .bar_c38106, .scrollableContainer__74017, .searchBar__97492, .searchBar__1ac1c, .selected_c69b6d .wrapper__2ea32 .link__2ea32, .nav__551b0 .selected__551b0, .interactiveSelected__972a0,
-.tabItem_c9a59b.selected_b3f026, .selected__91a9d, .selected__91a9d .memberInner__5d473, .outer_ab8609, .inner_ab8609, .footer__4d95d, .mainCard_f369db, .resizeHandle__01ae2, .header__45690, .footer__45690,
+.tabItem_c9a59b.selected_aa8da2, .selected__91a9d, .selected__91a9d .memberInner__5d473, .outer_ab8609, .inner_ab8609, .footer__4d95d, .mainCard_f369db, .resizeHandle__01ae2, .header__45690, .footer__45690,
 .header_d9c882, .searchBox_d9c882, .searchHeader_f3b986, .searchResult__02a39, .queryContainer__55c99, .messageGroupCozy__45690, .stackedBars__74017, .container__6764b,
 .searchBar_c0e32c, .unicodeShortcut_b9ee0c, .inspector_c0e32c, .categoryItemDefaultCategorySelected_b9ee0c, .inner_a45028, .channelRow_e4503a, .container__9271d,
 .connectionHeader_c7f964, .searchBar_c7e907 .inner_fea832, .searchBar__5ec2f .inner_a45028, .previewListItem_d9161f, .ctaContent_d6d601, .howItWorksCard_dd30dc,
@@ -27,7 +27,7 @@
 
 /* Darkness 1 Background Image */
 .scrollerBase_d125d2:not(.thin_d125d2), .chat_f75fb0, .form_f75fb0, .container_d8f25b, .customScroller__23e6b.scrollerBase__99f8c, .descriptionBox__981f7, .card__84e3e, .contentContainer__8f46b, .contentContainer_c6b177, .guilds_c48ade,
-.appContainer__5a4b6, .card_f18f64, .hoverCard__8e5ca, .card_c59071, .container__34c2c, .accessoryBar__74017, .tabItem_c9a59b:hover, .bd-addon-store-card, .bd-install-modal-items,
+.appContainer__5a4b6, .card_bb8774, .hoverCard_fdda30, .card_c59071, .container__34c2c, .accessoryBar__74017, .tabItem_c9a59b:hover, .bd-addon-store-card, .bd-install-modal-items,
 .container_a54d1d, .recentMentionsPopout__95796, .channelHeader__35a7e, .recommendedServerCard__51537, .card__4d7bb, .faq__744ff, .list_c441f0,
 .cardContent_f62fce, .channelTextArea__74017, .staticToolbar_bba883, .itemCard__7e549, .container__5808f, .container_d404a3, .pageBody__41ed7, .browser__41ed7 .scrollerInner_e4503a, .inner_c0bea0,
 .peopleColumn__133bf, .background__6343b, .container__5573a, .container__53cea, .container__53cea > div {
@@ -41,7 +41,7 @@
 }
 
 /* Darkness 2 Background Image */
-.tierBody_a36dee, .benefits_f18f64, .connectionOptionsWrapper_c7f964, .connection_c7f964, .usersList__5cea9, .header__49fc1, .footer__49fc1, .root__49fc1, .uploadInput__94439, .clickable__91a9d:hover, .item_b3f026:not(.addFriend__133bf):hover,
+.tierBody_a36dee, .benefits_bb8774, .connectionOptionsWrapper_c7f964, .connection_c7f964, .usersList__5cea9, .header__49fc1, .footer__49fc1, .root__49fc1, .uploadInput__94439, .clickable__91a9d:hover, .item_aa8da2:not(.addFriend__133bf):hover,
 .bd-select:hover, .bd-select-option:hover, .bd-store-card, .bd-addon-store-modal, .bd-description-wrap, .bd-footer, .panel_c0bea0 .scrollerBase_d125d2, .channelRow_e4503a:hover, .avatarWrapper__37e49:hover,
 .scrollerContainer__4b8d8, .scrollerContainer__4b8d8 .scrollerBase_d125d2, .upsellPreview_d9161f, .howItWorksContainer_dd30dc, .creatorBenefitCard__02e4c, .guildCard__2485e,
 .editProfileContainer__42179:hover, .radioBar__1bda4:hover, .container__6764b:hover, .profileHeader__9c3be,
@@ -58,7 +58,7 @@
 }
 
 /* Darkness 3 Background Image */
-.clickable__91a9d, .content_c48ade, .panels_c48ade, .tooltipPrimary__382e7, .folderHeader__1a4ef, .nav__551b0, .header__551b0, .backdrop__8a7fc, .container_d96a9c > .clickableContainer_d96a9c.disabled_d96a9c, .mainContainer_c5e6a1, .contentExpandContainer_a25a68, .backgroundModifierContainer_d96a9c, .auditLog__43dab, .safetyStepRow_eae0ef, .simpleItemWrapper__5dac8,
+.clickable__91a9d, .content_c48ade, .panels_c48ade, .tooltipPrimary_c36707, .folderHeader__1a4ef, .nav__551b0, .header__551b0, .backdrop__8a7fc, .container_d96a9c > .clickableContainer_d96a9c.disabled_d96a9c, .mainContainer_c5e6a1, .contentExpandContainer_a25a68, .backgroundModifierContainer_d96a9c, .auditLog__43dab, .safetyStepRow_eae0ef, .simpleItemWrapper__5dac8,
 .contentWrapper__08434, .emojiPicker_c0e32c, .header_c0e32c, .header_c656ac, .emojiListRow_fc7141, .categoryList_c0e32c, .categoryList_c0e32c .scrollerBase_d125d2, .nitroTopDividerContainer_b3fb5f, .categorySectionNitroLocked_c656ac,
 .header__8ef02, .packHeader_e94b8c, .createSticker_c6367b, .header_fed6d3, .textContainer__4d95d, .reactionTooltip_b49891,
 .code_cf4812, .container__9293f, [class*=scrollerBase_]:not(.scroller__36d07, .scrollerBase_d125d2, .customScroller__23e6b.scrollerBase__99f8c), .sidebarList_c48ade > nav, .title_f75fb0, .children__9293f:after,
@@ -128,7 +128,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
   background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
-.selected_c69b6d .wrapper__2ea32 .link__2ea32, .interactiveSelected__972a0, .item_b3f026.selected_b3f026:not(.tabBarItem_d6f9e9, .tabBarItem__81b3e, .tabBarItem_b9fccc, .tabBarItem__4efb4, .settingsTabBarItem_f62afd, .settingsTabBarItem_dc2e0e), .container_b1bfd4, .box_ee23ac,
+.selected_c69b6d .wrapper__2ea32 .link__2ea32, .interactiveSelected__972a0, .item_aa8da2.selected_aa8da2:not(.tabBarItem_d6f9e9, .tabBarItem__81b3e, .tabBarItem_b9fccc, .tabBarItem__4efb4, .settingsTabBarItem_f62afd, .settingsTabBarItem_dc2e0e), .container_b1bfd4, .box_ee23ac,
 .selected__91a9d, .inner_a45028, .container__9271d, .uploadInput__94439, .input__48d49, .searchBarComponent__35e86, .unreadBar__629e4, .bd-search-wrapper, .bd-select-option.selected, .categoryItemDefaultCategorySelected_b9ee0c, .stickerCategoryGenericSelected__3ad28,
 .navButtonActive__08434, .copyInput_fffc15, .fieldBackground_eaaeee, .fieldFooterContainer_eaaeee, .mainContainer_c5e6a1, .inputWrapper_a97616, .card__11580,
 .card__73069:not(.container_d878e7), .container__6764b, .collapseable__217b7:not(.appDetailsSection__50a54), .actionContainer__6446f, .modeSelected__2ea32 .link__2ea32, .container__5130c.isOpen__036bf,
@@ -141,7 +141,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
 }
 
 .gameNameInput_cc46f0:hover,
-.interactiveSelected__972a0:hover, .item_b3f026.selected_b3f026:not(.tabBarItem_d6f9e9, .tabBarItem__81b3e, .tabBarItem_b9fccc, .tabBarItem__4efb4, .settingsTabBarItem_f62afd, .settingsTabBarItem_dc2e0e):hover, .reactionBtn__23977:hover,
+.interactiveSelected__972a0:hover, .item_aa8da2.selected_aa8da2:not(.tabBarItem_d6f9e9, .tabBarItem__81b3e, .tabBarItem_b9fccc, .tabBarItem__4efb4, .settingsTabBarItem_f62afd, .settingsTabBarItem_dc2e0e):hover, .reactionBtn__23977:hover,
 .selected__91a9d:hover, .inner_a45028:hover, .container__9271d:hover, .uploadInput__94439:hover, .input__48d49:hover, .searchBarComponent__35e86:hover, .unreadBar__629e4:hover, .bd-search-wrapper:hover, .bd-select-option.selected:hover, .categoryItemDefaultCategorySelected_b9ee0c:hover, .stickerCategoryGenericSelected__3ad28:hover,
 .navButtonActive__08434:hover, .copyInput_fffc15:hover, .fieldBackground_eaaeee:hover, .fieldFooterContainer_eaaeee:hover, .mainContainer_c5e6a1:hover, .inputWrapper_a97616:hover, .card__11580:hover,
 .card__73069:not(.container_d878e7):hover, .container__6764b:hover, .collapseable__217b7:not(.appDetailsSection__50a54):hover, .actionContainer__6446f:hover, .modeSelected__2ea32 .link__2ea32:hover, .container__5130c.isOpen__036bf:hover,
@@ -181,7 +181,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
   background-position: left top;
 }
 
-.tooltipPrimary__382e7, .descriptionBox__981f7, .code_cf4812, .tooltip__4e35b, .reactionTooltip_b49891, .popout__76f04, .activity_f00225, .cardContent_f62fce, .mosaicItemContent__6c706:has(.hljs),
+.tooltipPrimary_c36707, .descriptionBox__981f7, .code_cf4812, .tooltip__4e35b, .reactionTooltip_b49891, .popout__76f04, .activity_f00225, .cardContent_f62fce, .mosaicItemContent__6c706:has(.hljs),
 .spoilerContent__54ab5, .streamPreview__6da2d, .reactionTooltip_b49891 {
   border: 1px solid var(--border-primary) !important;
   border-radius: 4px !important;
@@ -394,7 +394,7 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow__82b15, .member_cou
   padding-right: 15px;
 }
 
-.tab_f8303a, :where(.visual-refresh) .top_b3f026 .item_b3f026 + .item_b3f026 {
+.tab_f8303a, :where(.visual-refresh) .top_b3f026 .item_aa8da2 + .item_aa8da2 {
   margin-left: 0px !important;
 }
 
@@ -425,7 +425,7 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow__82b15, .member_cou
   opacity: 1 !important;
 }
 
-.visual-refresh.full-motion .item_b3f026 {
+.visual-refresh.full-motion .item_aa8da2 {
   transition: none !important;
 }
 
@@ -789,7 +789,7 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
   padding-bottom: unset;
 }
 
-/* Fixed User Profile Text Color */
+/* Set Text Color */
 .outer_c0bea0.theme-light textarea::-moz-placeholder {
   color: #fff !important;
 }
@@ -874,7 +874,7 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
 
 /* ---------- Buttons ---------- */
 /* Hover Color Change: -23, -50, -31 */
-.button__201d5, .item_b3f026[aria-controls=ADD_FRIEND-tab], .bd-button, .item__344e6.selected__344e6, .leftTrayIcon_cb9592,
+.button__201d5, .item_aa8da2[aria-controls=ADD_FRIEND-tab], .bd-button, .item__344e6.selected__344e6, .leftTrayIcon_cb9592,
 .staticButton_f1ceac, .button_c6e099 {
   border: 1px solid;
   border: 1px solid rgba(0, 0, 0, 0);
@@ -1490,7 +1490,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
   width: 40px;
   height: 40px;
 }
-.visual-refresh .hiddenVisually__27f77, .visual-refresh .folderPreviewWrapper__48112 {
+.visual-refresh .hiddenVisually_b18fe2, .visual-refresh .folderPreviewWrapper__48112 {
   width: 48px;
   height: 48px;
 }
