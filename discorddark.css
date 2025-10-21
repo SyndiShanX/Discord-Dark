@@ -30,7 +30,7 @@
 .appContainer__5a4b6, .card_bb8774, .hoverCard_fdda30, .card_c59071, .container__34c2c, .accessoryBar__74017, .tabItem_c9a59b:hover, .bd-addon-store-card, .bd-install-modal-items,
 .container_a54d1d, .recentMentionsPopout__95796, .channelHeader__35a7e, .recommendedServerCard__51537, .card__4d7bb, .faq__744ff, .list_c441f0,
 .cardContent_f62fce, .channelTextArea__74017, .staticToolbar_bba883, .itemCard__7e549, .container__5808f, .container_d404a3, .pageBody__41ed7, .browser__41ed7 .scrollerInner_e4503a, .inner_c0bea0,
-.peopleColumn__133bf, .background__6343b, .container__5573a, .container__53cea, .container__53cea > div {
+.peopleColumn__133bf, .background__6343b, .container__5573a, .container__53cea, .container__53cea > div, .container__8a031, .stepContainer_a68543 {
   background-image: var(--bgDarkness1) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -45,7 +45,7 @@
 .bd-select:hover, .bd-select-option:hover, .bd-store-card, .bd-addon-store-modal, .bd-description-wrap, .bd-footer, .panel_c0bea0 .scrollerBase_d125d2, .channelRow_e4503a:hover, .avatarWrapper__37e49:hover,
 .scrollerContainer__4b8d8, .scrollerContainer__4b8d8 .scrollerBase_d125d2, .upsellPreview_d9161f, .howItWorksContainer_dd30dc, .creatorBenefitCard__02e4c, .guildCard__2485e,
 .editProfileContainer__42179:hover, .radioBar__1bda4:hover, .container__6764b:hover, .profileHeader__9c3be,
-.appDetailsContainer__50a54,
+.appDetailsContainer__50a54, .stepContainer_a68543:hover,
 .rules__92677, .header__75906, .container_e9b3cb, .channelList__75906, .coverageHeader_e34850,
 .pillItem__9e06a:hover, .joinOptionContent__959cb:hover, .channelRow__1ea09:hover, .addActionItem_d2b0e4:hover {
   background-image: var(--bgDarkness2) !important;
@@ -160,7 +160,8 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
 .statusPopover__2d0ab, .popover_f84418, .actionBar_aa605f.wrapper_f7ecac, .popover__2d0ab, .container_ca49a1, .actionButtons_cc1819, .reactionBtn__23977, .container__65338, .spamBanner_a2eac3, .wrapper_d5f3cd, .upsellsContainer__8f3cb,
 .guildPopout__51eb2, .embed_f69538, :where(.overlay_c0bea0), .activity__747b1, .bumpBox_cacd02, .rewardTileWithInstructions__960df, .profileEntryCard__655fa, .nonVisualMediaItemContainer_f4758a .embedWrapper_b7e1cb,
 .descriptionContainer_ca49a1, .blockedIgnoredSettingsNotice__6811a, .wrapper__44df5, .field__1fed1, .row__0624f, .metadataContainer_c7f964, .badgeList__1fed1, .bd-addon-store-card-embed,
-.connectContainer_c7f964, .content__19fd1, .safetyTable__1f3e3, .noticeRegion__23e6b .container_fcf29c, .container_cdb3b1, .pollContainer_b7e1cb, .card__823e1, .popover_d6f39b {
+.connectContainer_c7f964, .content__19fd1, .safetyTable__1f3e3, .noticeRegion__23e6b .container_fcf29c, .container_cdb3b1, .pollContainer_b7e1cb, .card__823e1, .popover_d6f39b,
+.container_a68543 {
   border: 1px solid var(--border-primary) !important;
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
