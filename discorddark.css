@@ -890,13 +890,13 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
 }
 
 /* Red */
-.button__201d5.colorRed__201d5, .bd-button-danger, .deny__344e6.selected__344e6, .red_f1ceac, .bd-button.bd-button-color-red {
+.button__201d5.colorRed__201d5, .bd-button-danger, .deny__344e6.selected__344e6, .red_f1ceac, .bd-button.bd-button-color-red, .critical-primary_a22cb0, .critical-secondary_a22cb0 {
   background-color: var(--red-button) !important;
   border: 1px solid var(--red-button-border) !important;
   color: #fff !important;
 }
 
-.button__201d5.colorRed__201d5:hover, .bd-button-danger:hover, .deny__344e6.selected__344e6:hover, .red_f1ceac:hover, .bd-button.bd-button-color-red:hover {
+.button__201d5.colorRed__201d5:hover, .bd-button-danger:hover, .deny__344e6.selected__344e6:hover, .red_f1ceac:hover, .bd-button.bd-button-color-red:hover, .critical-primary_a22cb0:hover, .critical-secondary_a22cb0:hover {
   background-color: var(--red-button-hover) !important;
   border: 1px solid var(--red-button-border) !important;
 }
@@ -917,14 +917,14 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
 
 /* Blue */
 .button__201d5.colorBrand__201d5:not(.lookBlank__201d5), .button__201d5.colorBrandNew__8872c, .bd-button-title, .bd-view-button.selected,
-button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red), .bd-button.bd-button-color-brand, .compactButton__7ff28 {
+button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red), .bd-button.bd-button-color-brand, .compactButton__7ff28, .primary_a22cb0 {
   background-color: var(--blue-button) !important;
   border: 1px solid var(--blue-button-border);
   color: #fff !important;
 }
 
 .button__201d5.colorBrand__201d5:not(.lookBlank__201d5):hover, .button__201d5.colorBrandNew__8872c:hover, .bd-button-title:hover, .bd-view-button.selected:hover,
-button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):hover, .bd-button.bd-button-color-brand:hover, .compactButton__7ff28:hover {
+button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):hover, .bd-button.bd-button-color-brand:hover, .compactButton__7ff28:hover, .primary_a22cb0:hover {
   background-color: var(--blue-button-hover) !important;
   border: 1px solid var(--blue-button-border);
 }
@@ -949,7 +949,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
 .button__201d5.colorPrimary__201d5, .watchButton__6da2d, .passthrough__344e6.selected__344e6, .leftTrayIcon_cb9592, .primaryDark_f1ceac, .buttonColor_dfbe6b,
 .streamPreview__2f4f7 .button__201d5, .button__71c22, .addRoleContainer__71c22, .backgroundAccent__4cd16, .tertiary_ad6d80, .buttonInner__34c2c,
 .viewServerButton_adff39, .participantsButton__211d1, .outerButton_c6e099, .voiceChannelsButton__29444, .container_a14595, .controlButton__1405b .colorable_f1ceac.white_f1ceac,
-.endScreenCtaBtn_afedfc, .viewServerButton__2485e {
+.endScreenCtaBtn_afedfc, .viewServerButton__2485e, .secondary_a22cb0 {
   background-color: var(--gray-button) !important;
   border: 1px solid var(--gray-button-border) !important;
   color: #fff !important;
@@ -958,7 +958,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
 .button__201d5.colorPrimary__201d5:hover, .watchButton__6da2d:hover, .passthrough__344e6.selected__344e6:hover, .leftTrayIcon_cb9592:hover, .primaryDark_f1ceac:hover, .buttonColor_dfbe6b:hover,
 .streamPreview__2f4f7 .button__201d5:hover, .button__71c22:hover, .addRoleContainer__71c22:hover, .backgroundAccent__4cd16:hover, .tertiary_ad6d80:hover, .buttonInner__34c2c:hover,
 .viewServerButton_adff39:hover, .participantsButton__211d1:hover, .outerButton_c6e099:hover, .voiceChannelsButton__29444:hover, .container_a14595:hover, .controlButton__1405b .colorable_f1ceac.white_f1ceac:hover,
-.endScreenCtaBtn_afedfc:hover, .viewServerButton__2485e:hover {
+.endScreenCtaBtn_afedfc:hover, .viewServerButton__2485e:hover, .secondary_a22cb0:hover {
   background-color: var(--gray-button-hover) !important;
   border: 1px solid var(--gray-button-border) !important;
 }
