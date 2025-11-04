@@ -83,7 +83,6 @@ code, .repliedMessage_c19a55:not(.latin24CompactTimeStamp_c19a55), .spoilerConte
 .buttonContainer__74017:has([d^=" M-7,-10 C-8.656999588012695,-10 -10"]),
 [class*=button_]:has([d^=" M-7,-6 C-7,-7.6570000648498535 -5.6"]),
 li:has([d^="M7 4a1 1 0 0 0 0 2h3a1 1 0 1 1 0 2H5.5a1"]),
-li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
 .channelAppLauncher_e6e74f, .upsellContainer__5997d {
   display: var(--AD-buttons) !important;
 }
