@@ -30,7 +30,8 @@
 .appContainer__5a4b6, .card_bb8774, .hoverCard_fdda30, .card_c59071, .container__34c2c, .accessoryBar__74017, .tabItem_c9a59b:hover, .bd-addon-store-card, .bd-install-modal-items,
 .container_a54d1d, .recentMentionsPopout__95796, .channelHeader__35a7e, .recommendedServerCard__51537, .card__4d7bb, .faq__744ff, .list_c441f0,
 .cardContent_f62fce, .channelTextArea__74017, .staticToolbar_bba883, .itemCard__7e549, .container__5808f, .container_d404a3, .pageBody__41ed7, .browser__41ed7 .scrollerInner_e4503a, .inner_c0bea0,
-.peopleColumn__133bf, .background__6343b, .container__5573a, .container__8a031, .container__8a031 > div, .container__8a031, .stepContainer_a68543 {
+.peopleColumn__133bf, .background__6343b, .container__5573a, .container__8a031, .container__8a031 > div, .container__8a031, .stepContainer_a68543, .cardFolder__1a4ef,
+.scrollerBase_d125d2.thin_d125d2:has(.role_f07e3e) {
   background-image: var(--bgDarkness1) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -63,7 +64,7 @@
 .header__8ef02, .packHeader_e94b8c, .createSticker_c6367b, .header_fed6d3, .textContainer__4d95d, .reactionTooltip_b49891,
 .code_cf4812, .container__9293f, [class*=scrollerBase_]:not(.scroller__36d07, .scrollerBase_d125d2, .customScroller__23e6b.scrollerBase__99f8c), .sidebarList__5e434 > nav, .title_f75fb0, .children__9293f:after,
 .bd-search-wrapper, .bd-error-modal-footer, .bd-addon-modal, .bd-modal-footer, .bd-modal-small, .bd-modal-medium, .bd-changelog-modal, .bd-addon-store-card,
-.connectionHeader_c7f964, .accountProfileCard__1fed1, .tooltip__4e35b, .scrollerBase_d125d2.thin_d125d2,
+.connectionHeader_c7f964, .accountProfileCard__1fed1, .tooltip__4e35b, .scrollerBase_d125d2.thin_d125d2:not(:has(.role_f07e3e)),
 code, .repliedMessage_c19a55:not(.latin24CompactTimeStamp_c19a55), .spoilerContent__54ab5, .sidebar__5e434:after, .standardSidebarView__23e6b, .box_f8c98c,
 .modalBody_b83a17, .resultsGroup__56fec, .searchFilter_bd8186, .searchAnswer_bd8186, .container_f792fa, .sidebarCard_f792fa, .measurement__6ba63,
 .embedFull__623de:not(.imageContent__0f481, .inlineMediaEmbed__623de), .file__0ccae, .upload_aa605f, [class*=inlineCode_ada32f],
@@ -870,6 +871,13 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
 /* Fixed Settings Page Search Bar */
 .searchBar_c7e907 > div {
   margin-bottom: 0px !important;
+}
+
+/* Added Border to Warning Card in Channel Permission Settings */
+.cardFolder__1a4ef {
+  margin-top: 10px;
+  border: 1px solid var(--border-primary) !important;
+  border-radius: 4px !important;
 }
 
 /* ---------- Buttons ---------- */
