@@ -84,7 +84,7 @@ code, .repliedMessage_c19a55:not(.latin24CompactTimeStamp_c19a55), .spoilerConte
 .buttonContainer__74017:has([d^=" M-7,-10 C-8.656999588012695,-10 -10"]),
 [class*=button_]:has([d^=" M-7,-6 C-7,-7.6570000648498535 -5.6"]),
 li:has([d^="M16.23 12c0 1.29-.95 2.25-2.22 2.25A2.18"]),
-[class*=button_]:has([d^=" M1.5130000114440918,-5.5920000076293945 C0"]) {
+[class*=button_]:has([d^=" M1.5130000114440918,-5.5920000076293945 C0"]), #channel-attach-SLASH_COMMAND {
   display: var(--AD-buttons) !important;
 }
 
@@ -1498,7 +1498,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
   width: 40px;
   height: 40px;
 }
-.visual-refresh .hiddenVisually_b18fe2, .visual-refresh .folderPreviewWrapper__48112 {
+.visual-refresh .stack_dbd263 .hiddenVisually_b18fe2, .visual-refresh .folderPreviewWrapper__48112 {
   width: 48px;
   height: 48px;
 }
