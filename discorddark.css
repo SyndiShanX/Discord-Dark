@@ -1311,13 +1311,9 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
   font-size: 0px;
 }
 
-/* BD Settings on Top - Skye */
-[class^=side] > :where(.bd-sidebar-header, [class*=-tab], [class*=-tab] + [class*=separator]) {
+/* BD Settings on Top */
+[class^=sidebar] [class^=nav] > ul:has(.bd-button) {
   order: -1;
-}
-
-.searchBar_c7e907 {
-  order: -2;
 }
 
 /* Limited Size Code Blocks - ItMeSarah */
@@ -1706,6 +1702,11 @@ nav.guilds__5e434 {
   display: none;
 }
 
+/* Remove Search Bar Gradient in Settings */
+.fixedContent__409aa::after {
+  background: none;
+}
+
 /* Full Screen Settings - 10027 */
 div.container__8a031.modal_e44912 {
   max-width: 1920px;
@@ -1715,6 +1716,7 @@ div.container__8a031.modal_e44912 {
   top: 20px;
   position: fixed;
   transform: none !important;
+  padding-top: 15px;
 }
 
 div.panel__6131a {
