@@ -1720,7 +1720,8 @@ div.container__8a031.modal_e44912 {
 }
 
 div.panel__6131a {
-  max-width: 1400px;
+  max-width: 55%;
+  margin-inline: unset !important;
 }
 
 /* Syntax Naming - CodeDotSpectra */
