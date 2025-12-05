@@ -1720,8 +1720,12 @@ div.container__8a031.modal_e44912 {
 }
 
 div.panel__6131a {
-  max-width: 55%;
+  max-width: 95%;
   margin-inline: unset !important;
+}
+
+div.panel__6131a:has(.bd-addon-store) {
+  max-width: 55%;
 }
 
 /* Syntax Naming - CodeDotSpectra */
