@@ -15,6 +15,7 @@
 .prompt__5d7c9, .wrapper__6c798, .wrapper_fc8177.cozy_fc8177, .radioBar__88a69, .connectedAccountContainer_e6abe8, .note_fcb628 > textarea, .wrapper__2ea32.selectedChannel_c69b6d .link__2ea32,
 .chatHeaderBar_dc83f5, .chatHeaderBar_a5700d, .homeContent__7449f .row_d13feb, .contentContainer__5573a, .guildSection_d5cd2d, .container_dca174, .guildInviteContainer__083ae, .footerContent__083ae,
 .mainContainer_c5e6a1, .backgroundModifierContainer_d96a9c, .actionContainer_bc4513, .contentExpandContainer_a25a68 .collapseable__217b7, .card__88264, .container__60fa3,
+.pageControl_c15210,
 .channelRow__1ea09, .actionItem_d2b0e4, .suggestedChannel_d2b0e4, .pillItem__9e06a.pillItemSelected__9e06a, .container__5d756, .pill__33d66, .joinOptionContent__959cb.active__959cb {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
@@ -924,14 +925,14 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
 
 /* Blue */
 .button__201d5.colorBrand__201d5:not(.lookBlank__201d5), .button__201d5.colorBrandNew__8872c, .bd-button-title, .bd-view-button.selected,
-button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red), .bd-button.bd-button-color-brand, .compactButton__7ff28, .primary_a22cb0 {
+button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red), .bd-button.bd-button-color-brand, .compactButton__7ff28, .primary_a22cb0, .pageButton_c15210.activeButton_c15210 {
   background-color: var(--blue-button) !important;
   border: 1px solid var(--blue-button-border);
   color: #fff !important;
 }
 
 .button__201d5.colorBrand__201d5:not(.lookBlank__201d5):hover, .button__201d5.colorBrandNew__8872c:hover, .bd-button-title:hover, .bd-view-button.selected:hover,
-button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):hover, .bd-button.bd-button-color-brand:hover, .compactButton__7ff28:hover, .primary_a22cb0:hover {
+button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):hover, .bd-button.bd-button-color-brand:hover, .compactButton__7ff28:hover, .primary_a22cb0:hover, .pageButton_c15210.activeButton_c15210:hover {
   background-color: var(--blue-button-hover) !important;
   border: 1px solid var(--blue-button-border);
 }

@@ -27,6 +27,9 @@
 /* Old Discord Font - Overimagine */
 @import url("https://cdn.jsdelivr.net/gh/Overimagine1/old-discord-font/source.min.css");
 
+/* Page Swapper Refresh - Dav */
+@import url(https://davart154.github.io/Themes/Snippets/Mana%20Page%20Switcher/ManaPageSwitcherSource.css);
+
 :root {
 	--AD-buttons: none;
 	--active-now: block;
