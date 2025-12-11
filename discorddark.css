@@ -1492,8 +1492,11 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
   left: var(--g-4-r);
 }
 .visual-refresh .wrapper__6e9f8, .visual-refresh .icon__6e9f8, .visual-refresh .childWrapper__6e9f8 {
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
+  position: relative;
+  top: 1px;
+  left: 1px;
 }
 .visual-refresh .stack_dbd263 .hiddenVisually_b18fe2, .visual-refresh .folderPreviewWrapper__48112 {
   width: 48px;
