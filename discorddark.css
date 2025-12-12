@@ -1543,6 +1543,11 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
   mask: none !important;
 }
 
+#app-mount .folderGroup__48112:not(.isExpanded__48112) .listItem__650eb [class*=pill] {
+  left: 45% !important;
+  top: 45% !important;
+}
+
 /* Guild Icon Fixes */
 .guilds__5e434 {
   width: 90px !important;
