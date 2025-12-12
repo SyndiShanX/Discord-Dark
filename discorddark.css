@@ -1647,6 +1647,10 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
   overflow: visible;
 }
 
+.folderIcon__48112:hover {
+  background: transparent;
+}
+
 /* Discord Message Box v3.0 */
 :root {
   --color-brand-lighter: #4373c5;
