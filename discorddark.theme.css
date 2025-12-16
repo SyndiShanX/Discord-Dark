@@ -3,7 +3,7 @@
  * @description A Github Dark Theme for Discord, meant to be used with Discord Dark Mode
  * @author SyndiShanX
  * @authorLink https://github.com/SyndiShanX
- * @version 1.56
+ * @version 1.57
  * @invite grjBktEUCy
  * @website https://syndishanx.github.io/Discord-Dark
  * @source https://github.com/SyndiShanX/Discord-Dark
@@ -17,9 +17,6 @@
 
 /* Server Rings - Gibbu */
 @import url("https://syndishanx.github.io/Discord-Dark/Imports/ServerRings.css");
-
-/* Normalized Forums - Disease */
-@import url("https://syndishanx.github.io/Discord-Dark/Imports/NormalizedForums.css");
 
 /* Spotify Activity Redesign - DaBluLite */
 @import url("https://dablulite.github.io/css-snippets/SpotifyActivityRedesign/import.css");
