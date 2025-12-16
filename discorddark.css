@@ -638,14 +638,6 @@ h2._29444ba32c7fbeab-name, .c8ffbb79449f399c-membersGroup, ._29444ba32c7fbeab-na
   opacity: 100;
 }
 
-/* Align Discover Icon with all Other Server Icons */
-.footer__214dc .listItemWrapper_dfb2f8 {
-  position: relative;
-  left: 17%;
-  width: 100%;
-  border: 2px solid transparent;
-}
-
 /* Added Outlines to Inline Code */
 ._752971923a1e6683-markup code.inline {
   border: 1px solid var(--border-primary) !important;
