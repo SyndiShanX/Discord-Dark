@@ -63,12 +63,12 @@
 ._91a9d7f7e5248a56-clickable, ._5e434347c823b592-content, ._5e434347c823b592-panels, .c36707910f687430-tooltipPrimary, ._1a4ef2934d882343-folderHeader, ._551b0894962ff66f-nav, ._551b0894962ff66f-header, ._8a7fc664acf53af6-backdrop, .d96a9cdaeeba104e-container > .d96a9cdaeeba104e-clickableContainer.d96a9cdaeeba104e-disabled, .c5e6a11cf27336f8-mainContainer, .a25a68d7be1be409-contentExpandContainer, .d96a9cdaeeba104e-backgroundModifierContainer, ._43dab84f7529cb48-auditLog, .eae0ef2ab2653087-safetyStepRow, ._5dac89b770bde66c-simpleItemWrapper,
 ._084343c4f11eaaab-contentWrapper, .c0e32c5cffed3d9f-emojiPicker, .c0e32c5cffed3d9f-header, .c656aca9a3db31a9-header, .fc7141859aaa98b7-emojiListRow, .c0e32c5cffed3d9f-categoryList, .c0e32c5cffed3d9f-categoryList .d125d22cdfd32cfe-scrollerBase, .b3fb5fe9675b4b4d-nitroTopDividerContainer, .c656aca9a3db31a9-categorySectionNitroLocked,
 ._8ef02eea17068b73-header, .e94b8cb2ff7b5c8d-packHeader, .c6367b0f171ba6d7-createSticker, .fed6d32841cc2da2-header, ._4d95d73152192cf9-textContainer, .b49891f8a231dbff-reactionTooltip,
-.cf48127484dbde85-code, ._9293f6b2fc12398a-container, [class*=scrollerBase_]:not(._36d072eab2b2e737-scroller, .d125d22cdfd32cfe-scrollerBase, ._23e6b439306f125a-customScroller._99f8cc7ad4790ce9-scrollerBase), ._5e434347c823b592-sidebarList > nav, .f75fb00fb7356cbe-title, ._9293f6b2fc12398a-children:after,
+.cf48127484dbde85-code, ._9293f6b2fc12398a-container, [class*=-scrollerBase]:not(._36d072eab2b2e737-scroller, .d125d22cdfd32cfe-scrollerBase, ._23e6b439306f125a-customScroller._99f8cc7ad4790ce9-scrollerBase), ._5e434347c823b592-sidebarList > nav, .f75fb00fb7356cbe-title, ._9293f6b2fc12398a-children:after,
 .bd-search-wrapper, .bd-error-modal-footer, .bd-addon-modal, .bd-modal-footer, .bd-modal-small, .bd-modal-medium, .bd-changelog-modal, .bd-addon-store-card,
 .c7f964e7e0fc8b47-connectionHeader, ._1fed1dd06c7aabf7-accountProfileCard, ._4e35b986167c457d-tooltip, .d125d22cdfd32cfe-scrollerBase.d125d22cdfd32cfe-thin:not(:has(.f07e3ee3c49e0985-role)),
 code, .c19a557985eb7793-repliedMessage:not(.c19a557985eb7793-latin24CompactTimeStamp), ._299eb87491f4b6d1-spoilerContent, ._5e434347c823b592-sidebar:after, ._23e6b439306f125a-standardSidebarView, .f8c98cc3d7c1bc42-box,
 .modalBody_d6e876, ._56fec8e8b8048fe0-resultsGroup, .bd818628221af7aa-searchFilter, .bd818628221af7aa-searchAnswer, .container_f792fa, .sidebarCard_f792fa, ._6ba63b0447df0219-measurement,
-._623de82e76ad7f82-embedFull:not(._0f481cbbd7530492-imageContent, ._623de82e76ad7f82-inlineMediaEmbed), ._0ccaee68b77c7469-file, .aa605f19898fe32e-upload, [class*=ada32f6ad5a36c58-before_inlineCode],
+._623de82e76ad7f82-embedFull:not(._0f481cbbd7530492-imageContent, ._623de82e76ad7f82-inlineMediaEmbed), ._0ccaee68b77c7469-file, .aa605f19898fe32e-upload,
 .cc46f0f859f26200-addGamePopout, ._0f481cbbd7530492-popoutContainer, ._50a5493e9d9cc496-headerV2, ._9a337c84ff86a914-contentPreview,
 ._9e06aaa5aecd6e3e-pillContainer, ._959cbfbb20fb39e8-joinOptions, ._28e57b0268546d72-onboardingStepContainer, .a9b45282395ecdfc-notice, .a9b45282395ecdfc-review {
   background-image: var(--bgDarkness3) !important;
@@ -82,10 +82,10 @@ code, .c19a557985eb7793-repliedMessage:not(.c19a557985eb7793-latin24CompactTimeS
 
 /* ---------- Main Tweaks ---------- */
 /* Hide GIF, Gift, Nitro DM, and App Launcher Buttons */
-._740174f3d6a2c8fe-buttonContainer:has([d^=" M-7,-10 C-8.656999588012695,-10 -10"]),
-[class*=button_]:has([d^=" M-7,-6 C-7,-7.6570000648498535 -5.6"]),
+[class$=-buttonContainer]:has([d^=" M-7,-10 C-8.656999588012695,-10 -10"]),
+[class$=-buttons] > [class$=-container]:has([d^=" M-7,-6 C-7,-7.6570000648498535 -5.6"]),
 li:has([d^="M16.23 12c0 1.29-.95 2.25-2.22 2.25A2.18"]),
-[class*=button_]:has([d^=" M1.5130000114440918,-5.5920000076293945 C0"]), #channel-attach-SLASH_COMMAND {
+.app-launcher-entrypoint, #channel-attach-SLASH_COMMAND {
   display: var(--AD-buttons) !important;
 }
 
@@ -267,8 +267,7 @@ h2._29444ba32c7fbeab-name, .c8ffbb79449f399c-membersGroup, ._29444ba32c7fbeab-na
 /* Change Text Color to White to Increase Readability */
 ._201d5e8a3c09670a-button._201d5e8a3c09670a-colorBrand div:not(.f1ceaca61b18918e-controlIcon), ._05e81ad8c06c1066-username, .aa8da23faa27393c-themed,
 .bd-settings-title, .bd-error-modal, .backgroundModifierContainer_e5c5d5:hover .text-sm-medium_bc6ffc, .defaultColor__77578, .e6abe833ac70fcae-connectedAccountNameText,
-.text-xs-normal_ccc5fb, ._4bd5201c86a2042b-defaultColor:not(.c8ffbb79449f399c-membersGroup), .userTagUsernameBase_c9ccf6, .customStatusText_cb55fc, .itemizedListText_f005b2, ._530ce51b6bf15868-text, ._63ed30c16c7151f2-userTag, ._63ed30c16c7151f2-userTag > span,
-[class*=normal_dc00ef] {
+.text-xs-normal_ccc5fb, ._4bd5201c86a2042b-defaultColor:not(.c8ffbb79449f399c-membersGroup), .userTagUsernameBase_c9ccf6, .customStatusText_cb55fc, .itemizedListText_f005b2, ._530ce51b6bf15868-text, ._63ed30c16c7151f2-userTag, ._63ed30c16c7151f2-userTag > span {
   color: #fff !important;
 }
 
