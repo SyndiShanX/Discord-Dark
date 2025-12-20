@@ -872,6 +872,15 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
   border-radius: 4px !important;
 }
 
+/* Fixed Zoomed Image Carousel */
+.e035781d3e5b07da-mediaArea {
+  margin-top: 5%;
+}
+
+.a22bfd0da01d94fe-media img {
+  height: 95% !important;
+}
+
 /* ---------- Buttons ---------- */
 /* Hover Color Change: -23, -50, -31 */
 ._201d5e8a3c09670a-button, .aa8da23faa27393c-item[aria-controls=ADD_FRIEND-tab], .bd-button, ._344e69670924b1be-item._344e69670924b1be-selected, .cb9592ad77576717-leftTrayIcon,
