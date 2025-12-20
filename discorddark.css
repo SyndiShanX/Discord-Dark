@@ -1710,7 +1710,7 @@ nav._5e434347c823b592-guilds {
   padding-right: 8px;
 }
 ._91a9d7f7e5248a56-childContainer._91a9d7f7e5248a56-nameplated ._4bbc6dc06e75ad52-container {
-  display: none;
+  display: var(--nameplates);
 }
 
 /* Remove Search Bar Gradient in Settings */
