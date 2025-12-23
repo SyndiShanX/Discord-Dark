@@ -1528,6 +1528,12 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
   width: calc(var(--guildbar-avatar-size) + var(--custom-guild-list-padding) * 2);
   padding: calc(var(--custom-guild-list-padding) / 2);
 }
+.visual-refresh #guild-list-unread-dms ._6e9f8dce4cc18de3-wrapper, .visual-refresh #guild-list-unread-dms ._6e9f8dce4cc18de3-icon, .visual-refresh #guild-list-unread-dms ._6e9f8dce4cc18de3-childWrapper {
+  width: 40px;
+  height: 40px;
+  top: initial;
+  left: initial;
+}
 
 /* Server Rings Guild Icon Size Fix */
 #app-mount ._650eb104245d257b-listItem {
