@@ -67,9 +67,9 @@
 .bd-search-wrapper, .bd-error-modal-footer, .bd-addon-modal, .bd-modal-footer, .bd-modal-small, .bd-modal-medium, .bd-changelog-modal, .bd-addon-store-card,
 .c7f964e7e0fc8b47-connectionHeader, ._1fed1dd06c7aabf7-accountProfileCard, ._4e35b986167c457d-tooltip, .d125d22cdfd32cfe-scrollerBase.d125d22cdfd32cfe-thin:not(:has(.f07e3ee3c49e0985-role)),
 code, .c19a557985eb7793-repliedMessage:not(.c19a557985eb7793-latin24CompactTimeStamp), ._299eb87491f4b6d1-spoilerContent, ._5e434347c823b592-sidebar:after, ._23e6b439306f125a-standardSidebarView, .f8c98cc3d7c1bc42-box,
-.modalBody_d6e876, .a7e67f4ddd7c6bb2-searchResultGroup, .bd818628221af7aa-searchFilter, .bd818628221af7aa-searchAnswer, .container_f792fa, .sidebarCard_f792fa, ._6ba63b0447df0219-measurement,
+.modalBody_d6e876, .a7e67f4ddd7c6bb2-searchResultGroup, .a98f3b020416ad54-searchResultsWrap, .bd818628221af7aa-searchFilter, .bd818628221af7aa-searchAnswer, .container_f792fa, .sidebarCard_f792fa, ._6ba63b0447df0219-measurement,
 ._623de82e76ad7f82-embedFull:not(._0f481cbbd7530492-imageContent, ._623de82e76ad7f82-inlineMediaEmbed), ._0ccaee68b77c7469-file, .aa605f19898fe32e-upload,
-.cc46f0f859f26200-addGamePopout, ._0f481cbbd7530492-popoutContainer, ._50a5493e9d9cc496-headerV2, ._9a337c84ff86a914-contentPreview,
+.cc46f0f859f26200-addGamePopout, ._0f481cbbd7530492-popoutContainer, ._50a5493e9d9cc496-headerV2, ._9a337c84ff86a914-contentPreview, #search-results,
 ._9e06aaa5aecd6e3e-pillContainer, ._959cbfbb20fb39e8-joinOptions, ._28e57b0268546d72-onboardingStepContainer, .a9b45282395ecdfc-notice, .a9b45282395ecdfc-review {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
