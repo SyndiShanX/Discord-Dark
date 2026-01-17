@@ -15,7 +15,7 @@
 ._5d7c9a81ac5dd074-prompt, .cdf8a9a2bbd98bd3-wrapper, .fc817765600a960a-wrapper.fc817765600a960a-cozy, ._88a69141dd70013a-radioBar, .e6abe833ac70fcae-connectedAccountContainer, .fcb62805acc5d0cc-note > textarea, ._2ea32c412048f708-wrapper.c69b6db0641110f6-selectedChannel ._2ea32c412048f708-link,
 .dc83f5490ab160ad-chatHeaderBar, .a5700d36f7c29ded-chatHeaderBar, ._7449fa59699cedd9-homeContent .d13feb942bc5e7c6-row, ._5573a546299c96e8-contentContainer, .d5cd2da5733d0b6e-guildSection, .dca174a2baed7ac1-container, ._083ae98ea5145b08-guildInviteContainer, ._083ae98ea5145b08-footerContent,
 .c5e6a11cf27336f8-mainContainer, .d96a9cdaeeba104e-backgroundModifierContainer, .bc45130a46a61b36-actionContainer, .a25a68d7be1be409-contentExpandContainer ._217b73c8e5e3ff6d-collapseable, ._8826425bb0684b12-card, ._60fa3b8f3ca9845f-container,
-.c1521037ef09de7e-pageControl, ._629e4c86564a4ee7-unreadBar, .d852db00c0588eb9-wrapper,
+.c1521037ef09de7e-pageControl, ._629e4c86564a4ee7-unreadBar, .d852db00c0588eb9-wrapper, ._084152b107f71237-shop, .fcbddd55b8b335a1-productCardContainer, .fcbddd55b8b335a1-footerContainer,
 ._1ea09a3f3c699f46-channelRow, .d2b0e4d0195c7d48-actionItem, .d2b0e4d0195c7d48-suggestedChannel, ._9e06aaa5aecd6e3e-pillItem._9e06aaa5aecd6e3e-pillItemSelected, ._5d75644e264790f5-container, ._33d66b8603f565e5-pill, ._959cbfbb20fb39e8-joinOptionContent._959cbfbb20fb39e8-uninteractive {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
@@ -69,7 +69,7 @@
 code, .c19a557985eb7793-repliedMessage:not(.c19a557985eb7793-latin24CompactTimeStamp), ._299eb87491f4b6d1-spoilerContent, ._5e434347c823b592-sidebar:after, ._23e6b439306f125a-standardSidebarView, .f8c98cc3d7c1bc42-box,
 .modalBody_d6e876, .a7e67f4ddd7c6bb2-searchResultGroup, .a98f3b020416ad54-searchResultsWrap, .bd818628221af7aa-searchFilter, .bd818628221af7aa-searchAnswer, .container_f792fa, .sidebarCard_f792fa, ._6ba63b0447df0219-measurement,
 ._623de82e76ad7f82-embedFull:not(._0f481cbbd7530492-imageContent, ._623de82e76ad7f82-inlineMediaEmbed), ._0ccaee68b77c7469-file, .aa605f19898fe32e-upload,
-.cc46f0f859f26200-addGamePopout, ._0f481cbbd7530492-popoutContainer, ._50a5493e9d9cc496-headerV2, ._9a337c84ff86a914-contentPreview, #search-results,
+.cc46f0f859f26200-addGamePopout, ._0f481cbbd7530492-popoutContainer, ._50a5493e9d9cc496-headerV2, ._9a337c84ff86a914-contentPreview, #search-results, ._1187745e085c713e-filterBar,
 ._9e06aaa5aecd6e3e-pillContainer, ._959cbfbb20fb39e8-joinOptions, ._28e57b0268546d72-onboardingStepContainer, .a9b45282395ecdfc-notice, .a9b45282395ecdfc-review {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
@@ -137,7 +137,7 @@ li:has([d^="M16.23 12c0 1.29-.95 2.25-2.22 2.25A2.18"]),
 ._00943886e1cf89d1-section, .activeCategory_fa8ebf, ._55bab3f0b2555838-moreContainer, ._0f2e83213c878a13-container, ._8826425bb0684b12-card, .showMoreButton_c83b44, .button_fb7f94, .f369dba7416c67f0-sortDropdown, .a2c9e80f6531ccc2-pill, .f369dba7416c67f0-tagsButton,
 ._5ec2fb8b5de26b21-searchBar, ._4c5209741d147f1b-answerInner, ._1ac1c54c56e5807c-searchBar, ._551b0894962ff66f-navItem._551b0894962ff66f-selected, .f369dba7416c67f0-mainCard, .bd-store-card, .bd-number-input,
 .f8896c4f6be18f59-reaction:not(.f8896c4f6be18f59-reactionMe), ._23977d5b7cef7361-reaction:not(._23977d5b7cef7361-reactionMe), .searchBar_c0e32c, .searchBar_fed6d3, .e131a99484292a19-actionButtons button,
-.editProfileContainer__7bf69, .fcb62805acc5d0cc-note > textarea, ._7449fa59699cedd9-homeContent .d13feb942bc5e7c6-row, .caf372efc4d47562-active {
+.editProfileContainer__7bf69, .fcb62805acc5d0cc-note > textarea, ._7449fa59699cedd9-homeContent .d13feb942bc5e7c6-row, .caf372efc4d47562-active, .fcbddd55b8b335a1-productCardContainer {
   border: 1px solid var(--border-primary) !important;
 }
 
@@ -150,7 +150,7 @@ li:has([d^="M16.23 12c0 1.29-.95 2.25-2.22 2.25A2.18"]),
 ._00943886e1cf89d1-section:hover, .activeCategory_fa8ebf:hover, ._55bab3f0b2555838-moreContainer:hover, ._0f2e83213c878a13-container:hover, ._8826425bb0684b12-card:hover, .showMoreButton_c83b44:hover, .button_fb7f94:hover, .f369dba7416c67f0-sortDropdown:hover, .a2c9e80f6531ccc2-pill:hover, .f369dba7416c67f0-tagsButton:hover,
 ._5ec2fb8b5de26b21-searchBar:hover, ._4c5209741d147f1b-answerInner:hover, ._1ac1c54c56e5807c-searchBar:hover, ._551b0894962ff66f-navItem._551b0894962ff66f-selected:hover, .f369dba7416c67f0-mainCard:hover, .bd-store-card:hover, .bd-number-input:hover,
 .f8896c4f6be18f59-reaction:not(.f8896c4f6be18f59-reactionMe):hover, ._23977d5b7cef7361-reaction:not(._23977d5b7cef7361-reactionMe):hover, .searchBar_c0e32c:hover, .searchBar_fed6d3:hover, .e131a99484292a19-actionButtons button:hover,
-.editProfileContainer__7bf69:hover, .fcb62805acc5d0cc-note > textarea:hover, ._7449fa59699cedd9-homeContent .d13feb942bc5e7c6-row:hover, .caf372efc4d47562-active:hover {
+.editProfileContainer__7bf69:hover, .fcb62805acc5d0cc-note > textarea:hover, ._7449fa59699cedd9-homeContent .d13feb942bc5e7c6-row:hover, .caf372efc4d47562-active:hover, .fcbddd55b8b335a1-productCardContainer:hover {
   border: 1px solid var(--border-secondary) !important;
 }
 
@@ -267,7 +267,8 @@ h2._29444ba32c7fbeab-name, .c8ffbb79449f399c-membersGroup, ._29444ba32c7fbeab-na
 /* Change Text Color to White to Increase Readability */
 ._201d5e8a3c09670a-button._201d5e8a3c09670a-colorBrand div:not(.f1ceaca61b18918e-controlIcon), ._05e81ad8c06c1066-username, .aa8da23faa27393c-themed,
 .bd-settings-title, .bd-error-modal, .backgroundModifierContainer_e5c5d5:hover .text-sm-medium_bc6ffc, .defaultColor__77578, .e6abe833ac70fcae-connectedAccountNameText,
-.text-xs-normal_ccc5fb, ._4bd5201c86a2042b-defaultColor:not(.c8ffbb79449f399c-membersGroup), .userTagUsernameBase_c9ccf6, .customStatusText_cb55fc, .itemizedListText_f005b2, ._530ce51b6bf15868-text, ._63ed30c16c7151f2-userTag, ._63ed30c16c7151f2-userTag > span {
+.text-xs-normal_ccc5fb, ._4bd5201c86a2042b-defaultColor:not(.c8ffbb79449f399c-membersGroup, .c2b88c2cc18f856f-badge), .userTagUsernameBase_c9ccf6, .customStatusText_cb55fc, .itemizedListText_f005b2,
+._530ce51b6bf15868-text, ._63ed30c16c7151f2-userTag, ._63ed30c16c7151f2-userTag > span {
   color: #fff !important;
 }
 
@@ -879,6 +880,11 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
 
 .a22bfd0da01d94fe-media img {
   height: 95% !important;
+}
+
+/* Fixed Active Now Borders */
+._00943886e1cf89d1-section:only-child {
+  border-radius: 15px;
 }
 
 /* ---------- Buttons ---------- */
