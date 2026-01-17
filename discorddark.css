@@ -15,7 +15,7 @@
 ._5d7c9a81ac5dd074-prompt, .cdf8a9a2bbd98bd3-wrapper, .fc817765600a960a-wrapper.fc817765600a960a-cozy, ._88a69141dd70013a-radioBar, .e6abe833ac70fcae-connectedAccountContainer, .fcb62805acc5d0cc-note > textarea, ._2ea32c412048f708-wrapper.c69b6db0641110f6-selectedChannel ._2ea32c412048f708-link,
 .dc83f5490ab160ad-chatHeaderBar, .a5700d36f7c29ded-chatHeaderBar, ._7449fa59699cedd9-homeContent .d13feb942bc5e7c6-row, ._5573a546299c96e8-contentContainer, .d5cd2da5733d0b6e-guildSection, .dca174a2baed7ac1-container, ._083ae98ea5145b08-guildInviteContainer, ._083ae98ea5145b08-footerContent,
 .c5e6a11cf27336f8-mainContainer, .d96a9cdaeeba104e-backgroundModifierContainer, .bc45130a46a61b36-actionContainer, .a25a68d7be1be409-contentExpandContainer ._217b73c8e5e3ff6d-collapseable, ._8826425bb0684b12-card, ._60fa3b8f3ca9845f-container,
-.c1521037ef09de7e-pageControl, ._629e4c86564a4ee7-unreadBar,
+.c1521037ef09de7e-pageControl, ._629e4c86564a4ee7-unreadBar, .d852db00c0588eb9-wrapper,
 ._1ea09a3f3c699f46-channelRow, .d2b0e4d0195c7d48-actionItem, .d2b0e4d0195c7d48-suggestedChannel, ._9e06aaa5aecd6e3e-pillItem._9e06aaa5aecd6e3e-pillItemSelected, ._5d75644e264790f5-container, ._33d66b8603f565e5-pill, ._959cbfbb20fb39e8-joinOptionContent._959cbfbb20fb39e8-uninteractive {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
@@ -240,7 +240,7 @@ h2._29444ba32c7fbeab-name, .c8ffbb79449f399c-membersGroup, ._29444ba32c7fbeab-na
   color: var(--interactive-hover) !important;
 }
 
-.f75fb00fb7356cbe-form::before, ._908e20001ad67812-content {
+.f75fb00fb7356cbe-form::before, ._908e20001ad67812-content, ._36d072eab2b2e737-chatGradientBase {
   background: transparent !important;
 }
 
