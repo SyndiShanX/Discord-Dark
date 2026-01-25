@@ -3,7 +3,7 @@
  * @description A Github Dark Theme for Discord, meant to be used with Discord Dark Mode
  * @author SyndiShanX
  * @authorLink https://github.com/SyndiShanX
- * @version 1.58
+ * @version 1.59
  * @invite grjBktEUCy
  * @website https://syndishanx.github.io/Discord-Dark
  * @source https://github.com/SyndiShanX/Discord-Dark
@@ -39,6 +39,7 @@
 	--background-primary: #1a1a1a;
 	--border-primary: #5c5c5c;
 	--border-secondary: #c0c0c0;
+	--brand-360: #3a496b;
 	--control-brand-foreground: #3a496b;
 	--category-title-text-color: #3973AC;
 	--unread-channel-text: #ffffff;
