@@ -12,10 +12,10 @@
 .groupCollapsedContainer__9d98d, .upsellContainerFloating__0b69f, .bar__7aaec, .actionButton_f8fa06, .footer__7f9c0 > button, .wrapper__6e9f8:not(.selected__6e9f8) .childWrapper__6e9f8,
 .groupContent__9d98d, .select_a16aea, .select__9d98d, .option_a16aea:has(.selectedIcon_a16aea), .postEnrollmentBackground__24e2c, .contentHeader__45776, .contentFooter__45776,
 .textContentFooter__9a337, .activityPanel__5e434, .tile__90dc5, .termsFieldBody_fe70ca, .editProfileContainer__7bf69, .container_dca174, .top_aa8da2:not(.tabBar_f8303a), .container__0b563,
-.prompt__5d7c9, .wrapper_cdf8a9, .wrapper_fc8177.cozy_fc8177, .radioBar__88a69, .connectedAccountContainer_e6abe8, .note_fcb628 > textarea, .wrapper__2ea32.selectedChannel_c69b6d .link__2ea32,
+.prompt__5d7c9, .wrapper__0d1ef, .wrapper_fc8177.cozy_fc8177, .radioBar__88a69, .connectedAccountContainer_e6abe8, .note_fcb628 > textarea, .wrapper__2ea32.selectedChannel_c69b6d .link__2ea32,
 .chatHeaderBar_dc83f5, .chatHeaderBar_a5700d, .homeContent__7449f .row_d13feb, .contentContainer__5573a, .guildSection_d5cd2d, .container_dca174, .guildInviteContainer__083ae, .footerContent__083ae,
 .mainContainer_c5e6a1, .backgroundModifierContainer_d96a9c, .actionContainer_bc4513, .contentExpandContainer_a25a68 .collapseable__217b7, .card__88264, .container__60fa3,
-.pageControl_c15210, .unreadBar__629e4, .wrapper_d852db, .shop__08415, .productCardContainer_fcbddd, .footerContainer_fcbddd,
+.pageControl_c15210, .unreadBar__629e4, .wrapper_cdf8a9, .shop__08415, .productCardContainer_fcbddd, .footerContainer_fcbddd,
 .container__62dd3,
 .channelRow__1ea09, .actionItem_d2b0e4, .suggestedChannel_d2b0e4, .pillItem__9e06a.pillItemSelected__9e06a, .container__5d756, .pill__33d66, .joinOptionContent__959cb.uninteractive__959cb {
   background-image: var(--bgImage) !important;
