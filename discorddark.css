@@ -64,7 +64,7 @@
 .clickable__91a9d, .content__5e434, .panels__5e434, .tooltipPrimary_c36707, .folderHeader__1a4ef, .nav__551b0, .header__551b0, .backdrop__8a7fc, .container_d96a9c > .clickableContainer_d96a9c.disabled_d96a9c, .mainContainer_c5e6a1, .contentExpandContainer_a25a68, .backgroundModifierContainer_d96a9c, .auditLog__43dab, .safetyStepRow_eae0ef, .simpleItemWrapper__5dac8,
 .contentWrapper__08434, .emojiPicker_c0e32c, .header_c0e32c, .header_c656ac, .emojiListRow_fc7141, .categoryList_c0e32c, .categoryList_c0e32c .scrollerBase_d125d2, .nitroTopDividerContainer_b3fb5f, .categorySectionNitroLocked_c656ac,
 .header__8ef02, .packHeader_e94b8c, .createSticker_c6367b, .header_fed6d3, .textContainer__4d95d, .reactionTooltip_b49891,
-.code_cf4812, .container__9293f, [class*=-scrollerBase]:not(.scroller__36d07, .scrollerBase_d125d2, .customScroller__23e6b.scrollerBase__99f8c), .sidebarList__5e434 > nav, .title_f75fb0, .children__9293f:after,
+.code_cf4812, .container__9293f, [class^=scrollerBase]:not(.scroller__36d07, .scrollerBase_d125d2, .customScroller__23e6b.scrollerBase__99f8c), .sidebarList__5e434 > nav, .title_f75fb0, .children__9293f:after,
 .bd-search-wrapper, .bd-error-modal-footer, .bd-addon-modal, .bd-modal-footer, .bd-modal-small, .bd-modal-medium, .bd-changelog-modal, .bd-addon-store-card,
 .connectionHeader_c7f964, .accountProfileCard__1fed1, .sidebar__409aa, .tooltip__4e35b, .scrollerBase_d125d2.thin_d125d2:not(:has(.role_f07e3e), .tabListScroller__37bfc),
 code, .repliedMessage_c19a55:not(.latin24CompactTimeStamp_c19a55), .spoilerContent__299eb, .sidebar__5e434:after, .standardSidebarView__23e6b, .box_f8c98c,
@@ -84,8 +84,8 @@ code, .repliedMessage_c19a55:not(.latin24CompactTimeStamp_c19a55), .spoilerConte
 
 /* ---------- Main Tweaks ---------- */
 /* Hide GIF, Gift, Nitro DM, and App Launcher Buttons */
-[class$=-buttonContainer]:has([d^=" M-7,-10 C-8.656999588012695,-10 -10"]),
-[class$=-buttons] > [class$=-button]:has([d^=" M-7,-6 C-7,-7.6570000648498535 -5.6"]),
+[class^=buttonWrapper]:has([d^=" M-7,-10 C-8.656999588012695,-10 -10"]),
+[class^=buttons] > [class^=button]:has([d^=" M-7,-6 C-7,-7.6570000648498535 -5.6"]),
 li:has([d^="M16.23 12c0 1.29-.95 2.25-2.22 2.25A2.18"]),
 .app-launcher-entrypoint, #channel-attach-SLASH_COMMAND {
   display: var(--AD-buttons) !important;
@@ -1449,11 +1449,11 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
 }
 
 /* Full Bio in User Profiles - Vilchu */
-[class$=-viewFullBio] {
+[class^=viewFullBio] {
   display: none;
 }
 
-[class$=-inner] > [class*=-body] [class*=-descriptionClamp] {
+[class^=inner] > [class^=body_] [class^=descriptionClamp] {
   -webkit-line-clamp: unset;
   line-clamp: unset;
   max-height: 112px;
