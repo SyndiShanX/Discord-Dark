@@ -71,7 +71,7 @@ code, .repliedMessage_c19a55:not(.latin24CompactTimeStamp_c19a55), .spoilerConte
 .modalBody_d6e876, .searchResultGroup_a7e67f, .searchResultsWrap_a98f3b, .searchFilter_bd8186, .searchAnswer_bd8186, .container_f792fa, .sidebarCard_f792fa, .measurement__6ba63,
 .embedFull__623de:not(.imageContent__0f481, .inlineMediaEmbed__623de), .file__0ccae, .upload_aa605f,
 .addGamePopout_cc46f0, .popoutContainer__0f481, .headerV2__50a54, .contentPreview__9a337, #search-results, .filterBar__11877, .sidebar_e29cd7, .titleContainer_e29cd7,
-.tabBarPanel__37bfc,
+.tabBarPanel__37bfc, .wrapper_cf09d8, .before_inlineCode_ada32f, .inlineCode_ada32f, .after_inlineCode_ada32f,
 .pillContainer__9e06a, .joinOptions__959cb, .onboardingStepContainer__28e57, .notice_a9b452, .review_a9b452 {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
@@ -139,7 +139,7 @@ li:has([d^="M16.23 12c0 1.29-.95 2.25-2.22 2.25A2.18"]),
 .section__00943, .activeCategory_fa8ebf, .moreContainer__55bab, .container__0f2e8, .card__88264, .showMoreButton_c83b44, .button_fb7f94, .sortDropdown_f369db, .pill_a2c9e8, .tagsButton_f369db,
 .searchBar__5ec2f, .answerInner__4c520, .searchBar__1ac1c, .navItem__551b0.selected__551b0, .mainCard_f369db, .bd-store-card, .bd-number-input,
 .reaction_f8896c:not(.reactionMe_f8896c), .reaction__23977:not(.reactionMe__23977), .searchBar_c0e32c, .searchBar_fed6d3, .actionButtons_e131a9 button,
-.editProfileContainer__7bf69, .note_fcb628 > textarea, .homeContent__7449f .row_d13feb, .active_caf372, .productCardContainer_fcbddd {
+.editProfileContainer__7bf69, .note_fcb628 > textarea, .homeContent__7449f .row_d13feb, .active_caf372, .productCardContainer_fcbddd, .wrapper_cf09d8 {
   border: 1px solid var(--border-primary) !important;
 }
 
@@ -152,7 +152,7 @@ li:has([d^="M16.23 12c0 1.29-.95 2.25-2.22 2.25A2.18"]),
 .section__00943:hover, .activeCategory_fa8ebf:hover, .moreContainer__55bab:hover, .container__0f2e8:hover, .card__88264:hover, .showMoreButton_c83b44:hover, .button_fb7f94:hover, .sortDropdown_f369db:hover, .pill_a2c9e8:hover, .tagsButton_f369db:hover,
 .searchBar__5ec2f:hover, .answerInner__4c520:hover, .searchBar__1ac1c:hover, .navItem__551b0.selected__551b0:hover, .mainCard_f369db:hover, .bd-store-card:hover, .bd-number-input:hover,
 .reaction_f8896c:not(.reactionMe_f8896c):hover, .reaction__23977:not(.reactionMe__23977):hover, .searchBar_c0e32c:hover, .searchBar_fed6d3:hover, .actionButtons_e131a9 button:hover,
-.editProfileContainer__7bf69:hover, .note_fcb628 > textarea:hover, .homeContent__7449f .row_d13feb:hover, .active_caf372:hover, .productCardContainer_fcbddd:hover {
+.editProfileContainer__7bf69:hover, .note_fcb628 > textarea:hover, .homeContent__7449f .row_d13feb:hover, .active_caf372:hover, .productCardContainer_fcbddd:hover, .wrapper_cf09d8:hover {
   border: 1px solid var(--border-secondary) !important;
 }
 
@@ -636,6 +636,29 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow_b0dfc2, .member_cou
 .markup__75297 code.inline {
   border: 1px solid var(--border-primary) !important;
   border-radius: 4px;
+  padding: 2px;
+}
+
+.before_inlineCode_ada32f {
+  border: 1px solid var(--border-primary) !important;
+  border-right: none !important;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding: 2px;
+}
+
+.inlineCode_ada32f {
+  border: 1px solid var(--border-primary) !important;
+  border-left: none !important;
+  border-right: none !important;
+  padding: 2px 0 2px 0;
+}
+
+.after_inlineCode_ada32f {
+  border: 1px solid var(--border-primary) !important;
+  border-left: none !important;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
   padding: 2px;
 }
 
@@ -1748,6 +1771,11 @@ div.panel__6131a {
 
 div.panel__6131a:has(.bd-addon-store) {
   max-width: 55%;
+}
+
+/* Hide Audio Dropdowns in User Area */
+.panels__5e434 .buttonChevron__37e49 {
+  display: none;
 }
 
 /* Syntax Naming - CodeDotSpectra */
