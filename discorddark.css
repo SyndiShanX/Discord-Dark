@@ -84,7 +84,7 @@ code, .repliedMessage_c19a55:not(.latin24CompactTimeStamp_c19a55), .spoilerConte
 
 /* ---------- Main Tweaks ---------- */
 /* Hide GIF, Gift, Nitro DM, and App Launcher Buttons */
-[class^=buttonWrapper]:has([d^=" M-7,-10 C-8.656999588012695,-10 -10"]),
+[class*=buttonContainer]:has([d^=" M-7,-10 C-8.656999588012695,-10 -10"]),
 [class^=buttons] > [class^=button]:has([d^=" M-7,-6 C-7,-7.6570000648498535 -5.6"]),
 li:has([d^="M16.23 12c0 1.29-.95 2.25-2.22 2.25A2.18"]),
 .app-launcher-entrypoint, #channel-attach-SLASH_COMMAND {
