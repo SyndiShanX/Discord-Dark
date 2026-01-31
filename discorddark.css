@@ -33,7 +33,7 @@
 .container_a54d1d, .recentMentionsPopout__95796, .channelHeader__35a7e, .recommendedServerCard__51537, .card__4d7bb, .faq__744ff, .list_c441f0,
 .cardContent_f62fce, .channelTextArea__74017, .staticToolbar_bba883, .itemCard__7e549, .container__5808f, .container_d404a3, .pageBody__41ed7, .browser__41ed7 .scrollerInner_e4503a, .inner_c0bea0,
 .peopleColumn__133bf, .background__6343b, .container__5573a, .container__8a031, .container__8a031 > div, .container__8a031, .stepContainer_a68543, .cardFolder__1a4ef,
-.scrollerBase_d125d2.thin_d125d2:has(.role_f07e3e), .contentHeader_e9e3ed, .stickyHeader_c6bf1b {
+.scrollerBase_d125d2.thin_d125d2:has(.role_f07e3e), .contentHeader_e9e3ed, .stickyHeader_c6bf1b, .scrollerBase__99f8c {
   background-image: var(--bgDarkness1) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
