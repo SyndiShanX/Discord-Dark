@@ -16,7 +16,7 @@
 .chatHeaderBar_dc83f5, .chatHeaderBar_a5700d, .homeContent__7449f .row_d13feb, .contentContainer__5573a, .guildSection_d5cd2d, .container_dca174, .guildInviteContainer__083ae, .footerContent__083ae,
 .mainContainer_c5e6a1, .backgroundModifierContainer_d96a9c, .actionContainer_bc4513, .contentExpandContainer_a25a68 .collapseable__217b7, .card__88264, .container__60fa3,
 .pageControl_c15210, .unreadBar__629e4, .wrapper_d852db, .shop__08415, .productCardContainer_fcbddd, .footerContainer_fcbddd, .card__39b32, .container__62dd3, .recommendationsContainerWithWishlist__4fbcc,
-.emptyCard__7e549, .header_de8069, .paymentPane__01014, .profileCard__5d7c9, .progressContainer__0d0f9,
+.emptyCard__7e549, .header_de8069, .paymentPane__01014, .profileCard__5d7c9, .progressContainer__0d0f9, .bg__960e4,
 .channelRow__1ea09, .actionItem_d2b0e4, .suggestedChannel_d2b0e4, .pillItem__9e06a.pillItemSelected__9e06a, .container__5d756, .pill__33d66, .joinOptionContent__959cb.uninteractive__959cb {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
@@ -32,7 +32,7 @@
 .appContainer__5a4b6, .card_bb8774, .hoverCard_fdda30, .card_c59071, .container__34c2c, .tabItem_c9a59b:hover, .bd-addon-store-card, .bd-install-modal-items,
 .container_a54d1d, .recentMentionsPopout__95796, .channelHeader__35a7e, .recommendedServerCard__51537, .card__4d7bb, .faq__744ff, .list_c441f0,
 .cardContent_f62fce, .channelTextArea__74017, .staticToolbar_bba883, .itemCard__7e549, .container__5808f, .container_d404a3, .pageBody__41ed7, .browser__41ed7 .scrollerInner_e4503a, .inner_c0bea0,
-.peopleColumn__133bf, .background__6343b, .container__5573a, .container__8a031, .container__8a031 > div, .container__8a031, .stepContainer_a68543, .cardFolder__1a4ef,
+.peopleColumn__133bf, .background__6343b, .container__5573a, .container__8a031, .container__8a031 > div, .container__8a031, .stepContainer_a68543, .cardFolder__1a4ef, .header_c6bf1b,
 .scrollerBase_d125d2.thin_d125d2:has(.role_f07e3e), .contentHeader_e9e3ed, .stickyHeader_c6bf1b, .scrollerBase__99f8c {
   background-image: var(--bgDarkness1) !important;
   background-clip: border-box !important;
