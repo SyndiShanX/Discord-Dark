@@ -16,7 +16,7 @@
 .chatHeaderBar_dc83f5, .chatHeaderBar_a5700d, .homeContent__7449f .row_d13feb, .contentContainer__5573a, .guildSection_d5cd2d, .container_dca174, .guildInviteContainer__083ae, .footerContent__083ae,
 .mainContainer_c5e6a1, .backgroundModifierContainer_d96a9c, .actionContainer_bc4513, .contentExpandContainer_a25a68 .collapseable__217b7, .card__88264, .container__60fa3,
 .pageControl_c15210, .unreadBar__629e4, .wrapper_d852db, .shop__08415, .productCardContainer_fcbddd, .footerContainer_fcbddd, .card__39b32, .container__62dd3, .recommendationsContainerWithWishlist__4fbcc,
-.emptyCard__7e549, .header_de8069, .paymentPane__01014, .profileCard__5d7c9, .progressContainer__0d0f9, .bg__960e4,
+.emptyCard__7e549, .header_de8069, .paymentPane__01014, .profileCard__5d7c9, .progressContainer__0d0f9, .bg__960e4, .bd-notification-footer,
 .channelRow__1ea09, .actionItem_d2b0e4, .suggestedChannel_d2b0e4, .pillItem__9e06a.pillItemSelected__9e06a, .container__5d756, .pill__33d66, .joinOptionContent__959cb.uninteractive__959cb {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
@@ -164,7 +164,7 @@ li:has([d^="M16.23 12c0 1.29-.95 2.25-2.22 2.25A2.18"]),
 .guildPopout__51eb2, .embed_f69538, :where(.overlay_c0bea0), .activity__747b1, .bumpBox_cacd02, .rewardTileWithInstructions__11054, .profileEntryCard__655fa, .nonVisualMediaItemContainer_f4758a .embedWrapper_b7e1cb,
 .descriptionContainer_ca49a1, .blockedIgnoredSettingsNotice__6811a, .wrapper__44df5, .field__1fed1, .row__0624f, .metadataContainer_c7f964, .badgeList__1fed1, .bd-addon-store-card-embed,
 .connectContainer_c7f964, .content__19fd1, .safetyTable__1f3e3, .noticeRegion__23e6b .container__9a9f9, .container_cdb3b1, .pollContainer_b7e1cb, .card__823e1, .popover_d6f39b,
-.container_a68543, .container__9a9f9, .container__9a9f9, .systemServiceUpsell__740f2, .defaultKeybindGroup__740f2, .game_cc46f0 {
+.container_a68543, .container__9a9f9, .container__9a9f9, .systemServiceUpsell__740f2, .defaultKeybindGroup__740f2, .game_cc46f0, .bd-notification {
   border: 1px solid var(--border-primary) !important;
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
