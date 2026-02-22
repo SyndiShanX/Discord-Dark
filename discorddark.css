@@ -16,7 +16,7 @@
 .chatHeaderBar_dc83f5, .chatHeaderBar_a5700d, .homeContent__7449f .row_d13feb, .contentContainer__5573a, .guildSection_d5cd2d, .container_dca174, .guildInviteContainer__083ae, .footerContent__083ae,
 .mainContainer_c5e6a1, .backgroundModifierContainer_d96a9c, .actionContainer_bc4513, .contentExpandContainer_a25a68 .collapseable__217b7, .card__88264, .container__60fa3,
 .pageControl_c15210, .unreadBar__629e4, .wrapper_d852db, .shop__08415, .productCardContainer_fcbddd, .footerContainer_fcbddd, .card__39b32, .container__62dd3, .recommendationsContainerWithWishlist__4fbcc,
-.emptyCard__7e549, .header_de8069, .paymentPane__01014, .profileCard__5d7c9, .progressContainer__0d0f9, .bg__960e4, .bd-notification-footer,
+.emptyCard__7e549, .header_de8069, .paymentPane__01014, .profileCard__5d7c9, .progressContainer__0d0f9, .bg__960e4, .bd-notification-footer, .container_b9f75c, .body__0489e,
 .channelRow__1ea09, .actionItem_d2b0e4, .suggestedChannel_d2b0e4, .pillItem__9e06a.pillItemSelected__9e06a, .container__5d756, .pill__33d66, .joinOptionContent__959cb.uninteractive__959cb {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
@@ -71,7 +71,7 @@ code, .repliedMessage_c19a55:not(.latin24CompactTimeStamp_c19a55), .spoilerConte
 .modalBody_d6e876, .searchResultGroup_a7e67f, .searchResultsWrap_a98f3b, .searchFilter_bd8186, .searchAnswer_bd8186, .container_f792fa, .sidebarCard_f792fa, .measurement__6ba63,
 .embedFull__623de:not(.imageContent__0f481, .inlineMediaEmbed__623de), .file__0ccae, .upload_aa605f,
 .addGamePopout_cc46f0, .popoutContainer__0f481, .headerV2__50a54, .contentPreview__9a337, #search-results, .filterBar__11877, .sidebar_e29cd7, .titleContainer_e29cd7,
-.tabBarPanel__37bfc, .wrapper_cf09d8, .before_inlineCode_ada32f, .inlineCode_ada32f, .after_inlineCode_ada32f,
+.tabBarPanel__37bfc, .before_inlineCode_ada32f, .inlineCode_ada32f, .after_inlineCode_ada32f,
 .pillContainer__9e06a, .joinOptions__959cb, .onboardingStepContainer__28e57, .notice_a9b452, .review_a9b452 {
   background-image: var(--bgDarkness3) !important;
   background-clip: border-box !important;
@@ -139,7 +139,7 @@ li:has([d^="M16.23 12c0 1.29-.95 2.25-2.22 2.25A2.18"]),
 .section__00943, .activeCategory_fa8ebf, .moreContainer__55bab, .container__0f2e8, .card__88264, .showMoreButton_c83b44, .button_fb7f94, .sortDropdown_f369db, .pill_a2c9e8, .tagsButton_f369db,
 .searchBar__5ec2f, .answerInner__4c520, .searchBar__1ac1c, .navItem__551b0.selected__551b0, .mainCard_f369db, .bd-store-card, .bd-number-input,
 .reaction_f8896c:not(.reactionMe_f8896c), .reaction__23977:not(.reactionMe__23977), .searchBar_c0e32c, .searchBar_fed6d3, .actionButtons_e131a9 button,
-.editProfileContainer__7bf69, .note_fcb628 > textarea, .homeContent__7449f .row_d13feb, .active_caf372, .productCardContainer_fcbddd, .wrapper_cf09d8 {
+.editProfileContainer__7bf69, .note_fcb628 > textarea, .homeContent__7449f .row_d13feb, .active_caf372, .productCardContainer_fcbddd {
   border: 1px solid var(--border-primary) !important;
 }
 
@@ -152,7 +152,7 @@ li:has([d^="M16.23 12c0 1.29-.95 2.25-2.22 2.25A2.18"]),
 .section__00943:hover, .activeCategory_fa8ebf:hover, .moreContainer__55bab:hover, .container__0f2e8:hover, .card__88264:hover, .showMoreButton_c83b44:hover, .button_fb7f94:hover, .sortDropdown_f369db:hover, .pill_a2c9e8:hover, .tagsButton_f369db:hover,
 .searchBar__5ec2f:hover, .answerInner__4c520:hover, .searchBar__1ac1c:hover, .navItem__551b0.selected__551b0:hover, .mainCard_f369db:hover, .bd-store-card:hover, .bd-number-input:hover,
 .reaction_f8896c:not(.reactionMe_f8896c):hover, .reaction__23977:not(.reactionMe__23977):hover, .searchBar_c0e32c:hover, .searchBar_fed6d3:hover, .actionButtons_e131a9 button:hover,
-.editProfileContainer__7bf69:hover, .note_fcb628 > textarea:hover, .homeContent__7449f .row_d13feb:hover, .active_caf372:hover, .productCardContainer_fcbddd:hover, .wrapper_cf09d8:hover {
+.editProfileContainer__7bf69:hover, .note_fcb628 > textarea:hover, .homeContent__7449f .row_d13feb:hover, .active_caf372:hover, .productCardContainer_fcbddd:hover {
   border: 1px solid var(--border-secondary) !important;
 }
 
@@ -186,7 +186,7 @@ li:has([d^="M16.23 12c0 1.29-.95 2.25-2.22 2.25A2.18"]),
 }
 
 .tooltipPrimary_c36707, .descriptionBox__981f7, .code_cf4812, .tooltip__4e35b, .reactionTooltip_b49891, .popout__76f04, .activity_f00225, .cardContent_f62fce, .mosaicItemContent__6c706:has(.hljs),
-.spoilerContent__299eb, .streamPreview__6da2d, .reactionTooltip_b49891 {
+.spoilerContent__299eb, .streamPreview__6da2d, .oneByOneGrid_f4758a:has(> .mosaicItemWithFooter__6c706) {
   border: 1px solid var(--border-primary) !important;
   border-radius: 4px !important;
 }
@@ -1774,7 +1774,7 @@ div.panel__6131a:has(.bd-addon-store) {
 }
 
 /* Hide Audio Dropdowns in User Area */
-.panels__5e434 .buttonChevron__37e49 {
+.panels__5e434 .buttonChevron__5e764 {
   display: none;
 }
 
