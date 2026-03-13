@@ -33,7 +33,7 @@
 .container_a54d1d, .recentMentionsPopout__95796, .channelHeader__35a7e, .recommendedServerCard__51537, .card__4d7bb, .faq__744ff, .list_c441f0,
 .cardContent_f62fce, .channelTextArea__74017, .staticToolbar_bba883, .itemCard__7e549, .container__5808f, .container_d404a3, .pageBody__41ed7, .browser__41ed7 .scrollerInner_e4503a, .inner_c0bea0,
 .peopleColumn__133bf, .background__6343b, .container__5573a, .container__8a031, .container__8a031 > div, .container__8a031, .stepContainer_a68543, .cardFolder__1a4ef, .header_c6bf1b,
-.scrollerBase_d125d2.thin_d125d2:has(.role_f07e3e), .contentHeader_e9e3ed, .stickyHeader_c6bf1b, .scrollerBase__99f8c {
+.scrollerBase_d125d2.thin_d125d2:has(.role_f07e3e), .contentHeader_e9e3ed, .stickyHeader_c6bf1b, .scrollerBase__99f8c, .content_e9e3ed {
   background-image: var(--bgDarkness1) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -317,7 +317,7 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow_b0dfc2, .member_cou
 
 /* Improved Tab Menus */
 /* Profile Settings Tabs ????? - .tabBarItem_d6f9e9 | Channels & Roles Tabs - .tabBarItem__0b563 | Family Center Tabs - .settingsTabBarItem_dc2e0e */
-/* Content & Social - .tabBar_f8303a | User Profile Tabs - .tabBarItem__37bfc | General Settings Tabs - .tab_f8303a | Inbox Tabs - .tab_ab6641 */
+/* Content & Social - .tabBar_f8303a | User Profile Tabs - .tabBarItem__37bfc | General Settings Tabs - .item_aa8da2 | Inbox Tabs - .tab_ab6641 */
 /* Server Edit Roles Tabs - .tabBarItem__81b3e */
 .tabBarItem_d6f9e9:nth-child(1), .tabBarItem_d6f9e9:nth-child(1):hover, .tabBarItem_d6f9e9:nth-child(2), .tabBarItem_d6f9e9:nth-child(2):hover,
 .tabBarItem__0b563:nth-child(1), .tabBarItem__0b563:nth-child(1):hover, .tabBarItem__0b563:nth-child(2), .tabBarItem__0b563:nth-child(2):hover,
@@ -328,8 +328,8 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow_b0dfc2, .member_cou
 .tabBarItem__81b3e:nth-child(3), .tabBarItem__81b3e:nth-child(3):hover, .tabBarItem__81b3e:nth-child(4), .tabBarItem__81b3e:nth-child(4):hover,
 .tabBarItem__37bfc:nth-child(1), .tabBarItem__37bfc:nth-child(1):hover, .tabBarItem__37bfc:nth-child(2), .tabBarItem__37bfc:nth-child(2):hover,
 .tabBarItem__37bfc:nth-child(3), .tabBarItem__37bfc:nth-child(3):hover, .tabBarItem__37bfc:nth-child(4), .tabBarItem__37bfc:nth-child(4):hover,
-.tab_f8303a:nth-child(1), .tab_f8303a:nth-child(1):hover, .tab_f8303a:nth-child(2), .tab_f8303a:nth-child(2):hover,
-.tab_f8303a:nth-child(3), .tab_f8303a:nth-child(3):hover, .tab_f8303a:nth-child(4), .tab_f8303a:nth-child(4):hover,
+.item_aa8da2:nth-child(1), .item_aa8da2:nth-child(1):hover, .item_aa8da2:nth-child(2), .item_aa8da2:nth-child(2):hover,
+.item_aa8da2:nth-child(3), .item_aa8da2:nth-child(3):hover, .item_aa8da2:nth-child(4), .item_aa8da2:nth-child(4):hover,
 .tab_ab6641:nth-child(1), .tab_ab6641:nth-child(1):hover, .tab_ab6641:nth-child(2), .tab_ab6641:nth-child(2):hover,
 .tab_ab6641:nth-child(3), .tab_ab6641:nth-child(3):hover {
   margin-left: 0px;
@@ -363,7 +363,7 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow_b0dfc2, .member_cou
 .tabBar_f8303a:nth-child(1).selected_f8303a, .tabBar_f8303a:nth-child(2).selected_f8303a,
 .tabBarItem__81b3e:nth-child(1).selected_aa8da2, .tabBarItem__81b3e:nth-child(2).selected_aa8da2, .tabBarItem__81b3e:nth-child(3).selected_aa8da2, .tabBarItem__81b3e:nth-child(4).selected_aa8da2,
 .tabBarItem__37bfc:nth-child(1).selected_aa8da2, .tabBarItem__37bfc:nth-child(2).selected_aa8da2, .tabBarItem__37bfc:nth-child(3).selected_aa8da2, .tabBarItem__37bfc:nth-child(4).selected_aa8da2,
-.tab_f8303a:nth-child(1).selected_aa8da2, .tab_f8303a:nth-child(2).selected_aa8da2, .tab_f8303a:nth-child(3).selected_aa8da2, .tab_f8303a:nth-child(4).selected_aa8da2,
+.item_aa8da2:nth-child(1).selected_aa8da2, .item_aa8da2:nth-child(2).selected_aa8da2, .item_aa8da2:nth-child(3).selected_aa8da2, .item_aa8da2:nth-child(4).selected_aa8da2,
 .tab_ab6641:nth-child(1).selected_aa8da2, .tab_ab6641:nth-child(2).selected_aa8da2, .tab_ab6641:nth-child(3).selected_aa8da2 {
   border-bottom-color: transparent !important;
   --selected-tab-item-color: var(--control-brand-foreground)!important;
@@ -377,7 +377,7 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow_b0dfc2, .member_cou
 .tabBar_f8303a:nth-child(1):hover, .tabBar_f8303a:nth-child(2):hover,
 .tabBarItem__81b3e:nth-child(1):hover, .tabBarItem__81b3e:nth-child(2):hover, .tabBarItem__81b3e:nth-child(3):hover, .tabBarItem__81b3e:nth-child(4):hover,
 .tabBarItem__37bfc:nth-child(1):hover, .tabBarItem__37bfc:nth-child(2):hover, .tabBarItem__37bfc:nth-child(3):hover, .tabBarItem__37bfc:nth-child(4):hover,
-.tab_f8303a:nth-child(1):hover, .tab_f8303a:nth-child(2):hover, .tab_f8303a:nth-child(3):hover, .tab_f8303a:nth-child(4):hover,
+.item_aa8da2:nth-child(1):hover, .item_aa8da2:nth-child(2):hover, .item_aa8da2:nth-child(3):hover, .item_aa8da2:nth-child(4):hover,
 .tab_ab6641:nth-child(1):hover, .tab_ab6641:nth-child(2):hover, .tab_ab6641:nth-child(3):hover {
   border-bottom-color: transparent !important;
   --selected-tab-item-color: var(--brand-experiment)!important;
@@ -391,7 +391,7 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow_b0dfc2, .member_cou
   font-weight: 500;
 }
 
-.tab_f8303a, :where(.visual-refresh) .top_aa8da2 .item_aa8da2 + .item_aa8da2 {
+.item_aa8da2, :where(.visual-refresh) .top_aa8da2 .item_aa8da2 + .item_aa8da2 {
   margin-left: 0px !important;
 }
 
@@ -1537,7 +1537,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
   width: var(--g-19-r);
   height: var(--g-19-r);
 }
-.visual-refresh .stack_dbd263 {
+.visual-refresh .stack_dbd263:not(:has(.breadcrumb__6989f)) {
   height: auto !important;
   top: -25px;
 }
@@ -1613,9 +1613,9 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
   margin-top: 4px;
 }
 
-.stack_dbd263 {
-  padding-top: 20px !important;
+.stack_dbd263:not(:has(.breadcrumb__6989f)) {
   position: relative;
+  padding-top: 20px !important;
 }
 
 .listItem__650eb:not(:has(.folderHeader__48112)) .wrapper_cc5dd2 {
@@ -1772,6 +1772,10 @@ div.panel__6131a {
 
 div.panel__6131a:has(.bd-addon-store) {
   max-width: 55%;
+}
+
+.content_e9e3ed, .contentBody_e9e3ed > .scroller__6131a > .panel__6131a, .breadcrumb__6989f {
+  padding-top: 15px;
 }
 
 /* Hide Audio Dropdowns in User Area */
