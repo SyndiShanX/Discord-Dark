@@ -6,17 +6,17 @@
 .container__72c38, .unicodeShortcut_b9ee0c, .inspector_c0e32c, .categoryItemDefaultCategorySelected_b9ee0c, .channelRow_e4503a, .container__9271d,
 .connectionHeader_c7f964, .searchBar__5ec2f, .previewListItem_d9161f, .ctaContent_d6d601, .howItWorksCard_dd30dc,
 .standardStickerShortcut__3ad28, .inspector_aeaaeb, .stickerInspected_c6367b, .stickerCategoryGenericSelected__3ad28, .createSticker_c6367b:hover,
-.messages__1ccd1, .messageContainer__95796, .header_ab6641, .header__5cea9, .activeGame_cc46f0, .upsellContainer__73000, .upsellFooter__73000,
+.messages__1ccd1, .messageContainer__95796, .header_ab6641, .header__416c7, .activeGame__497cd, .upsellContainer__73000, .upsellFooter__73000,
 .body__6da2d, .popout__76f04, .navItem__551b0:active, .clickable__91a9d .layout__91a9d:active, .interactive_bf202d:active,
 .wrapper__2ea32:active .link__2ea32, .childContainer__91a9d:active, .bd-select-options, .bd-select, .bd-select-option.selected, .bd-number-input, .bd-addon-header,
 .groupCollapsedContainer__9d98d, .upsellContainerFloating__0b69f, .bar__7aaec, .actionButton_f8fa06, .footer__7f9c0 > button, .wrapper__6e9f8:not(.selected__6e9f8) .childWrapper__6e9f8,
-.groupContent__9d98d, .select_a16aea, .select__9d98d, .option_a16aea:has(.selectedIcon_a16aea), .postEnrollmentBackground__24e2c, .contentHeader__45776, .contentFooter__45776,
+.groupContent__9d98d, .select_a16aea, .select__9d98d, .option_a16aea:has(.selectedIcon_a16aea), .postEnrollmentBackground__24e2c, .contentHeader__45776, .contentFooter__8b8a3,
 .textContentFooter__9a337, .activityPanel__5e434, .tile__90dc5, .termsFieldBody_fe70ca, .editProfileContainer__7bf69, .container_dca174, .container__0b563,
 .prompt__5d7c9, .wrapper_cdf8a9, .wrapper_fc8177.cozy_fc8177, .radioBar__88a69, .connectedAccountContainer_e6abe8, .note_fcb628 > textarea, .wrapper__2ea32.selectedChannel_c69b6d .link__2ea32,
 .chatHeaderBar_dc83f5, .chatHeaderBar_a5700d, .homeContent__7449f .row_d13feb, .contentContainer__5573a, .guildSection_d5cd2d, .container_dca174, .guildInviteContainer__083ae, .footerContent__083ae,
 .mainContainer_c5e6a1, .backgroundModifierContainer_d96a9c, .actionContainer_bc4513, .contentExpandContainer_a25a68 .collapseable__217b7, .card__88264, .container__60fa3,
 .pageControl_c15210, .unreadBar__629e4, .wrapper_d852db, .shop__08415, .productCardContainer_fcbddd, .footerContainer_fcbddd, .card__39b32, .container__62dd3, .recommendationsContainerWithWishlist__4fbcc,
-.emptyCard__7e549, .header_de8069, .paymentPane__01014, .profileCard__5d7c9, .progressContainer__0d0f9, .bg__960e4, .bd-notification-footer, .container_b9f75c, .body__0489e, .navButtons_fe70ca, .banner__183e8,
+.emptyCard__7e549, .header__5348b, .paymentPane__01014, .profileCard__5d7c9, .progressContainer__0d0f9, .bg__960e4, .bd-notification-footer, .container_b9f75c, .body__0489e, .navButtons_fe70ca, .banner__183e8,
 .listBox__2e223,
 .channelRow__1ea09, .actionItem_d2b0e4, .suggestedChannel_d2b0e4, .pillItem__9e06a.pillItemSelected__9e06a, .container__5d756, .pill__33d66, .joinOptionContent__959cb.uninteractive__959cb {
   background-image: var(--bgImage) !important;
@@ -31,7 +31,7 @@
 /* Darkness 1 Background Image */
 .scrollerBase_d125d2:not(.thin_d125d2), .chat_f75fb0, .form_f75fb0, .container_d8f25b, .customScroller__23e6b.scrollerBase__99f8c, .descriptionBox__981f7, .card__84e3e, .contentContainer__8f46b, .contentContainer_c6b177, .guilds__5e434,
 .appContainer__5a4b6, .card_bb8774, .hoverCard_fdda30, .card_c59071, .container__34c2c, .tabItem_c9a59b:hover, .bd-addon-store-card, .bd-install-modal-items,
-.container_a54d1d, .recentMentionsPopout__95796, .channelHeader__35a7e, .recommendedServerCard__51537, .card__4d7bb, .faq__744ff, .list_c441f0,
+.container_a54d1d, .recentMentionsPopout__95796, .channelHeader__35a7e, .recommendedServerCard__6d839, .card__4d7bb, .faq__5d9e5, .list_c441f0,
 .cardContent_f62fce, .channelTextArea__74017, .staticToolbar_bba883, .itemCard__7e549, .container__5808f, .container_d404a3, .pageBody__41ed7, .browser__41ed7 .scrollerInner_e4503a, .inner_c0bea0,
 .peopleColumn__133bf, .background__6343b, .container__5573a, .container__8a031, .container__8a031 > div, .container__8a031, .stepContainer_a68543, .cardFolder__1a4ef, .header_c6bf1b,
 .scrollerBase_d125d2.thin_d125d2:has(.role_f07e3e), .contentHeader_e9e3ed, .stickyHeader_c6bf1b, .scrollerBase__99f8c, .content_e9e3ed {
@@ -45,7 +45,7 @@
 }
 
 /* Darkness 2 Background Image */
-.tierBody_a36dee, .benefits_bb8774, .connection_c7f964, .usersList__5cea9, .header__49fc1, .footer__49fc1, .root__49fc1, .uploadInput__94439, .clickable__91a9d:hover, .item_aa8da2:not(.addFriend__133bf):hover,
+.tierBody_a36dee, .benefits_bb8774, .connection_c7f964, .usersList__416c7, .header__49fc1, .footer__49fc1, .root__49fc1, .uploadInput__94439, .clickable__91a9d:hover, .item_aa8da2:not(.addFriend__133bf):hover,
 .bd-select:hover, .bd-select-option:hover, .bd-store-card, .bd-addon-store-modal, .bd-description-wrap, .bd-footer, .panel_c0bea0 .scrollerBase_d125d2, .channelRow_e4503a:hover, .avatarWrapper__37e49:hover,
 .scrollerContainer__4b8d8, .scrollerContainer__4b8d8 .scrollerBase_d125d2, .upsellPreview_d9161f, .howItWorksContainer_dd30dc, .creatorBenefitCard__02e4c, .guildCard__2485e,
 .editProfileContainer__7bf69:hover, .radioBar__88a69:hover, .container__6764b:hover, .profileHeader__9c3be,
@@ -67,7 +67,7 @@
 .header__8ef02, .packHeader_e94b8c, .createSticker_c6367b, .header_fed6d3, .textContainer__4d95d, .reactionTooltip_b49891,
 .code_cf4812, .container__9293f, [class^=scrollerBase]:not(.scroller__36d07, .scrollerBase_d125d2, .customScroller__23e6b.scrollerBase__99f8c), .sidebarList__5e434 > nav, .title_f75fb0, .children__9293f:after,
 .bd-search-wrapper, .bd-error-modal-footer, .bd-addon-modal, .bd-modal-footer, .bd-modal-small, .bd-modal-medium, .bd-changelog-modal, .bd-addon-store-card,
-.connectionHeader_c7f964, .accountProfileCard__1fed1, .sidebar__409aa, .tooltip__4e35b, .scrollerBase_d125d2.thin_d125d2:not(:has(.role_f07e3e), .tabListScroller__37bfc),
+.connectionHeader_c7f964, .accountProfileCard_a27e58, .sidebar__409aa, .tooltip__4e35b, .scrollerBase_d125d2.thin_d125d2:not(:has(.role_f07e3e), .tabListScroller__37bfc),
 code, .repliedMessage_c19a55:not(.latin24CompactTimeStamp_c19a55), .spoilerContent__299eb, .sidebar__5e434:after, .standardSidebarView__23e6b, .box_f8c98c,
 .modalBody_d6e876, .searchResultGroup_a7e67f, .searchResultsWrap_a98f3b, .searchFilter_bd8186, .searchAnswer_bd8186, .container_f792fa, .sidebarCard_f792fa, .measurement__6ba63,
 .embedFull__623de:not(.imageContent__0f481, .inlineMediaEmbed__623de), .file__0ccae, .upload_aa605f,
@@ -144,7 +144,7 @@ li:has([d^="M16.23 12c0 1.29-.95 2.25-2.22 2.25A2.18"]),
   border: 1px solid var(--border-primary) !important;
 }
 
-.gameNameInput_cc46f0:hover,
+.gameNameInput__497cd:hover,
 .interactiveSelected__972a0:hover, .item_aa8da2.selected_aa8da2:hover, .reactionBtn__23977:hover,
 .selected__91a9d:hover, .container__9271d:hover, .uploadInput__94439:hover, .input__48d49:hover, .searchBarComponent__35e86:hover, .unreadBar__629e4:hover, .bd-search-wrapper:hover, .bd-select-option.selected:hover, .categoryItemDefaultCategorySelected_b9ee0c:hover, .stickerCategoryGenericSelected__3ad28:hover,
 .navButtonActive__08434:hover, .copyInput_fffc15:hover, .fieldBackground_eaaeee:hover, .fieldFooterContainer_eaaeee:hover, .mainContainer_c5e6a1:hover, .inputWrapper_a97616:hover, .card__11580:hover,
@@ -163,9 +163,9 @@ li:has([d^="M16.23 12c0 1.29-.95 2.25-2.22 2.25A2.18"]),
 
 .statusPopover__2d0ab, .popover_f84418, .actionBar_aa605f.wrapper_f7ecac, .popover__2d0ab, .container_ca49a1, .actionButtons_cc1819, .reactionBtn__23977, .container__65338, .spamBanner_a2eac3, .wrapper_d5f3cd, .upsellsContainer__8f3cb,
 .guildPopout__51eb2, .embed_f69538, :where(.overlay_c0bea0), .activity__747b1, .bumpBox_cacd02, .rewardTileWithInstructions__11054, .profileEntryCard__655fa, .nonVisualMediaItemContainer_f4758a .embedWrapper_b7e1cb,
-.descriptionContainer_ca49a1, .blockedIgnoredSettingsNotice__6811a, .wrapper__44df5, .field__1fed1, .row__0624f, .metadataContainer_c7f964, .badgeList__1fed1, .bd-addon-store-card-embed,
+.descriptionContainer_ca49a1, .blockedIgnoredSettingsNotice__6811a, .wrapper__44df5, .field_a27e58, .row__0624f, .metadataContainer_c7f964, .badgeList_a27e58, .bd-addon-store-card-embed,
 .connectContainer_c7f964, .content__19fd1, .safetyTable__1f3e3, .noticeRegion__23e6b .container__9a9f9, .container_cdb3b1, .pollContainer_b7e1cb, .card__823e1, .popover_d6f39b,
-.container_a68543, .container__9a9f9, .container__9a9f9, .systemServiceUpsell__740f2, .defaultKeybindGroup__740f2, .game_cc46f0, .bd-notification {
+.container_a68543, .container__9a9f9, .container__9a9f9, .systemServiceUpsell__57111, .defaultKeybindGroup__57111, .game__497cd, .bd-notification {
   border: 1px solid var(--border-primary) !important;
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
@@ -318,19 +318,19 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow_b0dfc2, .member_cou
 
 /* Improved Tab Menus */
 /* Profile Settings Tabs ????? - .tabBarItem_d6f9e9 | Channels & Roles Tabs - .tabBarItem__0b563 | Family Center Tabs - .settingsTabBarItem_dc2e0e */
-/* Content & Social - .tabBar_f8303a | User Profile Tabs - .tabBarItem__37bfc | General Settings Tabs - .item_aa8da2 | Inbox Tabs - .tab_ab6641 */
+/* Content & Social - .tabBar_eeedb9 | User Profile Tabs - .tabBarItem__37bfc | General Settings Tabs - .item_aa8da2 | Inbox Tabs - .tab_ab6641 */
 /* Server Edit Roles Tabs - .tabBarItem__81b3e */
 .tabBarItem_d6f9e9:nth-child(1), .tabBarItem_d6f9e9:nth-child(1):hover, .tabBarItem_d6f9e9:nth-child(2), .tabBarItem_d6f9e9:nth-child(2):hover,
 .tabBarItem__0b563:nth-child(1), .tabBarItem__0b563:nth-child(1):hover, .tabBarItem__0b563:nth-child(2), .tabBarItem__0b563:nth-child(2):hover,
 .settingsTabBarItem_dc2e0e:nth-child(1), .settingsTabBarItem_dc2e0e:nth-child(1):hover, .settingsTabBarItem_dc2e0e:nth-child(2), .settingsTabBarItem_dc2e0e:nth-child(2):hover,
 .settingsTabBarItem_dc2e0e:nth-child(3), .settingsTabBarItem_dc2e0e:nth-child(3):hover,
-.tabBar_f8303a:nth-child(1), .tabBar_f8303a:nth-child(1):hover, .tabBar_f8303a:nth-child(2), .tabBar_f8303a:nth-child(2):hover,
+.tabBar_eeedb9:nth-child(1), .tabBar_eeedb9:nth-child(1):hover, .tabBar_eeedb9:nth-child(2), .tabBar_eeedb9:nth-child(2):hover,
 .tabBarItem__81b3e:nth-child(1), .tabBarItem__81b3e:nth-child(1):hover, .tabBarItem__81b3e:nth-child(2), .tabBarItem__81b3e:nth-child(2):hover,
 .tabBarItem__81b3e:nth-child(3), .tabBarItem__81b3e:nth-child(3):hover, .tabBarItem__81b3e:nth-child(4), .tabBarItem__81b3e:nth-child(4):hover,
 .tabBarItem__37bfc:nth-child(1), .tabBarItem__37bfc:nth-child(1):hover, .tabBarItem__37bfc:nth-child(2), .tabBarItem__37bfc:nth-child(2):hover,
 .tabBarItem__37bfc:nth-child(3), .tabBarItem__37bfc:nth-child(3):hover, .tabBarItem__37bfc:nth-child(4), .tabBarItem__37bfc:nth-child(4):hover,
-.item_aa8da2:nth-child(1), .item_aa8da2:nth-child(1):hover, .item_aa8da2:nth-child(2), .item_aa8da2:nth-child(2):hover,
-.item_aa8da2:nth-child(3), .item_aa8da2:nth-child(3):hover, .item_aa8da2:nth-child(4), .item_aa8da2:nth-child(4):hover,
+.container_abd9a8 .item_aa8da2:nth-child(1), .container_abd9a8 .item_aa8da2:nth-child(1):hover, .container_abd9a8 .item_aa8da2:nth-child(2), .container_abd9a8 .item_aa8da2:nth-child(2):hover,
+.container_abd9a8 .item_aa8da2:nth-child(3), .container_abd9a8 .item_aa8da2:nth-child(3):hover, .container_abd9a8 .item_aa8da2:nth-child(4), .container_abd9a8 .item_aa8da2:nth-child(4):hover,
 .tab_ab6641:nth-child(1), .tab_ab6641:nth-child(1):hover, .tab_ab6641:nth-child(2), .tab_ab6641:nth-child(2):hover,
 .tab_ab6641:nth-child(3), .tab_ab6641:nth-child(3):hover {
   margin-left: 0px;
@@ -342,18 +342,18 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow_b0dfc2, .member_cou
   border-top-right-radius: 6px;
 }
 
-.avatar__1fed1 svg {
+.avatar_a27e58 svg {
   width: 184px;
   height: 184px;
   image-rendering: pixelated !important;
 }
 
-.avatar__1fed1 {
+.avatar_a27e58 {
   width: 160px !important;
   height: 160px !important;
 }
 
-.userInfo__1fed1 > div:nth-child(2) {
+.userInfo_a27e58 > div:nth-child(2) {
   position: relative;
   left: 100px;
 }
@@ -361,7 +361,7 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow_b0dfc2, .member_cou
 .tabBarItem_d6f9e9:nth-child(1).selected_aa8da2, .tabBarItem_d6f9e9:nth-child(2).selected_aa8da2,
 .tabBarItem__0b563:nth-child(1).selected_aa8da2, .tabBarItem__0b563:nth-child(2).selected_aa8da2,
 .settingsTabBarItem_dc2e0e:nth-child(1).selected_aa8da2, .settingsTabBarItem_dc2e0e:nth-child(2).selected_aa8da2, .settingsTabBarItem_dc2e0e:nth-child(3).selected_aa8da2,
-.tabBar_f8303a:nth-child(1).selected_f8303a, .tabBar_f8303a:nth-child(2).selected_f8303a,
+.tabBar_eeedb9:nth-child(1).selected_eeedb9, .tabBar_eeedb9:nth-child(2).selected_eeedb9,
 .tabBarItem__81b3e:nth-child(1).selected_aa8da2, .tabBarItem__81b3e:nth-child(2).selected_aa8da2, .tabBarItem__81b3e:nth-child(3).selected_aa8da2, .tabBarItem__81b3e:nth-child(4).selected_aa8da2,
 .tabBarItem__37bfc:nth-child(1).selected_aa8da2, .tabBarItem__37bfc:nth-child(2).selected_aa8da2, .tabBarItem__37bfc:nth-child(3).selected_aa8da2, .tabBarItem__37bfc:nth-child(4).selected_aa8da2,
 .item_aa8da2:nth-child(1).selected_aa8da2, .item_aa8da2:nth-child(2).selected_aa8da2, .item_aa8da2:nth-child(3).selected_aa8da2, .item_aa8da2:nth-child(4).selected_aa8da2,
@@ -375,7 +375,7 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow_b0dfc2, .member_cou
 .tabBarItem_d6f9e9:nth-child(1):hover, .tabBarItem_d6f9e9:nth-child(2):hover,
 .tabBarItem__0b563:nth-child(1):hover, .tabBarItem__0b563:nth-child(2):hover,
 .settingsTabBarItem_dc2e0e:nth-child(1):hover, .settingsTabBarItem_dc2e0e:nth-child(2):hover, .settingsTabBarItem_dc2e0e:nth-child(3):hover,
-.tabBar_f8303a:nth-child(1):hover, .tabBar_f8303a:nth-child(2):hover,
+.tabBar_eeedb9:nth-child(1):hover, .tabBar_eeedb9:nth-child(2):hover,
 .tabBarItem__81b3e:nth-child(1):hover, .tabBarItem__81b3e:nth-child(2):hover, .tabBarItem__81b3e:nth-child(3):hover, .tabBarItem__81b3e:nth-child(4):hover,
 .tabBarItem__37bfc:nth-child(1):hover, .tabBarItem__37bfc:nth-child(2):hover, .tabBarItem__37bfc:nth-child(3):hover, .tabBarItem__37bfc:nth-child(4):hover,
 .item_aa8da2:nth-child(1):hover, .item_aa8da2:nth-child(2):hover, .item_aa8da2:nth-child(3):hover, .item_aa8da2:nth-child(4):hover,
@@ -1031,23 +1031,23 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
 }
 
 /* Account Details Columns - DaBluLite */
-.background__1fed1 {
+.background_a27e58 {
   background-color: transparent;
 }
 
-.fieldList__1fed1 {
+.fieldList_a27e58 {
   background-color: transparent;
 }
 
-.field__1fed1:not(:has(.fieldSpacerBottom__1fed1)) {
+.field_a27e58:not(:has(.fieldSpacerBottom_a27e58)) {
   margin-bottom: 24px;
 }
 
-.field__1fed1:last-child {
+.field_a27e58:last-child {
   margin-right: 0 !important;
 }
 
-.field__1fed1 {
+.field_a27e58 {
   width: calc(33.3333333333% - 6.6666666667px);
   border-radius: 8px;
   background-color: var(--background-primary);
@@ -1062,29 +1062,29 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
   height: 125px;
 }
 
-.field__1fed1::-webkit-scrollbar {
+.field_a27e58::-webkit-scrollbar {
   width: 0;
 }
 
-.field__1fed1 .fieldButton__1fed1 {
+.field_a27e58 .fieldButton_a27e58 {
   border-radius: 8px;
   transition: 0.3s;
 }
 
-.field__1fed1 .fieldButton__1fed1:hover > div {
+.field_a27e58 .fieldButton_a27e58:hover > div {
   background-image: none !important;
 }
 
-.field__1fed1 .fieldButton__1fed1:nth-child(1) {
+.field_a27e58 .fieldButton_a27e58:nth-child(1) {
   margin-left: 5em;
 }
 
-.field__1fed1 .fieldButton__1fed1 {
+.field_a27e58 .fieldButton_a27e58 {
   bottom: 10px;
   position: absolute;
 }
 
-.avatar__1fed1 ~ button {
+.avatar_a27e58 ~ button {
   margin-right: 15px;
   border-radius: 8px;
 }
