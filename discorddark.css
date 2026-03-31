@@ -34,7 +34,7 @@
 .container_a54d1d, .recentMentionsPopout__95796, .channelHeader__35a7e, .recommendedServerCard__6d839, .card__4d7bb, .faq__5d9e5, .list_c441f0,
 .cardContent_f62fce, .channelTextArea__74017, .staticToolbar_bba883, .itemCard__7e549, .container__5808f, .container_d404a3, .pageBody__41ed7, .browser__41ed7 .scrollerInner_e4503a, .inner_c0bea0,
 .peopleColumn__133bf, .background__6343b, .container__5573a, .container__8a031, .container__8a031 > div, .container__8a031, .stepContainer_a68543, .cardFolder__1a4ef, .header_c6bf1b,
-.scrollerBase_d125d2.thin_d125d2:has(.role_f07e3e), .contentHeader_e9e3ed, .stickyHeader_c6bf1b, .scrollerBase__99f8c, .content_e9e3ed {
+.scrollerBase_d125d2.thin_d125d2:has(.role_f07e3e), .contentHeader_e9e3ed, .stickyHeader_c6bf1b, .scrollerBase__99f8c, .content_e9e3ed, .footerButton__272c7::after {
   background-image: var(--bgDarkness1) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -49,7 +49,7 @@
 .bd-select:hover, .bd-select-option:hover, .bd-store-card, .bd-addon-store-modal, .bd-description-wrap, .bd-footer, .panel_c0bea0 .scrollerBase_d125d2, .channelRow_e4503a:hover, .avatarWrapper__37e49:hover,
 .scrollerContainer__4b8d8, .scrollerContainer__4b8d8 .scrollerBase_d125d2, .upsellPreview_d9161f, .howItWorksContainer_dd30dc, .creatorBenefitCard__02e4c, .guildCard__2485e,
 .editProfileContainer__7bf69:hover, .radioBar__88a69:hover, .container__6764b:hover, .profileHeader__9c3be,
-.appDetailsContainer__24605, .stepContainer_a68543:hover,
+.appDetailsContainer__24605, .stepContainer_a68543:hover, .footerButton__272c7:hover::after,
 .rules__92677, .header__75906, .container_e9b3cb, .channelList__75906, .coverageHeader_e34850,
 .pillItem__9e06a:hover, .joinOptionContent__959cb:hover, .channelRow__1ea09:hover, .addActionItem_d2b0e4:hover {
   background-image: var(--bgDarkness2) !important;
