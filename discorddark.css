@@ -9,8 +9,8 @@
 .messages__1ccd1, .messageContainer__95796, .header_ab6641, .header__416c7, .activeGame__497cd, .upsellContainer__73000, .upsellFooter__73000,
 .body__6da2d, .popout__76f04, .navItem__551b0:active, .clickable__91a9d .layout__91a9d:active, .interactive_bf202d:active,
 .wrapper__2ea32:active .link__2ea32, .childContainer__91a9d:active, .bd-select-options, .bd-select, .bd-select-option.selected, .bd-number-input, .bd-addon-header,
-.groupCollapsedContainer__9d98d, .upsellContainerFloating__0b69f, .bar__7aaec, .actionButton_f8fa06, .footer__7f9c0 > button, .wrapper__6e9f8:not(.selected__6e9f8) .childWrapper__6e9f8,
-.groupContent__9d98d, .select_a16aea, .select__9d98d, .option_a16aea:has(.selectedIcon_a16aea), .postEnrollmentBackground__24e2c, .contentHeader__45776, .contentFooter__8b8a3,
+.groupCollapsedContainer__70d86, .upsellContainerFloating__0b69f, .bar__7aaec, .actionButton_f8fa06, .footer__7f9c0 > button, .wrapper__6e9f8:not(.selected__6e9f8) .childWrapper__6e9f8,
+.groupContent__70d86, .select_a16aea, .select__9d98d, .option_a16aea:has(.selectedIcon_a16aea), .postEnrollmentBackground__24e2c, .contentHeader__45776, .contentFooter_e40371,
 .textContentFooter__9a337, .activityPanel__5e434, .tile__90dc5, .termsFieldBody_fe70ca, .editProfileContainer__7bf69, .container_dca174, .container__0b563,
 .prompt__5d7c9, .wrapper_cdf8a9, .wrapper_fc8177.cozy_fc8177, .radioBar__88a69, .connectedAccountContainer_e6abe8, .note_fcb628 > textarea, .wrapper__2ea32.selectedChannel_c69b6d .link__2ea32,
 .chatHeaderBar_dc83f5, .chatHeaderBar_a5700d, .homeContent__7449f .row_d13feb, .contentContainer__5573a, .guildSection_d5cd2d, .container_dca174, .guildInviteContainer__083ae, .footerContent__083ae,
@@ -1156,7 +1156,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
   background: var(--background-floating);
 }
 
-.outer_c0bea0:has(.menus_ce8328) .inner_c0bea0:before, .outer_c0bea0:has(.menus_ce8328) .user-profile-popout, .outer_c0bea0:has(.menus_ce8328) .tags__63ed3, .outer_c0bea0:has(.menus_ce8328) .body_ce8328 div:has(.descriptionClamp_f5f93a), .outer_c0bea0:has(.menus_ce8328) .activity_f00225, .outer_c0bea0:has(.menus_ce8328) .profileEffects__01370,
+.outer_c0bea0:has(.menus_ce8328) .inner_c0bea0:before, .outer_c0bea0:has(.menus_ce8328) .user-profile-popout, .outer_c0bea0:has(.menus_ce8328) .tags__63ed3, .outer_c0bea0:has(.menus_ce8328) .body_ce8328 div:has(.descriptionClamp_f5f93a), .outer_c0bea0:has(.menus_ce8328) .activity_f00225, .outer_c0bea0:has(.menus_ce8328) .profileEffects__0dd08,
 .outer_c0bea0:has(.menus_ce8328) .header__5be3e {
   display: none;
 }
@@ -1753,7 +1753,7 @@ nav.guilds__5e434 {
 .childContainer__91a9d.nameplated__91a9d {
   padding-right: 8px;
 }
-.childContainer__91a9d.nameplated__91a9d .container__4bbc6 {
+.childContainer__91a9d.nameplated__91a9d .container_df39b2 {
   display: var(--nameplates);
 }
 
