@@ -29,6 +29,11 @@
 	margin-bottom: var(--server-spacing);
 }
 
+#app-mount .folderGroup__48112:not(.isExpanded__48112) .listItem__650eb .wrapper__58105.overlay__58105 {
+	left: 45%!important;
+	top: 45%!important;
+}
+
 #app-mount .listItem__650eb .wrapper__58105.overlay__58105 {
 	--__ring-size: calc(((var(--server-icon-size, 45) * 1px) - 5px) + var(--server-folder-offset, 0px) + var(--server-ring-offset));
 	left: 50%;
