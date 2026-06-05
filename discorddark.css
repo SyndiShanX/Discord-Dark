@@ -930,6 +930,11 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
   background: transparent;
 }
 
+/* Removed Activity Header in Members List */
+.membersGroup_c8ffbb:has([d^="M10.56 1.1c-.46.05-.7.53-.64.98.18"]) {
+  display: none;
+}
+
 /* ---------- Buttons ---------- */
 /* Hover Color Change: -23, -50, -31 */
 .button__201d5, .item_aa8da2[aria-controls=ADD_FRIEND-tab], .bd-button, .item__344e6.selected__344e6, .leftTrayIcon_cb9592,
