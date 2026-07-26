@@ -59,7 +59,7 @@
 }
 
 /* Unread */
-#app-mount .listItem__650eb:not(:hover) .wrapper__58105.overlay__58105 span.visible__58105 {
+#app-mount .listItem__650eb .wrapper__58105.overlay__58105 span.visible__58105 {
 	box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-unread-colour) h s l / 0.25);
 	border-color: hsl(from var(--server-unread-colour) h s l);
 }
