@@ -17,7 +17,7 @@
 .mainContainer_c5e6a1, .backgroundModifierContainer_d96a9c, .actionContainer_bc4513, .contentExpandContainer_a25a68 .collapseable__2d143, .card__88264, .container__60fa3,
 .pageControl_c15210, .unreadBar__629e4, .wrapper_d852db, .shop__08415, .productCardContainer_fcbddd, .footerContainer_fcbddd, .card__39b32, .container__62dd3, .recommendationsContainerWithWishlist__4fbcc,
 .emptyCard__7e549, .header__88a04, .paymentPane__01014, .profileCard__5d7c9, .progressContainer__0d0f9, .bg__960e4, .bd-notification-footer, .container_b9f75c, .body__0489e, .navButtons_fe70ca, .banner__183e8,
-.listBox__2e223, .container__956c6, .container_b5b7aa, .wrapper__11054, .box__376cb, .channelHeader__5d903, .upsellContainer__98678, .messages_d42d06,
+.listBox__2e223, .container__956c6, .container_b5b7aa, .wrapper__11054, .box__376cb, .channelHeader__5d903, .upsellContainer_daf541, .messages_d42d06,
 .channelRow__1ea09, .actionItem_d2b0e4, .suggestedChannel_d2b0e4, .pillItem__9e06a.pillItemSelected__9e06a, .container__5d756, .pill__33d66, .joinOptionContent__959cb.uninteractive__959cb {
   background-image: var(--bgImage) !important;
   background-clip: border-box !important;
@@ -31,11 +31,11 @@
 /* Darkness 1 Background Image */
 .scrollerBase_d125d2:not(.thin_d125d2), .chat_f75fb0, .form_f75fb0, .container_d8f25b, .customScroller__23e6b.scrollerBase__99f8c, .descriptionBox__981f7, .card__84e3e, .contentContainer__8f46b, .contentContainer_c6b177, .guilds__5e434,
 .appContainer__5a4b6, .card_bb8774, .hoverCard_fdda30, .card_c59071, .container__34c2c, .tabItem_c9a59b:hover, .bd-addon-store-card, .bd-install-modal-items,
-.container__492b5, .recentMentionsPopout__95796, .channelHeader__35a7e, .recommendedServerCard_de1b16, .card__3b770, .faq__86cd6, .list_c441f0,
+.container__492b5, .recentMentionsPopout__95796, .channelHeader__35a7e, .recommendedServerCard_de1b16, .card__4d7bb, .faq__86cd6, .list_c441f0,
 .cardContent_f62fce, .channelTextArea__74017, .staticToolbar_bba883, .itemCard__7e549, .container__5808f, .container_d404a3, .pageBody__41ed7, .browser__41ed7 .scrollerInner_e4503a, .inner_c0bea0,
 .peopleColumn__133bf, .background__6343b, .container__5573a, .container__8a031, .container__8a031 > div:not(:has(.changeClassButton__41b81, .buttonWhite__65fca)), .container__8a031,
 .stepContainer_a68543, .cardFolder__1a4ef, .header_c6bf1b, .scrollerBase_d125d2.thin_d125d2:has(.role_f07e3e), .contentHeader_e9e3ed, .stickyHeader_c6bf1b, .scrollerBase__99f8c,
-.content_e9e3ed, .footerButton__272c7::after, .aside_f58343, .header_b08638 {
+.content_e9e3ed, .footerButton__272c7::after, .aside_f58343, .header_b08638, .header__2447f {
   background-image: var(--bgDarkness1) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -86,10 +86,9 @@ code, .repliedMessage_c19a55:not(.latin24CompactTimeStamp_c19a55), .spoilerConte
 }
 
 /* ---------- Main Tweaks ---------- */
-/* Hide GIF, Gift, Nitro DM, and App Launcher Buttons */
+/* Hide GIF, Gift, and App Launcher Buttons */
 [class*=buttonContainer]:has([d^=" M-7,-10 C-8.656999588012695,-10 -10"]),
 [class^=buttons] > [class^=container]:has([class^=buttonWrapper]):has([d^=" M-7,-6 C-7,-7.6570000648498535 -5.6"]),
-li:has([d^="M16.23 12c0 1.29-.95 2.25-2.22 2.25A2.18"]),
 .app-launcher-entrypoint, #channel-attach-SLASH_COMMAND {
   display: var(--AD-buttons) !important;
 }
@@ -276,7 +275,7 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow_b0dfc2, .member_cou
 .button__201d5.colorBrand__201d5 div:not(.controlIcon_f1ceac), .username__05e81, .themed_aa8da2,
 .bd-settings-title, .bd-error-modal, .backgroundModifierContainer_e5c5d5:hover .text-sm-medium_bc6ffc, .defaultColor__77578, .connectedAccountNameText_e6abe8,
 .text-xs-normal_ccc5fb, .defaultColor__4bd52:not(.membersGroup_c8ffbb, .badge_c2b88c, .headingBackgroundWhite__9b910), .userTagUsernameBase_c9ccf6, .customStatusText_cb55fc, .itemizedListText_f005b2,
-.text__530ce, .userTag__63ed3, .userTag__63ed3 > span {
+.text__6aa84, .userTag__63ed3, .userTag__63ed3 > span {
   color: #fff !important;
 }
 
@@ -816,7 +815,7 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
 .outer_c0bea0.theme-light .nick__0a95c, .outer_c0bea0.theme-light .info_f4bc97 > span, .outer_c0bea0.theme-light .details__89036 > div > div {
   color: #fff !important;
 }
-.outer_c0bea0.theme-light .inner__74017 .spriteGreyscale__04eed, .outer_c0bea0.theme-light .spacer__530ce, .outer_c0bea0.theme-light .divider_c4eb81 {
+.outer_c0bea0.theme-light .inner__74017 .spriteGreyscale__04eed, .outer_c0bea0.theme-light .spacer__6aa84, .outer_c0bea0.theme-light .divider_c4eb81 {
   background-color: #fff !important;
 }
 .outer_c0bea0.theme-light .tooltipContainer__2d0ab path, .outer_c0bea0.theme-light .toolbarContainer__39ec2 path, .outer_c0bea0.theme-light .inner_ab8609 svg > path, .outer_c0bea0.theme-light .discordIcon_c4eb81 > path {
@@ -945,7 +944,7 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 
-.barFill_a562c8 {
+.barFill__4c059 {
   background-color: var(--blue-button-hover) !important;
 }
 
