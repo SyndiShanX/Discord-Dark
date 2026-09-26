@@ -35,7 +35,7 @@
 .cardContent_f62fce, .channelTextArea__74017, .staticToolbar_bba883, .itemCard__7e549, .container__5808f, .container_d404a3, .pageBody__41ed7, .browser__41ed7 .scrollerInner_e4503a, .inner_c0bea0,
 .peopleColumn__133bf, .background__6343b, .container__5573a, .container__8a031, .container__8a031 > div:not(:has(.changeClassButton__41b81, .buttonWhite__65fca)), .container__8a031,
 .stepContainer_a68543, .cardFolder__1a4ef, .header_c6bf1b, .scrollerBase_d125d2.thin_d125d2:has(.role_f07e3e), .contentHeader_e9e3ed, .stickyHeader_c6bf1b, .scrollerBase__99f8c,
-.content_e9e3ed, .footerButton__272c7::after, .aside_f58343, .header_b08638, .header__2447f {
+.content_e9e3ed, .footerButton__272c7::after, .aside_f58343, .header_b08638, .header__2447f, .questCardContextMenuTrigger__7e549, .questCardContextMenuTrigger__7e549 .wrapper__11054 {
   background-image: var(--bgDarkness1) !important;
   background-clip: border-box !important;
   background-origin: padding-box !important;
@@ -141,7 +141,7 @@ code, .repliedMessage_c19a55:not(.latin24CompactTimeStamp_c19a55), .spoilerConte
 .section__00943, .activeCategory_fa8ebf, .moreContainer__55bab, .container__0f2e8, .card__88264, .showMoreButton_c83b44, .button_fb7f94, .sortDropdown_f369db, .pill_a2c9e8, .tagsButton_f369db,
 .searchBar__5ec2f, .answerInner__4c520, .searchBar__1ac1c, .navItem__551b0.selected__551b0, .mainCard_f369db, .bd-store-card, .bd-number-input,
 .reaction_f8896c:not(.reactionMe_f8896c), .reaction__23977:not(.reactionMe__23977), .searchBar_c0e32c, .searchBar_fed6d3, .actionButtons_e131a9 button,
-.editProfileContainer__7bf69, .note_fcb628 > textarea, .homeContent__7449f .row_d13feb, .active_caf372, .productCardContainer_fcbddd {
+.editProfileContainer__7bf69, .note_fcb628 > textarea, .homeContent__7449f .row_d13feb, .active_caf372, .productCardContainer_fcbddd, .wrapper__11054 {
   border: 1px solid var(--border-primary) !important;
 }
 
@@ -154,7 +154,7 @@ code, .repliedMessage_c19a55:not(.latin24CompactTimeStamp_c19a55), .spoilerConte
 .section__00943:hover, .activeCategory_fa8ebf:hover, .moreContainer__55bab:hover, .container__0f2e8:hover, .card__88264:hover, .showMoreButton_c83b44:hover, .button_fb7f94:hover, .sortDropdown_f369db:hover, .pill_a2c9e8:hover, .tagsButton_f369db:hover,
 .searchBar__5ec2f:hover, .answerInner__4c520:hover, .searchBar__1ac1c:hover, .navItem__551b0.selected__551b0:hover, .mainCard_f369db:hover, .bd-store-card:hover, .bd-number-input:hover,
 .reaction_f8896c:not(.reactionMe_f8896c):hover, .reaction__23977:not(.reactionMe__23977):hover, .searchBar_c0e32c:hover, .searchBar_fed6d3:hover, .actionButtons_e131a9 button:hover,
-.editProfileContainer__7bf69:hover, .note_fcb628 > textarea:hover, .homeContent__7449f .row_d13feb:hover, .active_caf372:hover, .productCardContainer_fcbddd:hover {
+.editProfileContainer__7bf69:hover, .note_fcb628 > textarea:hover, .homeContent__7449f .row_d13feb:hover, .active_caf372:hover, .productCardContainer_fcbddd:hover, .wrapper__11054:hover {
   border: 1px solid var(--border-secondary) !important;
 }
 
@@ -905,7 +905,7 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
 }
 
 /* Fixed Active Now Borders */
-.section__00943:only-child {
+.section__00943:only-child, .wrapper__11054:only-child {
   border-radius: 15px;
 }
 
