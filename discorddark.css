@@ -88,7 +88,7 @@ code, .repliedMessage_c19a55:not(.latin24CompactTimeStamp_c19a55), .spoilerConte
 /* ---------- Main Tweaks ---------- */
 /* Hide GIF, Gift, and App Launcher Buttons */
 [class*=buttonContainer]:has([d^=" M-7,-10 C-8.656999588012695,-10 -10"]),
-[class^=buttons] > [class^=container]:has([class^=buttonWrapper]):has([d^=" M-7,-6 C-7,-7.6570000648498535 -5.6"]),
+[class^=buttons] > [class^=container]:has([d^=" M-7,-6 C-7,-7.6570000648498535 -5.6"]),
 .app-launcher-entrypoint, #channel-attach-SLASH_COMMAND {
   display: var(--AD-buttons) !important;
 }
@@ -332,6 +332,7 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow_b0dfc2, .member_cou
 .tabBarItem__81b3e:nth-child(3), .tabBarItem__81b3e:nth-child(3):hover, .tabBarItem__81b3e:nth-child(4), .tabBarItem__81b3e:nth-child(4):hover,
 .tabBarItem__37bfc:nth-child(1), .tabBarItem__37bfc:nth-child(1):hover, .tabBarItem__37bfc:nth-child(2), .tabBarItem__37bfc:nth-child(2):hover,
 .tabBarItem__37bfc:nth-child(3), .tabBarItem__37bfc:nth-child(3):hover, .tabBarItem__37bfc:nth-child(4), .tabBarItem__37bfc:nth-child(4):hover,
+.tabBarItem__37bfc:nth-child(5), .tabBarItem__37bfc:nth-child(5):hover,
 .container_abd9a8 .item_aa8da2:nth-child(1), .container_abd9a8 .item_aa8da2:nth-child(1):hover, .container_abd9a8 .item_aa8da2:nth-child(2), .container_abd9a8 .item_aa8da2:nth-child(2):hover,
 .container_abd9a8 .item_aa8da2:nth-child(3), .container_abd9a8 .item_aa8da2:nth-child(3):hover, .container_abd9a8 .item_aa8da2:nth-child(4), .container_abd9a8 .item_aa8da2:nth-child(4):hover,
 .tab__06f80:nth-child(1), .tab__06f80:nth-child(1):hover, .tab__06f80:nth-child(2), .tab__06f80:nth-child(2):hover,
@@ -366,7 +367,7 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow_b0dfc2, .member_cou
 .settingsTabBarItem_dc2e0e:nth-child(1).selected_aa8da2, .settingsTabBarItem_dc2e0e:nth-child(2).selected_aa8da2, .settingsTabBarItem_dc2e0e:nth-child(3).selected_aa8da2,
 .tabBar_b6a799:nth-child(1).selected_b6a799, .tabBar_b6a799:nth-child(2).selected_b6a799,
 .tabBarItem__81b3e:nth-child(1).selected_aa8da2, .tabBarItem__81b3e:nth-child(2).selected_aa8da2, .tabBarItem__81b3e:nth-child(3).selected_aa8da2, .tabBarItem__81b3e:nth-child(4).selected_aa8da2,
-.tabBarItem__37bfc:nth-child(1).selected_aa8da2, .tabBarItem__37bfc:nth-child(2).selected_aa8da2, .tabBarItem__37bfc:nth-child(3).selected_aa8da2, .tabBarItem__37bfc:nth-child(4).selected_aa8da2,
+.tabBarItem__37bfc:nth-child(1).selected_aa8da2, .tabBarItem__37bfc:nth-child(2).selected_aa8da2, .tabBarItem__37bfc:nth-child(3).selected_aa8da2, .tabBarItem__37bfc:nth-child(4).selected_aa8da2, .tabBarItem__37bfc:nth-child(5).selected_aa8da2,
 .item_aa8da2:nth-child(1).selected_aa8da2, .item_aa8da2:nth-child(2).selected_aa8da2, .item_aa8da2:nth-child(3).selected_aa8da2, .item_aa8da2:nth-child(4).selected_aa8da2,
 .tab__06f80:nth-child(1).selected_aa8da2, .tab__06f80:nth-child(2).selected_aa8da2, .tab__06f80:nth-child(3).selected_aa8da2 {
   border-bottom-color: transparent !important;
@@ -380,7 +381,7 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow_b0dfc2, .member_cou
 .settingsTabBarItem_dc2e0e:nth-child(1):hover, .settingsTabBarItem_dc2e0e:nth-child(2):hover, .settingsTabBarItem_dc2e0e:nth-child(3):hover,
 .tabBar_b6a799:nth-child(1):hover, .tabBar_b6a799:nth-child(2):hover,
 .tabBarItem__81b3e:nth-child(1):hover, .tabBarItem__81b3e:nth-child(2):hover, .tabBarItem__81b3e:nth-child(3):hover, .tabBarItem__81b3e:nth-child(4):hover,
-.tabBarItem__37bfc:nth-child(1):hover, .tabBarItem__37bfc:nth-child(2):hover, .tabBarItem__37bfc:nth-child(3):hover, .tabBarItem__37bfc:nth-child(4):hover,
+.tabBarItem__37bfc:nth-child(1):hover, .tabBarItem__37bfc:nth-child(2):hover, .tabBarItem__37bfc:nth-child(3):hover, .tabBarItem__37bfc:nth-child(4):hover, .tabBarItem__37bfc:nth-child(5):hover,
 .item_aa8da2:nth-child(1):hover, .item_aa8da2:nth-child(2):hover, .item_aa8da2:nth-child(3):hover, .item_aa8da2:nth-child(4):hover,
 .tab__06f80:nth-child(1):hover, .tab__06f80:nth-child(2):hover, .tab__06f80:nth-child(3):hover {
   border-bottom-color: transparent !important;
@@ -506,12 +507,6 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow_b0dfc2, .member_cou
   height: calc(var(--custom-emoji-picker-constants-emoji-size-medium) + var(--custom-emoji-picker-constants-emoji-container-padding-vertical) * 2 + 2);
 }
 
-/* Added Rounded Border to Forums Post Creation Input */
-.formContainer_d9be46 .input__0ed4f {
-  border-radius: 4px;
-  padding-left: 5px;
-}
-
 /* Styled Thread Reaction Buttons so they Match the Normal One */
 .reactionMe_f8896c, .reactionMe__23977 {
   background-color: var(--brand-experiment-15a) !important;
@@ -525,44 +520,6 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow_b0dfc2, .member_cou
 
 .reactionCount_f8896c {
   color: var(--message-reacted-text) !important;
-}
-
-/* Styled BD Theme Settings Modal */
-.bd-addon-modal:not(:has(.bd-addon-settings-wrap)) {
-  border-radius: 8px;
-}
-
-.bd-modal-footer {
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-}
-
-.bd-select-options {
-  min-width: 100% !important;
-}
-
-.bd-select-option, .bd-select, .bd-select-options {
-  border: 1px solid var(--border-primary) !important;
-}
-
-.bd-select-option.selected, .bd-select-option:hover, .bd-select-option.selected:hover, .bd-select:hover, .bd-select-options:hover {
-  border: 1px solid var(--border-secondary) !important;
-}
-
-.bd-select-option, .bd-select-option:hover, .bd-select-option.selected, .bd-select-option.selected:hover {
-  border-left: transparent !important;
-  border-right: transparent !important;
-}
-
-/* Fixed Attachment Button Outlines */
-.nonMediaAttachment_ef83c1 {
-  outline: 1px solid transparent;
-}
-
-/* Fixed User Profile Popout */
-.popoutContainer_ad5fac {
-  position: relative;
-  left: 35px;
 }
 
 /* Fixed Settings Icon Colors */
@@ -630,11 +587,6 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow_b0dfc2, .member_cou
 .controlButton__1405b .colorable_f1ceac.white_f1ceac .lottieIcon__5eb9b :not(defs *)[stroke][stroke-opacity] {
   fill: white;
   stroke: white;
-}
-
-/* Make Discover Gradient always Visible */
-.gradientHidden_f8ec41 {
-  opacity: 100;
 }
 
 /* Added Outlines to Inline Code */
@@ -711,11 +663,6 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow_b0dfc2, .member_cou
   border-bottom-right-radius: 12px;
 }
 
-/* Moved Plugins/Theme Search Bar */
-.bd-search-wrapper {
-  translate: 5%;
-}
-
 /* Fixed Modal Buttons Overlapping */
 .footerSeparator__49fc1 > button:nth-child(1) {
   margin-left: 1em;
@@ -745,11 +692,6 @@ h2.name__29444, .membersGroup_c8ffbb, .name__29444 .overflow_b0dfc2, .member_cou
 .premiumSubscribeButton_d723f6 .buttonText_d723f6, .premiumSubscribeButton_d723f6 path {
   color: #fff;
   fill: #fff;
-}
-
-/* Fixed Remove Role Icon Positioning */
-.roleRemoveIcon_dfa8b6 {
-  left: 5.5px;
 }
 
 /* Removed Red Glow behind Mute/Deafen Buttons */
@@ -1037,88 +979,6 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
 }
 
 /* ---------- CSS Snippets ---------- */
-/* Align Settings Sidebar to the Left - SyndiShanX */
-.sidebar__23e6b {
-  margin-right: auto;
-  margin-left: 0;
-}
-
-.sidebarRegion__23e6b {
-  flex: 1 0 0;
-  max-width: var(--sidebar-width) !important;
-}
-
-.contentRegion__23e6b {
-  flex: 1 1 100%;
-}
-
-.contentColumn__23e6b, .customColumn__23e6b, .customScroller__23e6b > div {
-  max-width: 90%;
-}
-
-.layer__960e4[aria-label=GUILD_SETTINGS] .sidebarRegion__23e6b {
-  max-width: 90%;
-}
-
-/* Account Details Columns - DaBluLite */
-.background_a9178b {
-  background-color: transparent;
-}
-
-.fieldList_a9178b {
-  background-color: transparent;
-}
-
-.field_a9178b:not(:has(.fieldSpacerBottom_a9178b)) {
-  margin-bottom: 24px;
-}
-
-.field_a9178b:last-child {
-  margin-right: 0 !important;
-}
-
-.field_a9178b {
-  width: calc(33.3333333333% - 6.6666666667px);
-  border-radius: 8px;
-  background-color: var(--background-primary);
-  max-height: none;
-  flex-flow: column;
-  padding: 15px;
-  display: inline-block;
-  margin-right: 24px;
-  margin-top: 0 !important;
-  position: relative;
-  overflow-y: scroll;
-  height: 125px;
-}
-
-.field_a9178b::-webkit-scrollbar {
-  width: 0;
-}
-
-.field_a9178b .fieldButton_a9178b {
-  border-radius: 8px;
-  transition: 0.3s;
-}
-
-.field_a9178b .fieldButton_a9178b:hover > div {
-  background-image: none !important;
-}
-
-.field_a9178b .fieldButton_a9178b:nth-child(1) {
-  margin-left: 5em;
-}
-
-.field_a9178b .fieldButton_a9178b {
-  bottom: 10px;
-  position: absolute;
-}
-
-.avatar_a9178b ~ button {
-  margin-right: 15px;
-  border-radius: 8px;
-}
-
 /* Pin Home Button - DoggyBootsy */
 .guilds__5e434 .tree_ef3116:focus {
   outline-color: transparent;
@@ -1144,62 +1004,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
   display: none !important;
 }
 
-/* Revert Role Design - Ashtrath */
-.role_dfa8b6, .showMoreButton_c83b44, .button_fb7f94 {
-  background: transparent;
-  border: 1px solid;
-  border-radius: 11px;
-}
-
-.roleCircle__4f569 {
-  margin-left: 0;
-}
-
-.addButton__48c1c.role_dfa8b6 {
-  border-color: #4f545c;
-}
-
-.addButtonIcon__48c1c {
-  width: 10px;
-  height: 10px;
-}
-
-.roleRemoveIcon__48c1c {
-  margin: -5px 0 0 -6.75px;
-}
-
-/* Normal Status Picker (Removes User Popup) - Zuzumi */
-.outer_c0bea0:has(.menus_ce8328) {
-  left: 0px;
-  bottom: 0px;
-}
-
-.outer_c0bea0:has(.menus_ce8328).user-profile-popout {
-  background: var(--background-floating);
-}
-
-.outer_c0bea0:has(.menus_ce8328) .inner_c0bea0:before, .outer_c0bea0:has(.menus_ce8328) .user-profile-popout, .outer_c0bea0:has(.menus_ce8328) .tags__63ed3, .outer_c0bea0:has(.menus_ce8328) .body_ce8328 div:has(.descriptionClamp_f5f93a), .outer_c0bea0:has(.menus_ce8328) .activity_f00225, .outer_c0bea0:has(.menus_ce8328) .profileEffects__0dd08,
-.outer_c0bea0:has(.menus_ce8328) .header__5be3e {
-  display: none;
-}
-.outer_c0bea0:has(.menus_ce8328) .body_ce8328 {
-  padding: 8px;
-  gap: 8px;
-}
-.outer_c0bea0:has(.menus_ce8328) .username_ce8328 {
-  padding: 0px 8px;
-}
-.outer_c0bea0:has(.menus_ce8328) .menus_d4e7c2 {
-  gap: 0px !important;
-}
-.outer_c0bea0:has(.menus_ce8328) .inner_c0bea0 {
-  max-height: 100%;
-  gap: 0px;
-  padding-bottom: 0px;
-  background: var(--background-floating);
-}
-
-/* Profile Buttons Animation - Xyhlo */
+/* Profile Buttons Bounce Animation - Xyhlo */
 .button__67645:hover .contents__201d5 {
   animation: UserModalButtons 0.5s normal ease;
 }
@@ -1218,7 +1023,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
   transition: 0.2;
 }
 
-/* Channel Hover Animation - Fixed for New Channel Structure - Xyhlo */
+/* Channel Hover Bounce Animation - Fixed for New Channel Structure - Xyhlo */
 .wrapper__2ea32:hover .link__2ea32 {
   animation: UserModalButtons 0.5s normal ease;
   transition: 0.2s;
@@ -1240,7 +1045,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
     transform: translateY(0px);
   }
 }
-/* Home Icon Animation on Hover - The Commie Axolotl */
+/* Home Icon Spin Animation on Hover - The Commie Axolotl */
 .tutorialContainer__1f388:hover .childWrapper__6e9f8 > svg {
   animation: spin 1s ease;
 }
@@ -1393,116 +1198,6 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
   overflow-y: scroll;
 }
 
-/* Colored Embeds - DoggyBootsy 
-.embedFull__623de::after {
-    border-left-color: inherit;
-    content: "";
-    position: absolute;
-    left: -1px;
-    right: -1px;
-    top: -1px;
-    bottom: -1px;
-    border-left-width: 100vw;
-    //border-left-width: 26.85rem;
-    border-left-style: solid;
-    z-index: -1;
-    opacity: .2;
-    filter: brightness(2);
-}
-.embedFull__623de {
-    isolation: isolate;
-    position: relative;
-    overflow: hidden;
-    border-width: 0;
-    border-left-width: 4px;
-}
-*/
-/* Fixes Mask on Server Icons */
-.svg_cc5dd2 > defs path {
-  d: path("M48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24Z") !important;
-}
-
-/* Plugins/Themes Counter - Skamt - Modified */
-:root {
-  counter-reset: activeAddonCount addonCount;
-}
-
-.bd-addon-card {
-  counter-increment: addonCount;
-}
-
-.bd-switch-checked {
-  counter-increment: activeAddonCount;
-}
-
-#themes-tab:after, #plugins-tab:after {
-  content: counter(activeAddonCount) " / " counter(addonCount);
-}
-
-#themes-tab, #plugins-tab {
-  display: grid;
-  grid-template-areas: "title title title" "controls counter advcontrols" "store store store" "addons addons addons";
-  min-height: unset;
-}
-
-.bd-addon-controls:not(#a) {
-  display: contents;
-}
-
-.bd-settings-title {
-  grid-area: title;
-}
-
-.bd-addon-controls {
-  grid-area: controls;
-}
-
-.bd-controls-advanced {
-  grid-area: advcontrols;
-  justify-self: flex-end;
-}
-
-.bd-store-card {
-  grid-area: store;
-}
-
-.bd-addon-list {
-  grid-area: addons;
-}
-
-.bd-empty-image-container, .bd-empty-results {
-  grid-column: 1/-1;
-}
-
-#themes-tab:after, #plugins-tab:after {
-  grid-area: counter;
-  white-space: nowrap;
-  align-self: flex-start;
-  justify-self: flex-start;
-  box-sizing: border-box;
-  color: var(--text-muted);
-  background-color: var(--background-tertiary);
-  font-weight: 500;
-  font-family: var(--font-primary);
-  font-size: 0.9rem;
-  padding: 6px;
-  margin-left: 0px;
-  border: 1px solid var(--border-primary);
-  border-radius: 3px;
-  height: 28px;
-}
-
-/* Normalized Forums - Class Updates */
-.container__01ae2 .container__7e6bb h3 {
-  font-family: var(--font-display);
-  font-size: 28px;
-  line-height: 32px;
-}
-
-.container__01ae2 .container__7e6bb .iconWrapper__7e6bb {
-  margin-top: 0;
-}
-
 /* Full Bio in User Profiles - Vilchu */
 [class^=viewFullBio] {
   display: none;
@@ -1593,23 +1288,6 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
   position: initial;
   width: 40px;
   height: 40px;
-}
-
-/* Server Rings Guild Icon Size Fix */
-#app-mount .listItem__650eb {
-  width: 100%;
-  margin-bottom: var(--server-spacing);
-}
-
-#app-mount .svg_cc5dd2 foreignObject {
-  border-radius: 50%;
-  -webkit-mask: none !important;
-  mask: none !important;
-}
-
-#app-mount .folderGroup__48112:not(.isExpanded__48112) .listItem__650eb [class*=pill] {
-  left: 45% !important;
-  top: 45% !important;
 }
 
 /* Guild Icon Fixes */
@@ -1761,22 +1439,9 @@ nav.guilds__5e434 {
   stroke: white;
 }
 
-/* Fixed BD Banners - Bizz */
-#bd-notices {
-  grid-area: notice;
-}
-
 /* Fixed BD Button Margins */
 .bd-addon-card .bd-links .bd-addon-button {
   margin-left: 5px;
-}
-
-/* Remove Nameplates - narukami5414 */
-.childContainer__91a9d.nameplated__91a9d {
-  padding-right: 8px;
-}
-.childContainer__91a9d.nameplated__91a9d .container_df39b2 {
-  display: var(--nameplates);
 }
 
 /* Remove Search Bar Gradient in Settings */
