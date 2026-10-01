@@ -754,13 +754,14 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
 .outer_c0bea0.theme-light .chipletContainerInner__10651 span, .outer_c0bea0.theme-light .descriptionClamp_f5f93a span, .outer_c0bea0.theme-light .descriptionClamp_f5f93a code, .outer_c0bea0.theme-light .inner__74017 div, .outer_c0bea0.theme-light .tooltipContent_c36707,
 .outer_c0bea0.theme-light .connectedAccountChildren_e6abe8 div, .outer_c0bea0.theme-light .connectedAccount_e6abe8 div, .outer_c0bea0.theme-light .defaultColor__5345c, .outer_c0bea0.theme-light textarea::placeholder, .outer_c0bea0.theme-light .connectedAccountOpenIcon_e6abe8,
 .outer_c0bea0.theme-light .toolbarContainer__39ec2 div, .outer_c0bea0.theme-light .listName__9d78f span, .outer_c0bea0.theme-light .listName__9d78f, .outer_c0bea0.theme-light .guildNick_aafe31, .outer_c0bea0.theme-light .collapseButton_fccfdf svg, .outer_c0bea0.theme-light .labelText__1fdc8, .outer_c0bea0.theme-light .name__0a95c,
-.outer_c0bea0.theme-light .nick__0a95c, .outer_c0bea0.theme-light .info_f4bc97 > span, .outer_c0bea0.theme-light .details__89036 > div > div {
+.outer_c0bea0.theme-light .nick__0a95c, .outer_c0bea0.theme-light .info_f4bc97 > span, .outer_c0bea0.theme-light .details__89036 > div > div, .outer_c0bea0.theme-light .lineClamp2Plus__4bd52, .outer_c0bea0.theme-light .itemText_aa8da2, .outer_c0bea0.theme-light .button_b23aa7, .outer_c0bea0.theme-light .userTag__26b1f, .outer_c0bea0.theme-light .metadata__9bfb9 > div,
+.outer_c0bea0.theme-light .hiddenCount__8061a, .outer_c0bea0.theme-light .empty_e766f2 .text-sm\/normal_cf4812 {
   color: #fff !important;
 }
-.outer_c0bea0.theme-light .inner__74017 .spriteGreyscale__04eed, .outer_c0bea0.theme-light .spacer__6aa84, .outer_c0bea0.theme-light .divider_c4eb81 {
+.outer_c0bea0.theme-light .inner__74017 .spriteGreyscale__04eed, .outer_c0bea0.theme-light .spacer__6aa84, .outer_c0bea0.theme-light .divider_c4eb81, .outer_c0bea0.theme-light .dotSpacer__26b1f {
   background-color: #fff !important;
 }
-.outer_c0bea0.theme-light .tooltipContainer__2d0ab path, .outer_c0bea0.theme-light .toolbarContainer__39ec2 path, .outer_c0bea0.theme-light .inner_ab8609 svg > path, .outer_c0bea0.theme-light .discordIcon_c4eb81 > path {
+.outer_c0bea0.theme-light .tooltipContainer__2d0ab path, .outer_c0bea0.theme-light .toolbarContainer__39ec2 path, .outer_c0bea0.theme-light .inner_ab8609 svg > path, .outer_c0bea0.theme-light .discordIcon_c4eb81 > path, .outer_c0bea0.theme-light .linkIcon__9bfb9 > path {
   fill: #fff;
 }
 .outer_c0bea0.theme-light .pill_dfa8b6 {
@@ -787,42 +788,6 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
 /* Fixed New Shop Item Popout Buttons */
 .popover_d6f39b button {
   pointer-events: all;
-}
-
-/* Fixed the Alignment and Colors on Some Tooltip Pointers */
-/* Server List */
-.tooltipPrimary_c36707 .tooltipPointer_c36707 {
-  border-top-color: var(--border-primary);
-}
-
-.listItemTooltip__90d72, .listItemTooltip__91816 {
-  left: 5px;
-}
-
-.listItemTooltip__90d72 .tooltipPointer_c36707, .listItemTooltip__91816 .tooltipPointer_c36707 {
-  left: -10px;
-}
-
-/* User Area */
-.accountButtonsTooltip__37e49 .tooltipPointer_c36707 {
-  top: 34px;
-}
-
-/* User Profile */
-.caretIcon__4e35b .caretStroke__4e35b {
-  stroke: transparent;
-}
-
-.caretIcon__4e35b .caretFill__4e35b {
-  fill: var(--border-primary);
-}
-
-.caret__5bc6a:has(.caretIcon__4e35b) {
-  top: 31px;
-}
-
-.tooltip__4e35b {
-  top: -5px;
 }
 
 /* Fixed Settings Page Search Bar */
