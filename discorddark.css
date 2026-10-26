@@ -1136,6 +1136,13 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger, .bd-button-color-red):ho
   order: -1;
 }
 
+.menu_c1e9c4.flexible_c1e9c4 [class^=scroller_] {
+  display: grid;
+}
+.menu_c1e9c4.flexible_c1e9c4 [class^=scroller_] > div:has(.bd-button) {
+  order: -1;
+}
+
 /* Limited Size Code Blocks - ItMeSarah */
 .markup__75297 blockquote::-webkit-scrollbar, .markup__75297 pre > code::-webkit-scrollbar {
   width: 15px;
