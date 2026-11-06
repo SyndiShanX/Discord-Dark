@@ -840,6 +840,13 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
   display: none;
 }
 
+/* Fixed Event Button Positions */
+.eventActions__88264 {
+  position: absolute;
+  top: 35%;
+  left: 55%;
+}
+
 /* ---------- Buttons ---------- */
 /* Hover Color Change: -23, -50, -31 */
 .button__201d5, .item_aa8da2[aria-controls=ADD_FRIEND-tab], .bd-button, .item__344e6.selected__344e6, .leftTrayIcon_cb9592,
