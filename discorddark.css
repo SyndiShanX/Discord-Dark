@@ -787,11 +787,6 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
   pointer-events: all;
 }
 
-/* Fixed Settings Page Search Bar */
-.searchBarContainer__409aa > div {
-  margin-bottom: 0px !important;
-}
-
 /* Added Border to Warning Card in Channel Permission Settings */
 .cardFolder_1X7XDm {
   margin-top: 10px;
