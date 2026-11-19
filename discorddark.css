@@ -843,6 +843,11 @@ a:has([d^="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm-.28-16c-.98"]) {
   left: 55%;
 }
 
+@supports (color: color-mix(in lch, red, blue)) {
+  .theme-dark {
+    --slider-indicator-background: #3A496B;
+  }
+}
 /* ---------- Buttons ---------- */
 /* Hover Color Change: -23, -50, -31 */
 .button_9OQtot, .item_6zZYhF[aria-controls=ADD_FRIEND-tab], .bd-button, .item_8GP31u.selected_8GP31u, .leftTrayIcon_hbKzX7,
